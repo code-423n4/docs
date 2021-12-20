@@ -14,7 +14,7 @@ Anyone can participate in a contest. Pop into Discord and give us a howl in `#`[
 
 Once you've completed those steps, [have a look at the C4 website](https://code423n4.com), where you'll find a list of open and upcoming contests, along with their pot size, start and end date, and other relevant information. Active contests will typically include a link to the code repo, as well as the submission form for findings.&#x20;
 
-As a reminder, for Wardens participating in code contests, please familiarize yourself with the [submission policy](https://github.com/code-423n4/code-contests/blob/4db2720312f0958f2e89f6207a6774c9e5360655/SUBMISSION\_POLICY.md) and [judging criteria](judging-criteria.md) prior to participating.
+As a reminder, for Wardens participating in code contests, please familiarize yourself with the [submission policy](submission-policy.md) and [judging criteria](judging-criteria.md) prior to participating.
 
 ### Registering a team
 
