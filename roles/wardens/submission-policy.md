@@ -18,7 +18,7 @@ Under this policy, code contests covers activities in which you:
 * Submit your bug report using the submission form, with one form entry per bug.
 * Make every effort to avoid privacy violations, degradation of user experience, disruption to production systems, and destruction or manipulation of data, especially in regard to funds.
 * Only use exploits to the extent necessary to confirm a vulnerability’s presence. Do not use an exploit to compromise funds, exfiltrate data, establish persistent permissioning access, or use the exploit to redirect to other systems.
-* Unless explicitly noted by the affiliated sponsor, **wait until the end of a code competition** and allow for a reasonable amount of time to resolve the issue before you disclose it publicly.
+* Unless explicitly noted by the affiliated sponsor, **wait until the contest report has been published** before you disclose it publicly.
 * Do not submit a high volume of low-quality reports.
 
 In the event that you encounter a critical vulnerability that the sponsor project would want to know about, even before the end of the contest, immediately notify the C4 team at submissions@code423n4.com.
