@@ -1,31 +1,29 @@
 ---
-description: Sponsors create prize pools to attract wardens to audit their project.
+description: >-
+  Sponsors purchase an audit contest, which includes an award pot to incentivize
+  wardens to audit their project.
 ---
 
 # Sponsors
 
 ## Sponsoring a contest
 
-Any project can submit a request to sponsor a C4 Contest. Just reach out in the **#i-want-to-be-a-sponsor** channel in [our Discord](https://discord.gg/EY5dvm3evD) and we will create a private GitHub repo for you to share your current smart contracts and answer a few questions about the scope you’d like wardens to focus on.
+Any project can submit a request to sponsor a C4 Contest. Just reach out in the **#i-want-to-be-a-sponsor** channel in [our Discord](https://discord.gg/EY5dvm3evD) and we will reach out to set up a meeting or send a few scoping questions to get the ball rolling.
 
-One of our team members will review this repo and assess your responses and contracts and suggest a minimum pot size. **If you decide to move ahead with a contest, this repo will be made public at the time of a contest.**
+One of our team members will review this repo and assess your responses and contracts and recommend which of our contests would be appropriate for your scope. **If you decide to move ahead with a contest, this repo will be made public at the time of a contest.**
 
 ### **Determining pot size**
 
-As a sponsor, you are responsible for setting the amount of your contest pool (above our suggested minimum), knowing that a larger pot size will attract more warden talent and more attention. Pots thus far have tended to run between $40k and $100k USDC. We are seeing greater warden attention in $100k+ contests.
+We work together with you as the sponsor to set the appropriate award pool amount for your contest pool at or above current contest floor prices. To attract warden participation in the highly competitive engineering market, we regularly evaluate and adjust contest pricing to ensure incentive alignment with wardens. Sponsors always have the option of providing a larger-than-floor pot size, which tends to attract more warden talent and attention.
 
 ### **Gas optimization pool**
 
-Many contests create a separate pool for finding gas optimizations. Previous sponsors have used a fifth or tenth of the total pot for this reward. Some projects do not wish to create a separate incentive for gas optimizations. Code 423n4 lets each project decide whether to create this pool.
+By default, 5% of the award pool is allocated to valid gas optimizations. We encourage each contest to keep this in place, as we can help each other be conscious of ways to minimize gas fees for users, and indeed some sponsors may which to allocate a higher percentage of the award pool to this purpose. Some projects may not wish to create a separate incentive for gas optimizations, and removing it should be discussed with the organizers prior to agreeing to move forward with a contest.
 
 ### **Org fee**
 
-There is a 20% fee on top of the determined contest pool, which goes to the C4 org to cover the costs of reporting and organizing contests.
-
-### **Sponsor tokens**
-
-Sponsors are free to ‘sweeten the pot’ with their own token _on top of_ the core contest pool (stablecoin / Eth). There is a 40% fee on sponsor tokens.
+There is a 20% fee on top of the determined contest pool, which goes to the Code4rena DAO to cover the costs associated with organizing, promoting, and reporting on contests.
 
 ### **Contest scheduling**
 
-Contests start Wednesday 00:00:00 UTC and end Tuesday 23:59 UTC. We schedule contests after reviewing the codebase, providing a suggested minimum, and receiving contest funding. Due to high demand, we cannot make any scheduling guarantees until these steps have been completed, and once a contest has been scheduled, we are unable to move it on our calendar.
+Our standard, one-week contests start Thursday 00:00:00 UTC and end Wednesday 23:59 UTC. Due to high demand, we lock contests in to the schedule contests after receiving a deposit for the contest, we are unable to make scheduling commitments otherwise.
