@@ -36,9 +36,9 @@ To incentivize **wardens**, C4 uses a unique scoring system with two primary goa
 
 Contestants are given shares for bugs discovered based on severity, and those shares give the owner a pro rata piece of the pot:
 
-`Low Risk Shares:   1 * (0.9 ^ findingCount) / findingCount`\
-`Med Risk Shares:   3 * (0.9 ^ findingCount) / findingCount`\
-`High Risk Shares: 10 * (0.9 ^ findingCount) / findingCount`
+`Low Risk Shares:   1 * (0.9 ^ (findingCount - 1)) / findingCount`\
+`Med Risk Shares:   3 * (0.9 ^ (findingCount - 1)) / findingCount`\
+`High Risk Shares: 10 * (0.9 ^ (findingCount - 1)) / findingCount`
 
 Each share is redeemable for: `pot / number of shares`
 
