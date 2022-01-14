@@ -10,9 +10,9 @@ C4 contests let people of a wide range of skill levels get rewarded while showca
 
 ### Joining a contest
 
-Anyone can participate in a contest. Pop into Discord and give us a howl in `#`[`i-want-to-be-a-warden`](https://discord.gg/pmGC2gH9Mg) and [register using this form](https://code423n4.com/warden-registration/).
+Anyone can participate in a contest. Pop into Discord and give us a howl in `#`[`i-want-to-be-a-warden`](https://discord.gg/pmGC2gH9Mg) and [register using this form](https://code4rena.com/warden-registration/).
 
-Once you've completed those steps, [have a look at the C4 website](https://code423n4.com), where you'll find a list of open and upcoming contests, along with their pot size, start and end date, and other relevant information. Active contests will typically include a link to the code repo, as well as the submission form for findings.&#x20;
+Once you've completed those steps, [have a look at the C4 website](https://code4rena.com), where you'll find a list of open and upcoming contests, along with their pot size, start and end date, and other relevant information. Active contests will typically include a link to the code repo, as well as the submission form for findings.&#x20;
 
 As a reminder, for Wardens participating in code contests, please familiarize yourself with the [submission policy](submission-policy.md) and [judging criteria](judging-criteria.md) prior to participating.
 
@@ -43,6 +43,6 @@ When a sponsor designates a team member who is available for questions, that per
 ### ⏩ TL;DR
 
 * Turn in your reports before the contest end time.
-* Be sure to [register your handle and ETH address](https://code423n4.com/warden-registration/) to receive your share.
+* Be sure to [register your handle and ETH address](https://code4rena.com/warden-registration/) to receive your share.
 * Publicly disclosing any discovered bugs or vulnerabilities is grounds for disqualification from all C4 events.
 
