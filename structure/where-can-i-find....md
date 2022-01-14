@@ -7,7 +7,7 @@ description: This page aims to point to all the sources of information regarding
 ### Information
 
 * [Current and scheduled contests](https://code4rena.com) (C4 website)
-* [Contest audit reports](https://code423n4.com/reports/) (C4 website)
+* [Contest audit reports](https://code4rena.com/reports/) (C4 website)
 * [Past findings and contest code](https://github.com/code-423n4) (GitHub)
 * [Award calculation tool](https://github.com/code-423n4/awardcalc) (GitHub)
 

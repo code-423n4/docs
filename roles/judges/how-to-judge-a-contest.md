@@ -42,7 +42,7 @@ You can also edit the **title** field as needed based on your judgment.
 
 ### Notes on judging
 
-* Review the [judging criteria](https://code423n4.com/judging-criteria/).
+* Review the [judging criteria](https://code4rena.com/judging-criteria/).
 * Consider the sponsor’s feedback, but keep in mind that it’s not always going to be objective.
 * Any submissions that do not apply specifically to the functionality of the smart contract logic itself should be considered non-critical.
 * When weighing in on severity or validity of an issue, leave a comment describing your justification for any changes you make to the warden's assessment of severity.
