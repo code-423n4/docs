@@ -22,7 +22,7 @@ By default, 5% of the award pool is allocated to valid gas optimizations. We enc
 
 ### **Org fee**
 
-There is a 20% fee on top of the determined contest pool, which goes to the Code4rena DAO to cover the costs associated with organizing, promoting, and reporting on contests.
+There is a fee on top of the determined contest pool, which goes to the Code4rena DAO to cover the costs associated with organizing, promoting, and reporting on contests.
 
 ### **Contest scheduling**
 
