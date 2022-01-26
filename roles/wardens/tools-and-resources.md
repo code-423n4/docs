@@ -14,6 +14,7 @@
 * [Vyper Docs](https://vyper.readthedocs.io/en/stable/)
 * [Solidity By Example](https://solidity-by-example.org)
 * [Smart Contract Weakness Classification](https://swcregistry.io)
+* [How to become a smart contract auditor](https://cmichel.io/how-to-become-a-smart-contract-auditor/), by cmichel (C4 [leaderboard](https://code4rena.com/leaderboard/) warden)
 * [Koios courses](https://app.koios.world/#/worlds) on blockchain technology and programming DAPPs
 * [Capture the Ether](https://capturetheether.com)
 * [CryptoZombies](https://cryptozombies.io) - Solidity tutorial
