@@ -4,7 +4,7 @@
 
 * If you haven’t already, join the [C4 Discord](https://discord.gg/YgBwyreF9B) server and let us know you’re interested in sponsoring a contest in the `#i-want-to-be-a-sponsor` channel.
 * We'll create a private GitHub repo for you to share your current smart contracts and answer a few questions about the scope you’d like wardens to focus on. If you decide to move ahead with a contest, **this repo will be made public** at the time of a contest.
-* After your code has been reviewed, a C4 Organizer will contact you to iron out the details.
+* After your code has been reviewed, a C4 Gardener will contact you to iron out the details.
 * Once we’ve received a deposit, we will finalize scheduling and begin to promote the contest.
 
 ### During the contest
