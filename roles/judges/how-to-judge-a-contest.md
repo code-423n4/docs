@@ -4,7 +4,7 @@
 
 In general, judges report that most contests take a half-day to 2 days of work&#x20;
 
-We ask that you try to complete the judging process quickly so that we can distribute awards to wardens promptly. If you need more time, please communicate to C4 as soon as possible.
+We ask that you try to complete the judging process quickly so that we can distribute awards to wardens promptly. If you need more time, please communicate that to C4 as soon as possible.
 
 ### Here’s how the process works leading up to judging
 
