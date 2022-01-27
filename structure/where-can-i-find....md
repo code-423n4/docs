@@ -23,7 +23,7 @@ Private:
 
 * Meeting notes, early ideas (The Greenhouse)
 * Operations manual (Notion)
-* Organizer, Warden, Sponsors, and Judges channels (Discord)
+* C4 Team, Warden, Sponsors, and Judges channels (Discord)
 
 ### Things that don’t currently exist in a great way but should:
 
