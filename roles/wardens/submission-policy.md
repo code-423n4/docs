@@ -6,7 +6,7 @@ Code4rena is an open organization committed to improving the security of decentr
 
 The following policy conveys C4’s preferences in how to submit discovered vulnerabilities to the organization and describes what systems and types of research are covered under this policy, how to share vulnerability reports, and the length of time we expect Wardens to wait prior to publicly disclosing vulnerabilities.
 
-When participating in C4 code contests, please contact an organizer in the [C4 Discord](https://discord.gg/EY5dvm3evD) and formally submit any contract vulnerabilities using the submission form.&#x20;
+When participating in C4 code contests, please contact a Gardener in the [C4 Discord](https://discord.gg/EY5dvm3evD) and formally submit any contract vulnerabilities using the submission form.&#x20;
 
 Reports can be submitted at any point prior to stop time for a given contest. The details for each code contest can be found in the contest repo.
 
@@ -29,7 +29,7 @@ In the event that you encounter a critical vulnerability that the sponsor projec
 
 C4 accepts vulnerability reports via the contest submission form.
 
-We do not support PGP-encrypted emails. For particularly sensitive information, please place your submission through the [C4 Discord](https://discord.gg/EY5dvm3evD) by DM’ing a C4 organizer.
+We do not support PGP-encrypted emails. For particularly sensitive information, please place your submission through the [C4 Discord](https://discord.gg/EY5dvm3evD) by DM’ing a C4 Gardener.
 
 In order to help us triage and prioritize submissions, please ensure that your reports:
 
