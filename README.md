@@ -42,6 +42,6 @@ Contestants are given shares for bugs discovered based on severity, and those sh
 
 Each share is redeemable for: `pot / number of shares`
 
-**Important mechanism update:** For contests starting on or after February 3, 2022, low and non-critical findings will now be submitted as a SINGLE QA Report; contests will allocate a fixed 10% of prize pools toward QA Reports. For more on QA Reports, see [Judging criteria](roles/wardens/judging-criteria).
+**Important mechanism update:** For contests starting on or after February 3, 2022, low and non-critical findings will now be submitted as a SINGLE QA report; contests will allocate a fixed 10% of prize pools toward QA reports. (Similarly, gas findings should be submitted as a single gas report.) For more on QA and gas reports, see [Judging criteria](roles/wardens/judging-criteria).
 
 **Judges** are incentivized to review findings and determine allocation of the prize pool by receiving a share of the prize pool themselves.
