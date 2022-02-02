@@ -2,13 +2,13 @@
 
 ### Timeline
 
-In general, judges report that most contests take a half-day to 2 days of work
+In general, judges report that most contests take a half-day to 2 days of work.
 
 We ask that you try to complete the judging process quickly so that we can distribute awards to wardens promptly. If you need more time, please communicate that to C4 as soon as possible.
 
 ### Here’s how the process works leading up to judging
 
-C4 kicks off the code competition and establishes a private repo to receive incoming issues. Typically most findings come in on the last day of the contest. When the contest ends, sponsors will have the chance to review the findings, comment, and provide feedback on issues.
+C4 kicks off the code competition and establishes a private repo to receive incoming issues. Typically, most findings come in on the last day of the contest. When the contest ends, sponsors will have the chance to review the findings, comment, and provide feedback on issues.
 
 Sponsor input is non-binding, and do note that sponsors are heavily biased against having a report that includes very many vulnerabilities. Focus your work as a judge on protecting users and providing feedback to wardens.
 
@@ -24,7 +24,7 @@ You may also be interested in browsing past contests in order to see how other j
 
 Open the findings spreadsheet and GitHub issues. There are three columns you’ll be working with:
 
-* **risk** — your assessed risk 3 for high, 2 for medium, 1 for low, 0 for non-critical, 'g' for gas optimization
+* **risk** — your assessed risk: 3 for high, 2 for medium, 1 for low, 0 for non-critical, 'g' for gas optimization
 * **reportId** — This is a unique ID which contains your assessed risk level (`H`, `M`, `L` for high/med/low, `N` for non-critical, and `G` for gas optimizations) followed by a number (01, 02, 03, etc). So, for example: `H-01`, `M-10`, `L-07`, `N-03`, `G-11`). The risk here should match the risk assessed in the 'risk' column. _(Yes, this is dumb and duplicate effort. We'll change that in the future.)_
 * **duplicateOf** — use this for indicating an item as a duplicate of another finding using the same form as reportId (`H-01`, `M-10`, `L-07`, `N-03`, `G-11`).
 
