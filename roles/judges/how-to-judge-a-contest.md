@@ -2,7 +2,7 @@
 
 ### Timeline
 
-In general, judges report that most contests take a half-day to 2 days of work&#x20;
+In general, judges report that most contests take a half-day to 2 days of work
 
 We ask that you try to complete the judging process quickly so that we can distribute awards to wardens promptly. If you need more time, please communicate that to C4 as soon as possible.
 
@@ -30,13 +30,13 @@ Open the findings spreadsheet and GitHub issues. There are three columns you’l
 
 So, for example:
 
-| title                            | risk | reportId | duplicateOf |
-| -------------------------------- | ---- | -------- | ----------- |
-| Some very serious issue          | 3    | H-01     |             |
-| A new minor issue                | 2    | L-01     |             |
-| The same serious issue as above  | 3    | H-01     | H-01        |
-| A different minor issue          | 1    | L-02     |             |
-| Medium severity issue            | 2    | M-05     |             |
+| title                           | risk | reportId | duplicateOf |
+| ------------------------------- | ---- | -------- | ----------- |
+| Some very serious issue         | 3    | H-01     |             |
+| A new minor issue               | 2    | L-01     |             |
+| The same serious issue as above | 3    | H-01     | H-01        |
+| A different minor issue         | 1    | L-02     |             |
+| Medium severity issue           | 2    | M-05     |             |
 
 You can also edit the **title** field as needed based on your judgment.
 
@@ -64,8 +64,8 @@ In the event that you identify an issue you think should be considered a duplica
 
 At the bottom of this doc are comments and questions posed by previous judges. These may be useful to review as they account for some of the edge cases not addressed by the docs above.
 
-In addition, do not hesitate to DM @sockdrawermoney with questions as you're working on judging. Any questions or feedback you can add to the bottom of this document or comments/questions on items above are highly welcome and essential for us improving our process. Thank you! 🙏
+In addition, do not hesitate to DM a Gardener with questions as you're working on judging. Any questions or feedback you can add to this documentation, or comments/questions on items above are highly welcome and essential for us improving our process. Thank you! 🙏
 
 ### When you’re done reviewing
 
-Ping a C4 organizer and let us know you’re ready to hand off the results for award distribution.
+Ping a C4 Gardener and let us know you’re ready to hand off the results for award distribution.
