@@ -14,12 +14,12 @@ Reports can be submitted at any point prior to stop time for a given contest. Th
 
 Under this policy, code contests covers activities in which you:
 
-* Register as a C4 Warden within an individual capacity or as part of a team.
-* Submit your bug report using the submission form, with one form entry per bug.
-* Make every effort to avoid privacy violations, degradation of user experience, disruption to production systems, and destruction or manipulation of data, especially in regard to funds.
-* Only use exploits to the extent necessary to confirm a vulnerability’s presence. Do not use an exploit to compromise funds, exfiltrate data, establish persistent permissioning access, or use the exploit to redirect to other systems.
-* Unless explicitly noted by the affiliated sponsor, **wait until the contest report has been published** before you disclose it publicly.
-* Do not submit a high volume of low-quality reports.
+- Register as a C4 Warden within an individual capacity or as part of a team.
+- Submit your bug report using the submission form, with one form entry per bug.
+- Make every effort to avoid privacy violations, degradation of user experience, disruption to production systems, and destruction or manipulation of data, especially in regard to funds.
+- Only use exploits to the extent necessary to confirm a vulnerability’s presence. Do not use an exploit to compromise funds, exfiltrate data, establish persistent permissioning access, or use the exploit to redirect to other systems.
+- Unless explicitly noted by the affiliated sponsor, **wait until the contest report has been published** before you disclose it publicly.
+- Do not submit a high volume of low-quality reports.
 
 In the event that you encounter a critical vulnerability that the sponsor project would want to know about, even before the end of the contest, immediately notify the C4 team at submissions@code423n4.com.
 
@@ -33,27 +33,27 @@ We do not support PGP-encrypted emails. For particularly sensitive information, 
 
 In order to help us triage and prioritize submissions, please ensure that your reports:
 
-* Are submitted no later than the code contest stop time.
-* Use the contest submission process.
-* Describe the location the vulnerability was discovered and the potential impact of exploitation.
-* Offer a detailed description of the steps needed to reproduce the vulnerability (proof of concept scripts or screenshots are helpful).
-* Are written in English, if possible.
+- Are submitted no later than the code contest stop time.
+- Use the contest submission process.
+- Describe the location the vulnerability was discovered and the potential impact of exploitation.
+- Offer a detailed description of the steps needed to reproduce the vulnerability (proof of concept scripts or screenshots are helpful).
+- Are written in English, if possible.
 
 It is also recommended to ensure you receive email confirmation of each submission.
 
 ### Withdrawing A Report
 
-It is possible that a warden might want to have his report withdrawn after submitting it through the website. For example, if a new warden realizes they have not followed the report submission guidelines closely and decide they would like to re-submit in order to avoid any issues with judging and awarding once the contest ends.
+It is possible that a warden might want to have their report withdrawn after submitting it through the website. For example, if a new warden realizes they have not followed the report submission guidelines closely and decide they would like to re-submit in order to avoid any issues with judging and awarding once the contest ends.
 
-In this situation, wardens who wish to have a report withdrawn should message the [#](https://app.gitbook.com/@code4rena/s/c4/\~/drafts/-MhshPdQC4hUDt-hs2Bd/roles/wardens/submission-policy/@drafts)[questions ](https://app.gitbook.com/@code4rena/s/c4/\~/drafts/-MhshPdQC4hUDt-hs2Bd/roles/wardens/submission-policy/@drafts)channel and mention the the name of the issue, along with the handle they submitted it under, so the issue can be manually invalidated and removed from the contest findings repo.
+In this situation, wardens who wish to have a report withdrawn should message the [#](https://app.gitbook.com/@code4rena/s/c4/~/drafts/-MhshPdQC4hUDt-hs2Bd/roles/wardens/submission-policy/@drafts)[questions ](https://app.gitbook.com/@code4rena/s/c4/~/drafts/-MhshPdQC4hUDt-hs2Bd/roles/wardens/submission-policy/@drafts)channel and mention the the name of the issue, along with the handle they submitted it under, so the issue can be manually invalidated and removed from the contest findings repo.
 
 ### Unauthorized Test Methods
 
 The following methods are not authorized means of testing within C4 code contests:
 
-* Testing exploits on mainnet.
-* Network denial of service (DoS or DDoS) tests or other tests that impair access to or damage a system or data.
-* Physical testing (e.g. office access, open doors, tailgating), social engineering (e.g. phishing, vishing), or any other non-technical vulnerability testing.
+- Testing exploits on mainnet.
+- Network denial of service (DoS or DDoS) tests or other tests that impair access to or damage a system or data.
+- Physical testing (e.g. office access, open doors, tailgating), social engineering (e.g. phishing, vishing), or any other non-technical vulnerability testing.
 
 ### Questions
 
