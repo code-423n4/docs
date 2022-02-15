@@ -36,7 +36,7 @@ Yes—but in the interest of impartiality, they must forgo any awards they would
 
 > Yes, if you think it is indeed invalid, you can use the 'invalid' tag, close the issue, and enter the value `INVALID` (note all caps) in both the `reportID` and `risk` columns in the spreadsheet. (Note that 'invalid' is distinct from 'non-critical'; “Non-criticals” can still be useful. Invalid issues would be ones that you do not think are true. But there’s lots of non-critical QA type stuff that gets found and sponsors do appreciate that for the most part.)&#x20;
 >
-> You can also label something as 'insufficient info' if you think it is likely invalid but feel like more information or explanation might make demonstrate its validity.
+> You can also label something as 'insufficient info' if you think it is likely invalid but feel like more information or explanation might demonstrate its validity.
 
 #### Is there a phase when the sponsor or wardens can dispute/discuss my judgements? There's a few calls I've made that I wouldn't be surprised to see them want to discuss further.
 
