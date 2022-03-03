@@ -6,7 +6,7 @@ Code4rena is an open organization committed to improving the security of decentr
 
 The following policy conveys C4’s preferences in how to submit discovered vulnerabilities to the organization and describes what systems and types of research are covered under this policy, how to share vulnerability reports, and the length of time we expect Wardens to wait prior to publicly disclosing vulnerabilities.
 
-When participating in C4 code contests, please contact a Gardener in the [C4 Discord](https://discord.gg/EY5dvm3evD) and formally submit any contract vulnerabilities using the submission form.&#x20;
+When participating in C4 code contests, please formally submit any contract vulnerabilities using the submission form.&#x20;
 
 Reports can be submitted at any point prior to stop time for a given contest. The details for each code contest can be found in the contest repo.
 
