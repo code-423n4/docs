@@ -43,7 +43,7 @@ It is also recommended to ensure you receive email confirmation of each submissi
 
 It is possible that a warden might want to have their report withdrawn after submitting it through the website. For example, if a new warden realizes they have not followed the report submission guidelines closely and decide they would like to re-submit in order to avoid any issues with judging and awarding once the contest ends.
 
-In this situation, wardens who wish to have a report withdrawn should use the [Help form](https://code4rena.com/help) and mention the the name of the issue, along with the handle they submitted it under, so the issue can be manually invalidated and removed from the contest findings repo.
+In this situation, wardens who wish to have a report withdrawn should use the [Help form](https://code4rena.com/help) and mention the name of the issue, along with the handle they submitted it under, so the issue can be manually invalidated and removed from the contest findings repo.
 
 ### Unauthorized Test Methods
 
