@@ -21,15 +21,13 @@ Under this policy, code contests covers activities in which you:
 - Unless explicitly noted by the affiliated sponsor, **wait until the contest report has been published** before you disclose it publicly.
 - Do not submit a high volume of low-quality reports.
 
-In the event that you encounter a critical vulnerability that the sponsor project would want to know about, even before the end of the contest, immediately notify the C4 team at submissions@code423n4.com.
+In the event that you encounter a critical vulnerability that the sponsor project would want to know about, even before the end of the contest, immediately notify the sponsor privately. The sponsor's point of contact will be listed in their contest channel on the [C4 Discord](https://discord.gg/EY5dvm3evD).
 
 > Publicly disclosing any information prior to the end of a code competition is grounds for immediate forfeit of award and disqualification from any future C4 events and activities.
 
 ### Submitting A Report
 
 C4 accepts vulnerability reports via the contest submission form.
-
-We do not support PGP-encrypted emails. For particularly sensitive information, please place your submission through the [C4 Discord](https://discord.gg/EY5dvm3evD) by DM’ing a C4 Gardener.
 
 In order to help us triage and prioritize submissions, please ensure that your reports:
 
@@ -45,7 +43,7 @@ It is also recommended to ensure you receive email confirmation of each submissi
 
 It is possible that a warden might want to have their report withdrawn after submitting it through the website. For example, if a new warden realizes they have not followed the report submission guidelines closely and decide they would like to re-submit in order to avoid any issues with judging and awarding once the contest ends.
 
-In this situation, wardens who wish to have a report withdrawn should message the [#](https://app.gitbook.com/@code4rena/s/c4/~/drafts/-MhshPdQC4hUDt-hs2Bd/roles/wardens/submission-policy/@drafts)[questions ](https://app.gitbook.com/@code4rena/s/c4/~/drafts/-MhshPdQC4hUDt-hs2Bd/roles/wardens/submission-policy/@drafts)channel and mention the the name of the issue, along with the handle they submitted it under, so the issue can be manually invalidated and removed from the contest findings repo.
+In this situation, wardens who wish to have a report withdrawn should use the [Help form](https://code4rena.com/help) and mention the the name of the issue, along with the handle they submitted it under, so the issue can be manually invalidated and removed from the contest findings repo.
 
 ### Unauthorized Test Methods
 
