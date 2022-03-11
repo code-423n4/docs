@@ -8,6 +8,10 @@ At the end of a given contest period, all reports will be reviewed and categoriz
 
 Reports are also judged based on grammar, conciseness, and formatting.
 
+### Best Current Practices
+
+The [Code4rena Contest Rulebook repo](https://github.com/code-423n4/rulebook) documents open discussions and emergent best practices for judging C4 contests. Judges are encouraged to review [open issues in that repo](https://github.com/code-423n4/rulebook/issues) regularly.
+
 ### Duplicate Submissions
 
 Should multiple submissions describing the same vulnerability be submitted, Judges have the discretion to place these bugs into the same bucket, in which case, the award will be shared among those who submitted. However, multiple submissions from the same warden (or warden team), are treated as one by the awarding algorithm and do not split the pie into smaller pieces.
