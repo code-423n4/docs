@@ -4,7 +4,7 @@
 
 In general, judges report that most contests take a half-day to 2 days of work.
 
-We ask that you try to complete the judging process quickly so that we can distribute awards to wardens promptly. If you need more time, please communicate that to C4 as soon as possible.
+We ask that you try to complete the judging process quickly (ideally within 5 days) so that we can distribute awards to wardens promptly. If you need more time, please communicate that to C4 as soon as possible.
 
 ### Here’s how the process works leading up to judging
 
@@ -18,25 +18,25 @@ C4 will share a Google sheet with you that contains contest data. This sheet wil
 
 Read the [Judging Criteria](../wardens/judging-criteria.md), [Submission Policy](../wardens/submission-policy.md), and review the contest readme as provided by the sponsor.
 
-You may also be interested in browsing past contests in order to see how other judges have handled issues.
+You may also be interested in browsing past contests, and [reviewing open issues in the Rulebook repo](https://github.com/code-423n4/rulebook/issues), in order to see how other judges have handled issues.
 
 ### Reviewing submissions
 
 Open the findings spreadsheet and GitHub issues. There are three columns you’ll be working with:
 
-* **risk** — your assessed risk: 3 for high, 2 for medium, 1 for low, 0 for non-critical, 'g' for gas optimization
 * **reportId** — This is a unique ID which contains your assessed risk level (`H`, `M`, `L` for high/med/low, `N` for non-critical, and `G` for gas optimizations) followed by a number (01, 02, 03, etc). So, for example: `H-01`, `M-10`, `L-07`, `N-03`, `G-11`). The risk here should match the risk assessed in the 'risk' column. _(Yes, this is dumb and duplicate effort. We'll change that in the future.)_
 * **duplicateOf** — use this for indicating an item as a duplicate of another finding using the same form as reportId (`H-01`, `M-10`, `L-07`, `N-03`, `G-11`).
+* **risk** — your assessed risk: 3 for high, 2 for medium, 1 for low, 0 for non-critical, 'g' for gas optimization
 
 So, for example:
 
-| title                           | risk | reportId | duplicateOf |
-| ------------------------------- | ---- | -------- | ----------- |
-| Some very serious issue         | 3    | H-01     |             |
-| A new minor issue               | 2    | L-01     |             |
-| The same serious issue as above | 3    | H-01     | H-01        |
-| A different minor issue         | 1    | L-02     |             |
-| Medium severity issue           | 2    | M-05     |             |
+| title                           | reportId | duplicateOf | risk |
+| ------------------------------- | -------- | ----------- | ---- |
+| Some very serious issue         | H-01     |             | 3    |
+| A new minor issue               | L-01     |             | 2    |
+| The same serious issue as above | H-01     | H-01        | 3    |
+| A different minor issue         | L-02     |             | 1    |
+| Medium severity issue           | M-05     |             | 2    |
 
 You can also edit the **title** field as needed based on your judgment.
 
