@@ -27,3 +27,9 @@ The judge could create a new separate Github issue in the findings repo that con
 ### Conversely, in the reverse situation where an issue submitted by wardens as H/M level, is subsequently downgraded to QA level by the judge during their review, would the penalty just be excluding the overrated warden submission from consideration in regards to the QA rewards?
 
 We'll need to see how it works in reality, but our current assumption is that (a) low severity findings attempted to get pushed into med/high would essentially get zero (just logically so since they wouldn't be high or med), and then (b) their QA report would be lower quality as a result, and so they wouldn't score as highly as they could have. Judges could also decide to mark off points in someone's QA report if they saw behavior that seemed like it might be trying to game for higher rewards by inflating severity, so it could have a negative consequence as well.
+
+### Why is a large Gas or QA report not successfully submitting through the contest submission form?
+
+C4 stores all contest submissions as GitHub issues. This means there is a character limit of approximately 65,536 Unicode characters for reports that are submitted through the contest submission form. If your report is longer than this, please send your report via email to [submissions@code423n4.com](mailto:submissions@code423n4.com) with your report attached as a Markdown (.md) file, and the contest name in the subject line. Be sure to also include your warden username in the email. Then the C4 team will be happy to get your submission added for you.
+
+For more information on the character limits, see this [GitHub Community Forum post](https://github.community/t/maximum-length-for-the-comment-body-in-issues-and-pr/148867).
