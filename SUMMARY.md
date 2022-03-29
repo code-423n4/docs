@@ -26,3 +26,7 @@
 * [Contest timeline](structure/our-process/README.md)
   * [Awarding process](structure/our-process/awarding-process.md)
 * [Where can I find…?](structure/where-can-i-find....md)
+
+***
+
+* [Incentive model and awards](incentive-model-and-awards.md)
