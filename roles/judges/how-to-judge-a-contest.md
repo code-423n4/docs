@@ -24,19 +24,19 @@ You may also be interested in browsing past contests, and [reviewing open issues
 
 Open the findings spreadsheet and GitHub issues. There are three columns you’ll be working with:
 
-* **reportId** — This is a unique ID which contains your assessed risk level (`H`, `M`, `L` for high/med/low, `N` for non-critical, and `G` for gas optimizations) followed by a number (01, 02, 03, etc). So, for example: `H-01`, `M-10`, `L-07`, `N-03`, `G-11`). The risk here should match the risk assessed in the 'risk' column. _(Yes, this is dumb and duplicate effort. We'll change that in the future.)_
-* **duplicateOf** — use this for indicating an item as a duplicate of another finding using the same form as reportId (`H-01`, `M-10`, `L-07`, `N-03`, `G-11`).
-* **risk** — your assessed risk: 3 for high, 2 for medium, 1 for low, 0 for non-critical, 'g' for gas optimization
+* **reportId** — This is a unique ID which contains your assessed risk level (`H`, `M`, `Q` for QA Report, and `G` for gas optimizations) followed by a number (01, 02, 03, etc). So, for example: `H-01`, `M-10`, `Q-07`, `G-11`). The risk here should match the risk assessed in the 'risk' column. _(Yes, this is dumb and duplicate effort. We'll change that in the future.)_
+* **duplicateOf** — use this for indicating an item as a duplicate of another finding using the same form as reportId (`H-01`, `M-10`, `Q-07`, `G-11`).
+* **risk** — your assessed risk: 3 for high, 2 for medium, Q for QA Reports, 'G' for gas optimization
 
 So, for example:
 
 | title                           | reportId | duplicateOf | risk |
 | ------------------------------- | -------- | ----------- | ---- |
 | Some very serious issue         | H-01     |             | 3    |
-| A new minor issue               | L-01     |             | 2    |
 | The same serious issue as above | H-01     | H-01        | 3    |
-| A different minor issue         | L-02     |             | 1    |
+| QA Report                       | Q-02     |             | Q    |
 | Medium severity issue           | M-05     |             | 2    |
+| Gas optimization issue          | G-01     |             | G    |
 
 You can also edit the **title** field as needed based on your judgment.
 
@@ -44,12 +44,12 @@ You can also edit the **title** field as needed based on your judgment.
 
 * Review the [judging criteria](https://code4rena.com/judging-criteria/).
 * Consider the sponsor’s feedback, but keep in mind that it’s not always going to be objective.
-* Any submissions that do not apply specifically to the functionality of the smart contract logic itself should be considered non-critical.
+* Any submissions that do not apply specifically to the functionality of the smart contract logic itself should be considered QA.
 * When weighing in on severity or validity of an issue, leave a comment describing your justification for any changes you make to the warden's assessment of severity.
 * When necessary, cross reference the submission with the codebase to validate the legitimacy of the proposed submission.
-* Unless there is something uniquely novel created by combining vectors, most submissions regarding vulnerabilities that are inherent to a particular system or the Ethereum network as a whole should be considered non-critical. Examples of such vulnerabilities include front running, sandwich attacks, and MEV. In such events, leave a comment on the issue:
+* Unless there is something uniquely novel created by combining vectors, most submissions regarding vulnerabilities that are inherent to a particular system or the Ethereum network as a whole should be considered QA. Examples of such vulnerabilities include front running, sandwich attacks, and MEV. In such events, leave a comment on the issue:
 
-> “Sandwich attacks are inherent to AMMs, so this isn’t a unique issue presented by the MarginSwap implementation. With this in mind, I’m downgrading the risk from a proposed medium severity to non-critical.”
+> “Sandwich attacks are inherent to AMMs, so this isn’t a unique issue presented by the MarginSwap implementation. With this in mind, I’m downgrading the risk from a proposed medium severity to QA.”
 
 One important caveat to all of the above: _**unless otherwise specified by the contest sponsor or intended to be handled by the code**_**.** For example, flash loans are generally unavoidable, but since MarginSwap had a safeguard against them, we considered these findings relevant in their contest.
 
