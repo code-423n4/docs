@@ -41,7 +41,7 @@ So, for example:
 
 You can edit the **title** field as needed, based on your judgment.
 
-## For High and Medium risk submissions
+### For High and Medium risk submissions
 
 - Review each submission and assess:
     - **Is it valid?** — There are two main categories of invalid issues: findings that are out of scope (per the sponsor’s contest repo), and issues where the warden has misunderstood the system. You should mark any invalid submissions as such, using the `invalid` label in Github, and enter `INVALID` (all caps) in *both* the ReportId and risk columns in the judging sheet. All invalid issues should be closed in Github.
@@ -49,7 +49,7 @@ You can edit the **title** field as needed, based on your judgment.
     - **If a Medium or High risk issue needs to be downgraded** to low or non-critical risk level, please see below for instructions.
 - You can ignore the “score” column for High and Medium risk submissions; that is only used for QA and Gas reports.
 
-## For QA and Gas reports
+### For QA and Gas reports
 
 - **You do *not* need to de-dupe QA and Gas reports.** Each one is intended to be a compilation of issues and recommendations from a warden.
 - **Each QA and Gas report should be scored on a scale of 0-100.** Enter your score in the `score` column of the judging spreadsheet.
@@ -57,11 +57,7 @@ You can edit the **title** field as needed, based on your judgment.
 - For more information on how scores affect awarding, see [“Incentive Model and Awards.”](https://docs.code4rena.com/incentive-model-and-awards)
 - **If a QA or Gas report contains a finding that should be upgraded** to Medium or High risk, please see below for instructions.
 
-## Discussing issues with the sponsor
-
-Ultimately the judge has the final word, but we want your decisions to be well-informed.  In a typical C4 contest, there will be a few issues that benefit from discussion with the sponsor; the judge may find that their understanding of the system is incomplete and you need to ask for clarification, or where there is room for misunderstanding. Don’t hesitate to connect directly with the sponsor, either in the Github comments (where you can tag them in if needed), or via Discord.
-
-## Upgrading issues from QA/Gas to Medium/High
+### Upgrading issues from QA/Gas to Medium/High
 
 If you find an issue in a QA or Gas report that deserves to be upgraded in severity to Medium or High risk: first, we ask that you consider that part of auditing is demonstrating proper theory of how an issue could be exploited. (If a warden notices something is “off,” but is unable to articulate why it could lead to loss of funds, for example, the job is only half-done—without understanding the implications, a developer could very well overlook or deprioritize the issue.)
 
@@ -74,7 +70,7 @@ Judges can upgrade an issue by:
 
 **Note: all four steps must be completed,** in order for the warden to receive appropriate credit and compensation.
 
-## Downgrading issues from Medium/High to QA/Gas
+### Downgrading issues from Medium/High to QA/Gas
 
 To downgrade an issue’s severity from Medium or High to QA (Low or Non-critical) or Gas:
 
@@ -100,6 +96,10 @@ For each category — Gas and QA — each warden should have a single reportID, 
 > “Sandwich attacks are inherent to AMMs, so this isn’t a unique issue presented by the MarginSwap implementation. With this in mind, I’m downgrading the risk from a proposed medium severity to QA.”
 
 One important caveat to all of the above: _**unless otherwise specified by the contest sponsor or intended to be handled by the code**_**.** For example, flash loans are generally unavoidable, but since MarginSwap had a safeguard against them, we considered these findings relevant in their contest.
+
+### Discussing issues with the sponsor
+
+Ultimately the judge has the final word, but we want your decisions to be well-informed.  In a typical C4 contest, there will be a few issues that benefit from discussion with the sponsor; the judge may find that their understanding of the system is incomplete and you need to ask for clarification, or where there is room for misunderstanding. Don’t hesitate to connect directly with the sponsor, either in the Github comments (where you can tag them in if needed), or via Discord.
 
 ## Handling duplicates in GitHub
 
