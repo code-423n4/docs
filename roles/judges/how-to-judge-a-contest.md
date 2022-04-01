@@ -63,7 +63,7 @@ Ultimately the judge has the final word, but we want your decisions to be well-i
 
 ## Upgrading issues from QA/Gas to Medium/High
 
-If you find an issue in a QA or Gas report that deserves to be upgraded in severity to Medium or High risk: first, we ask that you consider that part of auditing is demonstrating proper theory of how an issue could be exploited. (If a warden notices something is “off,” but is unable to articulate why it could lead to loss of funds, for example, the job is only half-done—without understanding the implications, a developer could very well overlook or deprioritize the issue.
+If you find an issue in a QA or Gas report that deserves to be upgraded in severity to Medium or High risk: first, we ask that you consider that part of auditing is demonstrating proper theory of how an issue could be exploited. (If a warden notices something is “off,” but is unable to articulate why it could lead to loss of funds, for example, the job is only half-done—without understanding the implications, a developer could very well overlook or deprioritize the issue.)
 
 Judges can upgrade an issue by:
 
