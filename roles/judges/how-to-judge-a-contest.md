@@ -53,6 +53,7 @@ You can edit the **title** field as needed, based on your judgment.
 
 - **You do *not* need to de-dupe QA and Gas reports.** Each one is intended to be a compilation of issues and recommendations from a warden.
 - **Each QA and Gas report should be scored on a scale of 0-100.** Enter your score in the `score` column of the judging spreadsheet.
+- It's usually preferable to assign a *unique* score to each report, and avoid ties, due to [the way the awarding curve works](https://docs.code4rena.com/incentive-model-and-awards). However, ties are allowed.
 - For each category (QA/Gas), the top-scoring report will be included in the C4 contest report, and will receive the largest share of the awards.
 - For more information on how scores affect awarding, see [“Incentive Model and Awards.”](https://docs.code4rena.com/incentive-model-and-awards)
 - **If a QA or Gas report contains a finding that should be upgraded** to Medium or High risk, please see below for instructions.
