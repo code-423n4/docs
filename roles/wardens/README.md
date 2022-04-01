@@ -43,6 +43,6 @@ When a sponsor designates a team member who is available for questions, that per
 ### ⏩ TL;DR
 
 * Turn in your reports before the contest end time.
-* Be sure to [register your handle and ETH address](https://code4rena.com/warden-registration/) to receive your share.
+* Be sure to [register your handle and Polygon address](https://code4rena.com/warden-registration/) to receive your share.
 * Publicly disclosing any discovered bugs or vulnerabilities is grounds for disqualification from all C4 events.
 
