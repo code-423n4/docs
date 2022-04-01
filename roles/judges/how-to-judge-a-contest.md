@@ -33,11 +33,11 @@ So, for example:
 
 | title                           | reportId | duplicateOf | risk | score |
 | ------------------------------- | -------- | ----------- | ---- | ----- |
-| Some very serious issue         | H-01     |             | 3    |       |
-| The same serious issue as above | H-01     | H-01        | 3    |       |
-| QA Report                       | Q-02     |             | Q    | 85    |
-| Medium severity issue           | M-05     |             | 2    |       |
-| Gas optimization issue          | G-01     |             | G    | 52    |
+| Some very serious issue         | H-01 |      | 3    |    |
+| The same serious issue as above | H-01 | H-01 | 3    |    |
+| QA Report                       | Q-02 |      | Q    | 85 |
+| Medium severity issue           | M-05 |      | 2    |    |
+| Gas optimization issue          | G-01 |      | G    | 52 |
 
 You can edit the **title** field as needed, based on your judgment.
 
