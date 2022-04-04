@@ -1,6 +1,6 @@
 # FAQ about QA and Gas Reports
 
-This FAQ pertains to the award mechanism update that takes effect February 3, 2022, which changes the submission guidelines for low-risk, non-critical, and gas optimization reports. For more details, see [Judging Criteria](roles/wardens/judging-criteria).
+This FAQ pertains to the award mechanism update that takes effect February 3, 2022, which changes the submission guidelines for low-risk, non-critical, and gas optimization reports. For more details, see [Judging Criteria](https://github.com/code-423n4/docs/blob/main/roles/wardens/judging-criteria.md).
 
 ### What happens to the award pool if no Med/High vulns are found? 
 
