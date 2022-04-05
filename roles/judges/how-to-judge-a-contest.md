@@ -87,7 +87,7 @@ For each category — Gas and QA — each warden should have a single reportID, 
 
 ## Notes on judging
 
-* Review the [judging criteria](https://code4rena.com/judging-criteria/).
+* Review the [judging criteria](https://docs.code4rena.com/roles/wardens/judging-criteria).
 * Consider the sponsor’s feedback, but keep in mind that it’s not always going to be objective.
 * Any submissions that do not apply specifically to the functionality of the smart contract logic itself should be considered QA.
 * When weighing in on severity or validity of an issue, leave a comment describing your justification for any changes you make to the warden's assessment of severity.
