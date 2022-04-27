@@ -30,6 +30,9 @@ We'll need to see how it works in reality, but our current assumption is that (a
 
 ### Why is a large Gas or QA report not successfully submitting through the contest submission form?
 
-C4 stores all contest submissions as GitHub issues. This means there is a character limit of approximately 65,536 Unicode characters for reports that are submitted through the contest submission form. If your report is longer than this, please send your report via email to [submissions@code423n4.com](mailto:submissions@code423n4.com) with your report attached as a Markdown (.md) file, and the contest name in the subject line. Be sure to also include your warden username in the email. Then the C4 team will be happy to get your submission added for you.
+C4 stores all contest submissions as GitHub issues. This means there is a character limit of approximately 65,536 Unicode characters for reports that are submitted through the contest submission form. If your report is longer than this, please complete the following steps and then the C4 team will be happy to assist with your submission:
+
+* Send an email to [submissions@code423n4.com](mailto:submissions@code423n4.com) with your report attached as a Markdown (.md) file. Be sure to include the contest name in the subject line and your warden username in the email body.
+* Use the contest submission form to create a placeholder that mentions you've submitted your report via email. You'll be able to include your polygon address here.
 
 For more information on the character limits, see this [GitHub Community Forum post](https://github.community/t/maximum-length-for-the-comment-body-in-issues-and-pr/148867).
