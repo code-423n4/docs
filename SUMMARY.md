@@ -7,6 +7,7 @@
 * [Wardens](roles/wardens/README.md)
   * [Judging criteria](roles/wardens/judging-criteria.md)
   * [Submission policy](roles/wardens/submission-policy.md)
+  * [Certified Wardens](roles/wardens/certified-wardens.md)
   * [Tools and resources](roles/wardens/tools-and-resources.md)
   * [FAQ about QA and Gas Reports](roles/wardens/qa-gas-report-faq.md)
 * [Sponsors](roles/sponsors/README.md)
