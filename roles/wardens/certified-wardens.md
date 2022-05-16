@@ -28,7 +28,7 @@ In order to justify the investment of paying our legal team to certify a warden,
 C4 continues to focus on privacy, so our certification process is done through a third-party that is bound by confidentiality. The certification process is as follows:
 
 1. An eligible warden submits the [Certified Contributor Application form](https://code4rena.com/certified-contributor-application/).
-2. The DAO's AML/KYC agent, Provenance, contacts the warden to certify their identity.
+2. The DAO's AML/KYC agent, [Provenance](https://provenance.company/), contacts the warden to certify their identity.
 3. Provenance certifies a warden as having completed their identity verification process, and having signed an agreement binding them to code of conduct and non-disclosure. Code4 Corporation and the Code4rena DAO do NOT have access to personal information, simply the verified knowledge that the warden was certified.
 4. Code4 Corporation contacts the certified warden to let them know their application has been approved.
 
