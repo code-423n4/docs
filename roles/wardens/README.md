@@ -10,9 +10,9 @@ C4 contests let people of a wide range of skill levels get rewarded while showca
 
 ### Joining a contest
 
-Anyone can participate in a contest. Pop into Discord and give us a howl in `#`[`i-want-to-be-a-warden`](https://discord.gg/pmGC2gH9Mg) and [register using this form](https://code4rena.com/warden-registration/).
+Anyone can apply to participate in a contest. Pop into Discord and give us a howl in `#`[`i-want-to-be-a-warden`](https://discord.gg/pmGC2gH9Mg) and [apply using this form](https://code4rena.com/warden-registration/).
 
-Once you've completed those steps, [have a look at the C4 website](https://code4rena.com), where you'll find a list of open and upcoming contests, along with their pot size, start and end date, and other relevant information. Active contests will typically include a link to the code repo, as well as the submission form for findings.&#x20;
+Once you've completed those steps and been approved, [have a look at the C4 website](https://code4rena.com), where you'll find a list of open and upcoming contests, along with their pot size, start and end date, and other relevant information. Active contests will typically include a link to the code repo, as well as the submission form for findings.
 
 As a reminder, for Wardens participating in code contests, please familiarize yourself with the [submission policy](submission-policy.md) and [judging criteria](judging-criteria.md) prior to participating.
 
@@ -34,9 +34,9 @@ To register a team, you must first register your individual warden handles, and 
 * Some sponsors elect to run a **preview week** the week prior to their contest. During a preview week, the repo and documentation are available to view, and some sponsors add walkthroughs and answer questions. (Submissions are not accepted until the contest officially opens.)
 * The rest of our contest timeline is documented on the [Contest timeline](../../structure/our-process/) page.
 
-### Questions?&#x20;
+### Questions?
 
-When contest sponsors come to Code4rena for an audit, we always encourage them to provide documentation, and to make themselves available for questions, so they get the most out of their audit.&#x20;
+When contest sponsors come to Code4rena for an audit, we always encourage them to provide documentation, and to make themselves available for questions, so they get the most out of their audit.
 
 When a sponsor designates a team member who is available for questions, that person will introduce themselves in the C4 Discord (#questions channel), and we recommend contacting them via DM with any questions you may have.
 
@@ -45,4 +45,3 @@ When a sponsor designates a team member who is available for questions, that per
 * Turn in your reports before the contest end time.
 * Be sure to [register your handle and Polygon address](https://code4rena.com/warden-registration/) to receive your share.
 * Publicly disclosing any discovered bugs or vulnerabilities is grounds for disqualification from all C4 events.
-
