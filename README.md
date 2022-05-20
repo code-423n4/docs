@@ -14,12 +14,12 @@ C4 audit contests are different from both bug bounties and traditional audits.
 
 ### Bug bounties vs C4 audit contests
 
-| Bug bounties                                                                                            | Audit contests                                                                                                         |
-| ------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| **Spec work.** No way to have confidence that the time invested will produce a payout.                  | **Guaranteed payouts.** Auditors know it’s highly likely they can find a bug that will make it worth their time.       |
-| **Dark forest.** Who knows how much competition there is right now? Or how mature the codebase is?      | **Low-hanging fruit.** If a project is seeking an audit, it’s likely fresh code with clear opportunities to dig in.    |
-| **Grow on your own.** Researchers have to proactively look for ways to learn and level up their skills. | **Learning community.** Open contests let auditors compare everyone’s findings and learn new things every single week. |
-| **Paradox of choice.** So many projects have bounties. How does an auditor choose which to focus on?    | **No FOMO.** C4 runs a handful of active contests at a time—often just one or two, tops.                               |
+| Bug bounties                                                                                            | Audit contests                                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Spec work.** No way to have confidence that the time invested will produce a payout.                  | **Guaranteed payouts.** Auditors know it’s highly likely they can find a bug that will make it worth their time.                                  |
+| **Dark forest.** Who knows how much competition there is right now? Or how mature the codebase is?      | **Low-hanging fruit.** If a project is seeking an audit, it’s likely fresh code with clear opportunities to dig in.                               |
+| **Grow on your own.** Researchers have to proactively look for ways to learn and level up their skills. | **Learning community.** Open contests let auditors compare everyone’s findings and learn new things every single week.                            |
+| **Paradox of choice.** So many projects have bounties. How does an auditor choose which to focus on?    | **Less FOMO.** C4 runs a handful of active contests at a time and wardens can RSVP to signal to each other which contests have more participants. |
 
 ### Traditional audits vs C4 audit contests
 
