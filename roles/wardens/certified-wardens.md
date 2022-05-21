@@ -33,7 +33,7 @@ Additional Certified+ opportunities we are considering include:
 - Providing mitigation review services (compensated)
 - Offering consulting services through C4
 
-The criteria to become Certified+ are as follows: 
+The criteria to apply to become Certified+ are as follows: 
 
 1. Be approved as a Certified C4 contributor;
 1. Participate as a warden in at least 3 Code4rena contests, and submit at least 1 high severity finding OR at least 3 contests with a top-3 finish in either the QA or gas report;
