@@ -1,43 +1,46 @@
 In order to create opportunities for contributions which rely on establishment of trust, Code4rena allows community members to opt into certifying their identity and entering into a simple agreement.
 
-Wardens who have provided ID verification and a signed agreement may be eligible for:
-
-- Immediate access to repo after contest concludes;
-- Contributing to post-contest triage and QA;
-- Scout role (new, focused on scoping and pre-contest code intel)
-- Judge role
+Wardens who have provided ID verification and a signed agreement may be eligible to participate in private or invite-only contests.
 
 Additional opportunities we are considering include: 
-
-- Providing mitigation review services (compensated)
-- Offering consulting services through C4
 - Certain contest bonus token awards which may be restricted from US persons due to regulations or token grant agreements
-- Private or invite-only contests if we offer in the future
 - May be a factor in maxing out awards in the future
-
-## Who is eligible to be a certified contributor?
-
-In order to justify the investment of paying our legal team to certify a warden, applicants must meet the following criteria:
-
-1. Participate as a warden in at least 3 Code4rena contests, and submit at least 1 high severity finding OR at least 3 contests with a top-3 finish in either the QA or gas report;
-2. Complete the [Certified Contributor Application form](https://code4rena.com/certified-contributor-application/); and
-3. Agree to the Certified Contributor Terms and Conditions (see [application form](https://code4rena.com/certified-contributor-application/)).
 
 ## **Certification process and constraints**
 
-C4 continues to focus on privacy, so our certification process is done through a third-party that is bound by confidentiality. The certification process is as follows:
+C4 continues to focus on privacy, so our certification process is done through a third party ([Provenance](https://provenance.company/)) that is bound by confidentiality. The certification process is as follows:
 
-1. An eligible warden submits the [Certified Contributor Application form](https://code4rena.com/certified-contributor-application/).
-2. The DAO's AML/KYC agent, [Provenance](https://provenance.company/), contacts the warden to certify their identity.
-3. Provenance certifies a warden as having completed their identity verification process, and having signed an agreement binding them to code of conduct and non-disclosure. Code4 Corporation and the Code4rena DAO do NOT have access to personal information, simply the verified knowledge that the warden was certified.
-4. Code4 Corporation contacts the certified warden to let them know their application has been approved.
+1. An eligible warden submits the [Certified Contributor Application form](https://code4rena.com/certified-contributor-application/), and agrees to the Certified Contributor Terms and Conditions (see the application form).
+1. The DAO's AML/KYC agent, [Provenance](https://provenance.company/), contacts the warden to certify their identity.
+1. Provenance certifies a warden as having completed their identity verification process, and having signed an agreement binding them to code of conduct and non-disclosure. Code4 Corporation and the Code4rena DAO do NOT have access to personal information, simply the verified knowledge that the warden was certified.
+1. Code4 Corporation contacts the certified warden to let them know their application has been approved.
 
 ### Constraints
 
 - In the event that a certified warden was alleged to have violated the agreement, the Code4rena Cayman Foundation could hire an attorney to pursue remediation.
 - In the event a certified C4 warden was alleged to be involved in an exploit, Provenance would provide identifying information to authorities.
 
-# **Certified warden professional conduct guidelines**
+## Certified+ Contributors
+
+Certified contributors who meet certain performance criteria within C4 may be eligible for additional opportunities, such as: 
+
+- Immediate access to repo after contest concludes;
+- Contributing to post-contest triage and QA;
+- Scout role (new, focused on scoping and pre-contest code intel)
+- Judge role
+
+Additional Certified+ opportunities we are considering include: 
+- Providing mitigation review services (compensated)
+- Offering consulting services through C4
+
+The criteria to become Certified+ are as follows: 
+
+1. Be approved as a Certified C4 contributor;
+1. Participate as a warden in at least 3 Code4rena contests, and submit at least 1 high severity finding OR at least 3 contests with a top-3 finish in either the QA or gas report;
+1. Complete the [Certified Contributor Application form](https://code4rena.com/certified-contributor-application/); and
+1. Agree to the Certified Contributor Terms and Conditions (see [application form](https://code4rena.com/certified-contributor-application/)).
+
+# Certified warden professional conduct guidelines
 
 Wardens may lose the privilege of participating in post-contest triage and inconsistency bounties by violating the code of professional conduct which will be outlined in the certified warden agreement. This code will ask wardens to:
 
