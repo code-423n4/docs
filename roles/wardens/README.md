@@ -30,7 +30,7 @@ To register a team, you must first register your individual warden handles, and 
 
 ### Contest timeline
 
-* **Most contests run for one week,** from Thursday at 0:00 UTC until the following Wednesday at 23:59 UTC.
+* **Most contests run for one week,** e.g. from Thursday at 20:00 UTC until the following Wednesday at 19:59 UTC.
 * Some sponsors elect to run a **preview week** the week prior to their contest. During a preview week, the repo and documentation are available to view, and some sponsors add walkthroughs and answer questions. (Submissions are not accepted until the contest officially opens.)
 * The rest of our contest timeline is documented on the [Contest timeline](../../structure/our-process/) page.
 
@@ -38,7 +38,7 @@ To register a team, you must first register your individual warden handles, and 
 
 When contest sponsors come to Code4rena for an audit, we always encourage them to provide documentation, and to make themselves available for questions, so they get the most out of their audit.
 
-When a sponsor designates a team member who is available for questions, that person will introduce themselves in the C4 Discord (#questions channel), and we recommend contacting them via DM with any questions you may have.
+When a sponsor designates a team member who is available for questions, that person will introduce themselves in the C4 Discord (in a contest-specific channel), and we recommend contacting them via DM with any questions you may have.
 
 ### ⏩ TL;DR
 
