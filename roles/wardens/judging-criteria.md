@@ -4,7 +4,7 @@
 
 C4 strives to ensure a deliberate and transparent process for reviewing and judging submissions.
 
-At the end of a given contest period, all reports will be reviewed and categorized based on criteria. Pending sponsor review, final reports will be shared publicly on the [C4 Audit Report page](https://code4rena.com/reports). Contest results will then be shared on the C4 Discord and winners will be announced on the [C4 Twitter](https://twitter.com/code423n4).
+At the end of a given contest period, all reports will be reviewed and categorized based on criteria. Pending sponsor review, final reports will be shared publicly on the [C4 Audit Report page](https://code4rena.com/reports). Contest results are shared on the C4 Discord and winners announced on the [C4 Twitter](https://twitter.com/code423n4).
 
 Reports are also judged based on grammar, conciseness, and formatting.
 
@@ -26,7 +26,7 @@ The scoring system has three primary goals:
 
 ### QA reports (low/non-critical)
 
-For contests starting on or after February 3, 2022, low and non-critical findings should be submitted as a *single* QA report per warden. We are allocating a **fixed 10% of prize pools toward QA reports.**
+For contests starting on or after February 3, 2022, low and non-critical findings must be submitted as a *single* QA report per warden. We are allocating a **fixed 10% of prize pools toward QA reports.**
 
 Your QA report should include:
 
@@ -66,8 +66,7 @@ Does reported bug affect the use of gas? If so, is gas handled in a suboptimal m
 
 Where **assets** refer to funds, NFTs, data, authorization, and any information intended to be private or confidential:
 
-* **0 — Non-critical:** Code style, clarity, syntax, versioning, off-chain monitoring (events etc), exclude gas-optimisations.
-* **1 — Low:** Low: Assets are not at risk. State handling, function incorrect as to spec, issues with comments.
+* **QA (Quality Assurance)** Includes both Non-critical (code style, clarity, syntax, versioning, off-chain monitoring (events etc)) and Low risk (e.g. assets are not at risk: state handling, function incorrect as to spec, issues with comments). Excludes Gas optimizations, which are submitted and judged separately.
 * **2 — Med:** Assets not at direct risk, but the function of the protocol or its availability could be impacted, or leak value with a hypothetical attack path with stated assumptions, but external requirements.
 * **3 — High:** Assets can be stolen/lost/compromised directly (or indirectly if there is a valid attack path that does not have hand-wavy hypotheticals).
 
@@ -91,7 +90,7 @@ The measurement of risk will be partially based on the rating submitted by the W
 
 Bugs are divided into 3 risk categories:
 
-* Low
+* QA (Quality Assurance)
 * Medium
 * High
 
