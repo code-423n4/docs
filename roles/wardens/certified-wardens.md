@@ -66,3 +66,13 @@ Note that certified wardens are still able to be anon for basically all intents 
 First, let’s define “allegation”: an accusation based on circumstantial evidence would not be sufficient, as Provenance (the certifier) would have a duty to keep personal information confidential. There would need to be a formal, legal allegation wherein Provenance was **subpoenaed** to provide the information as verification of identity.
 
 So this is really only relevant in a case where there is sufficient evidence that would stand up in a court of law clearly demonstrating that the specific warden in question was involved in an attack. Provenance would not dox wardens at the request of people grasping at straws in a witch hunt.
+
+### What documents are accepted by Provenance in relation to proof of residence?
+
+Provenance will provide exact details after application submission. As of June 1, 2022, the list of acceptable documents includes: 
+- Utility bill clearly stating the service address and mailing address with the individual’s name (note: telephone, cellular and credit card bills are not acceptable as these may be mailed to any address)
+- Bank statement
+- Rental or lease agreement
+- Local authority document (e.g. property tax bill, council tax bill etc.)
+
+Note: the document has to be less than 3 months old.
