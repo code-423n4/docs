@@ -24,6 +24,8 @@ If it seemed appropriate to do so based on a judge's assessment of the issue, th
 
 The judge could create a new separate Github issue in the findings repo that contains the relevant portions of the warden's QA report, and add that to the respective H or M level bucket.
 
+However, QA items may be marked as a duplicate of another finding *without* being granted an upgrade, since making the case for *how* an issue can be exploited, and providing a thorough description and proof of concept, is part of what merits a finding properly earning medium or high severity.
+
 ### Conversely, in the reverse situation where an issue submitted by wardens as H/M level, is subsequently downgraded to QA level by the judge during their review, would the penalty just be excluding the overrated warden submission from consideration in regards to the QA rewards?
 
 We'll need to see how it works in reality, but our current assumption is that (a) low severity findings attempted to get pushed into med/high would essentially get zero (just logically so since they wouldn't be high or med), and then (b) their QA report would be lower quality as a result, and so they wouldn't score as highly as they could have. Judges could also decide to mark off points in someone's QA report if they saw behavior that seemed like it might be trying to game for higher rewards by inflating severity, so it could have a negative consequence as well.
