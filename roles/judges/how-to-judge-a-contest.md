@@ -61,15 +61,19 @@ You can edit the **title** field as needed, based on your judgment.
 ### Upgrading issues from QA/Gas to Medium/High
 
 If you find an issue in a QA or Gas report that deserves to be upgraded in severity to Medium or High risk: first, we ask that you consider that part of auditing is demonstrating proper theory of how an issue could be exploited. (If a warden notices something is “off,” but is unable to articulate why it could lead to loss of funds, for example, the job is only half-done—without understanding the implications, a developer could very well overlook or deprioritize the issue.)
+It is also worth noting that QA items may be marked as a duplicate of a Medium or High finding without being granted an upgrade, since making the case for how an issue can be exploited, and providing a thorough description and proof of concept, is part of what merits a finding properly earning Medium or High severity
 
-Judges can upgrade an issue by:
-
-1. Creating a new issue in the findings repo;
-2. Paste in the relevant portion(s) of the warden's QA report, and their warden handle;  
-3. Add the appropriate labels to the issue; and
-4. Add a note to the judging sheet to notify the C4 contest admins of the upgraded issue(s).
-
-**Note: all four steps must be completed,** in order for the warden to receive appropriate credit and compensation.
+Judges can upgrade an issue by using the 'create Upgraded submission' script in the judging spreadsheet:
+    *If you do not want to provide the Authorizations to run this script yourself, then just highlight the QA reports that will need upgraded in the spreadsheet, and contact your Contest Administrator (CA) when you have completed judging and they will help with this step.
+1. Highlight the row in the spreadsheet that contains the QA or Gas that needs to be upgraded.
+2. Click the C4 menu to the right of Help at the top of the sheet.
+3. Choose create Upgraded submission  
+4. The first time you will need to provide authorization through Google, and then repeat Steps 1-3.
+5. Type either H or M for the risk level of the new issue.
+6. You will now see a new entry at the bottom of the spreadsheet. It has Columns E -> K filled in just like when the spreadsheet is generated. It has also created a new issue in the findings repo, which you can see by clicking the link in Column H.
+7. You do not need to change the auto-generated title, but please update the body of the finding with the relevant information from the QA/Gas that you are upgrading from.
+8. Finally update the first 4 columns of the spreadsheet for that issue as you normally would.
+9. Repeat for any additional upgrades.
 
 ### Downgrading issues from Medium/High to QA/Gas
 
