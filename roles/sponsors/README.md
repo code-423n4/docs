@@ -14,7 +14,9 @@ One of our team members will review this repo and assess your responses and cont
 
 ### **Determining pot size**
 
-We work together with you as the sponsor to set the appropriate award pool amount for your contest pool at or above current contest floor prices. To attract warden participation in the highly competitive engineering market, we regularly evaluate and adjust contest pricing to ensure incentive alignment with wardens. Sponsors always have the option of providing a larger-than-floor pot size, which tends to attract more warden talent and attention.
+We work together with you as the sponsor to set the appropriate award pool amount for your contest pool at or above current contest floor prices based on your scope.&#x20;
+
+To attract warden participation in the highly competitive market, we regularly evaluate and adjust contest pricing to ensure incentive alignment with wardens. Sponsors always have the option of providing a larger-than-floor pot size, which tends to attract more warden talent and attention.
 
 ### **Gas optimization pool**
 
@@ -22,8 +24,8 @@ By default, 5% of the award pool is allocated to valid gas optimizations. We enc
 
 ### **Org fee**
 
-There is a fee on top of the determined contest pool, which goes to the Code4rena DAO to cover the costs associated with organizing, promoting, and reporting on contests.
+There is a fee on top of the determined contest pool, which goes to the Code4rena DAO to cover the costs associated with organizing, promoting, and creating reports for contests.
 
 ### **Contest scheduling**
 
-Our standard, one-week contests start Thursday 00:00:00 UTC and end Wednesday 23:59 UTC. Due to high demand, we lock contests in to the schedule contests after receiving a deposit for the contest, we are unable to make scheduling commitments otherwise.
+We lock contests in to the schedule contests after receiving a deposit for the contest. We are unable to make scheduling commitments otherwise.
