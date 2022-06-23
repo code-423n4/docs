@@ -28,7 +28,7 @@ To register a team, you must first register your individual warden handles, and 
 }
 ```
 
-**Team awards** are sent as a single payment to *one* wallet. We strongly recommend using a multisig wallet to distribute awards among your team members. Note that C4 does not track which team member submitted each finding; your team is responsible for keeping track of that information, and distributing awards. The team structure at C4 is designed so that you submit as a team and get paid as a team.
+**Team awards** are sent as a single payment to *one* wallet. We strongly recommend using a multisig wallet, or a tool like [PaymentSplitter](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/finance/PaymentSplitter.sol), to distribute awards among your team members. Note that C4 does not track which team member submitted each finding; your team is responsible for keeping track of that information, and distributing awards. The team structure at C4 is designed so that you submit as a team and get paid as a team.
 
 
 ### Contest timeline
