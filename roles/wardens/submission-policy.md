@@ -39,6 +39,14 @@ In order to help us triage and prioritize submissions, please ensure that your r
 
 It is also recommended to ensure you receive email confirmation of each submission.
 
+### How to include a PoC
+
+To include a proof of concept (PoC) link in your submission, please follow these steps, to ensure that your PoC remains private for the duration of the contest, but can be accessed publicly after the findings are made public:
+
+1. Modify existing test files
+2. Provide the diff ([instructions](https://gist.github.com/IllIllI000/21deaa6a55c95a6ec9ca893009ee494f)), which can be applied
+
+
 ### Withdrawing A Report
 
 It is possible that a warden might want to have their report withdrawn after submitting it through the website. For example, if a new warden realizes they have not followed the report submission guidelines closely and decide they would like to re-submit in order to avoid any issues with judging and awarding once the contest ends.
