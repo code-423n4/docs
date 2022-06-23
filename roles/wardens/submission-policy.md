@@ -46,6 +46,13 @@ To include a proof of concept (PoC) link in your submission, please follow these
 1. Modify existing test files
 2. Provide the diff ([instructions](https://gist.github.com/IllIllI000/21deaa6a55c95a6ec9ca893009ee494f)), which can be applied
 
+### Late submissions
+
+C4 does not accept late submissions under any circumstances; the contest deadlines are firm. We recommend that you submit your findings at least a few minutes before the cut-off time, since the submission form can become slow or unresponsive in the final minutes of a contest (due to high traffic).
+
+### Submissions to the wrong contest
+
+C4 cannot "transfer" your submission to another contest after the contest ends. If you discover that you have accidentally submitted a finding to the wrong contest, please re-submit it to the correct contest, and then follow the steps below to withdraw your report from the other contest.
 
 ### Withdrawing A Report
 
