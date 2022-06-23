@@ -9,8 +9,8 @@
 
 ### During the contest
 
-* You will be able to see issues as they are submitted to the contest’s private repo, but note that >90% of contest findings tend to get submitted in the last day, so don’t be concerned if findings seem slow to come in.
-* We ask for a member or members of your engineering team to be available in the C4 discord in order to answer wardens’ questions via DM.
+* Be prepared for a **code freeze for the duration of the contest** — important because it establishes a level playing field. We want to ensure everyone's looking at the same code, no matter when they look during the contest. (Note: this includes your own repo, since a PR can leak alpha to our wardens!)
+* We ask for a member or members of your engineering team to be available in the C4 Discord server in order to answer wardens’ questions via DM.
 * Please avoid discussing any issues submitted by wardens in an open channel, as this could give hints to other wardens.
 
 ### After the contest
