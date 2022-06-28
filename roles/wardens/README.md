@@ -10,7 +10,7 @@ C4 contests let people of a wide range of skill levels get rewarded while showca
 
 ### Joining a contest
 
-Anyone can apply to participate in a contest. Pop into Discord and give us a howl in `#`[`i-want-to-be-a-warden`](https://discord.gg/pmGC2gH9Mg) and [apply using this form](https://code4rena.com/warden-registration/).
+Anyone can apply to participate in a contest. Pop into Discord and give us a howl in `#`[`i-want-to-be-a-warden`](https://discord.gg/pmGC2gH9Mg) and [apply using this form](https://code4rena.com/register/).
 
 Once you've completed those steps and been approved, [have a look at the C4 website](https://code4rena.com), where you'll find a list of open and upcoming contests, along with their pot size, start and end date, and other relevant information. Active contests will typically include a link to the code repo, as well as the submission form for findings.
 
@@ -46,5 +46,5 @@ When a sponsor designates a team member who is available for questions, that per
 ### ⏩ TL;DR
 
 * Turn in your reports before the contest end time.
-* Be sure to [register your handle and Polygon address](https://code4rena.com/warden-registration/) to receive your share.
+* Be sure to [register your handle and Polygon address](https://code4rena.com/register/) to receive your share.
 * Publicly disclosing any discovered bugs or vulnerabilities is grounds for disqualification from all C4 events.
