@@ -42,4 +42,4 @@ If you like, you can register a new account using a new wallet, but it will requ
 
 ### **What if my wallet was hacked?**
 
-If there is a genuine security risk, please submit a help request through our Help Desk. We can't guarantee that we can solve it for you, but we'll do our best.
+If there is a genuine security risk, please submit a help request through our [Help Desk](https://code4rena.com/help/). We can't guarantee that we can solve it for you, but we'll do our best.
