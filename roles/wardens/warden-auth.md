@@ -22,7 +22,28 @@ If you have and existing Code4rena username, you can re-register your warden han
 
 Once individual team members are authenticated, they will be able to submit findings as individuals or on behalf of the team.
 
-## FAQ
+## FAQ / Troubleshooting
+
+### If you can't find your handle in the dropdown on the registration page:
+
+First, please make sure you connect from the "connect wallet" dropdown instead of going straight to the registration page. 
+
+1. If you did that and ended up on the registration page, please make sure you connect with a wallet address you’ve used for a Code4rena contest prior to May 25, 2022. 
+2. If that doesn’t work, please [submit a Help Desk request](https://code4rena.com/help/).
+
+### If your registration was merged but you still can't log in:
+
+Registrations are merged in batches, during business hours, so it can take a few hours before your registration is fully merged. 
+
+If your registration has been merged into main *and* the deploy has completed, and you’re still unable to log in, make sure you are authenticating with the same address you used when you registered.
+
+If that doesn’t work, please [submit a Help Desk request](https://code4rena.com/help/).
+
+### If you previously submitted findings, but your wallet is not supported by WalletConnect:
+
+The best solution here is for you to import your wallet to either MetaMask, or another wallet app that is supported by WalletConnect.
+
+If you can’t do that, then you’ll need to use a different wallet that is supported by MetaMask or WalletConnect. Once you have your wallet set up, please [submit a Help Desk request](https://code4rena.com/help/) and C4 staff will help you get your wallet connected with your C4 account.
 
 ### **Can I change my wallet address?**
 
