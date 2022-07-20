@@ -20,7 +20,7 @@ C4 continues to focus on privacy, so our certification process is done through a
 - In the event that a certified warden was alleged to have violated the agreement, the Code4rena Cayman Foundation could hire an attorney to pursue remediation.
 - In the event a certified C4 warden was alleged to be involved in an exploit, Provenance would provide identifying information to authorities.
 
-## Certified+ Contributors
+## +Backstage Contributors
 
 Certified contributors who meet certain performance criteria within C4 may be eligible for additional opportunities, such as: 
 
@@ -29,11 +29,11 @@ Certified contributors who meet certain performance criteria within C4 may be el
 - Scout role (new, focused on scoping and pre-contest code intel)
 - Judge role
 
-Additional Certified+ opportunities we are considering include: 
+Additional +Backstage opportunities we are considering include: 
 - Providing mitigation review services (compensated)
 - Offering consulting services through C4
 
-The minimum criteria to become Certified+ are as follows: 
+The minimum criteria to become +Backstage are as follows: 
 
 1. Be approved as a Certified C4 contributor;
 1. Participate as a warden in at least 3 Code4rena contests, and submit at least 1 high severity finding OR at least 3 contests with a top-3 finish in either the QA or gas report;
