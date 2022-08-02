@@ -16,6 +16,7 @@
 * [Judges](roles/judges/README.md)
   * [How to judge a contest](roles/judges/how-to-judge-a-contest.md)
   * [Judging FAQ](roles/judges/judging-faq.md)
+* [Certified contributors](roles/certified-contributors/README.md)
 
 ## Philosophy
 

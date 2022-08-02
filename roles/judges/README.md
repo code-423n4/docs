@@ -1,5 +1,5 @@
 ---
-description: Judges determine finding severity and allocate awards to wardens.
+description: Judges decide the severity, validity, and quality of findings and rate the performance of wardens.
 ---
 
 # Judges
