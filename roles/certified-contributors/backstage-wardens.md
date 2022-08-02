@@ -1,4 +1,4 @@
-# +Backstage Wardens
+# +Backstage wardens
 
 Certified contributors who meet certain performance criteria within C4 gain "+Backstage" access to C4 contests, which includes:
 
