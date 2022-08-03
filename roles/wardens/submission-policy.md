@@ -10,9 +10,9 @@ When participating in C4 code contests, please formally submit any contract vuln
 
 Reports can be submitted at any point prior to stop time for a given contest. The details for each code contest can be found in the contest repo.
 
-### Code Contest Guidelines
+### Audit Contest Guidelines
 
-Under this policy, code contests covers activities in which you:
+Under this policy, audit contests covers activities in which you:
 
 * Register as a C4 Warden within an individual capacity or as part of a team.
 * Submit your bug report using the submission form, with one form entry per bug.
@@ -38,6 +38,16 @@ In order to help us triage and prioritize submissions, please ensure that your r
 * Are written in English, if possible.
 
 It is also recommended to ensure you receive email confirmation of each submission.
+
+### Report format
+
+- Medium or High severity findings should be submitted individually.
+- All QA findings (Low risk or Non-critical) must be submitted as a single QA report per warden (or team). 
+- All Gas optimizations must be submitted as a single Gas report per warden (or team).
+
+Wardens who submit multiple QA and/or Gas findings to a single contest without following the required format will have all QA/Gas submissions invalidated for that contest. 
+
+For more details on QA and Gas reports, and estimating risk, please see [Judging Criteria](https://docs.code4rena.com/roles/wardens/judging-criteria#qa-reports-low-non-critical).
 
 ### How to include a PoC
 
