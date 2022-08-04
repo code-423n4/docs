@@ -32,4 +32,4 @@ C4 audit contests are different from both bug bounties and traditional audits.
 
 ## Incentive model and awards
 
-Details on Code4rena's incentive model and awards can now be found [here](incentive-model-and-awards.md).
+Details on Code4rena's incentive model and awards can now be found [here](awarding/incentive-model-and-awards/README.md).
