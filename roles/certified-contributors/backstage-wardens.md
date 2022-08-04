@@ -10,8 +10,8 @@ The minimum criteria to become +Backstage are as follows:
 
 1. Be approved as a Certified C4 contributor;
 1. Participate as a warden in at least 3 Code4rena contests;
-2. Submit at least 1 high severity finding, OR 3 medium severity findings, OR at least 3 contests with a top-3 finish in either the QA or gas report;
-4. Abide by the Certified Contributor Terms and Conditions (see [application form](https://code4rena.com/certified-contributor-application/)).
+1. Submit at least 1 high severity finding OR 3 medium severity findings OR score >85 on a QA or Gas report;
+1. Abide by the Certified Contributor Terms and Conditions (see [application form](https://code4rena.com/certified-contributor-application/)).
 
 ## To request +Backstage access
 
