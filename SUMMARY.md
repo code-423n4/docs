@@ -5,18 +5,25 @@
 ## Roles
 
 * [Wardens](roles/wardens/README.md)
-  * [Judging criteria](roles/wardens/judging-criteria.md)
   * [Submission policy](roles/wardens/submission-policy.md)
   * [Authenticate with your wallet](roles/wardens/warden-auth.md)
-  * [Certified Wardens](roles/wardens/certified-wardens.md)
   * [Tools and resources](roles/wardens/tools-and-resources.md)
-  * [FAQ about QA and Gas Reports](roles/wardens/qa-gas-report-faq.md)
 * [Sponsors](roles/sponsors/README.md)
   * [Contest process](roles/sponsors/contest-process.md)
 * [Judges](roles/judges/README.md)
   * [How to judge a contest](roles/judges/how-to-judge-a-contest.md)
   * [Judging FAQ](roles/judges/judging-faq.md)
 * [Certified contributors](roles/certified-contributors/README.md)
+  * [+Backstage wardens](roles/certified-contributors/backstage-wardens.md)
+
+## Awarding
+
+* [Incentive model and awards](awarding/incentive-model-and-awards/README.md)
+  * [Awarding process](awarding/incentive-model-and-awards/awarding-process.md)
+  * [Curve logic for QA and Gas optimization reports](awarding/incentive-model-and-awards/curve-logic.md)
+  * [FAQ about QA and Gas Reports](awarding/incentive-model-and-awards/qa-gas-report-faq.md)  
+* [Judging criteria](awarding/judging-criteria/README.md)
+* [Fairness and validity](awarding/fairness-and-validity/README.md)
 
 ## Philosophy
 
@@ -27,9 +34,4 @@
 ## Other Details <a href="#structure" id="structure"></a>
 
 * [Contest timeline](structure/our-process/README.md)
-  * [Awarding process](structure/our-process/awarding-process.md)
 * [Where can I find…?](structure/where-can-i-find....md)
-
-***
-
-* [Incentive model and awards](incentive-model-and-awards.md)

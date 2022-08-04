@@ -40,9 +40,9 @@ The minimum criteria to become +Backstage are as follows:
 1. Complete the [Certified Contributor Application form](https://code4rena.com/certified-contributor-application/); and
 1. Agree to the Certified Contributor Terms and Conditions (see [application form](https://code4rena.com/certified-contributor-application/)).
 
-# Certified warden professional conduct guidelines
+# Certified contributor professional conduct guidelines
 
-Wardens may lose the privilege of participating in post-contest triage and inconsistency bounties by violating the code of professional conduct which will be outlined in the certified warden agreement. This code will ask wardens to:
+C may lose the privilege of participating in post-contest triage and inconsistency bounties by violating the code of professional conduct which will be outlined in the certified warden agreement. This code will ask wardens to:
 
 - take an objective, collegial, and intellectually open tone in considering and discussing all findings
 - treat wardens and sponsors with respect and an assumption of positive intent
