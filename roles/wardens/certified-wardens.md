@@ -33,12 +33,11 @@ Additional +Backstage opportunities we are considering include:
 - Providing mitigation review services (compensated)
 - Offering consulting services through C4
 
-The minimum criteria to become +Backstage are as follows: 
+The minimum criteria for +Backstage access are as follows: 
 
 1. Be approved as a Certified C4 contributor;
-1. Participate as a warden in at least 3 Code4rena contests, and submit at least 1 high severity finding OR at least 3 contests with a top-3 finish in either the QA or gas report;
-1. Complete the [Certified Contributor Application form](https://code4rena.com/certified-contributor-application/); and
-1. Agree to the Certified Contributor Terms and Conditions (see [application form](https://code4rena.com/certified-contributor-application/)).
+1. Participate as a warden in at least 3 Code4rena contests, and submit at least 1 high severity finding OR 3 medium severity findings OR score >85 on a QA or Gas report;
+1. Abide by the Certified Contributor Terms and Conditions (see [application form](https://code4rena.com/certified-contributor-application/)).
 
 # Certified contributor professional conduct guidelines
 
