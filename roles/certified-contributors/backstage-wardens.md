@@ -22,6 +22,6 @@ Once you meet the eligibility criteria, submit a [Help Desk Request](https://cod
 Contributors may lose their +Backstage role by violating the code of professional conduct as outlined in the certified contributor agreement. This code asks wardens to:
 
 - take an objective, collegial, and intellectually open tone in considering and discussing all findings
-- treat wardens and sponsors with respect and an assumption of positive intent
+- treat wardens and sponsors, and all other Code4rena community members with respect and an assumption of positive intent
 - avoid engaging in any discussion and evaluation of issues they submitted themselves except to answer a question or provide additional context requested by a judge or sponsor
 - treat the contents of all findings as private and confidential until the contest report is made public.
