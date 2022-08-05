@@ -3,15 +3,13 @@ description: In order to create opportunities for contributions which rely on es
 
 ---
 
-In order to create opportunities for contributions which rely on establishment of trust, Code4rena allows community members to opt into certifying their identity and entering into a simple agreement.
-
 Contributors who have provided ID verification and a signed agreement may be eligible to participate in:
 
 - Private or invite-only contests
 - Scout role (focused on scoping and pre-contest code intel)
-- Judging 
-- "Backstage" warden opportunities (post-contest triage and post-judging QA)
-- Providing mitigation review services (compensated)
+- [Judging](/roles/judges/README.md)
+- ["Backstage" warden opportunities](backstage-wardens.md) (post-contest triage and post-judging QA)
+- Providing mitigation review services
 - Offering consulting services through C4
 
 Additional opportunities we are considering include: 
