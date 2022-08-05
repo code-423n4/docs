@@ -53,5 +53,3 @@ Complete [this form](https://code4rena.com/judge-application/) and share:
 Being a judge is a critical role and we only have so many spots.&#x20;
 
 Judge applications are reviewed monthly by the C4 judge selection committee, which includes top leaderboard wardens and past judges. The committee will review your application and give you a "yes" or "not yet".
-
-Please be patient :) Given we're just starting this application process, there may be a bit of a backlog.
