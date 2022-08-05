@@ -10,11 +10,11 @@ C4 contests let people of a wide range of skill levels get rewarded while showca
 
 ### Joining a contest
 
-Anyone can apply to participate in a contest. Pop into Discord and give us a howl in `#`[`i-want-to-be-a-warden`](https://discord.gg/pmGC2gH9Mg) and [apply using this form](https://code4rena.com/register/).
+Anyone can apply to participate in a contest. [Apply using this form](https://code4rena.com/register/), then pop into Discord and give us a howl in `#`[`i-want-to-be-a-warden`](https://discord.gg/pmGC2gH9Mg).
 
 Once you've completed those steps and been approved, [have a look at the C4 website](https://code4rena.com), where you'll find a list of open and upcoming contests, along with their pot size, start and end date, and other relevant information. Active contests will typically include a link to the code repo, as well as the submission form for findings.
 
-As a reminder, for Wardens participating in code contests, please familiarize yourself with the [submission policy](submission-policy.md) and [judging criteria](judging-criteria.md) prior to participating.
+As a reminder, for Wardens participating in code contests, please familiarize yourself with the [submission policy](submission-policy.md) and [judging criteria](/awarding/judging-criteria/README.md) prior to participating.
 
 ### Registering a team
 
@@ -25,7 +25,7 @@ To register a team, you must first register your individual warden handles, and 
 
 ### Contest timeline
 
-* **Most contests run for one week,** e.g. from Thursday at 20:00 UTC until the following Wednesday at 19:59 UTC.
+* **Most contests run for one week,** e.g. from Thursday at 20:00 UTC until the following Wednesday at 20:00 UTC.
 * Some sponsors elect to run a **preview week** the week prior to their contest. During a preview week, the repo and documentation are available to view, and some sponsors add walkthroughs and answer questions. (Submissions are not accepted until the contest officially opens.)
 * The rest of our contest timeline is documented on the [Contest timeline](../../structure/our-process/) page.
 

@@ -36,7 +36,7 @@ In order to help us triage and prioritize submissions, please ensure that your r
 * Offer a detailed description of the steps needed to reproduce the vulnerability (proof of concept scripts or screenshots are helpful).
 * Are written in English, if possible.
 
-It is also recommended to ensure you receive email confirmation of each submission.
+It is also recommended to ensure you receive email confirmation of each submission. (If you do not see an email confirmation, please check your spam folder.)
 
 ### Report format
 
@@ -63,13 +63,24 @@ C4 does not accept late submissions under any circumstances; the contest deadlin
 
 C4 cannot "transfer" your submission to another contest after the contest ends. If you discover that you have accidentally submitted a finding to the wrong contest, please re-submit it to the correct contest, and then follow the steps below to withdraw your report from the other contest.
 
+## Editing a report
+
+To edit a submitted finding in an open contest:
+
+1. Sign into https://code4rena.com with your wallet. 
+2. Find the contest on the C4 Contest page and click “view contest”
+3. Click on the “Findings” tab. There you will see a list of all your submissions for that contest (both individual and team findings).
+4. Select a finding from the list, make your edits and re-submit.
+
+Findings can be edited until the contest deadline.
+
 ## Withdrawing a report
 
-It is possible that a warden might want to have their report withdrawn after submitting it through the website. For example, if a new warden realizes they have not followed the report submission guidelines closely and decide they would like to re-submit in order to avoid any issues with judging and awarding once the contest ends.
+It is possible that a warden might want to have their report withdrawn after submitting it through the website. For example, if a new warden realizes they have not followed the report submission guidelines closely, or discover that a submission was outside the scope of the contest.
 
 In this situation, wardens who wish to have a report withdrawn should use the [Help form](https://code4rena.com/help) and mention the name of the issue, along with the handle they submitted it under, so the issue can be manually invalidated and removed from the contest findings repo.
 
-Please use this option sparingly (i.e. _not_ simply to correct a typo in your report).&#x20;
+Please use this option sparingly (i.e. _not_ simply to correct a typo in your report).
 
 ## Unauthorized test methods
 
