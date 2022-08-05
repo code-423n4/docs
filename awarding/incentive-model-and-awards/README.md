@@ -17,7 +17,7 @@ During awarding, each share is redeemed for: `pot / number of shares`.
 
 In order to incentivize wardens to focus efforts on high and medium severity findings while also ensuring quality coverage, the pool’s allocation is capped for low severity, non-critical, and gas optimization findings.
 
-Low and non-critical findings are submitted as a **single** QA report. Similarly, gas optimizations are submitted as a single gas report. For more on reports, see [Judging criteria](https://docs.code4rena.com/roles/wardens/judging-criteria).
+Low and non-critical findings are submitted as a **single** QA report. Similarly, gas optimizations are submitted as a single gas report. For more on reports, see [Judging criteria](/awarding/judging-criteria/README.md).
 
 QA and gas optimization reports are awarded on a curve based on the judge’s score.
 
