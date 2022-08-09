@@ -2,7 +2,7 @@
 
 To incentivize **wardens**, C4 uses a unique scoring system with two primary goals: reward contestants for finding unique bugs and also to make the contest resistant to Sybil attack. A secondary goal of the scoring system is to encourage contestants to form teams and collaborate.
 
-**Judges** are incentivized to review findings and determine allocation of the prize pool by receiving a share of the prize pool themselves.
+**Judges** are incentivized to review findings and decide their severity, validity, and quality by receiving a share of the prize pool themselves.
 
 ### High and Medium Risk bugs
 
