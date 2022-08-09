@@ -10,7 +10,7 @@ Contributors who have provided ID verification and a signed agreement may be eli
 - [Judging](/roles/judges/README.md)
 - ["Backstage" warden opportunities](backstage-wardens.md) (post-contest triage and post-judging QA)
 - Providing mitigation review services
-- Offering consulting services through C4
+- Offering solo audit and consulting services through C4
 
 Additional opportunities we are considering include: 
 - Certain contest bonus token awards which may be restricted from US persons due to regulations or token grant agreements
