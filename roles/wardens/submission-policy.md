@@ -1,7 +1,5 @@
 # Submission policy
 
-### Overview
-
 Code4rena is an open organization committed to improving the security of decentralized protocols while protecting the information of our sponsors and participants. This policy is intended to provide C4 Wardens (security researchers) clear guidelines for participating in code contests while conducting vulnerability discovery activities.
 
 The following policy conveys C4’s preferences in how to submit discovered vulnerabilities to the organization and describes what systems and types of research are covered under this policy, how to share vulnerability reports, and the length of time we expect Wardens to wait prior to publicly disclosing vulnerabilities.
@@ -10,12 +8,14 @@ When participating in C4 code contests, please formally submit any contract vuln
 
 Reports can be submitted at any point prior to stop time for a given contest. The details for each code contest can be found in the contest repo.
 
-### Code Contest Guidelines
+All community members agree to be bound by the Code4rena Code of Conduct, which can be viewed [in the Code4rena Discord](https://discord.com/channels/810916927919620096/851883682470166558/851891396255940618). 
 
-Under this policy, code contests covers activities in which you:
+## Audit contest guidelines
+
+Under this policy, audit contests covers activities in which you:
 
 * Register as a C4 Warden within an individual capacity or as part of a team.
-* Submit your bug report using the submission form, with one form entry per bug.
+* Submit your bug report using the submission form.
 * Make every effort to avoid privacy violations, degradation of user experience, disruption to production systems, and destruction or manipulation of data, especially in regard to funds.
 * Only use exploits to the extent necessary to confirm a vulnerability’s presence. Do not use an exploit to compromise funds, exfiltrate data, establish persistent permissioning access, or use the exploit to redirect to other systems.
 * Unless explicitly noted by the affiliated sponsor, **wait until the contest report has been published** before you disclose it publicly.
@@ -25,7 +25,7 @@ In the event that you encounter a critical vulnerability that the sponsor projec
 
 > Publicly disclosing any information prior to the end of a code competition is grounds for immediate forfeit of award and disqualification from any future C4 events and activities.
 
-### Submitting A Report
+## Submitting a report
 
 C4 accepts vulnerability reports via the contest submission form.
 
@@ -33,13 +33,24 @@ In order to help us triage and prioritize submissions, please ensure that your r
 
 * Are submitted no later than the code contest stop time.
 * Use the contest submission process.
+* Follow the correct report format. (See next section.)
 * Describe the location the vulnerability was discovered and the potential impact of exploitation.
 * Offer a detailed description of the steps needed to reproduce the vulnerability (proof of concept scripts or screenshots are helpful).
 * Are written in English, if possible.
 
-It is also recommended to ensure you receive email confirmation of each submission.
+It is also recommended to ensure you receive email confirmation of each submission. (If you do not see an email confirmation, please check your spam folder.)
 
-### How to include a PoC
+### Report format
+
+- Medium or High severity findings should be submitted individually.
+- All QA findings (Low risk or Non-critical) must be submitted as a single QA report per warden (or team). 
+- All Gas optimizations must be submitted as a single Gas report per warden (or team).
+
+Wardens who submit multiple QA and/or Gas findings to a single contest without following the required format will have all QA/Gas submissions invalidated for that contest. 
+
+For more details on QA and Gas reports, and estimating risk, please see [Judging Criteria](https://docs.code4rena.com/roles/wardens/judging-criteria#qa-reports-low-non-critical).
+
+### How to include a proof of concept
 
 To include a proof of concept (PoC) link in your submission, please follow these steps, to ensure that your PoC remains private for the duration of the contest, but can be accessed publicly after the findings are made public:
 
@@ -54,15 +65,26 @@ C4 does not accept late submissions under any circumstances; the contest deadlin
 
 C4 cannot "transfer" your submission to another contest after the contest ends. If you discover that you have accidentally submitted a finding to the wrong contest, please re-submit it to the correct contest, and then follow the steps below to withdraw your report from the other contest.
 
-### Withdrawing A Report
+## Editing a report
 
-It is possible that a warden might want to have their report withdrawn after submitting it through the website. For example, if a new warden realizes they have not followed the report submission guidelines closely and decide they would like to re-submit in order to avoid any issues with judging and awarding once the contest ends.
+To edit a submitted finding in an open contest:
+
+1. Sign into https://code4rena.com with your wallet. 
+2. Find the contest on the C4 Contest page and click “view contest”
+3. Click on the “Findings” tab. There you will see a list of all your submissions for that contest (both individual and team findings).
+4. Select a finding from the list, make your edits and re-submit.
+
+Findings can be edited until the contest deadline.
+
+## Withdrawing a report
+
+It is possible that a warden might want to have their report withdrawn after submitting it through the website. For example, if a new warden realizes they have not followed the report submission guidelines closely, or discover that a submission was outside the scope of the contest.
 
 In this situation, wardens who wish to have a report withdrawn should use the [Help form](https://code4rena.com/help) and mention the name of the issue, along with the handle they submitted it under, so the issue can be manually invalidated and removed from the contest findings repo.
 
-Please use this option sparingly (i.e. _not_ simply to correct a typo in your report).&#x20;
+Please use this option sparingly (i.e. _not_ simply to correct a typo in your report).
 
-### Unauthorized Test Methods
+## Unauthorized test methods
 
 The following methods are not authorized means of testing within C4 code contests:
 
@@ -70,11 +92,11 @@ The following methods are not authorized means of testing within C4 code contest
 * Network denial of service (DoS or DDoS) tests or other tests that impair access to or damage a system or data.
 * Physical testing (e.g. office access, open doors, tailgating), social engineering (e.g. phishing, vishing), or any other non-technical vulnerability testing.
 
-### Questions
+## Questions
 
 Questions regarding this policy can be addressed in the `#questions` channel on the [C4 Discord](https://discord.gg/Dr6p5KDCdG). We also invite you to contact us with suggestions for improving this policy.
 
-### Authorization
+## Authorization
 
 If you make a good faith effort to comply with this policy during your security research, C4, its affiliates, and sponsors will consider your research to be authorized.
 

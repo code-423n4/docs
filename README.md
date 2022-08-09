@@ -8,7 +8,7 @@ The players in the arena:
 
 * [**Wardens**](roles/wardens/) protect the DeFi ecosystem from threats by auditing code.
 * [**Sponsors**](roles/sponsors/) create prize pools to attract wardens to audit their project.
-* [**Judges**](roles/judges/) allocate awards to wardens based on performance.
+* [**Judges**](roles/judges/) decide the severity, validity, and quality of findings and rate the performance of wardens.
 
 C4 audit contests are different from both bug bounties and traditional audits.
 
@@ -32,4 +32,4 @@ C4 audit contests are different from both bug bounties and traditional audits.
 
 ## Incentive model and awards
 
-Details on Code4rena's incentive model and awards can now be found [here](incentive-model-and-awards.md).
+Details on Code4rena's incentive model and awards can now be found [here](awarding/incentive-model-and-awards/README.md).
