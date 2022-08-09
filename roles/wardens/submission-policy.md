@@ -8,6 +8,8 @@ When participating in C4 code contests, please formally submit any contract vuln
 
 Reports can be submitted at any point prior to stop time for a given contest. The details for each code contest can be found in the contest repo.
 
+All community members agree to be bound by the Code4rena Code of Conduct, which can be viewed [in the Code4rena Discord](https://discord.com/channels/810916927919620096/851883682470166558/851891396255940618). 
+
 ## Audit contest guidelines
 
 Under this policy, audit contests covers activities in which you:
