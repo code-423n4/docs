@@ -26,3 +26,5 @@ QA and gas optimization reports are awarded on a curve based on the judge’s sc
 - QA and Gas optimization reports are scored by judges on a 100 point scale and awarded on a curve.
 
 **Note:** Contests pre-dating February 3, 2022 awarded low risk and gas optimization shares as: `Low Risk Shares: 1 * (0.9 ^ (findingCount - 1)) / findingCount`
+
+Historically, Code4rena valued non-critical findings at 0; the intent of the QA report is not to increase the value of non-criticals, but rather to allow them to be consolidated in reports alongside low severity issues.
