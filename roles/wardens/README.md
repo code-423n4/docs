@@ -25,8 +25,7 @@ To register a team, you must first register your individual warden handles, and 
 
 ### Contest timeline
 
-* **Most contests run for one week,** e.g. from Thursday at 20:00 UTC until the following Wednesday at 20:00 UTC.
-* Some sponsors elect to run a **preview week** the week prior to their contest. During a preview week, the repo and documentation are available to view, and some sponsors add walkthroughs and answer questions. (Submissions are not accepted until the contest officially opens.)
+* **Most contests run for 3-7 days,** and typically start and end at 20:00 UTC.
 * The rest of our contest timeline is documented on the [Contest timeline](../../structure/our-process/) page.
 
 ### Questions?
@@ -38,6 +37,8 @@ When a sponsor designates a team member who is available for questions, that per
 ### ⏩ TL;DR
 
 * Turn in your reports before the contest end time.
-* For each contest, submit your Medium and High risk findings individually, but bundle all of your low-risk and non-critical findings into a *single* QA report. Similarly, list *all* of your gas optimizations together in a single Gas report.
+* For each contest, submit your Medium and High risk findings individually.
+* Bundle all of your low-risk and non-critical findings into a *single* QA report. 
+* Similarly, list *all* of your gas optimizations together in a single Gas report.
 * Be sure to [register your handle and Polygon address](https://code4rena.com/register/) to receive your share.
 * Publicly disclosing any discovered bugs or vulnerabilities is grounds for disqualification from all C4 events.
