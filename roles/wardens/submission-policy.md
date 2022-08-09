@@ -50,7 +50,7 @@ Wardens who submit multiple QA and/or Gas findings to a single contest without f
 
 For more details on QA and Gas reports, and estimating risk, please see [Judging Criteria](https://docs.code4rena.com/roles/wardens/judging-criteria#qa-reports-low-non-critical).
 
-### How to include a PoC
+### How to include a proof of concept
 
 To include a proof of concept (PoC) link in your submission, please follow these steps, to ensure that your PoC remains private for the duration of the contest, but can be accessed publicly after the findings are made public:
 
