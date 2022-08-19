@@ -78,11 +78,16 @@ Findings can be edited until the contest deadline.
 
 ## Withdrawing a report
 
-It is possible that a warden might want to have their report withdrawn after submitting it through the website. For example, if a new warden realizes they have not followed the report submission guidelines closely, or discover that a submission was outside the scope of the contest.
+It is possible that a warden might want to withdraw a report after submitting it through the website. For example, if a new warden realizes they have not followed the report submission guidelines closely, or discover that a submission was outside the scope of the contest.
 
-In this situation, wardens who wish to have a report withdrawn should use the [Help form](https://code4rena.com/help) and mention the name of the issue, along with the handle they submitted it under, so the issue can be manually invalidated and removed from the contest findings repo.
+In this situation, wardens who wish to have a report withdrawn should: 
 
-Please use this option sparingly (i.e. _not_ simply to correct a typo in your report).
+1. Sign into https://code4rena.com with your wallet. 
+2. Find the contest on the C4 Contest page and click “view contest”
+3. Click on the “Findings” tab. There you will see a list of all your submissions for that contest (both individual and team findings).
+4. Select a finding from the list, and choose the "withdraw" option.
+
+Submissions must be withdrawn before the contest deadline.
 
 ## Unauthorized test methods
 
