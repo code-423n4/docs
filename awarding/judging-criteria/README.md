@@ -44,7 +44,7 @@ Your QA report should include:
 * all low severity findings; and
 * all non-critical findings.
 
-Each QA report will be assessed based on report quality and thoroughness as compared with other reports, with awards distributed on a curve. The top QA report author will have their work included and cited in the final C4 report and receive the top prize from the category.
+Each QA report will be assessed based on report quality and thoroughness as compared with other reports, with awards distributed on a curve. The top QA report author will receive the top prize from the category.
 
 Wardens overstating the severity of QA issues (submitting low/non-critical issues as med/high in order to angle for higher payouts) will have their scores reduced by judges.
 
@@ -52,7 +52,7 @@ In the unlikely event that zero high- or medium-risk vulnerabilities are found, 
 
 ### Gas reports
 
-Gas reports should be submitted using the **same approach as the QA reports:** a single submission per warden which includes all identified optimizations. The gas pool will be allocated on a curve, and the top reporter’s work included in the C4 report.
+Gas reports should be submitted using the **same approach as the QA reports:** a single submission per warden which includes all identified optimizations. The gas pool will be allocated on a curve, and the top reporter will receive the top prize in the category.
 
 The gas pool varies from contest to contest, but typically it consists of 5% of the total prize pool. The precise gas pool for each contest can be found in that contest's repo.
 
