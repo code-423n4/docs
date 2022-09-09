@@ -15,3 +15,27 @@ The data in the spreadsheet is used to generate the awards using the [awardCalc 
 While all results are final and all contest funds are irrevocably disbursed as part of the process, the intent is that results should stand up to scrutiny. The award process current relies on scripts and data sources primarily written by one mediocre developer. As such, the award process is considered in beta and it is not unlikely there are flaws. These scripts and data sources are being actively improved.
 
 Once awards are determined, we generate a CSV file enumerating funds to be sent. Distribution is then initiated using disperse.app and sent to multisig signers for completion of payment.
+
+# Tax and legal questions
+
+> *Note: Do your own research; this is not legal or tax advice. You should consult a professional in your area.*
+
+We are occasionally asked how wardens should declare Code4rena earnings for tax (or other financial/legal) purposes. Due to the nascent nature of DAOs, we are unable to provide reliable information in this area. You must assess and determine your own best course of action.
+
+Audit contest rewards are distributed by the DAO, which does not have a legal personality.
+
+The DAO has designated Code4rena Foundation as its agent via [a governance action](https://github.com/code-423n4/org/discussions/13) [approved by DAO members](https://polygonscan.com/tx/0x8fbe178e34a7ae03a5e0d1f49f23e38f3a1c0d1186a67920d33196a89f79da98) for purposes of entering into contractual agreements. However, wardens are not in any contractual agreement with the Foundation [unless they are certified](https://code4rena.com/certified-contributor-summary/).
+
+[Documentation of Code4rena Foundation can be found here.](https://github.com/code-423n4/org/tree/main/foundation)
+
+Code4rena Foundation may or may not be able to provide further information; their contact information is below.
+
+Code4rena Foundation
+
+[Campbell Law](mailto:campbell@silversidemanagement.ky)
+
+P.O. Box 31489
+2nd Floor Whitehall House
+238 North Church Street
+George Town
+Cayman Islands KY1-1206
