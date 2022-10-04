@@ -1,22 +1,27 @@
-# Authenticate with your wallet
+# Register your account
 
 ## Authenticate with your wallet
 
-You can authenticate with your wallet using either MetaMask or WalletConnect and submit findings without re-entering the same info over and over.
+You can authenticate with your wallet using either MetaMask or WalletConnect and submit findings without re-entering the same info over and over. After you register you can have the option to log in with either your wallet or your username and password.
 
 If you have and existing Code4rena username, you can re-register your warden handle at https://code4rena.com/ to associate your wallet address with your C4 warden info.
 
+## Authenticate with username and password
+
+You can choose to sign up with a username and password only. If you choose this option, you won't be able to link a wallet to your account for authentication purposes later.
+
 ## How to connect your wallet and submit findings
 
-* Go to https://code4rena.com/ and click the “connect wallet” link
-* If you have previously submitted valid findings: use an address you’ve used previously to receive earnings from code4rena contests.
-* Follow the prompts to connect your C4 username with your wallet.
-* Check your email for further instructions.
+- Go to https://code4rena.com/ and hover over the “connect” dropdown.
+- Choose whether to connect with MetaMask or WalletConnect, or sign up with just a username and password.
+- If you were a registered warden and submitted valid findings before May 25, 2022, you need to connect your wallet. Make sure to connect with an address you’ve used previously to receive earnings from code4rena contests prior to May 25, 2022.
+- Follow the prompts to connect your C4 username with your wallet.
+- Check your email for further instructions.
 
 ## Once your request to connect your wallet is complete and approved:
 
-* Sign in with MetaMask or WalletConnect
-* Proceed to the contest of your choice and submit a finding as usual
+- Sign in with the same method you used to register.
+- Proceed to the contest of your choice and submit a finding as usual.
 
 ## Teams
 
@@ -24,18 +29,16 @@ Once individual team members are authenticated, they will be able to submit find
 
 ## FAQ / Troubleshooting
 
-### If you can't find your handle in the dropdown on the registration page:
+### If you were a registered warden prior to June 28, 2022 and you see "[your handle] is already a registered username" when you fill out the registration form:
 
-First, please make sure you connect from the "connect wallet" dropdown instead of going straight to the registration page. 
+If you submitted valid findings before May 25, 2022, please make sure you choose either MetaMask or WalletConnect from the "connect" dropdown.
 
-1. If you did that and ended up on the registration page, please make sure you connect with a wallet address you’ve used for a Code4rena contest prior to May 25, 2022. 
+1. If you did that and ended up on the registration page, please make sure you connect with a wallet address you’ve used for a Code4rena contest prior to May 25, 2022.
 2. If that doesn’t work, please [submit a Help Desk request](https://code4rena.com/help/).
 
 ### If your registration was merged but you still can't log in:
 
-Registrations are merged in batches, during business hours, so it can take a few hours before your registration is fully merged. 
-
-If your registration has been merged into main *and* the deploy has completed, and you’re still unable to log in, make sure you are authenticating with the same address you used when you registered.
+Make sure you are authenticating with the same address you used when you registered.
 
 If that doesn’t work, please [submit a Help Desk request](https://code4rena.com/help/).
 
@@ -63,4 +66,4 @@ If you like, you can register a new account using a new wallet, but it will requ
 
 ### **What if my wallet was hacked?**
 
-If there is a genuine security risk, please submit a help request through our [Help Desk](https://code4rena.com/help/). We can't guarantee that we can solve it for you, but we'll do our best.
+If you are not logged in and you haven't set up your password yet, click "Log in" from the connect dropdown and click "forgot password" to get a password reset link. Next, log in with your new password and make sure to update your payment addresses from the account page. Then please submit a help request through our [Help Desk](https://code4rena.com/help/) so that we can remove the hacked wallet from your account.
