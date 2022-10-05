@@ -70,4 +70,9 @@ If you like, you can register a new account using a new wallet, but it will requ
 
 ### **What if my wallet was hacked?**
 
-If you are not logged in and you haven't set up your password yet, click "Log in" from the connect dropdown and then click "forgot password" to get a password reset link. Next, log in with your new password and make sure to update your payment addresses from the account page. Then please submit a help request through our [Help Desk](https://code4rena.com/help/) while logged in so that we can remove the hacked wallet from your account.
+Please follow these steps:
+
+1. If you are not logged in and you haven't set up your password yet, click "Log in" from the connect dropdown and then click "forgot password" to get a password reset link
+2. Log in with your username and password
+3. Update your payment addresses from the account page
+4. Submit a help request through our [Help Desk](https://code4rena.com/help/) while logged in so that we can remove the hacked wallet from your account.
