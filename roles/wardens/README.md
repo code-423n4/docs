@@ -22,7 +22,7 @@ To register a team, you must first register your individual warden handles, and 
 
 Once a team is created, you have the ability to add/remove members and update your payment address while logged in as your team.  
 
-Any team updates will create a pull request and a related help desk ticket for the C4 staff to review and approve.  Please allow 24-48 business hours for that process to complete.
+Any team updates will create a pull request for the C4 staff to review and approve and a related help desk ticket.  Please allow 24-48 business hours for that process to complete.
 
 ❗️**Important note: Team awards are sent as a single payment to *one* wallet.** We strongly recommend using a multisig wallet, or a tool like [PaymentSplitter](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/finance/PaymentSplitter.sol), to distribute awards among your team members. Note that C4 does not track which team member submitted each finding; your team is responsible for keeping track of that information, and distributing awards. The team structure at C4 is designed so that you submit as a team and get paid as a team.
 
