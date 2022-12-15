@@ -72,6 +72,8 @@ If an issue is discovered during a contest that relates to the "parent" of a for
 - **Do not** disclose the parent / third party name within the body of the finding issue.
 - **Do** include a hash of the issue
 
+It is the warden's responsibility to follow up with Code4rena in a timely manner, based on what they hear back from the original project.
+
 ## Editing a report
 
 To edit a submitted finding in an open contest:
