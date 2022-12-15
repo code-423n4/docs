@@ -65,6 +65,13 @@ C4 does not accept late submissions under any circumstances; the contest deadlin
 
 C4 cannot "transfer" your submission to another contest after the contest ends. If you discover that you have accidentally submitted a finding to the wrong contest, please re-submit it to the correct contest, and then follow the steps below to withdraw your report from the other contest.
 
+### Findings in "parent" of forked projects
+
+If an issue is discovered during a contest that relates to the "parent" of a forked project, wardens should disclose the finding to the parent project first, and submit a placeholder finding to the C4 contest. Guidelines: 
+
+- **Do not** disclose the parent / third party name within the body of the finding issue.
+- **Do** include a hash of the issue
+
 ## Editing a report
 
 To edit a submitted finding in an open contest:
