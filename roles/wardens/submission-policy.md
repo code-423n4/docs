@@ -74,6 +74,10 @@ If an issue is discovered during a contest that relates to the "parent" of a for
 
 It is the warden's responsibility to follow up with Code4rena in a timely manner, based on what they hear back from the original project.
 
+### ChatGPT output (or similar) is unacceptable
+
+Using ChatGPT or similar tools for contest submissions is prohibited, and will result in all of your contest submissions being ruled invalidated. Additional penalties may also be applied at the discretion of judges and C4 staff. 
+
 ## Editing a report
 
 To edit a submitted finding in an open contest:
