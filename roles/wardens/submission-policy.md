@@ -51,6 +51,14 @@ Wardens who submit multiple QA and/or Gas findings to a single contest without f
 
 For more details on QA and Gas reports, and estimating risk, please see [Judging Criteria](https://docs.code4rena.com/roles/wardens/judging-criteria#qa-reports-low-non-critical).
 
+### Burden of proof
+
+Wardens have the burden of proof in submissions. Explaining and rationalizing the potential impact is an essential part of a quality submission. The burden of proof increases based on the potential value of the submission (rarity, severity).
+
+Insufficient proof shall be defined as the judge needing to do additional research or coding in order to validate the claims made in the submission. Therefore it is recommended to have a coded proof of concept for high severity findings in order to make it easy for a judge to validate your case.
+
+Submissions which judges deem insufficiently proven will not be eligible for anything higher than a satisfactory score.
+
 ### How to include a proof of concept
 
 To include a proof of concept (PoC) link in your submission, please follow these steps, to ensure that your PoC remains private for the duration of the contest, but can be accessed publicly after the findings are made public:
