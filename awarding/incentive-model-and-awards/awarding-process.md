@@ -16,6 +16,14 @@ While all results are final and all contest funds are irrevocably disbursed as p
 
 Once awards are determined, we generate a CSV file enumerating funds to be sent. Distribution is then initiated using disperse.app and sent to multisig signers for completion of payment.
 
+## If you don't see your award in your wallet:
+
+For most Code4rena contests, awards are sent on the Polygon network (usually in USDC) within 1-2 weeks of the awards announcement.
+
+If awards have been sent, and you don’t see them in your wallet, please verify that you have imported the USDC token into your Polygon wallet. (Metamask instructions [here](https://metamask.zendesk.com/hc/en-us/articles/360015489031-How-to-display-tokens-in-MetaMask).)
+
+If you still don’t see the award in your wallet, please [open a help desk ticket](https://code4rena.com/help).
+
 # Tax and legal questions
 
 > *Note: Do your own research; this is not legal or tax advice. You should consult a professional in your area.*
