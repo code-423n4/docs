@@ -36,6 +36,7 @@ In order to help us triage and prioritize submissions, please ensure that your r
 * Follow the correct report format. (See next section.)
 * Describe the location the vulnerability was discovered and the potential impact of exploitation.
 * Offer a detailed description of the steps needed to reproduce the vulnerability (proof of concept scripts or screenshots are helpful).
+* Have not been surfaced as "known issues" (see contest repo `README` for details).
 * Are written in English, if possible.
 
 It is also recommended to ensure you receive email confirmation of each submission. (If you do not see an email confirmation, please check your spam folder.)
