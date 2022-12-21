@@ -87,6 +87,12 @@ It is the warden's responsibility to follow up with Code4rena in a timely manner
 
 Using ChatGPT or similar tools for contest submissions is prohibited, and will result in all of your contest submissions being ruled invalidated. Additional penalties may also be applied at the discretion of judges and C4 staff. 
 
+### Automated findings ineligible
+
+An automated findings tool is run at the start of each contest, and the output is provided in the contest’s discord channel. All auto-generated findings will be declared publicly known issues.
+
+Wardens may choose to use c4udit and other automated tools as a first pass, and are welcome to build on these findings by identifying high and medium severity issues. However, submissions based on these will have a higher burden of proof for demonstrating to sponsors a relevant hm exploit path in order to be considered satisfactory.
+
 ## Editing a report
 
 To edit a submitted finding in an open contest:
