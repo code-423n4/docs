@@ -36,6 +36,7 @@ In order to help us triage and prioritize submissions, please ensure that your r
 * Follow the correct report format. (See next section.)
 * Describe the location the vulnerability was discovered and the potential impact of exploitation.
 * Offer a detailed description of the steps needed to reproduce the vulnerability (proof of concept scripts or screenshots are helpful).
+* Have not been surfaced as "known issues" (see contest repo `README` for details).
 * Are written in English, if possible.
 
 It is also recommended to ensure you receive email confirmation of each submission. (If you do not see an email confirmation, please check your spam folder.)
@@ -49,6 +50,14 @@ It is also recommended to ensure you receive email confirmation of each submissi
 Wardens who submit multiple QA and/or Gas findings to a single contest without following the required format will have all QA/Gas submissions invalidated for that contest. 
 
 For more details on QA and Gas reports, and estimating risk, please see [Judging Criteria](https://docs.code4rena.com/roles/wardens/judging-criteria#qa-reports-low-non-critical).
+
+### Burden of proof
+
+Wardens have the burden of proof in submissions. Explaining and rationalizing the potential impact is an essential part of a quality submission. The burden of proof increases based on the potential value of the submission (rarity, severity).
+
+Insufficient proof shall be defined as the judge needing to do additional research or coding in order to validate the claims made in the submission. Therefore it is recommended to have a coded proof of concept for high severity findings in order to make it easy for a judge to validate your case.
+
+Submissions which judges deem insufficiently proven will not be eligible for anything higher than a satisfactory score.
 
 ### How to include a proof of concept
 
@@ -77,6 +86,12 @@ It is the warden's responsibility to follow up with Code4rena in a timely manner
 ### ChatGPT output (or similar) is unacceptable
 
 Using ChatGPT or similar tools for contest submissions is prohibited, and will result in all of your contest submissions being ruled invalidated. Additional penalties may also be applied at the discretion of judges and C4 staff. 
+
+### Automated findings ineligible
+
+An automated findings tool is run at the start of each contest, and the output is provided in the contest’s discord channel. All auto-generated findings will be declared publicly known issues.
+
+Wardens may choose to use c4udit and other automated tools as a first pass, and are welcome to build on these findings by identifying high and medium severity issues. However, submissions based on these will have a higher burden of proof for demonstrating to sponsors a relevant hm exploit path in order to be considered satisfactory.
 
 ## Editing a report
 
