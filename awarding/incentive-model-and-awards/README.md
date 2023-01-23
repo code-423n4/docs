@@ -36,13 +36,13 @@ QA and gas optimization reports are awarded on a curve based on the judge’s sc
 - The gas optimization pool varies from contest to contest, but is typically 5% of the total prize pool (e.g. $2,500 for a $50,000 contest);
 - QA and Gas optimization reports are scored by judges using A/B/C grades (with C = unsatisfactory), and awarded on a curve.
 
-**Note:** Contests pre-dating February 3, 2022 awarded low risk and gas optimization shares as: `Low Risk Shares: 1 * (0.9 ^ (findingCount - 1)) / findingCount`
-
 There is a very high burden of quality and value provided for QA and gas optimization reports. Only submissions that demonstrate full effort worthy of consideration for inclusion in the report will be eligible for rewards.
 
 It is highly recommended to clearly spell out the impact of proposed gas optimizations.
 
 Historically, Code4rena valued non-critical findings at 0; the intent of the QA report is not to increase the value of non-criticals, but rather to allow them to be consolidated in reports alongside low severity issues.
+
+**Note:** Contests pre-dating February 3, 2022 awarded low risk and gas optimization shares as: `Low Risk Shares: 1 * (0.9 ^ (findingCount - 1)) / findingCount`
 
 ### Grades for QA and Gas reports
 
@@ -51,6 +51,8 @@ Gas reports and QA reports are graded A, B, or C.
 C scores are unsatisfactory and ineligible for awards. 
 
 Judges choose the best QA report and best Gas report, each of which earns the same 30% share bonus as described under "High and Medium Risk bugs."
+
+All A-grade reports receive a score of 2; All B-grade reports get a 1. Awarding for QA and Gas reports is on a curve that's described (here)[https://docs.code4rena.com/awarding/incentive-model-and-awards/curve-logic].
 
 
 ## Satisfactory / unsatisfactory submissions
