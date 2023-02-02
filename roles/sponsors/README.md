@@ -8,13 +8,13 @@ description: >-
 
 ## Sponsoring a contest
 
-Any project can submit a request to sponsor a C4 Contest. Just reach out in the **#i-want-to-be-a-sponsor** channel in [our Discord](https://discord.gg/EY5dvm3evD) and we will reach out to set up a meeting or send a few scoping questions to get the ball rolling.
+Any project can submit a request to sponsor a C4 Contest. Just [complete this form](https://code4rena.typeform.com/i-want-an-audit) and we will reach out to set up a meeting or send over a scoping questionnaire to get the ball rolling.
 
-One of our team members will review this repo and assess your responses and contracts and recommend which of our contests would be appropriate for your scope. **If you decide to move ahead with a contest, this repo will be made public at the time of a contest.**
+One of our team members will review this repo and assess your responses and contracts and recommend which of our contests would be appropriate for your scope. **If you decide to move ahead with a contest, this repo will be made public at the time of a contest in most cases.** We also offer KYC and private competitions if privacy is a need; just let our team know.  
 
 ### **Determining pot size**
 
-We work together with you as the sponsor to set the appropriate award pool amount for your contest pool at or above current contest floor prices. To attract warden participation in the highly competitive engineering market, we regularly evaluate and adjust contest pricing to ensure incentive alignment with wardens. Sponsors always have the option of providing a larger-than-floor pot size, which tends to attract more warden talent and attention.
+We work together with you as the sponsor to set the appropriate award pool amount for your contest pool at or above current contest floor prices. To attract warden participation in the highly competitive engineering market, we work with standard award pool sizes. We regularly evaluate and adjust contest pricing to ensure incentive alignment with wardens. Sponsors always have the option of providing a larger-than-floor pot size, which tends to attract more warden talent and attention.
 
 ### **Gas optimization pool**
 
@@ -26,4 +26,6 @@ There is a fee on top of the determined contest pool, which goes to the Code4ren
 
 ### **Contest scheduling**
 
-Our standard, one-week contests start Thursday 00:00:00 UTC and end Wednesday 23:59 UTC. Due to high demand, we lock contests in to the schedule contests after receiving a deposit for the contest, we are unable to make scheduling commitments otherwise.
+Our standard, one-week contests start Thursday 20:00:00 UTC and end Wednesday 20:00 UTC. Due to high demand, we only lock contests into the schedule after receiving a deposit for the contest; we are unable to make scheduling commitments otherwise.
+
+Note that in order to provide your team with the most efficient and effective code review, we require your team to add ALL code, documentation, and notes to your contest repo at least 48 hours prior to your contest start time. 
