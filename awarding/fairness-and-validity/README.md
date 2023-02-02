@@ -41,6 +41,21 @@ While this may be seen as ‘inconsistent’, it is also true that standards wit
 
 The correct assessment when this happens is not that a judge is being inconsistent, it is that they have objectively observed that the quality of competition has increased, and that observation shapes their view of the whole set of submissions; they are consistent in valuing submissions in the context of each other, which is a central way that performance in a competition is measured.
 
+# If you disagree with a judge's decision
+
+If you disagree with a decision, and judging has been finalized, there's nothing further that can be done or changed; the judge's decisions are final. 
+
+However, if the concern regarding judging is focused on a matter of inconsistency or process or lack of clarity in the rules, you are encouraged to review the issues in https://github.com/code-423n4/org/issues and:
+
+1. See if one of the problems described there matches the type of issue you have experienced. If so, add a purely fact-based comment with additional information and another point of evidence of it being a challenge.
+
+2. See if any of the suggestions described there would be useful to improving the case you have in mind. If so, feel free to add your thoughts in support.
+
+3. IF a relevant type of issue is not already addressed there which doesn't represent the categorical concern you have, you can feel free to open an issue.
+
+The purpose of issues in that repo is not to post grievances about specific issues but about to identify places where the process can be improved and ways we can improve it. 
+
+
 # Continued evolution of rules
 
 ## Rubric
