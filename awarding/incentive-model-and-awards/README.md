@@ -52,7 +52,7 @@ C scores are unsatisfactory and ineligible for awards.
 
 Judges choose the best QA report and best Gas report, each of which earns the same 30% share bonus as described under "High and Medium Risk bugs."
 
-All A-grade reports receive a score of 2; All B-grade reports get a 1. Awarding for QA and Gas reports is on a curve that's described (here)[https://docs.code4rena.com/awarding/incentive-model-and-awards/curve-logic].
+All A-grade reports receive a score of 2; All B-grade reports get a 1. Awarding for QA and Gas reports is on a curve that's described [here](https://docs.code4rena.com/awarding/incentive-model-and-awards/curve-logic).
 
 
 ## Satisfactory / unsatisfactory submissions
