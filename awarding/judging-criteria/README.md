@@ -10,7 +10,7 @@ Reports are also judged based on grammar, conciseness, and formatting.
 
 ### Best Current Practices
 
-The [Code4rena Contest Rulebook repo](https://github.com/code-423n4/rulebook) documents open discussions and emergent best practices for judging C4 contests. Judges are encouraged to review [open issues in that repo](https://github.com/code-423n4/rulebook/issues) regularly.
+The [Code4rena Contest org repo](https://github.com/code-423n4/org) documents open discussions and emergent best practices for judging C4 contests. Judges are encouraged to review [open issues in that repo](https://github.com/code-423n4/org/issues) regularly.
 
 ### Duplicate Submissions
 
