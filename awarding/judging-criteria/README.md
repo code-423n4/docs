@@ -58,4 +58,4 @@ The gas pool varies from contest to contest, but typically it consists of 5% of 
 
 ## Estimating Risk
 
-Further details available in [Severity Categorization](https://docs.code4rena.com/awarding/judging-criteria/severity-categorization).
+See [Severity Categorization](https://docs.code4rena.com/awarding/judging-criteria/severity-categorization).
