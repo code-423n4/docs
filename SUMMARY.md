@@ -23,6 +23,7 @@
   * [Curve logic for QA and Gas optimization reports](awarding/incentive-model-and-awards/curve-logic.md)
   * [FAQ about QA and Gas Reports](awarding/incentive-model-and-awards/qa-gas-report-faq.md)  
 * [Judging criteria](awarding/judging-criteria/README.md)
+  * [Severity Categorization](awarding/judging-criteria/severity-categorization.md)
 * [Fairness and validity](awarding/fairness-and-validity/README.md)
 
 ## Philosophy
