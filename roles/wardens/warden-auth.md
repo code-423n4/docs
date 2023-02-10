@@ -56,6 +56,8 @@ If you can’t do that, then [submit a Help Desk request](https://code4rena.com/
 
 You can change your payment information any time. Simply log in and go to [your account management page](https://code4rena.com/account).
 
+Note: for each contest, C4 distributes awards to the payment address on file *at the time of award calculation*.
+
 ### **Can I change the wallet address I log in with?**
 
 Unfortunately due to some restrictions in Moralis, changing addresses is not currently supported as well as we’d like it to be in the future. There is one exception: if you use MetaMask, you can link multiple addresses to your C4 account.
