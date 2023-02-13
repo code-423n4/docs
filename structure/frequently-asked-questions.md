@@ -40,7 +40,7 @@ We do indeed, [here](https://medium.com/code-423n4). We post product updates, sp
 
 ### What’s the best way to stay up to date with Code4rena?
 
-Sign up for our email newsletter [LINK], [follow us](https://twitter.com/code4rena) on Twitter, and turn on notifications in our #announcements channel in [Discord](https://discord.gg/code4rena). 
+[Follow us](https://twitter.com/code4rena) on Twitter and turn on notifications in our #announcements channel in [Discord](https://discord.gg/code4rena). 
 
 ### Where can I view the contest results?
 
