@@ -36,3 +36,4 @@
 
 * [Contest timeline](structure/our-process/README.md)
 * [Where can I find…?](structure/where-can-i-find....md)
+* [FAQ](structure/FAQ.md)
