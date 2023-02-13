@@ -34,6 +34,6 @@
 
 ## Other Details <a href="#structure" id="structure"></a>
 
+* [FAQ](structure/frequently-asked-questions.md)
 * [Contest timeline](structure/our-process/README.md)
 * [Where can I find…?](structure/where-can-i-find....md)
-* [FAQ](structure/FAQ.md)
