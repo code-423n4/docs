@@ -43,7 +43,7 @@ The correct assessment when this happens is not that a judge is being inconsiste
 
 # If you disagree with a judge's decision
 
-If you disagree with a decision, and judging has been finalized, there's nothing further that can be done or changed; the judge's decisions are final. 
+If you disagree with a decision, and you do not have [the +backstage role](/roles/certified-contributors/backstage-wardens), there's nothing further that can be done or changed; the judge's decisions are final. 
 
 However, if the concern regarding judging is focused on a matter of inconsistency or process or lack of clarity in the rules, you are encouraged to review the issues in https://github.com/code-423n4/org/issues and:
 
