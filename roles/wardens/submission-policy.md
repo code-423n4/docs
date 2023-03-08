@@ -81,7 +81,7 @@ If an issue is discovered during a contest that relates to the "parent" of a for
 
 It is the warden's responsibility to follow up with Code4rena in a timely manner, based on what they hear back from the original project.
 
-### Use of writing assistance software, ChatGPT output, etc.
+### Use of writing assistance software, ChatGPT output, etc
 
 As a professional audit platform, Code4rena's bar for a satisfactory submission is that it is **as good as one might find in a professional audit report.** 
 
