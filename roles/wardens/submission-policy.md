@@ -4,9 +4,7 @@ Code4rena is an open organization committed to improving the security of decentr
 
 The following policy conveys C4’s preferences in how to submit discovered vulnerabilities to the organization and describes what systems and types of research are covered under this policy, how to share vulnerability reports, and the length of time we expect Wardens to wait prior to publicly disclosing vulnerabilities.
 
-When participating in C4 code contests, please formally submit any contract vulnerabilities using the submission form.
-
-Reports can be submitted at any point prior to stop time for a given contest. The details for each code contest can be found in the contest repo.
+Reports can be submitted at any point prior to stop time for a given contest. The details for each code contest can be found through [the Code4rena website](https://code4rena.com/).
 
 All community members agree to be bound by the Code4rena Code of Conduct, which can be viewed [in the Code4rena Discord](https://discord.com/channels/810916927919620096/851883682470166558/851891396255940618). 
 
@@ -31,7 +29,7 @@ C4 accepts vulnerability reports via the contest submission form.
 
 In order to help us triage and prioritize submissions, please ensure that your reports:
 
-* Are submitted no later than the code contest stop time.
+* Are submitted no later than the contest stop time.
 * Use the contest submission process.
 * Follow the correct report format. (See next section.)
 * Describe the location the vulnerability was discovered and the potential impact of exploitation.
@@ -83,9 +81,14 @@ If an issue is discovered during a contest that relates to the "parent" of a for
 
 It is the warden's responsibility to follow up with Code4rena in a timely manner, based on what they hear back from the original project.
 
-### ChatGPT output (or similar) is unacceptable
+### Use of writing assistance software, ChatGPT output, etc.
 
-Using ChatGPT, GPT-3, or similar tools for contest submissions is prohibited, and will result in all of your contest submissions being ruled invalidated. Additional penalties may also be applied at the discretion of judges and C4 staff. 
+As a professional audit platform, Code4rena's bar for a satisfactory submission is that it is **as good as one might find in a professional audit report.** We therefore recommend that wardens exercise caution in using ChatGPT, GPT-3, or similar tools for contest submissions. 
+
+- Use of automated tools and AI engines has a high coincidence of resulting in unclear, poorly worded, or invalid submissions. 
+- Submitting many low quality reports can result in disciplinary action.
+- We are aware this privileges native English speakers as online translation services can result in unclear wordings; therefore, a submission should not be marked as unsatisfactory purely based on grammar and spelling which does not interfere with a judge's ability to understand the submission.
+- Judges must make the best decision they can regarding quality and understandability of findings.
 
 ### Automated findings ineligible
 
