@@ -15,7 +15,7 @@
   * [Judging FAQ](roles/judges/judging-faq.md)
 * [Certified contributors](roles/certified-contributors/README.md)
   * [+Backstage wardens](roles/certified-contributors/backstage-wardens.md)
-  * [Lookouts](roles/lookouts.md)
+  * [Lookouts](roles/certified-contributors/lookouts.md)
 
 ## Awarding
 
