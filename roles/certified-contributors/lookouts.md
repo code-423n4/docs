@@ -2,7 +2,7 @@
 
 Lookouts review and organize submissions to Code4rena's competitions, focusing on a) lightening and clarifying the project team’s workload, and b) preparing the repo for judging.
 
-Lookouts receive a guaranteed payout from each contest. In the interest of impartiality, they must forgo any awards they would have received for their own submissions as wardens. Therefore, the role is typically assigned prior to the competition's start.
+Lookouts receive a guaranteed payout from each contest they work on. In the interest of impartiality, they must forgo any awards they would have received for their own submissions as wardens. Therefore, the role is typically assigned prior to the competition's start.
 
 # **Becoming a Lookout**
 
