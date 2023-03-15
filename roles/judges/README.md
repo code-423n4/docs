@@ -30,6 +30,7 @@ In order to ensure the impartiality and depth of knowledge we aim for among judg
 
 * Compete in at least 3 Code4rena contests
 * Find at least 3 high severity bugs
+* Must be a [Certified C4 contributor](/roles/certified-contributors) in good standing
 
 #### Non-technical criteria
 
