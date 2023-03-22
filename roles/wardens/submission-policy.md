@@ -66,7 +66,7 @@ To include a proof of concept (PoC) link in your submission, please follow these
 
 ### Late submissions
 
-C4 does not accept late submissions under any circumstances; the contest deadlines are firm. We recommend that you submit your findings at least a few minutes before the cut-off time, since the submission form can become slow or unresponsive in the final minutes of a contest (due to high traffic).
+C4 does not accept late submissions under any circumstances; the contest deadlines are firm. We recommend that you submit your findings at least a few minutes before the cut-off time, since the submission form can become slow or unresponsive in the final minutes of a contest, due to high traffic.
 
 ### Submissions to the wrong contest
 
@@ -91,11 +91,13 @@ We are aware this privileges native English speakers as online translation servi
 
 Judges must make the best decision they can regarding quality and understandability of findings.
 
-### Automated findings ineligible
+### Automated findings considered out of scope
 
-An automated findings tool is run at the start of each contest, and the output is provided in the contest’s discord channel. All auto-generated findings will be declared publicly known issues.
+- At the start of each contest, Code4rena runs a [Bot Race]() [LINK TK] where wardens compete to see whose AI-driven bot can create the highest quality and most thorough audit report. 
+- The winning report is shared with all C4 wardens within 24 hours of the contest start time, both in the contest repo and in the contest's Discord channel. 
+- All findings in the winning Bot Report will be declared publicly known issues, and therefore out of scope.
 
-Wardens may choose to use c4udit and other automated tools as a first pass, and are welcome to build on these findings by identifying high and medium severity issues. However, submissions based on these will have a higher burden of proof for demonstrating to sponsors a relevant hm exploit path in order to be considered satisfactory.
+Wardens may use automated tools as a first pass, and build on these findings to identify High and Medium severity issues ("HM issues"). However, submissions based on automated tools will have a higher burden of proof for demonstrating to sponsors a relevant HM exploit path in order to be considered satisfactory.
 
 ## Editing a report
 
