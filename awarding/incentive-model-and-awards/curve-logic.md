@@ -1,5 +1,7 @@
 # Curve Logic for QA and Gas Optimization Reports
 
+[This spreadsheet](https://docs.google.com/spreadsheets/d/1qTQ7PApFMwpUFikcHHtww7p1oncPLj\_y-UY\_SZq6qFg/edit?usp=sharing) includes a demonstration of the curve math, but here is a summary of how it works:
+
 * Start with ‘n’ (100) shares, these go to 1st place.
 * The shares for each place are reduced by a multiplier, ‘d’ (0.6), for each position, and ‘d’ is reduced by a multiplier, ‘dd’ (0.2), for each position.
 * These shares, divided by the total number of shares, represent the portion of the award pool won.
