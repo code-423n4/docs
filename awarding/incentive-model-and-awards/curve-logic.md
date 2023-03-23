@@ -1,10 +1,11 @@
 # Curve Logic for QA and Gas Optimization Reports
 
-[This spreadsheet](https://docs.google.com/spreadsheets/d/1qTQ7PApFMwpUFikcHHtww7p1oncPLj\_y-UY\_SZq6qFg/edit?usp=sharing) includes a demonstration of the curve math, but here is a summary of how it works:
+The reports will be graded based on 3 different grades:
+* Grade-a: outstanding report.
+* Grade-b: satisfactory report.
+* Grade-c: unsatisfactory report.
 
-* Start with ‘n’ (100) shares, these go to 1st place.
-* The shares for each place are reduced by a multiplier, ‘d’ (0.6), for each position, and ‘d’ is reduced by a multiplier, ‘dd’ (0.2), for each position.
-* These shares, divided by the total number of shares, represent the portion of the award pool won.
+Each grade will be allocated a portion of the pool, with a decrementer of 0.6 between, and steps of 0.2.
 
 #### What happens if there are tied report scores?
 
@@ -13,11 +14,6 @@ If two or more QA (or gas optimization) reports have tied scores, they split the
 #### What if there are no high or medium severity findings?
 
 Total findings pool will be split based on QA report scores unless other arrangements are made.
-
-* Grade-a: outstanding report.
-* Grade-b: satisfactory report.
-* Grade-c: unsatisfactory report.
-
 #### Can I see some examples of how awards work?
 
 Awards for each contest are [posted on the Code4rena website](https://code4rena.com/contests). See [Numoen](https://code4rena.com/contests/2023-01-numoen-findings), for example. The award calculation for Numoen had the following parameters:
