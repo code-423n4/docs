@@ -32,7 +32,7 @@ Low and non-critical findings are submitted as a **single** QA report. Similarly
 
 QA and gas optimization reports are awarded on a curve based on the judge’s score.
 
-- QA reports compete for a share of 5% of the prize pool (e.g. $2,500 for a $50,000 contest);
+- QA reports compete for a share of 10% of the prize pool (e.g. $2,500 for a $50,000 contest);
 - The gas optimization pool varies from contest to contest, but is typically 5% of the total prize pool (e.g. $2,500 for a $50,000 contest);
 - QA and Gas optimization reports are scored by judges using A/B/C grades (with C = unsatisfactory), and awarded on a curve.
 

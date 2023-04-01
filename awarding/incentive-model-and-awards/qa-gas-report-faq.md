@@ -12,7 +12,7 @@ The full QA report will be graded on a curve against the other reports. We'll be
 
 We are intentionally not providing an "example," as we are eager to see what approaches folks take and to be able to learn from a variety of approaches.
 
-### What if a low-impact QA report turns out to be a high-impact report? How does that work with the 5% prize pool? Would the report be upgraded?
+### What if a low-impact QA report turns out to be a high-impact report? How does that work with the 10% prize pool? Would the report be upgraded?
 
 It's conceivable it could be upgraded, though it's important to consider that part of auditing is demonstrating proper theory of how an issue could be exploited. If a warden notices something is "off" but is unable to articulate why it could lead to loss of funds, for example, the job is only half-done; without understanding the implications, a developer could very well overlook or deprioritize the issue.
 
