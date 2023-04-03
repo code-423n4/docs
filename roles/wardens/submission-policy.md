@@ -91,11 +91,11 @@ We are aware this privileges native English speakers as online translation servi
 
 Judges must make the best decision they can regarding quality and understandability of findings.
 
-### Automated findings considered out of scope
+### Automated findings considered known issues
 
 - At the start of each contest, Code4rena runs a [Bot Race]() [LINK TK] where wardens compete to see whose AI-driven bot can create the highest quality and most thorough audit report. 
 - The winning report is shared with all C4 wardens within 24 hours of the contest start time, both in the contest repo and in the contest's Discord channel. 
-- All findings in the winning Bot Report will be declared publicly known issues, and therefore out of scope.
+- All findings in the winning Bot Report will be declared publicly known issues, and therefore ineligible for awards.
 
 Wardens may use automated tools as a first pass, and build on these findings to identify High and Medium severity issues ("HM issues"). However, submissions based on automated tools will have a higher burden of proof for demonstrating to sponsors a relevant HM exploit path in order to be considered satisfactory.
 
