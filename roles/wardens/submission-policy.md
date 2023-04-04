@@ -93,7 +93,7 @@ Judges must make the best decision they can regarding quality and understandabil
 
 ### Automated findings considered known issues
 
-- At the start of each contest, Code4rena runs a [Bot Race]() [LINK TK] where wardens compete to see whose AI-driven bot can create the highest quality and most thorough audit report. 
+- At the start of each contest, Code4rena runs a [Bot Race](https://www.code4rena.com/register/bot) where wardens compete to see whose AI-driven bot can create the highest quality and most thorough audit report. 
 - The winning report is shared with all C4 wardens within 24 hours of the contest start time, both in the contest repo and in the contest's Discord channel. 
 - All findings in the winning Bot Report will be declared publicly known issues, and therefore ineligible for awards.
 
