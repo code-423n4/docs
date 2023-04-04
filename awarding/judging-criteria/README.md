@@ -36,7 +36,7 @@ The scoring system has three primary goals:
 
 ### QA reports (low/non-critical)
 
-For contests starting on or after February 3, 2022, low and non-critical findings must be submitted as a _single_ QA report per warden. We are allocating a **fixed 10% of prize pools toward QA reports.**
+Low and non-critical findings must be submitted as a _single_ QA report per warden. We allocate a **fixed 10% of prize pools toward QA reports.**
 
 Your QA report should include:
 
