@@ -6,7 +6,7 @@ description: Wardens protect the DeFi ecosystem from threats by auditing code.
 
 C4 contests let people of a wide range of skill levels get rewarded while showcasing their talent in order to make the DeFi ecosystem more secure.
 
-✨Stay up to date with new contests by [following C4 on Twitter](https://twitter.com/code423n4) and joining our [community Discord](https://discord.gg/EY5dvm3evD).
+✨Stay up to date with new contests by [following C4 on Twitter](https://twitter.com/code4rena) and joining our [community Discord](https://discord.gg/EY5dvm3evD).
 
 ### Joining a contest
 
