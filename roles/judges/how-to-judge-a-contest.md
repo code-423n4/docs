@@ -14,17 +14,17 @@ Sponsor input is non-binding, and do note that sponsors are heavily biased again
 
 ## Before you get started
 
-Read the [Judging Criteria](../wardens/judging-criteria.md), [Submission Policy](../wardens/submission-policy.md), and review the contest readme as provided by the sponsor.
+Read the [Judging Criteria](https://docs.code4rena.com/roles/wardens/judging-criteria), [Submission Policy](../wardens/submission-policy.md), and review the contest readme as provided by the sponsor.
 
 You may also be interested in browsing past contests, and [reviewing open issues in the Rulebook repo](https://github.com/code-423n4/rulebook/issues), in order to see how other judges have handled issues.
 
 ## Reviewing submissions
-Make sure you have the extension downloaded. [Extension Docs](https://www.notion.so/code4rena/Judges-C4-Extension-docs-ab1bedd976f94c10bc1ea0f9b21ac8c7)
-That document also includes all information regarding de-duping, grading QA/Gas and other judging tasks.
+When your judge application is approved, C4 staff will contact you to invite you to our Github organization and provide you with technical documentation on our judging tools.
+Those documents also includes all information regarding de-duping, grading QA/Gas and other judging tasks.
 
 ## Notes on judging
 
-* Review the [judging criteria](https://docs.code4rena.com/roles/wardens/judging-criteria).
+* Review the [Judging criteria](https://docs.code4rena.com/roles/wardens/judging-criteria).
 * Consider the sponsor’s feedback, but keep in mind that it’s not always going to be objective.
 * Any submissions that do not apply specifically to the functionality of the smart contract logic itself should be considered QA.
 * When weighing in on severity or validity of an issue, leave a comment describing your justification for any changes you make to the warden's assessment of severity.
