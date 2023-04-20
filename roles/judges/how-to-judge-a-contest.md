@@ -1,10 +1,9 @@
 # How to judge a contest
 
 ## Timeline
+Ideally we would like contests to be judged in 48 hours after handoff.
 
-In general, judges report that most contests take a half-day to 2 days of work.
-
-We ask that you try to complete the judging process quickly (ideally within 5 days) so that we can distribute awards to wardens promptly. If you need more time, please communicate that to C4 as soon as possible.
+We ask that you try to complete the judging process quickly so that we can distribute awards to wardens promptly. If you need more time, please communicate that to C4 as soon as possible.
 
 ## Here’s how the process works leading up to judging
 
@@ -35,19 +34,17 @@ Those documents also includes all information regarding de-duping, grading QA/Ga
 
 One important caveat to all of the above: _**unless otherwise specified by the contest sponsor or intended to be handled by the code**_**.** For example, flash loans are generally unavoidable, but since MarginSwap had a safeguard against them, we considered these findings relevant in their contest.
 
-### Discussing issues with the sponsor
+## Discussing issues with the sponsor
 
 Ultimately the judge has the final word, but we want your decisions to be well-informed.  In a typical C4 contest, there will be a few issues that benefit from discussion with the sponsor; the judge may find that their understanding of the system is incomplete and you need to ask for clarification, or where there is room for misunderstanding. Don’t hesitate to connect directly with the sponsor, either in the Github comments (where you can tag them in if needed), or via Discord.
 
 ## If you have questions
 
-In the Judging FAQ, you'll find comments and questions posed by previous judges. These may be useful to review as they account for some of the edge cases not addressed by the docs above.
-
-In addition, do not hesitate to post in the #judges Discord channel, or DM a Contest Administrator with questions as you're working on judging. Any questions or feedback you can add to this documentation, or comments/questions on items above are highly welcome and essential for us improving our process. Thank you! 🙏
+Do not hesitate to post in the #judges Discord channel, or DM a Contest Administrator with questions as you're working on judging. Any questions or feedback you can add to this documentation, or comments/questions on items above are highly welcome and essential for us improving our process. Thank you! 🙏
 
 ## Final step before handing off
 
-Please add a comment to your top scoring QA report noting were there any items that you disagreed with the severity listed and/or any items that were invalid completely These comments will be integrated into the final report
+Please add a comment to your top scoring QA report noting where there are any items that you disagreed with the severity listed and/or any items that were invalid. These comments will be integrated into the final report.
 
 ## When you’re done reviewing
 
