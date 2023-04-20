@@ -21,7 +21,7 @@ Under this policy, audit contests covers activities in which you:
 
 In the event that you encounter a critical vulnerability that the sponsor project would want to know about, even before the end of the contest, please refer to ["How to submit Zero-day or otherwise highly sensitive bugs."](#how-to-submit-zero-day-or-otherwise-highly-sensitive-bugs)
 
-> Publicly disclosing any information prior to the end of a code competition is grounds for immediate forfeit of award and disqualification from any future C4 events and activities.
+> Without explicit permission from sponsors, publishing or discussing findings publicly prior to report publication is grounds for immediate forfeit of award and disqualification from any future C4 events and activities.
 
 ## Submitting a report
 

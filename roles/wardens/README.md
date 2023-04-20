@@ -45,4 +45,4 @@ When a sponsor designates a team member who is available for questions, that per
 * Bundle all of your low-risk and non-critical findings into a *single* QA report. 
 * Similarly, list *all* of your gas optimizations together in a single Gas report.
 * Be sure to [register your handle and Polygon address](https://code4rena.com/register/) to receive your share.
-* Publicly disclosing any discovered bugs or vulnerabilities is grounds for disqualification from all C4 events.
+* Publicly disclosing (e.g. publishing or discussing) any discovered bugs or vulnerabilities before the contest report has been published is grounds for disqualification from all C4 events.
