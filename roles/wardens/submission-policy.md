@@ -72,6 +72,17 @@ C4 does not accept late submissions under any circumstances; the contest deadlin
 
 C4 cannot "transfer" your submission to another contest after the contest ends. If you discover that you have accidentally submitted a finding to the wrong contest, please re-submit it to the correct contest, and then follow the steps below to withdraw your report from the other contest.
 
+### How to submit Zero-day or otherwise highly sensitive bugs
+
+If you discover a highly sensitive bug, e.g. a high-severity vulnerability affecting deployed contracts, please follow these steps: 
+
+1. Submit a placeholder finding the the relevant C4 contest, using a non-specific title (e.g. "Potentially sensitive issue - disclosed privately")
+1. While logged in to the Code4rena website, [submit a Help Desk request](https://code4rena.com/help/) with the subject: "Sensitive disclosure" and include: 
+    a. Name of contest, and 
+    b. Link to a private Gist containing the finding.
+
+Code4rena staff will review the issue immediately with the judge and sponsor, and will ensure the submission is added to the contest repo after any immediate risks have been addressed. 
+
 ### Findings in "parent" of forked projects
 
 If an issue is discovered during a contest that relates to the "parent" of a forked project, wardens should disclose the finding to the parent project first, and submit a placeholder finding to the C4 contest. Guidelines: 
