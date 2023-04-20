@@ -19,7 +19,7 @@ Under this policy, audit contests covers activities in which you:
 * Unless explicitly noted by the affiliated sponsor, **wait until the contest report has been published** before you disclose it publicly.
 * Do not submit a high volume of low-quality reports.
 
-In the event that you encounter a critical vulnerability that the sponsor project would want to know about, even before the end of the contest, immediately notify the sponsor privately. The sponsor's point of contact will be listed in their contest channel on the [C4 Discord](https://discord.gg/EY5dvm3evD).
+In the event that you encounter a critical vulnerability that the sponsor project would want to know about, even before the end of the contest, please refer to ["How to submit Zero-day or otherwise highly sensitive bugs."](#how-to-submit-zero-day-or-otherwise-highly-sensitive-bugs)
 
 > Publicly disclosing any information prior to the end of a code competition is grounds for immediate forfeit of award and disqualification from any future C4 events and activities.
 
@@ -71,6 +71,17 @@ C4 does not accept late submissions under any circumstances; the contest deadlin
 ### Submissions to the wrong contest
 
 C4 cannot "transfer" your submission to another contest after the contest ends. If you discover that you have accidentally submitted a finding to the wrong contest, please re-submit it to the correct contest, and then follow the steps below to withdraw your report from the other contest.
+
+### How to submit Zero-day or otherwise highly sensitive bugs
+
+If you discover a highly sensitive bug, e.g. a high-severity vulnerability affecting deployed contracts, please follow these steps: 
+
+1. Submit a placeholder finding to the relevant C4 contest, using a non-specific title (e.g. "Potentially sensitive issue - disclosed privately")
+1. While logged in to the Code4rena website, [submit a Help Desk request](https://code4rena.com/help/) with the subject: "Sensitive disclosure" and include: 
+    a. Name of contest, and 
+    b. Link to a private Gist containing the finding.
+
+Code4rena staff will review the issue immediately with the judge and sponsor, and will ensure the submission is added to the contest repo after any immediate risks have been addressed. 
 
 ### Findings in "parent" of forked projects
 
