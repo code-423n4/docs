@@ -12,7 +12,6 @@
   * [Contest process](roles/sponsors/contest-process.md)
 * [Judges](roles/judges/README.md)
   * [How to judge a contest](roles/judges/how-to-judge-a-contest.md)
-  * [Judging FAQ](roles/judges/judging-faq.md)
 * [Certified contributors](roles/certified-contributors/README.md)
   * [+Backstage wardens](roles/certified-contributors/backstage-wardens.md)
   * [Lookouts](roles/certified-contributors/lookouts.md)
