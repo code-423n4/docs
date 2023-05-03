@@ -18,7 +18,7 @@ As a reminder, for Wardens participating in code contests, please familiarize yo
 
 ### Registering a team
 
-To register a team, you must first register your individual warden handles, and then register your team [here](https://code4rena.com/register-team/).  
+To register a team, you must first register your individual warden handles, and then register your team [here](https://code4rena.com/register/team/).  
 
 Once a team is created, you have the ability to add/remove members and update your payment address while logged in to the Code4rena website.  
 
