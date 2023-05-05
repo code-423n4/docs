@@ -54,3 +54,7 @@ Complete [this form](https://code4rena.com/judge-application/) and share:
 Being a judge is a critical role and we only have so many spots.&#x20;
 
 Judge applications are reviewed monthly by the C4 judge selection committee, which includes top leaderboard wardens and past judges. The committee will review your application and give you a "yes" or "not yet".
+
+### Is it possible for a warden who competed in a contest to judge that same contest?
+
+Yes—but in the interest of impartiality, they must forgo any awards they would have received for their findings in said contest.
