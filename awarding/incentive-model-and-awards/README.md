@@ -12,7 +12,7 @@ Contestants are given shares for bugs discovered based on severity, and those sh
 `High Risk Shares: 10 * (0.9 ^ (findingCount - 1)) / findingCount`
 
 FindingCount represents the number of findings for a same specific bug.
-Please note that findings with partial credit as still counter as 1 finding in the algorithm
+Please note that findings with partial credit as still count as 1 finding in the algorithm
 
 During awarding, each share is redeemed for: `pot / number of shares`.
 
