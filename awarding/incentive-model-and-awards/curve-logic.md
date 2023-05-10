@@ -1,10 +1,11 @@
 # Curve Logic for QA and Gas Optimization Reports
 
-[This spreadsheet](https://docs.google.com/spreadsheets/d/1qTQ7PApFMwpUFikcHHtww7p1oncPLj\_y-UY\_SZq6qFg/edit?usp=sharing) includes a demonstration of the curve math, but here is a summary of how it works:
+The reports will be graded based on 3 different grades:
+* Grade-a: outstanding report.
+* Grade-b: satisfactory report.
+* Grade-c: unsatisfactory report.
 
-* Start with ‘n’ (100) shares, these go to 1st place.
-* The shares for each place are reduced by a multiplier, ‘d’ (0.4), for each position, and ‘d’ is reduced by a multiplier, ‘dd’ (0.2), for each position.
-* These shares, divided by the total number of shares, represent the portion of the award pool won.
+Each grade will be allocated a portion of the pool, with a decrementer of 0.6 between, and steps of 0.2.
 
 #### What happens if there are tied report scores?
 
@@ -13,15 +14,14 @@ If two or more QA (or gas optimization) reports have tied scores, they split the
 #### What if there are no high or medium severity findings?
 
 Total findings pool will be split based on QA report scores unless other arrangements are made.
-
 #### Can I see some examples of how awards work?
 
-Awards for each contest are [posted on the Code4rena website](https://code4rena.com/contests). See [Tribe Turbo](https://code4rena.com/contests/2022-02-tribe-turbo-contest), for example. The award calculation for Tribe Turbo had the following parameters:
+Awards for each contest are [posted on the Code4rena website](https://code4rena.com/contests). See [Numoen](https://code4rena.com/contests/2023-01-numoen-findings), for example. The award calculation for Numoen had the following parameters:
 
-* **Total awards: 75,000 USDC**
-* Main award pool: 63,750 USDC
-* QA pool: 7,500 USDC
-* Gas pool: 3,750 USDC
+* **Total awards: 50,000 USDC**
+* Main award pool: 42,500 USDC
+* QA pool: 5,000 USDC
+* Gas pool: 2,500 USDC
 
 The table below shows each unique high and medium severity finding (`H-XX`, `M-XX`), QA report (`Q-XX`), gas optimization report (`G-XX`), and the way each submission’s award was calculated:
 
@@ -32,54 +32,47 @@ The table below shows each unique high and medium severity finding (`H-XX`, `M-X
 
 **Tribe Turbo awards**
 
-| **handle**   | **finding** | **risk** | **pie**     | **split** | **slice**   | **award**   |
-| ------------ | ----------- | -------- | ----------- | --------- | ----------- | ----------- |
-| cmichel      | H-01        | 3        | 6.561       | 5         | 1.3122      | 2964.20219  |
-| Picodes      | H-01        | 3        | 6.561       | 5         | 1.3122      | 2964.20219  |
-| Ruhum        | H-01        | 3        | 6.561       | 5         | 1.3122      | 2964.20219  |
-| CertoraInc   | H-01        | 3        | 6.561       | 5         | 1.3122      | 2964.20219  |
-| 0xliumin     | H-01        | 3        | 6.561       | 5         | 1.3122      | 2964.20219  |
-| WatchPug     | H-02        | 3        | 8.1         | 3         | 2.7         | 6099.181461 |
-| CertoraInc   | H-02        | 3        | 8.1         | 3         | 2.7         | 6099.181461 |
-| cccz         | H-02        | 3        | 8.1         | 3         | 2.7         | 6099.181461 |
-| cmichel      | M-01        | 2        | 2.43        | 3         | 0.81        | 1829.754438 |
-| Picodes      | M-01        | 2        | 2.43        | 3         | 0.81        | 1829.754438 |
-| CertoraInc   | M-01        | 2        | 2.43        | 3         | 0.81        | 1829.754438 |
-| cmichel      | M-02        | 2        | 2.43        | 3         | 0.81        | 1829.754438 |
-| hyh          | M-02        | 2        | 2.43        | 3         | 0.81        | 1829.754438 |
-| WatchPug     | M-02        | 2        | 2.43        | 3         | 0.81        | 1829.754438 |
-| cmichel      | M-03        | 2        | 2.7         | 2         | 1.35        | 3049.59073  |
-| gzeon        | M-03        | 2        | 2.7         | 2         | 1.35        | 3049.59073  |
-| cmichel      | M-04        | 2        | 3           | 1         | 3           | 6776.86829  |
-| gzeon        | M-05        | 2        | 3           | 1         | 3           | 6776.86829  |
-| csanuragjain | Q-01        | q        | 100         | 1         | 100         | 1796.661426 |
-| asgeir       | Q-02        | q        | 47.99317244 | 4         | 11.99829311 | 215.5687041 |
-| IllIllI      | Q-03        | q        | 115.4772656 | 4         | 28.8693164  | 518.6838717 |
-| cmichel      | Q-04        | q        | 47.99317244 | 4         | 11.99829311 | 215.5687041 |
-| hyh          | Q-05        | q        | 115.4772656 | 4         | 28.8693164  | 518.6838717 |
-| Picodes      | Q-06        | q        | 10.80972451 | 1         | 10.80972451 | 194.2141505 |
-| 0x1f8b       | Q-07        | q        | 22.12439422 | 2         | 11.06219711 | 198.7502283 |
-| Dravee       | Q-08        | q        | 47.99317244 | 4         | 11.99829311 | 215.5687041 |
-| kenta        | Q-09        | q        | 22.12439422 | 2         | 11.06219711 | 198.7502283 |
-| robee        | Q-10        | q        | 47.99317244 | 4         | 11.99829311 | 215.5687041 |
-| catchup      | Q-11        | q        | 61.03636405 | 4         | 15.25909101 | 274.1542022 |
-| defsec       | Q-12        | q        | 61.03636405 | 4         | 15.25909101 | 274.1542022 |
-| Ruhum        | Q-13        | q        | 61.03636405 | 4         | 15.25909101 | 274.1542022 |
-| WatchPug     | Q-14        | q        | 61.03636405 | 4         | 15.25909101 | 274.1542022 |
-| samruna      | Q-15        | q        | 115.4772656 | 4         | 28.8693164  | 518.6838717 |
-| pauliax      | Q-16        | q        | 115.4772656 | 4         | 28.8693164  | 518.6838717 |
-| nascent      | Q-17        | q        | 60          | 1         | 60          | 1077.996855 |
-| nascent      | G-01        | g        | 100         | 1         | 100         | 975.2753344 |
-| IllIllI      | G-02        | g        | 60          | 1         | 60          | 585.1652006 |
-| WatchPug     | G-03        | g        | 40.8        | 1         | 40.8        | 397.9123364 |
-| CertoraInc   | G-04        | g        | 30.3552     | 1         | 30.3552     | 296.0467783 |
-| Dravee       | G-05        | g        | 61.86016997 | 3         | 20.62005666 | 201.1023265 |
-| gzeon        | G-06        | g        | 61.86016997 | 3         | 20.62005666 | 201.1023265 |
-| Picodes      | G-07        | g        | 61.86016997 | 3         | 20.62005666 | 201.1023265 |
-| catchup      | G-08        | g        | 30.08126563 | 2         | 15.04063282 | 146.687582  |
-| csanuragjain | G-09        | g        | 30.08126563 | 2         | 15.04063282 | 146.687582  |
-| kenta        | G-10        | g        | 13.41699406 | 1         | 13.41699406 | 130.8526337 |
-| Tomio        | G-11        | g        | 12.69667468 | 1         | 12.69667468 | 123.8275364 |
-| 0v3rf10w     | G-12        | g        | 35.29649777 | 3         | 11.76549926 | 114.7460122 |
-| robee        | G-13        | g        | 35.29649777 | 3         | 11.76549926 | 114.7460122 |
-| samruna      | G-14        | g        | 35.29649777 | 3         | 11.76549926 | 114.7460122 |
+| **handle**       | **finding** | **risk** |        **pie**     | **split** |      **slice**      |       **award**        |
+| ---------------- | ----------- | -------- | ------------------ | --------- | ------------------- | ---------------------- |
+| 'hansfriese'     | 'H-01'      | '3'      |         13         |   1       |         13          | 17615.514252816203     |
+| 'RaymondFam'     | 'M-01'      | '2'      | 2.0863980000000004 |   5       | 0.5117580000000002  | 693.4523340763628      |
+| '0xhacksmithh'   | 'M-01'      | '2'      | 2.0863980000000004 |   5       | 0.39366000000000007 |  533.424872366433      |
+| 'Deivitto'       | 'M-01'      | '2'      | 2.0863980000000004 |   5       | 0.39366000000000007 |  533.424872366433      |
+| 'rvierdiiev'     | 'M-01'      | '2'      | 2.0863980000000004 |   5       | 0.39366000000000007 |  533.424872366433      |
+| 'peakbolt'       | 'M-01'      | '2'      | 2.0863980000000004 |   5       | 0.39366000000000007 |  533.424872366433      |
+| 'hansfriese'     | 'M-02'      | '2'      |        3.9         |   1       | 3.9000000000000004  | 5284.654275844861      |
+| 'Allarious'      | 'M-03'      | '2'      |        3.9         |   1       | 3.9000000000000004  | 5284.654275844861      |
+| 'hansfriese'     | 'M-04'      | '2'      | 3.1050000000000004 |   2       | 1.7550000000000001  | 2378.0944241301877     |
+| 'peakbolt'       | 'M-05'      | '2'      |       2.268        |   3       | 1.0530000000000002  | 1426.8566544781127     |
+| 'nadin'          | 'M-04'      | '2'      | 3.1050000000000004 |   2       |        1.35         | 1829.3034031770674     |
+| 'adeolu'         | 'M-05'      | '2'      |       2.268        |   3       |        0.405        | 548.7910209531202      |
+| 'rvierdiiev'     | 'M-05'      | '2'      |       2.268        |   3       |        0.81         | 1097.5820419062404     |
+| 'Breeje'         | 'M-06'      | '2'      | 3.1050000000000004 |   2       |        1.35         | 1829.3034031770674     |
+| 'ladboy233'      | 'M-06'      | '2'      | 3.1050000000000004 |   2       | 1.7550000000000001  | 2378.0944241301877     |
+| 'Deivitto'       | 'G-01'      | 'g'      |  86.5490783392284  |  15       |  5.76993855594856   | 45.42556528683028      |
+| 'Aymen0909'      | 'G-02'      | 'g'      |  86.5490783392284  |  15       |  5.76993855594856   | 45.42556528683028      |
+| 'matrix_0wl'     | 'G-03'      | 'g'      |  86.5490783392284  |  15       |  5.76993855594856   | 45.42556528683028      |
+| 'RaymondFam'     | 'G-04'      | 'g'      |  86.5490783392284  |  15       |  5.76993855594856   | 45.42556528683028      |
+| 'c3phas'         | 'G-05'      | 'g'      |        140         |   2       |         70          | 551.0959153628928      |
+| 'Rageur'         | 'G-06'      | 'g'      |  86.5490783392284  |  15       |  5.76993855594856   | 45.42556528683028      |
+| 'nadin'          | 'G-07'      | 'g'      |  86.5490783392284  |  15       |  5.76993855594856   | 45.42556528683028      |
+| 'IllIllI'        | 'G-08'      | 'g'      |        140         |   2       |         70          | 551.0959153628928      |
+| 'cryptostellar5' | 'G-09'      | 'g'      |  86.5490783392284  |  15       |  5.76993855594856   | 45.42556528683028      |
+| 'Diana'          | 'G-10'      | 'g'      |  86.5490783392284  |  15       |  5.76993855594856   | 45.42556528683028      |
+| 'antonttc'       | 'G-11'      | 'g'      |  86.5490783392284  |  15       |  5.76993855594856   | 45.42556528683028      |
+| '0xackermann'    | 'G-12'      | 'g'      |  86.5490783392284  |  15       |  5.76993855594856   | 45.42556528683028      |
+| '0xSmartContract'| 'G-13'      | 'g'      |  86.5490783392284  |  15       |  5.76993855594856   | 45.42556528683028      |
+| 'ReyAdmirado'    | 'G-14'      | 'g'      |  86.5490783392284  |  15       |  5.76993855594856   | 45.42556528683028      |
+| 'NoamYakov'      | 'G-15'      | 'g'      |         91         |   1       |         91          | 716.4246899717607      |
+| 'Rolezn'         | 'G-16'      | 'g'      |  86.5490783392284  |  15       |  5.76993855594856   | 45.42556528683028      |
+| 'oyc_109'        | 'G-17'      | 'g'      |  86.5490783392284  |  15       |  5.76993855594856   | 45.42556528683028      |
+| 'arialblack14'   | 'G-18'      | 'g'      |  86.5490783392284  |  15       |  5.76993855594856   | 45.42556528683028      |
+| 'matrix_0wl'     | 'Q-01'      | 'q'      | 38.296345887055885 |   5       |  7.659269177411177  | 142.48406332285143     |
+| 'SleepingBugs'   | 'Q-02'      | 'q'      | 38.296345887055885 |   5       |  7.659269177411177  | 142.48406332285143     |
+| 'CodingNameKiki' | 'Q-03'      | 'q'      |       69.68        |   1       |        69.68        | 1296.2450205584805     |
+| 'IllIllI'        | 'Q-04'      | 'q'      |       160.8        |   3       |        53.6         | 997.1115542757543      |
+| '0xAgro'         | 'Q-05'      | 'q'      | 38.296345887055885 |   5       |  7.659269177411177  | 142.48406332285143     |
+| '0xSmartContract'| 'Q-06'      | 'q'      |       160.8        |   3       |        53.6         | 997.1115542757543      |
+| 'btk'            | 'Q-07'      | 'q'      |       160.8        |   3       |        53.6         | 997.1115542757543      |
+| 'chrisdior4'     | 'Q-08'      | 'q'      | 38.296345887055885 |   5       |  7.659269177411177  | 142.48406332285143     |
+| 'Rolezn'         | 'Q-09'      | 'q'      | 38.296345887055885 |   5       |  7.659269177411177  | 142.48406332285143     |

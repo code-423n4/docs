@@ -11,7 +11,10 @@ Contestants are given shares for bugs discovered based on severity, and those sh
 `Med Risk Shares: 3 * (0.9 ^ (findingCount - 1)) / findingCount`\
 `High Risk Shares: 10 * (0.9 ^ (findingCount - 1)) / findingCount`
 
-During awarding, each share is redeemed for: `pot / number of shares`. 
+FindingCount represents the number of findings for a same specific bug.
+Please note that findings with partial credit as still count as 1 finding in the algorithm
+
+During awarding, each share is redeemed for: `pot / number of shares`.
 
 ### Bonus for best / selected for report
 
@@ -46,9 +49,9 @@ Historically, Code4rena valued non-critical findings at 0; the intent of the QA 
 
 ### Grades for QA and Gas reports
 
-Gas reports and QA reports are graded A, B, or C. 
+Gas reports and QA reports are graded A, B, or C.
 
-C scores are unsatisfactory and ineligible for awards. 
+C scores are unsatisfactory and ineligible for awards.
 
 Judges choose the best QA report and best Gas report, each of which earns the same 30% share bonus as described under "High and Medium Risk bugs."
 
@@ -59,7 +62,7 @@ All A-grade reports receive a score of 2; All B-grade reports get a 1. Awarding 
 
 Any submissions deemed unsatisfactory are ineligible for awards.
 
-The bar for satisfactory submissions is that they are roughly at a level that could be found in a draft report by a professional auditor: specifically on the merits of technical substance, with writing quality considered only where it interferes with comprehension of the technical message. 
+The bar for satisfactory submissions is that they are roughly at a level that could be found in a draft report by a professional auditor: specifically on the merits of technical substance, with writing quality considered only where it interferes with comprehension of the technical message.
 
 It is possible for a submission to be *technically* valid and still unsatisfactory. An “unsatisfactory” submission may meet any of these criteria:
 
