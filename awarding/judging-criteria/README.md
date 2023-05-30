@@ -34,13 +34,16 @@ The scoring system has three primary goals:
 * Hardening C4 code contests to Sybil attacks
 * Encouraging coordination by incentivizing Wardens to form teams.
 
+### Analysis
+
+
+
 ### QA reports (low/non-critical)
 
 Low and non-critical findings must be submitted as a _single_ QA report per warden. We allocate a **fixed 10% of prize pools toward QA reports.**
 
 Your QA report should include:
 
-* a summary statement with observations on the codebase as a whole and opportunities for improved security practices;
 * all low severity findings; and
 * all non-critical findings.
 
