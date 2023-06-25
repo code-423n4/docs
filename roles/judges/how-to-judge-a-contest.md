@@ -32,7 +32,7 @@ Those documents also includes all information regarding de-duping, grading QA/Ga
 
 > “Sandwich attacks are inherent to AMMs, so this isn’t a unique issue presented by the MarginSwap implementation. With this in mind, I’m downgrading the risk from a proposed medium severity to QA.”
 
-One important caveat to all of the above: _**unless otherwise specified by the audit sponsor or intended to be handled by the code**_**.** For example, flash loans are generally unavoidable, but since MarginSwap had a safeguard against them, we considered these findings relevant in their audit.
+One important caveat to all of the above: _**unless otherwise specified by the audit sponsor or intended to be handled by the code**_**.** For example, flash loans are generally unavoidable, but since MarginSwap had a safeguard against them, we considered these findings relevant in their contest.
 
 ## Discussing issues with the sponsor
 
