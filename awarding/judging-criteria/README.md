@@ -66,7 +66,7 @@ In the unlikely event that zero high- or medium-risk vulnerabilities are found, 
 
 Gas reports should be submitted using the **same approach as the QA reports:** a single submission per warden which includes all identified optimizations. The gas pool will be allocated on a curve, and the top reporter will receive the top prize in the category.
 
-The gas pool varies from audit to audit, but typically it consists of 5% of the total prize pool. The precise gas pool for each audit can be found in that audit's repo.
+The gas pool varies from audit to audit, but typically it consists of 2.5% of the total prize pool. The precise gas pool for each audit can be found in that audit's repo.
 
 ## Estimating Risk
 
