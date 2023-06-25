@@ -1,12 +1,29 @@
 # How to judge an audit
 
 ## Timeline
-Ideally we would like contests to be judged in 48 hours after handoff.
+Ideally we would like audits to be judged in 48 hours after handoff.
+
+We ask that you try to complete the judging process quickly so that we can distribute awards to wardens promptly. If you need more time, please communicate that to C4 as soon as possible.
+
+## Here’s how the process works leading up to judging
+
+C4 kicks off the code competition and establishes a private repo to receive incoming issues. Typically, most findings come in on the last day of the audit. When the audit ends, a Lookout will presort the repo and then it will be handed to the sponsor. Sponsors will have the chance to review the findings, comment, and provide feedback on issues.
+
+Sponsor input is non-binding, and do note that sponsors are heavily biased against having a report that includes very many vulnerabilities. Focus your work as a judge on protecting users and providing feedback to wardens.
+
+## Before you get started
+
+Read the [Judging Criteria](https://docs.code4rena.com/roles/wardens/judging-criteria), [Submission Policy](../wardens/submission-policy.md), and review the audit readme as provided by the sponsor.
+
+You may also be interested in browsing past audits, and [reviewing open issues in the Rulebook repo](https://github.com/code-423n4/rulebook/issues), in order to see how other judges have handled issues.
+
+## Reviewing submissions
+When your judge application is approved, C4 staff will contact you to invite you to our Github organization and provide you with technical documentation on our judging tools.
+Those documents also includes all information regarding de-duping, grading QA/Gas and other judging tasks.
 
 ## Notes on judging
 
-* Review the [Judging criteria](https://docs.code4rena.com/roles/wardens/judging-criteria), [Submission Policy](../wardens/submission-policy.md), and review the contest readme as provided by the sponsor.
-* You may also be interested in browsing past audits, and [reviewing open issues in the Rulebook repo](https://github.com/code-423n4/rulebook/issues), in order to see how other judges have handled issues.
+* Review the [Judging criteria](https://docs.code4rena.com/roles/wardens/judging-criteria).
 * Consider the sponsor’s feedback, but keep in mind that it’s not always going to be objective.
 * Any submissions that do not apply specifically to the functionality of the smart contract logic itself should be considered QA.
 * When weighing in on severity or validity of an issue, leave a comment describing your justification for any changes you make to the warden's assessment of severity.
@@ -15,7 +32,7 @@ Ideally we would like contests to be judged in 48 hours after handoff.
 
 > “Sandwich attacks are inherent to AMMs, so this isn’t a unique issue presented by the MarginSwap implementation. With this in mind, I’m downgrading the risk from a proposed medium severity to QA.”
 
-One important caveat to all of the above: _**unless otherwise specified by the audit sponsor or intended to be handled by the code_.** For example, flash loans are generally unavoidable, but since MarginSwap had a safeguard against them, we considered these findings relevant in their audit.
+One important caveat to all of the above: _**unless otherwise specified by the audit sponsor or intended to be handled by the code**_**.** For example, flash loans are generally unavoidable, but since MarginSwap had a safeguard against them, we considered these findings relevant in their audit.
 
 ## Discussing issues with the sponsor
 
@@ -32,4 +49,3 @@ Please add a comment to your top scoring QA report noting where there are any it
 ## When you’re done reviewing
 
 Ping a C4 Contest Administrator and let us know you’re ready to hand off the results for post-judge QA and then award distribution.
-
