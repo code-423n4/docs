@@ -9,9 +9,9 @@
   * [Authenticate with your wallet](roles/wardens/warden-auth.md)
   * [Tools and resources](roles/wardens/tools-and-resources.md)
 * [Sponsors](roles/sponsors/README.md)
-  * [Contest process](roles/sponsors/contest-process.md)
+  * [Audit process](roles/sponsors/contest-process.md)
 * [Judges](roles/judges/README.md)
-  * [How to judge a contest](roles/judges/how-to-judge-a-contest.md)
+  * [How to judge an audit](roles/judges/how-to-judge-a-contest.md)
 * [Certified contributors](roles/certified-contributors/README.md)
   * [+Backstage wardens](roles/certified-contributors/backstage-wardens.md)
   * [Lookouts](roles/certified-contributors/lookouts.md)
@@ -35,5 +35,5 @@
 ## Other Details <a href="#structure" id="structure"></a>
 
 * [FAQ](structure/frequently-asked-questions.md)
-* [Contest timeline](structure/our-process/README.md)
+* [Audit timeline](structure/our-process/README.md)
 * [Where can I find…?](structure/where-can-i-find....md)

@@ -1,6 +1,6 @@
 # Register your account
 
-If you competed in C4 contests prior to October 5, 2022 and have not previously registered your username via wallet authentication, you must register your account.
+If you competed in C4 audits prior to October 5, 2022 and have not previously registered your username via wallet authentication, you must register your account.
 
 ## Authenticate with your wallet
 
@@ -16,14 +16,14 @@ If you're a new warden, you can choose to sign up with a username and password o
 
 - Go to https://code4rena.com/ and hover over the “connect” dropdown.
 - Choose whether to connect with MetaMask or WalletConnect, or sign up with just a username and password.
-- If you were a registered warden and submitted valid findings before May 25, 2022, you need to connect your wallet. Make sure to connect with an address you’ve used previously to receive earnings from code4rena contests prior to May 25, 2022.
+- If you were a registered warden and submitted valid findings before May 25, 2022, you need to connect your wallet. Make sure to connect with an address you’ve used previously to receive earnings from code4rena audits prior to May 25, 2022.
 - Follow the prompts to connect your C4 username with your wallet.
 - Check your email for further instructions.
 
 ## Once your request to connect your wallet is complete and approved:
 
 - Sign in with the same method you used to register.
-- Proceed to the contest of your choice and submit a finding as usual.
+- Proceed to the audit of your choice and submit a finding as usual.
 
 ## Teams
 

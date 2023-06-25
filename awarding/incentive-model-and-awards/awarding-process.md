@@ -6,7 +6,7 @@ description: >-
 
 # Awarding process
 
-At the conclusion of a contest, sponsors review wardens’ findings and express their opinions with regard to severity of issues. Judges evaluate input from both and make the ultimate decision in terms of severity and validity of issues. (See [How to judge a contest](../../roles/judges/how-to-judge-a-contest.md) for more detail.)
+At the conclusion of an audit, sponsors review wardens’ findings and express their opinions with regard to severity of issues. Judges evaluate input from both and make the ultimate decision in terms of severity and validity of issues. (See [How to judge an audit](../../roles/judges/how-to-judge-a-contest.md) for more detail.)
 
 In making their determination, judges change labels on GitHub issues and fill out a Google spreadsheet. (The spreadsheet is generated from JSON data created upon form submission. This JSON data serves as a snapshot of the original submission’s severity in order to ensure the sponsors’ labels do not interfere with the originally intended severity indicated by the warden.)
 

@@ -1,6 +1,6 @@
 # Incentive model and awards
 
-To incentivize **wardens**, C4 uses a unique scoring system with two primary goals: reward contestants for finding unique bugs and also to make the contest resistant to Sybil attack. A secondary goal of the scoring system is to encourage contestants to form teams and collaborate.
+To incentivize **wardens**, C4 uses a unique scoring system with two primary goals: reward contestants for finding unique bugs and also to make the audit resistant to Sybil attack. A secondary goal of the scoring system is to encourage contestants to form teams and collaborate.
 
 **Judges** are incentivized to review findings and decide their severity, validity, and quality by receiving a share of the prize pool themselves.
 
@@ -35,8 +35,8 @@ Low and non-critical findings are submitted as a **single** QA report. Similarly
 
 QA and gas optimization reports are awarded on a curve based on the judge’s score.
 
-- QA reports compete for a share of 10% of the prize pool (e.g. $5,000 for a $50,000 contest);
-- The gas optimization pool varies from contest to contest, but is typically 5% of the total prize pool (e.g. $2,500 for a $50,000 contest);
+- QA reports compete for a share of 2.5% of the prize pool (e.g. $1,250 for a $50,000 audit);
+- The gas optimization pool varies from audit to audit, but is typically 2.5% of the total prize pool (e.g. $1,250 for a $50,000 audit);
 - QA and Gas optimization reports are scored by judges using A/B/C grades (with C = unsatisfactory), and awarded on a curve.
 
 There is a very high burden of quality and value provided for QA and gas optimization reports. Only submissions that demonstrate full effort worthy of consideration for inclusion in the report will be eligible for rewards.
@@ -45,7 +45,7 @@ It is highly recommended to clearly spell out the impact of proposed gas optimiz
 
 Historically, Code4rena valued non-critical findings at 0; the intent of the QA report is not to increase the value of non-criticals, but rather to allow them to be consolidated in reports alongside low severity issues.
 
-**Note:** Contests pre-dating February 3, 2022 awarded low risk and gas optimization shares as: `Low Risk Shares: 1 * (0.9 ^ (findingCount - 1)) / findingCount`
+**Note:** Audits pre-dating February 3, 2022 awarded low risk and gas optimization shares as: `Low Risk Shares: 1 * (0.9 ^ (findingCount - 1)) / findingCount`
 
 ### Grades for QA and Gas reports
 

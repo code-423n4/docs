@@ -1,24 +1,24 @@
-# How to judge a contest
+# How to judge an audit
 
 ## Timeline
 
-In general, judges report that most contests take a half-day to 2 days of work.
+In general, judges report that most audits take a half-day to 2 days of work.
 
 We ask that you try to complete the judging process quickly (ideally within 5 days) so that we can distribute awards to wardens promptly. If you need more time, please communicate that to C4 as soon as possible.
 
 ## Here’s how the process works leading up to judging
 
-C4 kicks off the code competition and establishes a private repo to receive incoming issues. Typically, most findings come in on the last day of the contest. When the contest ends, sponsors will have the chance to review the findings, comment, and provide feedback on issues.
+C4 kicks off the code competition and establishes a private repo to receive incoming issues. Typically, most findings come in on the last day of the audit. When the audit ends, sponsors will have the chance to review the findings, comment, and provide feedback on issues.
 
 Sponsor input is non-binding, and do note that sponsors are heavily biased against having a report that includes very many vulnerabilities. Focus your work as a judge on protecting users and providing feedback to wardens.
 
-C4 will share a Google sheet with you that contains contest data. This sheet will be used by a script to calculate awards, so please preserve the data structure.
+C4 will share a Google sheet with you that contains audit data. This sheet will be used by a script to calculate awards, so please preserve the data structure.
 
 ## Before you get started
 
-Read the [Judging Criteria](../wardens/judging-criteria.md), [Submission Policy](../wardens/submission-policy.md), and review the contest readme as provided by the sponsor.
+Read the [Judging Criteria](../wardens/judging-criteria.md), [Submission Policy](../wardens/submission-policy.md), and review the audit readme as provided by the sponsor.
 
-You may also be interested in browsing past contests, and [reviewing open issues in the Rulebook repo](https://github.com/code-423n4/rulebook/issues), in order to see how other judges have handled issues.
+You may also be interested in browsing past audits, and [reviewing open issues in the Rulebook repo](https://github.com/code-423n4/rulebook/issues), in order to see how other judges have handled issues.
 
 ## Reviewing submissions
 
@@ -44,7 +44,7 @@ You can edit the **title** field as needed, based on your judgment.
 ### For High and Medium risk submissions
 
 - Review each submission and assess:
-    - **Is it valid?** — There are two main categories of invalid issues: findings that are out of scope (per the sponsor’s contest repo), and issues where the warden has misunderstood the system. You should mark any invalid submissions as such, using the `invalid` label in Github, and enter `INVALID` (all caps) in *both* the ReportId and risk columns in the judging sheet. All invalid issues should be closed in Github.
+    - **Is it valid?** — There are two main categories of invalid issues: findings that are out of scope (per the sponsor’s audit repo), and issues where the warden has misunderstood the system. You should mark any invalid submissions as such, using the `invalid` label in Github, and enter `INVALID` (all caps) in *both* the ReportId and risk columns in the judging sheet. All invalid issues should be closed in Github.
     - **What is the correct risk level? —** If you disagree with the risk level assigned by the warden, you may adjust it. Please change the labels in Github, and leave a comment with your reasoning. (You may wish to refer to the [Judging Criteria](https://docs.code4rena.com/roles/wardens/judging-criteria#estimating-risk-tl-dr) for guidance.) Please also adjust the value in the `risk` column of the judging spreadsheet.
     - **If a Medium or High risk issue needs to be downgraded** to low or non-critical risk level, please see below for instructions.
 - You can ignore the “score” column for High and Medium risk submissions; that is only used for QA and Gas reports.
@@ -54,7 +54,7 @@ You can edit the **title** field as needed, based on your judgment.
 - **You do *not* need to de-dupe QA and Gas reports.** Each one is intended to be a compilation of issues and recommendations from a warden.
 - **Each QA and Gas report should be scored on a scale of 0-100.** Enter your score in the `score` column of the judging spreadsheet.
 - It's usually preferable to assign a *unique* score to each report, and avoid ties, due to [the way the awarding curve works](https://docs.code4rena.com/incentive-model-and-awards). However, ties are allowed.
-- For each category (QA/Gas), the top-scoring report will be included in the C4 contest report, and will receive the largest share of the awards.
+- For each category (QA/Gas), the top-scoring report will be included in the C4 audit report, and will receive the largest share of the awards.
 - For more information on how scores affect awarding, see [“Incentive Model and Awards.”](https://docs.code4rena.com/incentive-model-and-awards)
 - **If a QA or Gas report contains a finding that should be upgraded** to Medium or High risk, please see below for instructions.
 
@@ -100,11 +100,11 @@ For each category — Gas and QA — each warden should have a single reportID, 
 
 > “Sandwich attacks are inherent to AMMs, so this isn’t a unique issue presented by the MarginSwap implementation. With this in mind, I’m downgrading the risk from a proposed medium severity to QA.”
 
-One important caveat to all of the above: _**unless otherwise specified by the contest sponsor or intended to be handled by the code**_**.** For example, flash loans are generally unavoidable, but since MarginSwap had a safeguard against them, we considered these findings relevant in their contest.
+One important caveat to all of the above: _**unless otherwise specified by the audit sponsor or intended to be handled by the code**_**.** For example, flash loans are generally unavoidable, but since MarginSwap had a safeguard against them, we considered these findings relevant in their audit.
 
 ### Discussing issues with the sponsor
 
-Ultimately the judge has the final word, but we want your decisions to be well-informed.  In a typical C4 contest, there will be a few issues that benefit from discussion with the sponsor; the judge may find that their understanding of the system is incomplete and you need to ask for clarification, or where there is room for misunderstanding. Don’t hesitate to connect directly with the sponsor, either in the Github comments (where you can tag them in if needed), or via Discord.
+Ultimately the judge has the final word, but we want your decisions to be well-informed.  In a typical C4 audit, there will be a few issues that benefit from discussion with the sponsor; the judge may find that their understanding of the system is incomplete and you need to ask for clarification, or where there is room for misunderstanding. Don’t hesitate to connect directly with the sponsor, either in the Github comments (where you can tag them in if needed), or via Discord.
 
 ## Handling duplicates in GitHub
 

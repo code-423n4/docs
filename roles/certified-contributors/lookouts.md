@@ -2,7 +2,7 @@
 
 Lookouts review and organize submissions to Code4rena's competitions, focusing on a) lightening and clarifying the project team’s workload, and b) preparing the repo for judging.
 
-Lookouts receive a guaranteed payout from each contest they work on. In the interest of impartiality, they must forgo any awards they would have received for their own submissions as wardens. Therefore, the role is typically assigned prior to the competition's start.
+Lookouts receive a guaranteed payout from each audit they work on. In the interest of impartiality, they must forgo any awards they would have received for their own submissions as wardens. Therefore, the role is typically assigned prior to the competition's start.
 
 # **Becoming a Lookout**
 
@@ -10,7 +10,7 @@ To become a Lookout, you may be nominated by a Judge or Lookout in good standing
 
 ### **Minimum criteria**
 
-- Compete in at least 3 Code4rena contests;
+- Compete in at least 3 Code4rena audits;
 - Be a [Certified C4 contributor](/roles/certified-contributors) in good standing;
 - Find at least 1 high severity finding OR 3 medium severity findings OR score A on at least 3 QA or Gas reports;
 
@@ -25,7 +25,7 @@ Complete [this application form](https://code4rena.com/lookout-application/) and
 
 - Short bio/intro and summary of relevant experience
 - Links that help demonstrate your expertise
-- 3 example submissions to Code4rena contests that you’re especially proud of
+- 3 example submissions to Code4rena audits that you’re especially proud of
 - Description of how each submission demonstrates your depth of knowledge
 
 **Note:** Lookout applications are reviewed during a one-week period each month. Notices of application and review windows will be posted in the C4 Discord server.
