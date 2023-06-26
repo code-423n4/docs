@@ -1,15 +1,15 @@
 # +Backstage wardens
 
-Certified contributors who meet certain performance criteria within C4 gain "+Backstage" access to C4 contests, which includes:
+Certified contributors who meet certain performance criteria within C4 gain "+Backstage" access to C4 audits, which includes:
 
-- Immediate access to findings repos after contests conclude;
-- Contributing to post-contest triage; and
+- Immediate access to findings repos after audits conclude;
+- Contributing to post-audit triage; and
 - Post-judging QA.
 
 The minimum criteria to become +Backstage are as follows: 
 
 1. Be approved as a Certified C4 contributor;
-1. Participate as a warden in at least 3 Code4rena contests;
+1. Participate as a warden in at least 3 Code4rena audits;
 1. Have at least 1 high severity finding OR 3 medium severity findings on the [Code4rena leaderboard](https://code4rena.com/leaderboard/), OR score A on a QA or Gas report;
 1. Abide by the Certified Contributor Terms and Conditions (see [application form](https://code4rena.com/certified-contributor-application/)).
 
@@ -24,4 +24,4 @@ Contributors may lose their +Backstage role by violating the code of professiona
 - take an objective, collegial, and intellectually open tone in considering and discussing all findings
 - treat wardens and sponsors, and all other Code4rena community members with respect and an assumption of positive intent
 - avoid engaging in any discussion and evaluation of issues they submitted themselves except to answer a question or provide additional context requested by a judge or sponsor
-- treat the contents of all findings as private and confidential until the contest report is made public.
+- treat the contents of all findings as private and confidential until the audit report is made public.

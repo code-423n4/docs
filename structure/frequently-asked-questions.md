@@ -42,43 +42,43 @@ We do indeed, [here](https://medium.com/code-423n4). We post product updates, sp
 
 [Follow us](https://twitter.com/code4rena) on Twitter and turn on notifications in our #announcements channel in [Discord](https://discord.gg/code4rena). 
 
-### Where can I view the contest results?
+### Where can I view the audit results?
 
-Once a contest’s results have been finalized, they’ll be shared in our #announcements channel in Discord. The contest’s page in the ‘[Contests](https://code4rena.com/contests)’ section on our website will also be updated to show results.
+Once an audit's results have been finalized, they’ll be shared in our #announcements channel in Discord. The audit's page in the ‘[Audits](https://code4rena.com/contests)’ section on our website will also be updated to show results.
 
 ### Where can I read past Code4rena audit reports?
 
 We push all public audit reports to the ‘[Reports](https://code4rena.com/reports)’ section on our website. This enables you to read through past findings, evaluate commonalities, and continue your learning journey. Our [GitHub](https://github.com/code-423n4/) repos are also public, for those of you interested in diving deeper.
 
-### How are contests judged?
+### How are audits judged?
 
 We have a lot of documents outlining the technicalities of our judging process, which you can view [here](https://docs.code4rena.com/roles/judges/how-to-judge-a-contest). In short, Judges follow stringent criteria, whilst making sure submissions adhere to C4 policies. We’ve also implemented a severity standardization guide to ensure a homogenized approach. 
 
 ## Warden FAQ
 
-### How do I submit issues to a contest?
+### How do I submit issues to an audit?
 
-Simply navigate to the contest page, click on the `Submit Findings` button, and fill out the form with your findings. Make sure to validate your wallet address beforehand.
+Simply navigate to the audit page, click on the `Submit Findings` button, and fill out the form with your findings. Make sure to validate your wallet address beforehand.
 
 ### How can I confirm that Code4rena has received my finding?
 
-Simply head over to the specific contest page and navigate to the `Findings` tab. If you see your issue listed, then it is already received by the C4 team.
+Simply head over to the specific audit page and navigate to the `Findings` tab. If you see your issue listed, then it is already received by the C4 team.
 
 You should also receive an email confirmation from submissions@code4rena.com. (If you don’t see it in your inbox, check your spam folder.)
 
 ### I submitted a finding but then realized it was invalid. Do I need to contact Code4rena?
 
-You can go to the `Findings` tab on the contest page and open the specific finding. There you will see an option to `Withdraw` the finding.
+You can go to the `Findings` tab on the audit page and open the specific finding. There you will see an option to `Withdraw` the finding.
 
 ### Can I edit my findings post-submission?
 
-Yes! Go to the `Findings` tab on the contest page and open the concerned finding, make edits and submit changes. This option is only available until the contest deadline, though. 
+Yes! Go to the `Findings` tab on the audit page and open the concerned finding, make edits and submit changes. This option is only available until the audit deadline, though. 
 
 ### What if I want to change my wallet address?
 
 You can change your payment information at any time. Simply log in and go to [your account management page](https://code4rena.com/account).
 
-Note: for each contest, C4 distributes awards to the payment address on file *at the time of award calculation*.
+Note: for each audit, C4 distributes awards to the payment address on file *at the time of award calculation*.
 
 ### Why was my finding marked as invalid?
 

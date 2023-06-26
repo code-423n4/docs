@@ -6,13 +6,24 @@ description: >-
 
 # Awarding process
 
-At the conclusion of a contest, sponsors review wardens’ findings and express their opinions with regard to severity of issues. Judges evaluate input from both and make the ultimate decision in terms of severity and validity of issues. (See [How to judge a contest](../../roles/judges/how-to-judge-a-contest.md) for more detail.)
+At the conclusion of an audit, sponsors review wardens’ findings and express their opinions with regard to severity of issues. Judges evaluate input from both and make the ultimate decision in terms of severity and validity of issues. (See [How to judge an audit](../../roles/judges/how-to-judge-a-contest.md) for more detail.)
 
-In making their determination, judges change labels on GitHub issues and fill out a Google spreadsheet. (The spreadsheet is generated from JSON data created upon form submission. This JSON data serves as a snapshot of the original submission’s severity in order to ensure the sponsors’ labels do not interfere with the originally intended severity indicated by the warden.)
+In making their determination, judges add labels to Github issues, while the original submission data (including the warden's proposed severity rating) is preserved via a JSON data file. 
 
-The data in the spreadsheet is used to generate the awards using the [awardCalc script](https://github.com/code-423n4/awardcalc). It should be possible to reverse engineer awards using a CSV of this sheet and this script.
+The judge's decisions are reviewed by the sponsoring project team and by [+backstage wardens](https://docs.code4rena.com/roles/certified-contributors/backstage-wardens) via a 48-hour QA process, to ensure fairness and quality. 
 
-While all results are final and all contest funds are irrevocably disbursed as part of the process, the intent is that results should stand up to scrutiny. The award process current relies on scripts and data sources primarily written by one mediocre developer. As such, the award process is considered in beta and it is not unlikely there are flaws. These scripts and data sources are being actively improved.
+Judging data is used to generate the awards using Code4rena's award calculation script, which factors in:
+
+- Risk level
+- Validity
+- Number of duplicates
+- Grade (A, B, C; Satisfactory/Unsatisfactory)
+- In some cases, "partial duplicate" status
+
+ It should be possible to reverse engineer awards using a combination of two CSV files:
+ 
+ - [`findings.csv`](https://code4rena.com/community-resources/findings.csv): valid Code4rena findings
+ - [`contests.csv`](https://code4rena.com/community-resources/contests.csv): Code4rena audits 
 
 Once awards are determined, we generate a CSV file enumerating funds to be sent. Distribution is then initiated using disperse.app and sent to multisig signers for completion of payment.
 
