@@ -6,6 +6,7 @@
 
 * [Wardens](roles/wardens/README.md)
   * [Submission policy](roles/wardens/submission-policy.md)
+  * [Solo audits](roles/wardens/solo-audits.md)
   * [Authenticate with your wallet](roles/wardens/warden-auth.md)
   * [Tools and resources](roles/wardens/tools-and-resources.md)
 * [Sponsors](roles/sponsors/README.md)
