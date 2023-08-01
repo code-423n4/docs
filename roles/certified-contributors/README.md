@@ -58,3 +58,10 @@ Provenance will provide exact details after application submission. As of June 1
 
 Note: the document has to be less than 3 months old.
 
+### How long does it take to get certified? 
+
+Once you submit the [Certified Contributor Application form](https://code4rena.com/certified-contributor-application/), Provenance typically emails you within one business day. (If you don't see an email within that time frame, we recommend checking your spam folder for email from `@provenance.company` or `provenancecompliance.com`.)
+
+Provenance will provide you with detailed instructions. If you have all the available documents, the process can usually be completed within a day. 
+
+It will take longer if you need to assemble the necessary documents.
