@@ -14,6 +14,14 @@ One of our team members will review your repo, assess your responses and contrac
 
 **If you decide to move ahead with an audit, all relevant code will be made public at the time of your audit in most cases.** We also offer KYC and private competitions if privacy is a need; just let our team know.  
 
+### Scoping
+
+Our scoping form asks for several technical details to help our team assess the scope of your audit. There are several scoping considerations beyond a simple sLOC count. Here are two we're often asked about: 
+
+1. **Lines of Code count:** Please run a prettier config file set to a 100-character line length before counting LOCs. (You don't need to commit these changes to your repo; it's just for getting a standardized LOC count.) 
+2. **Test coverage %:** If you have less than 80% test coverage on your contracts, we strongly advise booking a [Test Coverage competition](https://code4rena.com/test-coverage) immediately prior to your Code4rena audit. It adds a few days on the front-end of your audit, but typically saves 3-4x that amount of time during the judging and review phases, by massively reducing the number of invalid submissions. (There are other benefits, too, [all outlined here](https://medium.com/code4rena/new-to-code4rena-test-coverage-c548645404f9).)
+
+
 ### **Determining pot size**
 
 We work together with you as the sponsor to set the appropriate award pool amount for your audit pool at or above current audit floor prices. To attract warden participation in the highly competitive engineering market, we work with standard award pool sizes. We regularly evaluate and adjust audit pricing to ensure incentive alignment with wardens. Sponsors always have the option of providing a larger-than-floor pot size, which tends to attract more warden talent and attention.
