@@ -16,15 +16,15 @@ One of our team members will review your repo, assess your responses and contrac
 
 ### **Determining pot size**
 
-We work together with you as the sponsor to set the appropriate award pool amount for your audit pool at or above current audit floor prices. To attract warden participation in the highly competitive engineering market, we work with standard award pool sizes. We regularly evaluate and adjust audit pricing to ensure incentive alignment with wardens. Sponsors always have the option of providing a larger-than-floor pot size, which tends to attract more warden talent and attention.
+To attract warden participation in the highly competitive engineering market, we work with standard award pool sizes based on the scope of the audit. We regularly evaluate and adjust audit pricing to ensure incentive alignment with wardens. Sponsors always have the option of boosting their award pool, which tends to attract more warden talent and attention.
 
 ### Analysis pool
 
 5% of each audit's award pool is typically allocated to Analyses. These reports contain high-level advice and review of the code: the "forest" to individual findings' "trees." 
 
-For a long time, wardens have wanted a better place to contribute value via the high-level / overview / advice that isn't necessarily covered by specific bugs. The Analysis pool provides them with a method to get credit for this advisory-level work. 
+Analyses provide projects with a diverse set of consultative advice to augment the bug reports. 
 
-The best Analyses provide projects with a diverse set of consultative advice to augment the bug reports. 
+For a long time, wardens have wanted a better place to contribute value via the high-level / overview / advice that isn't necessarily covered by specific bugs. The Analysis pool provides them with a method to get credit for this advisory-level work. 
 
 Projects have discretion to adjust the default allocation for the Analysis pool up or down; this should be clarified during the pre-audit booking and setup phase.
 
