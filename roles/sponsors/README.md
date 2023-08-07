@@ -18,8 +18,35 @@ One of our team members will review your repo, assess your responses and contrac
 
 Our scoping form asks for several technical details to help our team assess the scope of your audit. There are several scoping considerations beyond a simple sLOC count. Here are two we're often asked about: 
 
-1. **Lines of Code count:** Please run a prettier config file set to a 100-character line length before counting LOCs. (You don't need to commit these changes to your repo; it's just for getting a standardized LOC count.) 
-2. **Test coverage %:** If you have less than 80% test coverage on your contracts, we strongly advise booking a [Test Coverage competition](https://code4rena.com/test-coverage) immediately prior to your Code4rena audit. It adds a few days on the front-end of your audit, but typically saves 3-4x that amount of time during the judging and review phases, by massively reducing the number of invalid submissions. (There are other benefits, too, [all outlined here](https://medium.com/code4rena/new-to-code4rena-test-coverage-c548645404f9).)
+1. **Lines of Code count:** Please [run the `prettier` plugin](https://github.com/prettier-solidity/prettier-plugin-solidity) configured to a 100-character line length before counting LOCs. (You don't need to commit these changes to your repo; it's just for getting a standardized LOC count.) 
+2. **Test coverage %:** If you have less than 80% test coverage`*` on your contracts, we strongly advise booking a [Test Coverage competition](https://code4rena.com/test-coverage) immediately prior to your Code4rena audit. Doing this can drastically reduce the number of invalid submissions, and the time invested in a C4 test coverage competition is more than saved by speeding up the judging and review phase of your audit -- both of which lead to a higher quality outcome for you as a sponsor, and quite often a faster turnaround time overall. 
+
+There are other benefits, too, [all outlined here](https://medium.com/code4rena/new-to-code4rena-test-coverage-c548645404f9). 
+
+`*` Sponsors with 80+% test coverage should also consider improving their test coverage in order to increase the quality and credibility of the audit.
+
+#### Running `prettier` to provide a standardized LOC count
+
+The default command to run `prettier` is prettier --write 'contracts/**/*.sol' or npx prettier -w $(find contracts src -name "*.sol" | grep -v \.t\.sol)
+
+Our standard `.prettierrc` is: 
+
+```
+{
+  "overrides": [
+    {
+      "files": "*.sol",
+      "options": {
+        "printWidth": 100,
+        "tabWidth": 4,
+        "useTabs": false,
+        "singleQuote": false,
+        "bracketSpacing": false,
+      }
+    }
+  ]
+}
+```
 
 
 ### **Determining pot size**
