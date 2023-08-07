@@ -14,21 +14,29 @@ One of our team members will review your repo, assess your responses and contrac
 
 **If you decide to move ahead with an audit, all relevant code will be made public at the time of your audit in most cases.** We also offer KYC and private competitions if privacy is a need; just let our team know.  
 
-### **Determining pot size**
+### Determining pot size
 
-We work together with you as the sponsor to set the appropriate award pool amount for your audit pool at or above current audit floor prices. To attract warden participation in the highly competitive engineering market, we work with standard award pool sizes. We regularly evaluate and adjust audit pricing to ensure incentive alignment with wardens. Sponsors always have the option of providing a larger-than-floor pot size, which tends to attract more warden talent and attention.
+To attract warden participation in the highly competitive engineering market, we work with standard award pool sizes based on the scope of the audit. We regularly evaluate and adjust audit pricing to ensure incentive alignment with wardens. Sponsors always have the option of boosting their award pool, which tends to attract more warden talent and attention.
 
-### **Gas optimization pool**
+### Analysis pool
+
+5% of each audit's award pool is typically allocated to Analyses. These reports contain high-level advice and review of the code: the "forest" to individual findings' "trees." They augment and contextualize the bug reports that are incentivized by the remaining 95% of the pool. 
+
+For a long time, wardens have wanted a better place to contribute value via the high-level / overview / advice that isn't necessarily covered by specific bugs. The Analysis pool provides them with a method to get credit for this advisory-level work. 
+
+Projects have discretion to adjust the default allocation for the Analysis pool up or down; this should be clarified during the pre-audit booking and setup phase.
+
+### Gas optimization pool
 
 By default, 2.5% of the award pool is allocated to valid gas optimizations. We encourage all sponsors to keep this in place, as we can help each other be conscious of ways to minimize gas fees for users -- and indeed some sponsors may which to allocate a higher percentage of the award pool to this purpose. 
 
 Some projects may not wish to create a separate incentive for gas optimizations, and removing it should be discussed with Code4rena staff during the pre-audit setup phase.
 
-### **Org fee**
+### Org fee
 
 There is a fee on top of the determined audit pool, which goes to the Code4rena DAO to cover the costs associated with organizing, promoting, and reporting on audits.
 
-### **Audit scheduling**
+### Audit scheduling
 
 Our standard, one-week audits start and end on weekdays at 20:00:00 UTC. Due to high demand, we only lock audits into the schedule after receiving a deposit for the audit; we are unable to make scheduling commitments otherwise.
 
