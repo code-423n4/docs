@@ -46,10 +46,9 @@ We use a 100-character line length standard for scoping, and our default `.prett
 }
 ```
 
-
 ### Determining pot size
 
-We work together with you as the sponsor to set the appropriate award pool amount for your audit pool at or above current audit floor prices. To attract warden participation in the highly competitive engineering market, we work with standard award pool sizes. We regularly evaluate and adjust audit pricing to ensure incentive alignment with wardens. Sponsors always have the option of providing a larger-than-floor pot size, which tends to attract more warden talent and attention.
+To attract warden participation in the highly competitive engineering market, we work with standard award pool sizes based on the scope of the audit. We regularly evaluate and adjust audit pricing to ensure incentive alignment with wardens. Sponsors always have the option of boosting their award pool, which tends to attract more warden talent and attention.
 
 ### Analysis pool
 
