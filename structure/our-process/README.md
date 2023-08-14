@@ -20,4 +20,4 @@ We are working on tightening up all of our processes in order to be able to dist
 
 Presently, the process takes us longer than the ideal, but we are actively working to improve our planning and processes that will smooth out the rough spots that slow things down.
 
-See also: [Awarding process](awarding-process.md)
+See also: [Awarding process](https://docs.code4rena.com/awarding/incentive-model-and-awards/awarding-process)
