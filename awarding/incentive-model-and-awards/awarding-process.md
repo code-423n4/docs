@@ -1,7 +1,6 @@
 ---
 description: >-
-  This is a high level overview of the C4 awarding process. We have an
-  increasingly detailed operational manual in Notion.
+  This is a high level overview of the C4 awarding process. 
 ---
 
 # Awarding process
