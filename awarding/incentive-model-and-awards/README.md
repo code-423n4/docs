@@ -79,9 +79,7 @@ All A-grade reports receive a score of 2; All B-grade reports get a 1. Awarding 
 ### Bonus for best / selected for report
 Judges choose the best report in each category (Analysis, QA report, and Gas report), each of which earns the same 30% share bonus described under "High and Medium Risk bugs."
 
-Please keep in mind:
-- If there is a `selected for report` submission and all others in that category are B-grade, the `selected for report` submission will be treated as A-grade and given proportionally more than B-grade, plus the 30% bonus for being `selected for report`.
-- If the `selected for report` submission has a B-grade label, it will still be treated as A-grade and given proportionally more than B-grade, plus the 30% bonus for being `selected for report`.
+Please keep in mind, if the `selected for report` submission has a B-grade label, it will still be treated as A-grade and given proportionally more than B-grade, plus the 30% bonus for being `selected for report`.
 
 ## Satisfactory / unsatisfactory submissions
 
