@@ -68,16 +68,20 @@ Historically, Code4rena valued non-critical findings at 0; the intent of the QA 
 
 **Note:** Audits pre-dating February 3, 2022 awarded low risk and gas optimization shares as: `Low Risk Shares: 1 * (0.9 ^ (findingCount - 1)) / findingCount`
 
-### Grades for Analyses, QA and Gas reports
+## Grades for Analyses, QA and Gas reports
 
 Analyses, QA reports and Gas reports are graded A, B, or C.
 
 C scores are unsatisfactory and ineligible for awards.
 
-Judges choose the best report in each cateoory (Analysis, QA report, and Gas report), each of which earns the same 30% share bonus described under "High and Medium Risk bugs."
-
 All A-grade reports receive a score of 2; All B-grade reports get a 1. Awarding for QA and Gas reports is on a curve that's described [here](https://docs.code4rena.com/awarding/incentive-model-and-awards/curve-logic).
 
+### Bonus for best / selected for report
+Judges choose the best report in each category (Analysis, QA report, and Gas report), each of which earns the same 30% share bonus described under "High and Medium Risk bugs."
+
+Please keep in mind:
+- If there is a `selected for report` submission and all others in that category are B-grade, the `selected for report` submission will be treated as A-grade and given proportionally more than B-grade, plus the additional 30% bonus for being `selected for report`.
+- If the `selected for report` submission has a B-grade label, it will still be treated as a A-grade and given proportionally more than B-grade, plus the additional 30% bonus for being `selected for report`.
 
 ## Satisfactory / unsatisfactory submissions
 
