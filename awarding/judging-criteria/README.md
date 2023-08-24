@@ -49,7 +49,7 @@ Analyses are judged A/B/C, with the top Analysis selected for inclusion in the a
 
 ### QA reports (low/non-critical)
 
-Low and non-critical findings must be submitted as a _single_ QA report per warden. We allocate a **fixed 10% of prize pools toward QA reports.**
+Low and non-critical findings must be submitted as a _single_ QA report per warden. We allocate a **fixed 2.5% of prize pools toward QA reports.**
 
 Your QA report should include:
 
