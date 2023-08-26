@@ -30,7 +30,7 @@ Once awards are determined, we generate a CSV file enumerating funds to be sent.
 
 For most Code4rena contests, awards are sent on the Polygon network (usually in USDC) within 1-2 weeks of the awards announcement.
 
-If awards have been sent, and you don’t see them in your wallet, please verify that you have imported the USDC token into your Polygon wallet. (Metamask instructions [here](https://metamask.zendesk.com/hc/en-us/articles/360015489031-How-to-display-tokens-in-MetaMask).)
+If awards have been sent, and you don’t see them in your wallet, please verify that you have imported the USDC token into your Polygon wallet. (MetaMask instructions [here](https://support.metamask.io/hc/en-us/articles/360015489031-How-to-display-tokens-in-MetaMask).)
 
 If you still don’t see the award in your wallet, please [open a help desk ticket](https://code4rena.com/help).
 

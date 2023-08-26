@@ -18,10 +18,10 @@ Additional opportunities we are considering include:
 
 ## **Certification process and constraints**
 
-C4 continues to focus on privacy, so our certification process is done through a third party ([Provenance](https://provenance.company/)) that is bound by confidentiality. The certification process is as follows:
+C4 continues to focus on privacy, so our certification process is done through a third party ([Provenance](https://provenancecompliance.com/)) that is bound by confidentiality. The certification process is as follows:
 
 1. An eligible contributor submits the [Certified Contributor Application form](https://code4rena.com/certified-contributor-application/), and agrees to the Certified Contributor Terms and Conditions (see the application form).
-1. The DAO's AML/KYC agent, [Provenance](https://provenance.company/), contacts the contributor to certify their identity.
+1. The DAO's AML/KYC agent, [Provenance](https://provenancecompliance.com/), contacts the contributor to certify their identity.
 1. Provenance certifies a contributor as having completed their identity verification process, and having signed an agreement binding them to code of conduct and non-disclosure. Code4 Corporation and the Code4rena DAO do NOT have access to personal information, simply the verified knowledge that the contributor was certified.
 1. Code4 Corporation contacts the certified contributor to let them know their application has been approved.
 
