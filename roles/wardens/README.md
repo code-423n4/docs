@@ -24,7 +24,7 @@ Once a team is created, you have the ability to add/remove members and update yo
 
 All team registrations and updates will create pull requests that are flagged for the C4 team to review and approve. Please allow 24-48 business hours for processing.
 
-❗️**Important note: Team awards are sent as a single payment to *one* wallet.** We strongly recommend using a multisig wallet, or a tool like [PaymentSplitter](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/finance/PaymentSplitter.sol), to distribute awards among your team members. Note that C4 does not track which team member submitted each finding; your team is responsible for keeping track of that information, and distributing awards. The team structure at C4 is designed so that you submit as a team and get paid as a team.
+❗️**Important note: Team awards are sent as a single payment to *one* wallet.** We strongly recommend using a multisig wallet, or a tool like [PaymentSplitter](https://docs.openzeppelin.com/contracts/4.x/api/finance#PaymentSplitter), to distribute awards among your team members. Note that C4 does not track which team member submitted each finding; your team is responsible for keeping track of that information, and distributing awards. The team structure at C4 is designed so that you submit as a team and get paid as a team.
 
 
 ### Audit timeline
