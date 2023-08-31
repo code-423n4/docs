@@ -73,4 +73,4 @@ There is a fee on top of the determined audit pool, which goes to the Code4rena 
 
 Our standard, one-week audits start and end on weekdays at 20:00:00 UTC. Due to high demand, we only lock audits into the schedule after receiving a deposit for the audit; we are unable to make scheduling commitments otherwise.
 
-Note that in order to provide your team with the most efficient and effective code review, we require your team to add ALL code, documentation, and notes to your audit repo at least 48 hours prior to your audit start time. 
+Note that in order to provide your team with the most efficient and effective code review, we require your team to add ALL code, documentation, and notes to your audit repo at least 2 business days prior to your audit start time. 
