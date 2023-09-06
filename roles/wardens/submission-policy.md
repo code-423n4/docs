@@ -39,13 +39,50 @@ In order to help us triage and prioritize submissions, please ensure that your r
 
 It is also recommended to ensure you receive email confirmation of each submission. (If you do not see an email confirmation, please check your spam folder.)
 
-### Report format
+### Submission types
 
+- **High, Medium, and QA reports:** 
+  - Wardens should [review Code4rena's severity categorization](https://docs.code4rena.com/awarding/judging-criteria/severity-categorization) prior to submitting vulnerabilities, and select the appropriate risk when submitting.
+  - Medium or High severity findings should be submitted individually.
+  - All QA findings (Low risk or Non-critical) must be submitted as a single QA report per warden (or team).
+  - Centralization risks, systemic risks, and architecture recommendations should be submitted as part of an Analysis (see below).
+- **Analyses:** An analysis is a written submission outlining:
+  - Wardens' analysis of the codebase as a whole and any observations or advice they have about architecture, mechanism, or approach
+  - Broader concerns like systemic risks or centralization risks
+  - The approach taken in reviewing the code
+  - New insights and learnings from the audit
+- **Gas optimizations:** All identified gas optimizations should be submitted as a separate report. *Note:* the gas award pool is set according to the sponsor's preference, and some audits do not include gas optimizations awards.
+
+
+### Report formats
 - Medium or High severity findings should be submitted individually.
-- All QA findings (Low risk or Non-critical) must be submitted as a single QA report per warden (or team). 
-- All Gas optimizations must be submitted as a single Gas report per warden (or team).
+- Analyses should be submitted via the "Submit Analysis report" form.
+- All QA findings (Low risk or Non-critical) must be submitted within a single QA report per warden (or team). 
+- All Gas optimizations must be submitted within a single Gas report per warden (or team).
 
 Wardens who submit multiple QA and/or Gas findings to a single audit without following the required format will have all QA/Gas submissions invalidated for that audit. 
+
+### QA reports (low/non-critical)
+
+Low and non-critical findings must be submitted as a _single_ QA report per warden. We allocate a **fixed 2.5% of prize pools toward QA reports.**
+
+Your QA report should include:
+
+* all low severity findings; and
+* all non-critical findings.
+
+Each QA report will be assessed based on report quality and thoroughness as compared with other reports, with awards distributed on a curve. The top QA report author will receive the top prize from the category.
+
+Wardens overstating the severity of QA issues (submitting low/non-critical issues as med/high in order to angle for higher payouts) will have their scores reduced by judges.
+
+In the unlikely event that zero high- or medium-risk vulnerabilities are found, the full pool will be divided based on the QA Report curve.
+
+### Gas reports
+
+Gas reports should be submitted using the **same approach as the QA reports:** a single submission per warden which includes all identified optimizations. The gas pool will be allocated on a curve, and the top reporter will receive the top prize in the category.
+
+The gas pool varies from audit to audit, but typically it consists of 2.5% of the total prize pool. The precise gas pool for each audit can be found in that audit's repo.
+
 
 For more details on QA and Gas reports, and estimating risk, please see [Judging Criteria](https://docs.code4rena.com/roles/wardens/judging-criteria#qa-reports-low-non-critical).
 
@@ -110,11 +147,19 @@ Judges must make the best decision they can regarding quality and understandabil
 
 Wardens may use automated tools as a first pass, and build on these findings to identify High and Medium severity issues ("HM issues"). However, submissions based on automated tools will have a higher burden of proof for demonstrating to sponsors a relevant HM exploit path in order to be considered satisfactory.
 
+## Unauthorized test methods
+
+The following methods are not authorized means of testing within C4 code audits:
+
+* Testing exploits on mainnet.
+* Network denial of service (DoS or DDoS) tests or other tests that impair access to or damage a system or data.
+* Physical testing (e.g. office access, open doors, tailgating), social engineering (e.g. phishing, vishing), or any other non-technical vulnerability testing.
+
 ## Editing a report
 
 To edit a submitted finding in an open audit:
 
-1. Sign into https://code4rena.com with your wallet. 
+1. Sign into your https://code4rena.com user account. 
 2. Find the audit on the C4 Audit page and click “view competition"
 3. Click on the “Findings” tab. There you will see a list of all your submissions for that audit (both individual and team findings).
 4. Select a finding from the list, make your edits and re-submit.
@@ -133,14 +178,6 @@ In this situation, wardens who wish to have a report withdrawn should:
 4. Select a finding from the list, and choose the "withdraw" option.
 
 Submissions must be withdrawn before the audit deadline.
-
-## Unauthorized test methods
-
-The following methods are not authorized means of testing within C4 code audits:
-
-* Testing exploits on mainnet.
-* Network denial of service (DoS or DDoS) tests or other tests that impair access to or damage a system or data.
-* Physical testing (e.g. office access, open doors, tailgating), social engineering (e.g. phishing, vishing), or any other non-technical vulnerability testing.
 
 ## Questions
 
