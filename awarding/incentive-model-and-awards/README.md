@@ -68,6 +68,8 @@ Historically, Code4rena valued non-critical findings at 0; the intent of the QA 
 
 **Note:** Audits pre-dating February 3, 2022 awarded low risk and gas optimization shares as: `Low Risk Shares: 1 * (0.9 ^ (findingCount - 1)) / findingCount`
 
+In the unlikely event that zero high- or medium-risk vulnerabilities are found, the HM award pool will be divided based on the QA Report curve.
+
 ## Grades for Analyses, QA and Gas reports
 
 Analyses, QA reports and Gas reports are graded A, B, or C.
