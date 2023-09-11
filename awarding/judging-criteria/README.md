@@ -62,7 +62,7 @@ QA reports should include:
 
 Each QA report should be assessed based on report quality and thoroughness as compared with other reports, with awards distributed on a curve. 
 
-Judges have discretion to assign a lower grade to wardens overstating the severity of QA issues (submitting low/non-critical issues as med/high in order to angle for higher payouts).
+Judges have discretion to assign a lower grade to wardens overstating the severity of QA issues (submitting low/non-critical issues as med/high in order to angle for higher payouts). Judges may also raise the severity of a QA finding at their discretion. 
 
 ### Gas reports
 

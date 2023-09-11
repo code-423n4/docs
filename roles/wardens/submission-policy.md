@@ -151,7 +151,7 @@ Wardens may use automated tools as a first pass, and build on these findings to 
 
 The following methods are not authorized means of testing within C4 code audits:
 
-* Testing exploits on mainnet.
+* Testing exploits on deployed contracts or systems.
 * Network denial of service (DoS or DDoS) tests or other tests that impair access to or damage a system or data.
 * Physical testing (e.g. office access, open doors, tailgating), social engineering (e.g. phishing, vishing), or any other non-technical vulnerability testing.
 
