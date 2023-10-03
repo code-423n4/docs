@@ -16,7 +16,7 @@ If two or more QA (or gas optimization) reports have tied scores, they split the
 Total findings pool will be split based on QA report scores unless other arrangements are made.
 #### Can I see some examples of how awards work?
 
-Awards for each contest are [posted on the Code4rena website](https://code4rena.com/contests). See [Numoen](https://code4rena.com/contests/2023-01-numoen-findings), for example. The award calculation for Numoen had the following parameters:
+Awards for each audit are [posted on the Code4rena website](https://code4rena.com/contests). See [Numoen](https://code4rena.com/contests/2023-01-numoen-contest), for example. The award calculation for Numoen had the following parameters:
 
 * **Total awards: 50,000 USDC**
 * Main award pool: 42,500 USDC
