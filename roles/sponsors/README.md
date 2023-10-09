@@ -51,7 +51,7 @@ We use a 100-character line length standard for scoping, and our default `.prett
 
 To attract warden participation in the highly competitive engineering market, we work with standard award pool sizes based on the scope of the audit. We regularly evaluate and adjust audit pricing to ensure incentive alignment with wardens. Sponsors always have the option of boosting their award pool, which tends to attract more warden talent and attention.
 
-### Analysis pool
+#### Analysis pool
 
 5% of each audit's award pool is typically allocated to Analyses. These reports contain high-level advice and review of the code: the "forest" to individual findings' "trees." They augment and contextualize the bug reports that are incentivized by the remaining 95% of the pool. 
 
@@ -59,11 +59,11 @@ For a long time, wardens have wanted a better place to contribute value via the 
 
 Projects have discretion to adjust the default allocation for the Analysis pool up or down; this should be clarified during the pre-audit booking and setup phase.
 
-### Gas optimization pool
+#### Gas optimization pool
 
 By default, 2.5% of the award pool is allocated to valid gas optimizations. We encourage all sponsors to keep this in place, as we can help each other be conscious of ways to minimize gas fees for users -- and indeed some sponsors may which to allocate a higher percentage of the award pool to this purpose. 
 
-Some projects may not wish to create a separate incentive for gas optimizations, and removing it should be discussed with Code4rena staff during the pre-audit setup phase.
+Some projects may not wish to create a separate incentive for gas optimizations, and removing it should be discussed with Code4rena staff during the pre-audit setup phase. 
 
 ### Org fee
 

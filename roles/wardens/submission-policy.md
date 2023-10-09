@@ -62,6 +62,19 @@ It is also recommended to ensure you receive email confirmation of each submissi
 
 Wardens who submit multiple QA and/or Gas findings to a single audit without following the required format will have all QA/Gas submissions invalidated for that audit. 
 
+### Analyses
+
+An analysis allows wardens to provide a high-level architectural review and codebase analysis as well as recommendations — and to win a slice of the pool based on their insights and advice.
+
+The Analysis submission form includes a set of questions for you to answer to the best of your ability: 
+
+1. Analysis of the codebase (What's unique? What's using existing patterns?)
+2. Architecture feedback
+3. Centralization risks
+4. Systemic risks
+5. Other recommendations
+6. How much time did you spend?
+
 ### QA reports (low/non-critical)
 
 Low and non-critical findings must be submitted as a _single_ QA report per warden. We allocate a **fixed 2.5% of prize pools toward QA reports.**

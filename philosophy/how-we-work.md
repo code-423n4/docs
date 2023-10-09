@@ -19,7 +19,7 @@ Our goal is to build an organization where:
 
 ### We make decisions together
 
-* We focus on reaching outcomes __ together.
+* We focus on reaching outcomes together.
 * Everyone contributes to building the direction of the organization in an emergent way.
 * We can see and understand how decisions get made.
 * We know where to go to find out more information or get involved in an area.
