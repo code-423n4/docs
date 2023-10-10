@@ -62,6 +62,10 @@ We have a lot of documents outlining the technicalities of our judging process, 
 
 All Code4rena staff have the `staff` role in the Code4rena Discord server. You can check their roles by clicking on their username or profile picture. 
 
+### Who makes all the great art for C4? 
+
+Code4rena works with an amazing team of artists, led by [Jaime Robles](https://bsky.app/profile/brownies4thedead.bsky.social).
+
 ## Warden FAQ
 
 ### How do I submit issues to an audit?
