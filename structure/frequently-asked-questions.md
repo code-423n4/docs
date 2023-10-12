@@ -126,7 +126,7 @@ Over time, we expect the best analyses will result in a diverse set of "consulta
 
 Sure - your best bet is to look at the Reports section of the Code4rena website, and read through reports for audits that ran on or after June 6, 2023. Here are three examples:
 
-- [Analysis of Angle Protocol by warden __141345__](https://code4rena.com/reports/2023-06-angle#audit-analysis)
+- [Analysis of Angle Protocol by warden \_\_141345\_\_](https://code4rena.com/reports/2023-06-angle#audit-analysis)
 - [Analysis of Llama by warden 0xnev](https://code4rena.com/reports/2023-06-llama#audit-analysis)
 - [Analysis of Nouns DAO by warden 0xnev](https://code4rena.com/reports/2023-07-nounsdao#audit-analysis)
 
