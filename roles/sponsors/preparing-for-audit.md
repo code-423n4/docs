@@ -30,7 +30,7 @@ To increase the chances of wardens finding all bugs in your code, there are a fe
         - Any complex design or nontrivial design choice in the code
         - Anything in the code that might make an external reviewer scratch their head.
 - **Marking known issues:** It's important that our wardens don't waste their time on known issues and focus their time and energy on finding relevant bugs; therefore it's important that you let us know if there are any known issues in the code, whether you intend in mitigating them or not.
-- **Incomplete code:** Our wardens will work under the assumption that this is the final form of the code that's going to be deployed to the blockchain. If you plan on any modification of the code before deployment (except for mitigation of C4's findings), please note this clearly in your `README`` file, so that the wardens will have the correct assumptions about the code.
+- **Incomplete code:** Our wardens will work under the assumption that this is the final form of the code that's going to be deployed to the blockchain. If you plan on any modification of the code before deployment (except for mitigation of C4's findings), please note this clearly in your `README` file, so that the wardens will have the correct assumptions about the code.
 - **Tests:**
     - Some bugs can easily be found by simple tests; therefore it's better to cover as much as possible with tests so that the wardens don't need to spend time on finding and reporting them and can focus on finding the more complicated bugs
     - We don't expect you to rewrite your tests, but just in case you haven't written them yet, C4 wardens prefer `forge`, as it's easier to write and debug.
