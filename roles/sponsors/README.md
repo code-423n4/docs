@@ -61,7 +61,7 @@ Projects have discretion to adjust the default allocation for the Analysis pool 
 
 #### Gas optimization pool
 
-By default, 2.5% of the award pool is allocated to valid gas optimizations. We encourage all sponsors to keep this in place, as we can help each other be conscious of ways to minimize gas fees for users -- and indeed some sponsors may which to allocate a higher percentage of the award pool to this purpose. 
+By default, 2.5% of the award pool is allocated to valid gas optimizations. We encourage all sponsors to keep this in place, as we can help each other be conscious of ways to minimize gas fees for users -- and indeed some sponsors may wish to allocate a higher percentage of the award pool to this purpose. 
 
 Some projects may not wish to create a separate incentive for gas optimizations, and removing it should be discussed with Code4rena staff during the pre-audit setup phase. 
 
