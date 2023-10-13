@@ -19,4 +19,13 @@
 Your work will play a role in developing a public report of the audit.
 
 * Sponsors review findings, help identify duplicates, and provide comments as you confirm, acknowledge, or dispute wardens’ findings.
-* As your team works to mitigate issues, most sponsors will create a PR for each issue addressed in your codebase and link to it in the C4 finding issue and label the finding as resolved.
+* As your team works to mitigate issues, most sponsors will create a PR for each issue addressed in your codebase and link to it in the C4 finding issue.
+
+### How Code4rena mitigation reviews work
+
+- While judging for your audit contest is underway, your team works through whatever mitigations you choose to pursue. For each mitigation, you link them back to the findings in the repo.
+- After judging is finalized, the valid findings in the repo will be assigned a set of IDs containing a risk prefix + number (e.g. H-01 for a high-risk issue, M-03 for a medium). Mitigations of all High and Medium issues (we call them "HMs" for short) will be considered in-scope. We don't expect you to mitigate every QA / Gas issue, so we exclude those from mit. reviews.
+- Most mitigation reviews are invitational competitions between 3-5 of the top-performing wardens from your audit. Code4rena staff will post the opportunity for RSVP as soon as judging is finalized. 
+- Usually we can kick off the mitigation review within a few days of judging (assuming your mitigations have been completed), and they typically run for 5 days.
+- Wardens can submit both reviews of the mitigations themselves (e.g. mitigation confirmed/disputed,) as well as newly-introduced High and Medium risk issues.
+- After the mitigation review closes, there's a similar sponsor review and judging phase to how our audit contests work, and then C4 staff will produce a report summarizing your audit and mitigation review. 
