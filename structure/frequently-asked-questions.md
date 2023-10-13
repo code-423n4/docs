@@ -66,6 +66,10 @@ All Code4rena staff have the `staff` role in the Code4rena Discord server. You c
 
 Code4rena works with an amazing team of artists, led by [Jaime Robles](https://bsky.app/profile/brownies4thedead.bsky.social).
 
+### What does "HM" stand for? 
+
+"HM" is Code4rena shorthand for "High and Medium risk findings." C4 audits typically have an HM award pool that is distributed according to our [incentive model](../awarding/incentive-model-and-awards/README.md).
+
 ## Warden FAQ
 
 ### How do I submit issues to an audit?
