@@ -22,6 +22,10 @@ The simplest way to define the difference between Wardens and Masons is this: Wa
 
 Jump into our [Discord](https://discord.gg/code4rena) and get started! From there, you’ll need to [register](https://code4rena.com/register) as a Warden, then say hi in our #i-want-to-be-a-warden Discord channel. 
 
+### Can I change my username? 
+
+At this time we do not support username changes. You can register with a new username if you wish, but your new user account would start from zero on the leaderboard, and your existing username will remain visible if it is already on the leaderboard. 
+
 ### How can I become a Judge?
 
 Complete [this form](https://code4rena.com/judge-application/) and share: Short bio/intro and summary of relevant experience, links that help demonstrate your expertise, 3 example submissions to Code4rena contests that were judged high severity, description of how each submission demonstrates your depth of knowledge.
@@ -53,6 +57,18 @@ We push all public audit reports to the ‘[Reports](https://code4rena.com/repor
 ### How are audits judged?
 
 We have a lot of documents outlining the technicalities of our judging process, which you can view [here](https://docs.code4rena.com/roles/judges/how-to-judge-a-contest). In short, Judges follow stringent criteria, whilst making sure submissions adhere to C4 policies. We’ve also implemented a severity standardization guide to ensure a homogenized approach. 
+
+### How can I verify a legitimate member of Code4arena staff?
+
+All Code4rena staff have the `staff` role in the Code4rena Discord server. You can check their roles by clicking on their username or profile picture. 
+
+### Who makes all the great art for C4? 
+
+Code4rena works with an amazing team of artists, led by [Jaime Robles](https://bsky.app/profile/brownies4thedead.bsky.social).
+
+### What does "HM" stand for? 
+
+"HM" is Code4rena shorthand for "High and Medium risk findings." C4 audits typically have an HM award pool that is distributed according to our [incentive model](../awarding/incentive-model-and-awards/README.md).
 
 ## Warden FAQ
 
@@ -99,3 +115,65 @@ We’re an organization that aims to refine our processes wherever and whenever 
 ### If I’ve got questions about the severity I should assign to a finding, where should I go?
 
 In the C4 Discord, these types of questions are commonly asked in #questions and/or #wardens.
+
+## FAQ about Analyses
+
+## What is the difference between QA and analysis?
+
+QA reports include specific issues that are non-critical or low severity; Analysis is intended to give wardens the opportunity to share high level advice and review of the code.
+
+QA/HMs are "trees" to analyses' "forest." For a long time wardens have wanted a better place to contribute value on (and get credit and compensation for) high level overviews and advice that aren't necessarily covered by specific bugs.
+
+Over time, we expect the best analyses will result in a diverse set of "consultative" advice to augment "here's a set of bugs."
+
+## Can I see an example of an analysis?
+
+Sure - your best bet is to look at the Reports section of the Code4rena website, and read through reports for audits that ran on or after June 6, 2023. Here are three examples:
+
+- [Analysis of Angle Protocol by warden \_\_141345\_\_](https://code4rena.com/reports/2023-06-angle#audit-analysis)
+- [Analysis of Llama by warden 0xnev](https://code4rena.com/reports/2023-06-llama#audit-analysis)
+- [Analysis of Nouns DAO by warden 0xnev](https://code4rena.com/reports/2023-07-nounsdao#audit-analysis)
+
+## Where is the Analysis submission form?
+
+Every C4 audit that includes an Analysis pool will have a submission form for Analyses that is separate from the finding submission form. You can find the correct submission form by navigating to the audit on the Code4rena website while logged in. You should see a "Submit Analysis report" option when you hover over the “Make a submission” button.
+
+## I’m a non-native English speaker. Will I be penalized for language differences?
+
+As with all Code4rena submissions, judges are asked to assess analyses based on their content; we aren’t looking for perfect grammar. 
+
+That being said, if you prefer, you may submit your analysis in another language, and C4’s judge and lookout will use translation tools to read it. When possible, we will pull in Judges and Lookouts who speak the language.
+
+## Are analyses a part of **all** Code4rena audits?
+
+Not quite yet, but we expect they will be a core feature of all Code4rena audits in the near future. 
+
+For now, you can tell which audits have Analyses by looking at the award pool details in:
+
+- the #rsvp channel in the Code4rena Discord server,
+- the audit repo, or
+- the audit page on the [Code4rena.com](http://Code4rena.com) website.
+
+## How do judges assess Analyses?
+
+The judging rubric for Analyses is still emerging, but we asked our judges for advice and here’s what they told us:
+
+> It is mostly qualitative analysis based on how deep the report went and the value provided.
+Here are a couple of suggestions:
+> 
+> - **Architecture** - How does this codebase compare to others you're familiar with? What ideas can be incorporated? What are some architecture-level weak spots and how can they be mitigated?
+> - **Centralization** - What are all the trust assumptions laid out in the contract? How can they be reduced with little friction?
+> - **Systemic risks** - List out all the external conditions that could make contracts behave in an unsafe way. Consider analyzing their likelihood and suggest ways to reduce their impact, or check for them at runtime.
+> - **Documentation / Mental model** - Lay out diagrams with all the different components in play and how they interact with each other.
+
+## What if I have a limited amount of time to spend on an audit, but still want to submit a finding? Is there still value in submitting an analysis?
+
+Yes. You can simply state in your analysis that you spent a limited amount of time with the code base. Even a brief analysis helps Lookouts and Judges understand your approach and perspective. 
+
+## What happened to Basic Analyses?
+
+When Code4rena announced Analyses in June 2023, we hoped this new report category would incentivize and reward the many wardens whose expertise includes architecture and systemic risk advice, as well as providing judges and projects with insight into wardens' workflows and learning processes. 
+
+The results so far tell us that Advanced Analyses provide precisely the value to projects that we hoped they would. 👏 Wardens’ observations and acuity within this report category have been met with deep appreciation.
+
+Basic Analyses have not quite delivered the value we had hoped for, so we have removed them from future audits, effective August 18, 2023.
