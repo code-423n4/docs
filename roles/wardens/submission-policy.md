@@ -135,10 +135,14 @@ Code4rena staff will review the issue immediately with the judge and sponsor, an
 
 ### Findings in "parent" of forked projects
 
-If an issue is discovered during an audit that relates to the "parent" of a forked project, wardens should disclose the finding to the parent project first, and submit a placeholder finding to the C4 audit. Guidelines: 
+If an issue is discovered during an audit that relates to the "parent" of a forked project, wardens should disclose the finding to the parent project first, and submit a placeholder finding to the C4 audit. Please follow these steps: 
 
-- **Do not** disclose the parent / third party name within the body of the finding issue.
-- **Do** include a hash of the issue
+1. Submit a placeholder finding using the audit submission form, with a non-specific title (e.g. "Potentially sensitive issue")
+   - **Do not** disclose the parent / third party name within the body of the finding issue.
+   - **Do** include a hash of the issue
+1. While logged in to the Code4rena website, [submit a Help Desk request](https://code4rena.com/help/), and select "Sensitive disclosure" for "What type of problem do you need help with?" Please include: 
+    a. Name of audit, and 
+    b. Brief summary of the situation (e.g. "I've disclosed a finding to the parent project and am awaiting response. I've submitted a placeholder submission for the C4 audit in the meantime.")
 
 It is the warden's responsibility to follow up with Code4rena in a timely manner, based on what they hear back from the original project.
 
