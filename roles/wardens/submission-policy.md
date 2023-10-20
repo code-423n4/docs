@@ -128,8 +128,8 @@ If you discover a highly sensitive bug, e.g. a high-severity vulnerability affec
 
 1. Submit a placeholder finding using the audit submission form, with a non-specific title (e.g. "Potentially sensitive issue - disclosed privately")
 1. While logged in to the Code4rena website, [submit a Help Desk request](https://code4rena.com/help/), and select "Sensitive disclosure" for "What type of problem do you need help with?" Please include: 
-    a. Name of audit, and 
-    b. Link to a private Gist containing the finding.
+   - Name of audit, and 
+   - Link to a private Gist containing the finding.
 
 Code4rena staff will review the issue immediately with the judge and sponsor, and will ensure the submission is added to the audit repo after any immediate risks have been addressed. 
 
@@ -141,8 +141,8 @@ If an issue is discovered during an audit that relates to the "parent" of a fork
    - **Do not** disclose the parent / third party name within the body of the finding issue.
    - **Do** include a hash of the issue
 1. While logged in to the Code4rena website, [submit a Help Desk request](https://code4rena.com/help/), and select "Sensitive disclosure" for "What type of problem do you need help with?" Please include: 
-    a. Name of audit, and 
-    b. Brief summary of the situation (e.g. "I've disclosed a finding to the parent project and am awaiting response. I've submitted a placeholder submission for the C4 audit in the meantime.")
+   - Name of audit, and
+   - Brief summary of the situation (e.g. "I've disclosed a finding to the parent project and am awaiting response. I've submitted a placeholder submission for the C4 audit in the meantime.")
 
 It is the warden's responsibility to follow up with Code4rena in a timely manner, based on what they hear back from the original project.
 
