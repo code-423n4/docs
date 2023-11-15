@@ -78,17 +78,17 @@ Simply navigate to the audit page, click on the `Submit Findings` button, and fi
 
 ### How can I confirm that Code4rena has received my finding?
 
-Simply head over to the specific audit page and navigate to the `Findings` tab. If you see your issue listed, then it is already received by the C4 team.
+Simply head over to the specific audit page and navigate to the `Your Findings` tab (located to the right of `Details`). If you see your issue listed, then it is already received by the C4 team.
 
 You should also receive an email confirmation from submissions@code4rena.com. (If you don’t see it in your inbox, check your spam folder.)
 
 ### I submitted a finding but then realized it was invalid. Do I need to contact Code4rena?
 
-You can go to the `Findings` tab on the audit page and open the specific finding. There you will see an option to `Withdraw` the finding.
+You can go to the `Your Findings` tab (located to the right of `Details`) on the specific audit page and open the finding. There you will see an option to `Withdraw` the finding.
 
 ### Can I edit my findings post-submission?
 
-Yes! Go to the `Findings` tab on the audit page and open the concerned finding, make edits and submit changes. This option is only available until the audit deadline, though. 
+Yes! Go to the `Your Findings` tab (located to the right of `Details`) on the specific audit page and open the concerned finding, make edits and submit changes. This option is only available until the audit deadline, though.
 
 ### What if I want to change my wallet address?
 
