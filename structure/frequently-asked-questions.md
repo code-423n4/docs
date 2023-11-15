@@ -84,7 +84,7 @@ You should also receive an email confirmation from submissions@code4rena.com. (I
 
 ### I submitted a finding but then realized it was invalid. Do I need to contact Code4rena?
 
-You can go to the `Your Findings` tab (located to the right of `Details`) on the specific audit page and open the specific finding. There you will see an option to `Withdraw` the finding.
+You can go to the `Your Findings` tab (located to the right of `Details`) on the specific audit page and open the finding. There you will see an option to `Withdraw` the finding.
 
 ### Can I edit my findings post-submission?
 
