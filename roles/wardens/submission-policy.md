@@ -16,7 +16,7 @@ Under this policy, audit contests covers activities in which you:
 * Submit your bug report using the submission form.
 * Make every effort to avoid privacy violations, degradation of user experience, disruption to production systems, and destruction or manipulation of data, especially in regard to funds.
 * Only use exploits to the extent necessary to confirm a vulnerability’s presence. Do not use an exploit to compromise funds, exfiltrate data, establish persistent permissioning access, or use the exploit to redirect to other systems.
-* Unless explicitly noted by the affiliated sponsor, **wait until the audit report has been published** before you disclose it publicly.
+* Unless explicitly noted by the affiliated sponsor, **wait until the audit report has been published** before you disclose any findings or submissions publicly. 
 * Do not submit a high volume of low-quality reports.
 
 In the event that you encounter a critical vulnerability that the sponsor project would want to know about, even before the end of the audit, please refer to ["How to submit Zero-day or otherwise highly sensitive bugs."](#how-to-submit-zero-day-or-otherwise-highly-sensitive-bugs)
@@ -199,6 +199,10 @@ Submissions must be withdrawn before the audit deadline.
 ## Questions
 
 Questions regarding this policy can be addressed in the `#questions` channel on the [C4 Discord](https://discord.gg/Dr6p5KDCdG). We also invite you to contact us with suggestions for improving this policy.
+
+## Intellectual Property
+
+Unless otherwise specified in the contest's repo, You hereby grant a Creative Commons 0 1.0 license ([details here](https://creativecommons.org/publicdomain/zero/1.0/legalcode)) to any Background IP included in any findings, work product, or other deliverable provided to C4. “Background IP” includes any intellectual property that (i) was developed prior to relevant Opportunity; (ii) was developed after the start of the relevant Opportunity but is outside the scope of the services; (iii) was developed after the conclusion of the relevant Opportunity but has generic applicability; or (iv) derived from or relating to the Background IP. Notwithstanding the forgoing, with the exception of source code that is provided for the purposes of demonstrating a Finding, Background IP does not include source code.
 
 ## Authorization
 
