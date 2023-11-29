@@ -441,7 +441,8 @@ The individual members of the Supreme Court share the following comments
 ### Alex’s View
 
 Before discussions with the Supreme Court, I had prepared the following suggestion for amending the rules
-[ IMAGE HERE ]
+
+![image](Alex notes.png)
 
 This is an elaboration at the time of writing:
 
