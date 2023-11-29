@@ -6,12 +6,6 @@
 - [Trust](https://code4rena.com/@Trust)
 - [LSDan](https://code4rena.com/@lsdan)
 
-## Legend
-- 🟢 should be straightforward, intend to implement immediately
-- 🟡 may take longer, needs planning
-- 🔴 disagree, do not intend to implement
-- <span style="background:green">Green highlight</span>: verdict, needs integration into docs
-- <span style="background:yellow">Yellow highlight</span>: recommendation, needs staff input & execution
 
 # Executive Summary
 This document contains the verdicts as well as recommendations that the first C4 Supreme Court session has generated.
@@ -20,7 +14,7 @@ The issues are sorted by priority that the Supreme Court Member have determined,
 
 # 9s
 
-## 🟡 <span style="background:yellow">Recommendation: Appeal Committee</span>
+## Recommendation: Appeal Committee
 
 The following Process is suggested
 With exact $ amounts being indicative of perceived price / value which should be derived in an analytical way
@@ -80,7 +74,7 @@ We are cautious of penalizing wardens when their escalations are not unanimously
 We recommend staff to experiment over time to find an effective process that works for all parties
 
 
-## <span style="background:green">Verdict: Severity Standardization - Centralization risks</span>
+## Verdict: Severity Standardization - Centralization risks
 
 Submissions would be separated into subcategories:
 ```
@@ -90,7 +84,7 @@ Submissions would be separated into subcategories:
 - Privilege escalation issues are judged by likelihood and impact and their severity is uncapped.
 ```
 
-## <span style="background:green">Verdict: Severity standardization - Conditional on User Mistake</span>
+## Verdict: Severity standardization - Conditional on User Mistake
 
 Findings that require the user to be careless or enter the wrong information into a contract call are QA or Invalid. 
 
@@ -98,7 +92,7 @@ Non privileged users are expected to preview their transactions to protect again
 
 Phishing attacks, and improper caution on using a protocol fall under this rule.
 
-## <span style="background:green">Verdict: Unsupported fee-on-transfer tokens (and broader ERC20 discussion)</span>
+## Verdict: Unsupported fee-on-transfer tokens (and broader ERC20 discussion)
 
 - Generally speaking, all non-standard ERC-20 token issues should be included in a dedicated part
   of the analysis writeup, not submitted as high, medium, or low risk issues. The exception is an
@@ -134,14 +128,14 @@ these would have effects on assets unrelated to the mechanism, those would still
 
 No ruling changes are desirable.
 
-<span style="background:yellow">Recommendations:</span>
+### Recommendations:
 We recommend improving the robustness of the PJQA stage through:
 
 - An automatic changelog for judge verdicts
 - A structured process to validate a request for review has been processed
 - Exclusively for issues that were raised during the original PJQA timeline, a change or request for comments from the Judge allows an additional 24 hours of time for Wardens to raise additional concerns.
 
-## <span style="background:green">Verdict: QA, Gas and Bot Race Judging</span>
+## Verdict: QA, Gas and Bot Race Judging
 
 The decision is meant to confirm the direction that has been taken while maintaining sufficient leniency to allow consensus practices to emerge over time.
 
@@ -167,13 +161,12 @@ Reports will be judged via the following Rules:
 3) Reports overall will be awarded a Bonus or a Detraction
 4) The Judge will, at their discretion, adjust the Quantitative Results based on more subjective Qualitative Analysis with the Objective Function being giving as much value as possible to the Sponsor
 
-
-🟡 <span style="background:yellow">Recommendation:</span>
+### Recommendation:
 For advisory output, we believe that these report categories are overly specialized for the lookout or judge role and should be delegated to new roles. As of now they take a vastly disproportionate amount of the judge’s time, which is best spent on the HM reports. In the absence of a specialized role, we recommend that the lookout’s role be allowed to close and invalidate low-quality gas and QA reports without input from the judge.
 
 # 5-8s
 
-## 🟡 <span style="background:yellow">Recommendation: Proposition for collection and processing of judge performance</span>
+## Recommendation: Proposition for collection and processing of judge performance
 
 We advise to establish metrics that may assist in the assessment of judge performance. It is premature to discuss the interpretation of those metrics. When amounts are used, they should be interpreted as ratios of the total issue pool.
 - number of PJQA review requests
@@ -187,7 +180,7 @@ For Presorters, useful metrics are:
 - Amount of Duplicate findings that are undupped as Unique or as incorrect Duplicates by the Judge (False Positive)
 - Amount of High Quality Reports that end up being Valid and/or Selected For Report (True Positive)
 
-## <span style="background:green">Verdict: Penalty / Award Standardization - Duplicate Report PoC Thoroughness</span>
+## Verdict: Penalty / Award Standardization - Duplicate Report PoC Thoroughness
 
 We will address this as part of a clarification on the core criteria of submission and how lacking certain components would affect scoring.
 
@@ -207,7 +200,7 @@ Additional factors that can be taken into account for partial scoring include:
 - Quality of the submission in the form of writing or presentation quality
 - Lack or incorrectness of the remediation steps
 
-## <span style="background:yellow">Recommendation: Standardize acceptance of reports based on automated findings</span>
+## Recommendation: Standardize acceptance of reports based on automated findings
 
 ~~When the only prerequisite for a high or medium issue is a Bot Race finding, and fixing the relevant bot race finding in the most logical common way will cause the issue to no longer exist, the issue is invalid.~~
 
@@ -235,13 +228,13 @@ For Example:
 
 However, the side effect of Bot Races is that the Sponsor has no agency in determining fixes for those findings, making it so that for some duplicates, raising severity would be useful, while other issues would never surface.
 
-## <span style="background:green">Verdict: Severity for protocol does not work as intended</span>
+## Verdict: Severity for protocol does not work as intended
 
 No agreement was reached on changing the rule definitions. The individual judges shall optionally provide an opinion on their view of the severity definitions.
 
 See Appendix A
 
-## <span style="background:green">Verdict: Similar exploits under a single issue</span>
+## Verdict: Similar exploits under a single issue
 The findings are duplicates if they share the same root cause. 
 
 More specifically, if fixing the Root Cause (in a reasonable manner) would cause the finding to no longer be exploitable, then the findings are duplicates.
@@ -250,40 +243,40 @@ Given the above, when similar exploits would demonstrate different impacts, the 
 
 The above applies to duplicates from Bot Races, for which a rational fix has to be assumed.
 
-## <span style="background:green">Verdict: Fault in out-of-scope library, impact in in-scope contract, to reward or not to reward</span>
+## Verdict: Fault in out-of-scope library, impact in in-scope contract, to reward or not to reward
 
 We would like to clarify the situation where an in-scope contract composes/inherits with an OOS contract, and the root cause exists in the OOS contract. In such cases, the finding is to be treated as OOS, while exceptional scenarios are at the discretion of the judge.
 
 At the consultative level, we advise that the sponsor (not the scout) must be held responsible for the final list of files in scope (scope.txt). This would remove any gray areas around scope when contracts are interdependent. The Sponsor must understand that adding a file to scope.txt means it’s in scope, while the omission of a file means it’s out of scope, even if the file will be part of the deployed contracts.
 
-## <span style="background:green">Verdict: There are little incentives to produce quality descriptions</span>
+## Verdict: There are little incentives to produce quality descriptions
 
 No change of rules is necessary. Partial scoring addresses incentives adequately.
 
-## <span style="background:green">Verdict: Severity standardization - speculation on future code</span>
+## Verdict: Severity standardization - speculation on future code
 
 Any issue that is not exploitable within the scope of the contest is defined as speculating on future code. Any such speculation only has the potential to be valid if the root cause is demonstrated to be in the contest scope. Warden may make an argument on why a future code change that would make the bug manifest is reasonably likely. Based on likelihood considerations, the Judge may assign a severity rating in any way they see fit.
 
 If the exploitability relies on a particular 3rd party integration, the likelihood must factor in a competent integrator who has done due diligence.
 
-## <span style="background:green">Verdict: Using contract upgradability as a severity mitigation</span>
+## Verdict: Using contract upgradability as a severity mitigation
 
 Contract upgradability should never be used as a severity mitigation, i.e. we assume contracts are non-upgradable.
 
-## <span style="background:green">Verdict: RFC - A case for or against admin privilege reports</span>
+## Verdict: RFC - A case for or against admin privilege reports
 
 This has been addressed through other verdicts.
 See: Severity Standardization - Centralization risks
 
-## <span style="background:green">Verdict: Problems with Libra Finance contest judging</span>
+## Verdict: Problems with Libra Finance contest judging
 
 The broader discussion of judging QA is addressed through other verdicts and consultative pieces.
 
-## 🟡 <span style="background:yellow">Recommendation: Adding 75% credit as an option</span>
+## Recommendation: Adding 75% credit as an option
 
 We recommend that a 75% option be added to the judging tool and grading algorithm.
 
-## <span style="background:green">Verdict: Severity standardization - event-related impacts</span>
+## Verdict: Severity standardization - event-related impacts
 
 A bug whose consequence is faulty emission of event(s) shall be graded in line with its broader-level impact:
 - For events which are used for additional on-chain processes such as bridging, inclusion proofs etc., issue will be graded based on impacted functionality.
@@ -300,13 +293,13 @@ Issue has not been addressed in this session.
 
 Issue has been addressed in other verdicts.
 
-## <span style="background:green">Verdict: Loss of Fees as Low</span>
+## Verdict: Loss of Fees as Low
 
 Loss of fees should be regarded as an impact similar to any other loss of capital:
 - Loss of dust amounts are QA
 - Loss of real amounts depends on specific conditions and likelihood considerations.
 
-## <span style="background:green">Verdict: Loss of yield as high</span>
+## Verdict: Loss of yield as high
 
 Loss of **matured** yield should be regarded as an impact similar to any other loss of capital:
 - Loss of dust amounts are QA
@@ -314,7 +307,7 @@ Loss of **matured** yield should be regarded as an impact similar to any other l
 
 Loss of **unmatured** yield or yield in motion shall be capped to medium severity.
 
-## <span style="background:green">Verdict: Severity standardization - Protocol does not support CryptoPunks</span>
+## Verdict: Severity standardization - Protocol does not support CryptoPunks
 
 - QA as Refactoring / Improvement
 - Cannot be argued as a vulnerability
@@ -329,7 +322,7 @@ See: Severity Standardization - Conditional on User Mistake
 
 See: Severity Standardization - Centralization risks
 
-## <span style="background:green">Verdict: Approve Race Condition - Suggested NC or Invalid</span>
+## Verdict: Approve Race Condition - Suggested NC or Invalid
 - We have long rejected the finding as anything above NC
 - OZ has deprecated increaseAllowance and decreaseAllowance
 - We officially confirm:
@@ -374,7 +367,7 @@ We do not advise changing this policy.
 
 We do not believe regulatory action is necessary.
 
-## <span style="background:green">Verdict: Proposal - Penalties for invalid submissions</span>
+## Verdict: Proposal - Penalties for invalid submissions
 
 Per-invalid penalties shall not be imposed on wardens. However, it is within the judge’s discretion to invalidate all of a warden’s findings in a particular contest in the case of repeated low-quality submissions.
 
@@ -389,7 +382,7 @@ We advise against this motion. We suggest that once submissions are scored indiv
 
 # Court-initiated issues
 
-## <span style="background:green">Verdict: Consensus Mechanism</span>
+## Verdict: Consensus Mechanism
 
 We differentiate between the two possible outputs of the court.
 
@@ -397,7 +390,7 @@ For change or introduction of rulings, it shall be necessary to have a full 3/3 
 
 For consultative output, a 2/3 consensus is required. If there is a disagreement, consultation would be split into majority opinion and dissenting opinion.
 
-## <span style="background:green">Verdict: Judging analysis submissions</span>
+## Verdict: Judging analysis submissions
 
 Assessment can be viewed on two planes:
 - Basic analysis - laying out the characteristics of the codebase, informational
@@ -419,7 +412,7 @@ Areas of interest include:
 
 Merely repeating the code functionality in pseudo-documentation is not considered valuable information
 
-## 🟢 <span style="background:yellow">Recommendation: Conflict of Interests</span>
+## Recommendation: Conflict of Interests
 
 We’ve discussed a variety of conflicts of interest situations in the Sponsor <> Judge <> Warden triangle. We recommend listing out known COI risks that almost by definition, cannot be effectively mitigated:
 1) Warden/Judge is providing or has provided security services to Sponsor outside of C4
@@ -427,11 +420,11 @@ We’ve discussed a variety of conflicts of interest situations in the Sponsor <
 
 It is recommended that whenever a Warden or Judge find themselves in a place of COI, they would voluntarily disclose the details of said COI. 
 
-## <span style="background:green">Verdict: Standardization of additional warden output during QA</span>
+## Verdict: Standardization of additional warden output during QA
 
 No new information should be introduced and considered in PJQA. Elaborations of the already introduced information can be considered (e.g. tweaking a POC), from either the Judge or the Warden, but they will only count towards the validity of the issue, not its quality score.
 
-## 🟡 <span style="background:yellow">Recommendation: Review of judge lifecycle</span>
+## Recommendation: Review of judge lifecycle
 
 We identify some issues in the lifecycle. The granting of judge role should be a slower and tightly-controlled process. New judges must first prove themselves as lookouts. Once given the title, there should be a 2-3 contest period where they are closely reviewed by a SC judge, and only through scoring high grades should they establish their permanent status.
 
