@@ -442,7 +442,7 @@ The individual members of the Supreme Court share the following comments
 
 Before discussions with the Supreme Court, I had prepared the following suggestion for amending the rules
 
-![image](Alex notes.png)
+![image](Alex-notes.png)
 
 This is an elaboration at the time of writing:
 
