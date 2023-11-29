@@ -1,4 +1,4 @@
-# Decisions from the innagural Supreme Court session, Fall 2023
+# Decisions from the inaugural Supreme Court session, Fall 2023
 
 ## Judges
 
