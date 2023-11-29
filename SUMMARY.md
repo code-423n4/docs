@@ -27,6 +27,9 @@
   * [FAQ about QA and Gas Reports](awarding/incentive-model-and-awards/qa-gas-report-faq.md)  
 * [Judging criteria](awarding/judging-criteria/README.md)
   * [Severity Categorization](awarding/judging-criteria/severity-categorization.md)
+  * [Decisions from the inaugural Supreme Court session, Fall 2023](awarding/judging-criteria/supreme-court-decisions-fall-2023.md)]
+  * [Duplicate Report Standardizations](awarding/judging-criteria/duplicate-report-standardizations.md)]
+  * [Penalties for invalid submissions](awarding/judging-criteria/penalties-for-invalid-submissions.md)
 * [Fairness and validity](awarding/fairness-and-validity/README.md)
 
 ## Philosophy
