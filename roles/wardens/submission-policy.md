@@ -164,6 +164,8 @@ Judges must make the best decision they can regarding quality and understandabil
 
 Wardens may use automated tools as a first pass, and build on these findings to identify High and Medium severity issues ("HM issues"). However, submissions based on automated tools will have a higher burden of proof for demonstrating to sponsors a relevant HM exploit path in order to be considered satisfactory.
 
+Wardens and judges are recommended to read [the Supreme Court's verdict on this issue](https://docs.code4rena.com/awarding/judging-criteria/supreme-court-decisions-fall-2023) for further advice on the validity of submissions based on automated tools.
+
 ## Unauthorized test methods
 
 The following methods are not authorized means of testing within C4 code audits:

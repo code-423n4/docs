@@ -57,6 +57,10 @@ Wardens _may_ elect to argue to bring things into scope—either by making the c
 
 In the interest of everyone's time, **please do not offer QA or gas reports on any code or known issues which are identified as out of scope.**
 
+## Acceptance of reports based on automated findings
+
+Wardens and judges are recommended to read [the Supreme Court's verdict on this issue]((https://docs.code4rena.com/awarding/judging-criteria/supreme-court-decisions-fall-2023). 
+
 ## Scoring
 
 The scoring system has three primary goals:
@@ -79,6 +83,22 @@ An analysis is a written submission outlining:
 If individual findings are trees, Analyses are the forest. They provide wardens with an opportunity to contribute value through high level insights and advice that aren't necessarily covered by specific bugs -- and a way to get credit for doing so.
 
 Each Analysis is judged based on quality and thoroughness as compared with other reports, with awards distributed on a curve. 
+
+The Autumn 2023 Supreme Court session provided further judging guidelines for Analyses, saying they should provide "[actionable] insight on improvement steps of outlined characteristics." 
+
+Areas of interest include:
+- Full representation of the project’s risk model:
+  - Admin abuse risks
+  - Systemic risks
+  - Technical risks
+  - Integration risks
+  - Non-standard token risks (if in scope)
+- Software engineering considerations
+- In-depth architecture assessment of business logic 
+- Testing suite
+- Weakspots and any single points of failure
+
+Merely repeating the code functionality in pseudo-documentation is not considered valuable information.
 
 ### QA reports (low/non-critical)
 

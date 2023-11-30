@@ -143,21 +143,18 @@ Reports will be judged via the following Rules:
 
 1) An initial Qualitative Filtering Round will be conducted
 
-&nbsp;&nbsp;&nbsp;&nbsp;Reports that distinguish themselves as:
-```
+Reports that distinguish themselves as:
   - Poorly Written
   - Generic
   - Low amount of findings
   - Overall with a High Noise to Signal Ratio (at the discretion of the Judge)
-```  
-&nbsp;&nbsp;&nbsp;&nbsp;Will be closed at this initial round and will not be manually judged
+will be closed at this initial round and will not be manually judged
 
 2) Score via algorithm for chosen reports
 
-&nbsp;&nbsp;&nbsp;&nbsp;Reports will be scored based on their Findings
-```
+Reports will be scored based on their Findings
+
   - Each finding will be assigned a Category of Impact and a Bonus / Detraction score
-```
 3) Reports overall will be awarded a Bonus or a Detraction
 4) The Judge will, at their discretion, adjust the Quantitative Results based on more subjective Qualitative Analysis with the Objective Function being giving as much value as possible to the Sponsor
 
