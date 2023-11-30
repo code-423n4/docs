@@ -104,7 +104,7 @@ Phishing attacks, and improper caution on using a protocol fall under this rule.
   definition is the one stated here:
   https://ethereum.org/en/developers/docs/standards/tokens/erc-20/#body
 
-- 🟢 <span style="background:yellow">Recommendation:</span> We recommend that C4 staff include the following list of common non-standard token types in the onboarding questionnaire, asking if the sponsor wishes to specifically exclude these tokens from the scope of the contest:
+- Recommendation: We recommend that C4 staff include the following list of common non-standard token types in the onboarding questionnaire, asking if the sponsor wishes to specifically exclude these tokens from the scope of the contest:
 _We recognize these mechanisms as in-scope by default, and suggest that the sponsor manually opt-out of the following list, which we expect over time will change, based on common mechanisms being used_
 ```
   - Fee on Transfer

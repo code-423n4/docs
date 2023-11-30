@@ -6,16 +6,16 @@ Where **assets** refer to funds, NFTs, data, authorization, and any information 
 * **2 — Med:** Assets not at direct risk, but the function of the protocol or its availability could be impacted, or leak value with a hypothetical attack path with stated assumptions, but external requirements.
 * **3 — High:** Assets can be stolen/lost/compromised directly (or indirectly if there is a valid attack path that does not have hand-wavy hypotheticals).
 
-## Severity Standardization - Centralization risks
+## Centralization risks
 
-Submissions would be separated into subcategories:
+Submissions describing centralization risks should be submitted as follows:
 
-- Direct misuse of privileges shall be submitted in the Analysis report
+- Direct misuse of privileges shall be submitted in the Analysis report.
 - Reckless admin mistakes are invalid. Assume calls are previewed.
-- Mistakes in code only unblocked through admin mistakes are QA-level
+- Mistakes in code only unblocked through admin mistakes should be submitted within a QA Report.
 - Privilege escalation issues are judged by likelihood and impact and their severity is uncapped.
 
-## Severity standardization - Conditional on User Mistake
+## Conditional on user mistake
 
 Findings that require the user to be careless or enter the wrong information into a contract call are QA or Invalid. 
 
@@ -23,20 +23,20 @@ Non privileged users are expected to preview their transactions to protect again
 
 Phishing attacks, and improper caution on using a protocol fall under this rule.
 
-## Severity standardization - speculation on future code
+## Speculation on future code
 
 Any issue that is not exploitable within the scope of the contest is defined as speculating on future code. Any such speculation only has the potential to be valid if the root cause is demonstrated to be in the contest scope. Warden may make an argument on why a future code change that would make the bug manifest is reasonably likely. Based on likelihood considerations, the Judge may assign a severity rating in any way they see fit.
 
 If the exploitability relies on a particular 3rd party integration, the likelihood must factor in a competent integrator who has done due diligence.
 
-## Severity standardization - event-related impacts
+## Event-related impacts
 
 A bug whose consequence is faulty emission of event(s) shall be graded in line with its broader-level impact:
 - For events which are used for additional on-chain processes such as bridging, inclusion proofs etc., issue will be graded based on impacted functionality.
 - Bugs that cause non-compliance with EIPs shall be graded based on EIP ruling guidelines
 - Failure to demonstrate the broader level impacts above shall cap the severity to Low. For clarification, bugs leading to readability or accessibility of data, or issues of display in frontends, are capped to Low.
 
-## Severity standardization - Protocol does not support CryptoPunks
+## Protocol does not support CryptoPunks
 
 - QA as Refactoring / Improvement
 - Cannot be argued as a vulnerability
@@ -53,7 +53,7 @@ Rather than treat EIP-20 as an authoritative document, we recognize that the com
 
 When an in-scope contract composes/inherits with an OOS contract, and the root cause exists in the OOS contract, the finding is to be treated as OOS. Exceptional scenarios are at the discretion of the judge.
 
-## Loss of Fees as Low
+## Loss of fees as Low
 
 Loss of fees should be regarded as an impact similar to any other loss of capital:
 - Loss of dust amounts are QA
@@ -67,7 +67,7 @@ Loss of **matured** yield should be regarded as an impact similar to any other l
 
 Loss of **unmatured** yield or yield in motion shall be capped to medium severity.
 
-## Approve Race Condition - NC or Invalid
+## Approve race condition - NC or Invalid
 
 - We have long rejected the finding as anything above NC
 - OZ has deprecated increaseAllowance and decreaseAllowance
