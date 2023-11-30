@@ -34,6 +34,10 @@ Those documents also includes all information regarding de-duping, grading QA/Ga
 
 One important caveat to all of the above: _**unless otherwise specified by the audit sponsor or intended to be handled by the code**_**.** For example, flash loans are generally unavoidable, but since MarginSwap had a safeguard against them, we considered these findings relevant in their contest.
 
+## Dealing with spam / repeated low-quality submissions
+
+Per [the Autumn 2023 Supreme Court verdicts](https://docs.code4rena.com/awarding/judging-criteria/supreme-court-decisions-fall-2023.md), it is within the judge’s discretion to invalidate all of a warden’s findings in a particular contest in the case of repeated low-quality submissions.
+
 ## Discussing issues with the sponsor
 
 Ultimately the judge has the final word, but we want your decisions to be well-informed.  In a typical C4 audit, there will be a few issues that benefit from discussion with the sponsor; the judge may find that their understanding of the system is incomplete and you need to ask for clarification, or where there is room for misunderstanding. Don’t hesitate to connect directly with the sponsor, either in the Github comments (where you can tag them in if needed), or via Discord.
