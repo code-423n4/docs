@@ -12,7 +12,7 @@ This document contains the verdicts as well as recommendations that the first C4
 
 The issues are sorted by priority that the Supreme Court Member have determined, with 9 being the highest priority.
 
-# 9s
+# [Priority] 9s
 
 ## Recommendation: Appeal Committee
 
@@ -161,7 +161,7 @@ Reports will be scored based on their Findings
 ### Recommendation:
 For advisory output, we believe that these report categories are overly specialized for the lookout or judge role and should be delegated to new roles. As of now they take a vastly disproportionate amount of the judge’s time, which is best spent on the HM reports. In the absence of a specialized role, we recommend that the lookout’s role be allowed to close and invalidate low-quality gas and QA reports without input from the judge.
 
-# 5-8s
+# [Priority] 5-8s
 
 ## Recommendation: Proposition for collection and processing of judge performance
 
@@ -280,7 +280,7 @@ A bug whose consequence is faulty emission of event(s) shall be graded in line w
 - Bugs that cause non-compliance with EIPs shall be graded based on EIP ruling guidelines
 - Failure to demonstrate the broader level impacts above shall cap the severity to Low. For clarification, bugs leading to readability or accessibility of data, or issues of display in frontends, are capped to Low.
 
-# 3s
+# [Priority] 3s
 
 ## Contest retrospectives
 
