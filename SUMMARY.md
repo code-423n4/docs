@@ -5,6 +5,7 @@
 ## Roles
 
 * [Wardens](roles/wardens/README.md)
+  * [Submission guidelines](roles/wardens/submission-guidelines.md)
   * [Submission policy](roles/wardens/submission-policy.md)
   * [Solo/team audits](roles/wardens/private-audits.md)
   * [Authenticate with your wallet](roles/wardens/warden-auth.md)
