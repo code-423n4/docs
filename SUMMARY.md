@@ -5,8 +5,9 @@
 ## Roles
 
 * [Wardens](roles/wardens/README.md)
+  * [Submission guidelines](roles/wardens/submission-guidelines.md)
   * [Submission policy](roles/wardens/submission-policy.md)
-  * [Solo/team audits](roles/wardens/private-audits.md)
+  * [Solo/team audits](roles/wardens/solo-team-audits.md)
   * [Authenticate with your wallet](roles/wardens/warden-auth.md)
   * [Tools and resources](roles/wardens/tools-and-resources.md)
 * [Sponsors](roles/sponsors/README.md)
@@ -24,10 +25,10 @@
 * [Incentive model and awards](awarding/incentive-model-and-awards/README.md)
   * [Awarding process](awarding/incentive-model-and-awards/awarding-process.md)
   * [Curve logic for QA and Gas optimization reports](awarding/incentive-model-and-awards/curve-logic.md)
-  * [FAQ about QA and Gas Reports](awarding/incentive-model-and-awards/qa-gas-report-faq.md)  
+  * [FAQ about QA and Gas Reports](awarding/incentive-model-and-awards/qa-gas-report-faq.md)
 * [Judging criteria](awarding/judging-criteria/README.md)
   * [Severity Categorization](awarding/judging-criteria/severity-categorization.md)
-  * [Decisions from the inaugural Supreme Court session, Fall 2023](awarding/judging-criteria/supreme-court-decisions-fall-2023.md)]
+  * [Decisions from the inaugural Supreme Court session, Fall 2023](awarding/judging-criteria/supreme-court-decisions-fall-2023.md)
 * [Fairness and validity](awarding/fairness-and-validity/README.md)
 
 ## Philosophy
