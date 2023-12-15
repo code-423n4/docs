@@ -1,6 +1,6 @@
 # Submission guidelines
 
-Best practices and recommendations for submitting to Code4rena competitions. Please also refer to the official [submission policy](https://docs.code4rena.com/roles/wardens/submission-policy.md).
+Best practices and recommendations for submitting to Code4rena competitions. Please also refer to the official [submission policy](https://docs.code4rena.com/roles/wardens/submission-policy).
 
 ## Submitting a report
 
