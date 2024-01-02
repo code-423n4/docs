@@ -41,6 +41,8 @@ While this may be seen as ‘inconsistent’, it is also true that standards wit
 
 The correct assessment when this happens is not that a judge is being inconsistent, it is that they have objectively observed that the quality of competition has increased, and that observation shapes their view of the whole set of submissions; they are consistent in valuing submissions in the context of each other, which is a central way that performance in a competition is measured.
 
+Per [the Autumn 2023 Supreme Court verdicts](https://docs.code4rena.com/awarding/judging-criteria/supreme-court-decisions-fall-2023), it is within the judge’s discretion to invalidate all of a warden’s findings in a particular contest in the case of repeated low-quality submissions.
+
 # If you disagree with a judge's decision
 
 If you disagree with a decision, and you do not have [the +backstage role](https://docs.code4rena.com/roles/certified-contributors/backstage-wardens), there's nothing further that can be done or changed; the judge's decisions are final. 
@@ -54,18 +56,3 @@ However, if the concern regarding judging is focused on a matter of inconsistenc
 3. IF a relevant type of issue is not already addressed there which doesn't represent the categorical concern you have, you can feel free to open an issue.
 
 The purpose of issues in that repo is not to post grievances about specific issues but about to identify places where the process can be improved and ways we can improve it. 
-
-
-# Continued evolution of rules
-
-## Rubric
-
-Because wardens should be able to have clear rule expectations of contests they contribute to, and because newer wardens do not have historical context on the intent of various rules, it is important that we continue to document a rubric of what constitutes the subjective threshold of validity.
-
-An initial rubric has been outlined [here](https://github.com/code-423n4/org/discussions/34) and a finalized version of this rubric will soon be added to formal documentation and judging procedure.
-
-Note well:
-
-- the purpose of this proposed rubric is not to be 'more strict'. It's to continue to work toward a standard and mutually agreed expectations as to what constitutes the base level of quality for a submission.
-- the scale of this rubric hasn't been used yet (someone who scored a 5 or a 10 or a 3 on some prior QA report was doing so on a band where 1 to 100 is the equivalent of 60 to 100 in the new rubric)
-- by the time we ask judges to implement this, we will have a Chrome extension in place that will aid them in scoring and which will have the rubric visible to them as they grade so they are aware of the implied meaning of their grade per the rubric.

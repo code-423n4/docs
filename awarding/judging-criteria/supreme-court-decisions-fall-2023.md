@@ -12,7 +12,7 @@ This document contains the verdicts as well as recommendations that the first C4
 
 The issues are sorted by priority that the Supreme Court Member have determined, with 9 being the highest priority.
 
-# 9s
+# [Priority] 9s
 
 ## Recommendation: Appeal Committee
 
@@ -104,7 +104,7 @@ Phishing attacks, and improper caution on using a protocol fall under this rule.
   definition is the one stated here:
   https://ethereum.org/en/developers/docs/standards/tokens/erc-20/#body
 
-- 🟢 <span style="background:yellow">Recommendation:</span> We recommend that C4 staff include the following list of common non-standard token types in the onboarding questionnaire, asking if the sponsor wishes to specifically exclude these tokens from the scope of the contest:
+- Recommendation: We recommend that C4 staff include the following list of common non-standard token types in the onboarding questionnaire, asking if the sponsor wishes to specifically exclude these tokens from the scope of the contest:
 _We recognize these mechanisms as in-scope by default, and suggest that the sponsor manually opt-out of the following list, which we expect over time will change, based on common mechanisms being used_
 ```
   - Fee on Transfer
@@ -143,28 +143,25 @@ Reports will be judged via the following Rules:
 
 1) An initial Qualitative Filtering Round will be conducted
 
-&nbsp;&nbsp;&nbsp;&nbsp;Reports that distinguish themselves as:
-```
+Reports that distinguish themselves as:
   - Poorly Written
   - Generic
   - Low amount of findings
   - Overall with a High Noise to Signal Ratio (at the discretion of the Judge)
-```  
-&nbsp;&nbsp;&nbsp;&nbsp;Will be closed at this initial round and will not be manually judged
+will be closed at this initial round and will not be manually judged
 
 2) Score via algorithm for chosen reports
 
-&nbsp;&nbsp;&nbsp;&nbsp;Reports will be scored based on their Findings
-```
+Reports will be scored based on their Findings
+
   - Each finding will be assigned a Category of Impact and a Bonus / Detraction score
-```
 3) Reports overall will be awarded a Bonus or a Detraction
 4) The Judge will, at their discretion, adjust the Quantitative Results based on more subjective Qualitative Analysis with the Objective Function being giving as much value as possible to the Sponsor
 
 ### Recommendation:
 For advisory output, we believe that these report categories are overly specialized for the lookout or judge role and should be delegated to new roles. As of now they take a vastly disproportionate amount of the judge’s time, which is best spent on the HM reports. In the absence of a specialized role, we recommend that the lookout’s role be allowed to close and invalidate low-quality gas and QA reports without input from the judge.
 
-# 5-8s
+# [Priority] 5-8s
 
 ## Recommendation: Proposition for collection and processing of judge performance
 
@@ -283,7 +280,7 @@ A bug whose consequence is faulty emission of event(s) shall be graded in line w
 - Bugs that cause non-compliance with EIPs shall be graded based on EIP ruling guidelines
 - Failure to demonstrate the broader level impacts above shall cap the severity to Low. For clarification, bugs leading to readability or accessibility of data, or issues of display in frontends, are capped to Low.
 
-# 3s
+# [Priority] 3s
 
 ## Contest retrospectives
 

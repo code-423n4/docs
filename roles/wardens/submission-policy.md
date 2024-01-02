@@ -1,6 +1,6 @@
 # Submission policy
 
-ode4rena is an open organization committed to improving the security of decentralized protocols while protecting the information of our sponsors and participants. This policy is intended to provide C4 Wardens (security researchers) clear guidelines for participating in code audits while conducting vulnerability discovery activities. This policy forms a binding agreement between C4 and You. By participating in code audits You agree to abide by this and any other applicable C4 policies.
+Code4rena is an open organization committed to improving the security of decentralized protocols while protecting the information of our sponsors and participants. This policy is intended to provide C4 Wardens (security researchers) clear guidelines for participating in code audits while conducting vulnerability discovery activities. This policy forms a binding agreement between C4 and You. By participating in code audits You agree to abide by this and any other applicable C4 policies.
 
 The following policy conveys C4’s preferences in how to submit discovered vulnerabilities to the organization and describes what systems and types of research are covered under this policy, how to share vulnerability reports, and the length of time we expect Wardens to wait prior to publicly disclosing vulnerabilities.
 
