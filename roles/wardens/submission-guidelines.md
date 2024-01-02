@@ -1,10 +1,6 @@
----
-description: >-
-  Best practices and recommendations for submitting to Code4rena competitions.
-  Please also refer to the official submission policy.
----
-
 # Submission guidelines
+
+Best practices and recommendations for submitting to Code4rena competitions. Please also refer to the official [submission policy](https://docs.code4rena.com/roles/wardens/submission-policy).
 
 ## Submitting a report
 
@@ -12,36 +8,36 @@ C4 accepts vulnerability reports via the audit submission form.
 
 In order to help us triage and prioritize submissions, please ensure that your reports:
 
-* Are submitted no later than the audit stop time.
-* Use the audit submission process.
-* Follow the correct report format. (See next section.)
-* Describe the location the vulnerability was discovered and the potential impact of exploitation.
-* Offer a detailed description of the steps needed to reproduce the vulnerability (proof of concept scripts or screenshots are helpful).
-* Have not been surfaced as "known issues" (see audit repo `README` for details).
-* Are written in English, if possible.
+- Are submitted no later than the audit stop time.
+- Use the audit submission process.
+- Follow the correct report format. (See next section.)
+- Describe the location the vulnerability was discovered and the potential impact of exploitation.
+- Offer a detailed description of the steps needed to reproduce the vulnerability (proof of concept scripts or screenshots are helpful).
+- Have not been surfaced as "known issues" (see audit repo README for details).
+- Are written in English, if possible.
 
 It is also recommended to ensure you receive email confirmation of each submission. (If you do not see an email confirmation, please check your spam folder.)
 
 ## Submission types
 
-* **High, Medium, and QA reports:**
-  * Wardens should [review Code4rena's severity categorization](https://docs.code4rena.com/awarding/judging-criteria/severity-categorization) prior to submitting vulnerabilities, and select the appropriate risk when submitting.
-  * Medium or High severity findings should be submitted individually.
-  * All QA findings (Low risk or Non-critical) must be submitted as a single QA report per warden (or team).
-  * Centralization risks, systemic risks, and architecture recommendations should be submitted as part of an Analysis (see below).
-* **Analyses:** An analysis is a written submission outlining:
-  * Wardens' analysis of the codebase as a whole and any observations or advice they have about architecture, mechanism, or approach
-  * Broader concerns like systemic risks or centralization risks
-  * The approach taken in reviewing the code
-  * New insights and learnings from the audit
-* **Gas optimizations:** All identified gas optimizations should be submitted as a separate report. _Note:_ the gas award pool is set according to the sponsor's preference, and some audits do not include gas optimizations awards.
+- **High, Medium, and QA reports:**
+    - Wardens should [review Code4rena's severity categorization](https://docs.code4rena.com/awarding/judging-criteria/severity-categorization) prior to submitting vulnerabilities, and select the appropriate risk when submitting.
+    - Medium or High severity findings should be submitted individually.
+    - All QA findings (Low risk or Non-critical) must be submitted as a single QA report per warden (or team).
+    - Centralization risks, systemic risks, and architecture recommendations should be submitted as part of an Analysis (see below).
+- **Analyses:** An analysis is a written submission outlining:
+    - Wardens' analysis of the codebase as a whole and any observations or advice they have about architecture, mechanism, or approach
+    - Broader concerns like systemic risks or centralization risks
+    - The approach taken in reviewing the code
+    - New insights and learnings from the audit
+- **Gas optimizations:** All identified gas optimizations should be submitted as a separate report. Note: the gas award pool is set according to the sponsor's preference, and some audits do not include gas optimizations awards.
 
 ### Report formats
 
-* Medium or High severity findings should be submitted individually.
-* Analyses should be submitted via the "Submit Analysis report" form.
-* All QA findings (Low risk or Non-critical) must be submitted within a single QA report per warden (or team).
-* All Gas optimizations must be submitted within a single Gas report per warden (or team).
+- Medium or High severity findings should be submitted individually.
+- Analyses should be submitted via the "Submit Analysis report" form.
+- All QA findings (Low risk or Non-critical) must be submitted within a single QA report per warden (or team).
+- All Gas optimizations must be submitted within a single Gas report per warden (or team).
 
 Wardens who submit multiple QA and/or Gas findings to a single audit without following the required format will have all QA/Gas submissions invalidated for that audit.
 
@@ -60,12 +56,12 @@ The Analysis submission form includes a set of questions for you to answer to th
 
 ### QA reports (low/non-critical)
 
-Low and non-critical findings must be submitted as a _single_ QA report per warden. We allocate a **fixed 2.5% of prize pools toward QA reports.**
+Low and non-critical findings must be submitted as a single QA report per warden. We allocate a **fixed 2.5% of prize pools toward QA reports.**
 
 Your QA report should include:
 
-* all low severity findings; and
-* all non-critical findings.
+- all low severity findings; and
+- all non-critical findings.
 
 Each QA report will be assessed based on report quality and thoroughness as compared with other reports, with awards distributed on a curve. The top QA report author will receive the top prize from the category.
 
@@ -75,7 +71,7 @@ In the unlikely event that zero high- or medium-risk vulnerabilities are found, 
 
 ### Gas reports
 
-Gas reports should be submitted using the **same approach as the QA reports:** a single submission per warden which includes all identified optimizations. The gas pool will be allocated on a curve, and the top reporter will receive the top prize in the category.
+Gas reports should be submitted using the same approach as the QA reports: a single submission per warden which includes all identified optimizations. The gas pool will be allocated on a curve, and the top reporter will receive the top prize in the category.
 
 The gas pool varies from audit to audit, but typically it consists of 2.5% of the total prize pool. The precise gas pool for each audit can be found in that audit's repo.
 
@@ -110,8 +106,8 @@ If you discover a highly sensitive bug, e.g. a high-severity vulnerability affec
 
 1. Submit a placeholder finding using the audit submission form, with a non-specific title (e.g. "Potentially sensitive issue - disclosed privately")
 2. While logged in to the Code4rena website, [submit a Help Desk request](https://code4rena.com/help/), and select "Sensitive disclosure" for "What type of problem do you need help with?" Please include:
-   * Name of audit, and
-   * Link to a private Gist containing the finding.
+    - Name of audit, and
+    - Link to a private Gist containing the finding.
 
 Code4rena staff will review the issue immediately with the judge and sponsor, and will ensure the submission is added to the audit repo after any immediate risks have been addressed.
 
@@ -120,11 +116,11 @@ Code4rena staff will review the issue immediately with the judge and sponsor, an
 If an issue is discovered during an audit that relates to the "parent" of a forked project, wardens should disclose the finding to the parent project first, and submit a placeholder finding to the C4 audit. Please follow these steps:
 
 1. Submit a placeholder finding using the audit submission form, with a non-specific title (e.g. "Potentially sensitive issue")
-   * **Do not** disclose the parent / third party name within the body of the finding issue.
-   * **Do** include a hash of the issue
+    - **Do not** disclose the parent / third party name within the body of the finding issue.
+    - **Do** include a hash of the issue
 2. While logged in to the Code4rena website, [submit a Help Desk request](https://code4rena.com/help/), and select "Sensitive disclosure" for "What type of problem do you need help with?" Please include:
-   * Name of audit, and
-   * Brief summary of the situation (e.g. "I've disclosed a finding to the parent project and am awaiting response. I've submitted a placeholder submission for the C4 audit in the meantime.")
+    - Name of audit, and
+    - Brief summary of the situation (e.g. "I've disclosed a finding to the parent project and am awaiting response. I've submitted a placeholder submission for the C4 audit in the meantime.")
 
 It is the warden's responsibility to follow up with Code4rena in a timely manner, based on what they hear back from the original project.
 
@@ -140,9 +136,9 @@ Judges must make the best decision they can regarding quality and understandabil
 
 ## Automated findings considered known issues
 
-* At the start of each audit, Code4rena runs a [Bot Race](https://www.code4rena.com/register/bot) where wardens compete to see whose AI-driven bot can create the highest quality and most thorough audit report.
-* The winning report is shared with all C4 wardens within 24 hours of the audit start time, both in the audit repo and in the audit's Discord channel.
-* All findings in the winning Bot Report will be declared publicly known issues, and therefore ineligible for awards.
+- At the start of each audit, Code4rena runs a [Bot Race](https://www.code4rena.com/register/bot) where wardens compete to see whose AI-driven bot can create the highest quality and most thorough audit report.
+- The winning report is shared with all C4 wardens within 24 hours of the audit start time, both in the audit repo and in the audit's Discord channel.
+- All findings in the winning Bot Report will be declared publicly known issues, and therefore ineligible for awards.
 
 Wardens may use automated tools as a first pass, and build on these findings to identify High and Medium severity issues ("HM issues"). However, submissions based on automated tools will have a higher burden of proof for demonstrating to sponsors a relevant HM exploit path in order to be considered satisfactory.
 
@@ -154,7 +150,7 @@ To edit a submitted finding in an open audit:
 
 1. Sign into your https://code4rena.com user account.
 2. Find the audit on the C4 Audit page and click “view competition"
-3. Click on the “Findings” tab. There you will see a list of all your submissions for that audit (both individual and team findings).
+3. Click on the “Findings” tab. There you will see a list of all your submissions for that audit (both individual and team findings)
 4. Select a finding from the list, make your edits and re-submit.
 
 Findings can be edited until the audit deadline.
@@ -166,7 +162,7 @@ It is possible that a warden might want to withdraw a report after submitting it
 In this situation, wardens who wish to have a report withdrawn should:
 
 1. Sign into https://code4rena.com with your wallet.
-2. Find the audit on the C4 Audit page and click “view competition
+2. Find the audit on the C4 Audit page and click “view competitio
 3. Click on the “Findings” tab. There you will see a list of all your submissions for that audit (both individual and team findings).
 4. Select a finding from the list, and choose the "withdraw" option.
 
