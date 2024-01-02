@@ -82,7 +82,7 @@ An analysis is a written submission outlining:
 
 If individual findings are trees, Analyses are the forest. They provide wardens with an opportunity to contribute value through high level insights and advice that aren't necessarily covered by specific bugs -- and a way to get credit for doing so.
 
-Each Analysis is judged based on quality and thoroughness as compared with other reports, with awards distributed on a curve. 
+Each Analysis is judged based on quality and thoroughness as compared with other reports, with awards distributed on a curve. Wardens are encouraged to read the top-scoring Analyses from past Code4rena audits, which are highlighted in [C4's audit reports](https://code4rena.com/reports).
 
 The Autumn 2023 Supreme Court session provided further judging guidelines for Analyses, saying they should provide "[actionable] insight on improvement steps of outlined characteristics." 
 
