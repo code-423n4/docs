@@ -16,12 +16,10 @@ Under this policy, audit contests covers activities in which you:
 * Submit your bug report using the submission form.
 * Make every effort to avoid privacy violations, degradation of user experience, disruption to production systems, and destruction or manipulation of data, especially in regard to funds.
 * Only use exploits to the extent necessary to confirm a vulnerability’s presence. Do not use an exploit to compromise funds, exfiltrate data, establish persistent permissioning access, or use the exploit to redirect to other systems.
-* Unless explicitly noted by the affiliated sponsor, **wait until the audit report has been published** before you disclose any findings or submissions publicly.
+* **Wait until the audit report has been published** before you disclose any findings or submissions publicly.
 * Do not submit a high volume of low-quality reports.
 
 In the event that you encounter a critical vulnerability that the sponsor project would want to know about, even before the end of the audit, please refer to ["How to submit Zero-day or otherwise highly sensitive bugs."](https://docs.code4rena.com/roles/wardens/submission-guidelines#how-to-submit-zero-day-or-otherwise-highly-sensitive-bugs)
-
-> Without explicit permission from sponsors, publishing or discussing findings publicly prior to report publication is grounds for immediate forfeit of award and disqualification from any future C4 events and activities.
 
 ## Unauthorized test methods
 
