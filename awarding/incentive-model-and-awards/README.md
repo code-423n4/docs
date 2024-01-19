@@ -24,7 +24,7 @@ For each unique High or Medium finding, the submission selected for inclusion in
 
 All issues which identify the same functional vulnerability will be considered duplicates regardless of effective rationalization of severity or exploit path.
 
-However, any submissions which do not identify or effectively rationalize the top identified severity case may be judged as “partial credit” and may have their shares in that finding’s pie divided by 2 or 4 at judge’s sole discretion (e.g. 50% or 25% of the shares of a satisfactory submission in the duplicate set).
+However, any submissions which do not identify or effectively rationalize the top identified severity case may be judged as “partial credit” and may have their shares in that finding’s pie divided at judge’s sole discretion (e.g. 25%, 50%, or 75% of the shares of a satisfactory submission in the duplicate set).
 
 ## Bot races
 
