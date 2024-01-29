@@ -48,7 +48,7 @@ Let's see how the pie evolves.
 
 **Conclusion:**
 
-The award amounts for only the partially validated findings have been reduced, in line with expectations. The aim of this adjustment is to recalibrate the rewards allocated for these specific findings. Meanwhile, the awards for the fully validated findings remain unchanged.
+The award amounts for only the "partial" findings have been reduced, in line with expectations. The aim of this adjustment is to recalibrate the rewards allocated for these specific findings. Meanwhile, the awards for the fully validated findings remain unchanged.
 
 ## Bot races
 
