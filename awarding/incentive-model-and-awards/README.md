@@ -37,7 +37,7 @@ Let's see an example of a duplicate group without partial findings.
 | 'Warden C'  | 'H-02'      | '3'      |         8.91       |   3       |         2.70        |  1000                  |
 
 
-Now, let's compare to a group of 3 high findings, 2 of them are identified as partial-25.
+Now, let's compare to a group of 3 high findings, 2 of them are identified as partial-25. Findings from warden B & C.
 Let's see how the pie evolves.
 
 | **Warden**  | **finding** | **risk** |        **pie**     | **split** |      **slice**      |       **award**        |
