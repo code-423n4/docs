@@ -24,11 +24,13 @@ For each unique High or Medium finding, the submission selected for inclusion in
 
 All issues which identify the same functional vulnerability will be considered duplicates regardless of effective rationalization of severity or exploit path.
 
-However, any submissions which do not identify or effectively rationalize the top identified severity case may be judged as “partial credit” and may have their shares in that finding’s pie divided at judge’s sole discretion (e.g. 25%, 50%, or 75% of the shares of a satisfactory submission in the duplicate set).
+However, any submissions which do not identify or effectively rationalize the top identified severity case may be judged as “partial credit” and may have their shares  divided at judge’s sole discretion (e.g. 25%, 50%, or 75% of the shares of a satisfactory submission in the duplicate set).
+
+The pie allocated to that findings group will be adapted accordingly so the award of the non-partials findings will remain equal, only the partial findings' award will be impacted.
 
 ## Bot races
 
-The first hour of each Code4rena audit is devoted to a bot race, to incentivize high quality automated findings as the first wave of the audit. 
+The first hour of each Code4rena audit is devoted to a bot race, to incentivize high quality automated findings as the first wave of the audit.
 
 - The winning bot report is selected and shared with all wardens within 24 hours of the audit start time.
 - The full set of issues identified by the best automated tools are considered out of scope for the audit and ineligible for awards.
@@ -41,11 +43,11 @@ By designating a portion of the pool in this direction, Code4rena creates a sepa
 
 ## Analyses
 
-Each warden is encouraged to submit an Analysis alongside their findings for each audit, to share high-level advice and insights from their review of the code. 
+Each warden is encouraged to submit an Analysis alongside their findings for each audit, to share high-level advice and insights from their review of the code.
 
-Where individual findings are the "trees" in an audit, the Analysis is a "forest"-level view. 
+Where individual findings are the "trees" in an audit, the Analysis is a "forest"-level view.
 
-Advanced-level Analyses compete for a portion of each audit's award pool, and are graded and awarded similarly to QA and Gas Optimization reports. 
+Advanced-level Analyses compete for a portion of each audit's award pool, and are graded and awarded similarly to QA and Gas Optimization reports.
 
 
 ## QA and Gas Optimization Reports
