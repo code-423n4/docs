@@ -26,7 +26,29 @@ All issues which identify the same functional vulnerability will be considered d
 
 However, any submissions which do not identify or effectively rationalize the top identified severity case may be judged as “partial credit” and may have their shares  divided at judge’s sole discretion (e.g. 25%, 50%, or 75% of the shares of a satisfactory submission in the duplicate set).
 
-The pie allocated to that findings group will be adapted accordingly so the award of the non-partials findings will remain equal, only the partial findings' award will be impacted.
+The pie allocated to that findings group will be adapted accordingly so the award of the non-partials findings will remain equal, only the partial findings' award will be adapted.
+
+Let's see an example of a duplicate group without partial findings.
+
+| **Warden**  | **finding** | **risk** |        **pie**     | **split** |      **slice**      |       **award**        |
+| ----------- | ----------- | ---------| ------------------ | --------- | ------------------- | ---------------------- |
+| 'Warden A'  | 'H-02'      | '3'      |         8.91       |   3       |         3.51        |  1300                  |
+| 'Warden B'  | 'H-02'      | '3'      |         8.91       |   3       |         2.70        |  1000                  |
+| 'Warden C'  | 'H-02'      | '3'      |         8.91       |   3       |         2.70        |  1000                  |
+
+
+Now, let's compare to a group of 3 high findings, 2 of them are identified as partial-25.
+Let's see how the pie evolves.
+
+| **Warden**  | **finding** | **risk** |        **pie**     | **split** |      **slice**      |       **award**        |
+| ----------- | ----------- | ---------| ------------------ | --------- | ------------------- | ---------------------- |
+| 'Warden A'  | 'H-01'      | '3'      |         4.86       |   3       |         3.51        |  1300                  |
+| 'Warden B'  | 'H-01'      | '3'      |         4.86       |   3       |        0.675        |  250                   |
+| 'Warden C'  | 'H-01'      | '3'      |         4.86       |   3       |        0.675        |  250                   |
+
+**Conclusion:**
+
+The award amounts for only the partially validated findings have been reduced, in line with expectations. The aim of this adjustment is to recalibrate the rewards allocated for these specific findings. Meanwhile, the awards for the fully validated findings remain unchanged.
 
 ## Bot races
 
