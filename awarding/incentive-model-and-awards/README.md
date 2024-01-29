@@ -18,7 +18,9 @@ During awarding, each share is redeemed for: `pot / number of shares`.
 
 ### Bonus for best / selected for report
 
-For each unique High or Medium finding, the submission selected for inclusion in the audit report receives a 30% share bonus.
+For each unique High or Medium finding, the submission selected for inclusion in the audit report receives a 30% share bonus. \
+The pie ( total of slices ) will be also increased accordingly with the following formula:
+`new pie = previous pie + [selected finding's slice] * 0.3` and the slice of this finding will be adapted accordingly.
 
 ### Duplicates getting partial credit
 
