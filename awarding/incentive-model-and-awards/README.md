@@ -67,6 +67,32 @@ Let's see how the pie and slices evolves.
 
 The pie allocated to that findings group will be adapted accordingly so the award of the non-partials findings will remain equal, only the partial findings' award will be adapted.
 
+Below is another example of 2 different group of duplicate.
+
+1) Group A:
+- 3 satisfactory findings
+- Warden A's finding is selected for report.
+2) Group B:
+- Warden A's finding is selected for report
+- Warden B's finding is satisfactory
+- Warden C's finding is partial-25
+
+**Group A**
+| **Warden**  | **finding** | **risk** |        **pie**     | **split** |      **slice**      |       **award**        |
+| ----------- | ----------- | ---------| ------------------ | --------- | ------------------- | ---------------------- |
+| 'Warden A'  | 'M-02'      | '2'      |         2.673      |   3       |        1.0530       |  1300                  | -> selected
+| 'Warden B'  | 'M-02'      | '2'      |         2.673      |   3       |        0.81         |  1000                  | -> satis
+| 'Warden C'  | 'M-02'      | '2'      |         2.673      |   3       |        0.81         |  1000                  | -> satis
+
+
+**Group B**
+| **Warden**  | **finding** | **risk** |        **pie**     | **split** |      **slice**      |       **award**        |
+| ----------- | ----------- | ---------| ------------------ | --------- | ------------------- | ---------------------- |
+| 'Warden A'  | 'M-01'      | '2'      |         2.0655     |   3       |        1.0530       |  1300                  | -> selected
+| 'Warden B'  | 'M-01'      | '2'      |         2.0655     |   3       |        0.81         |  1000                  | -> satis
+| 'Warden C'  | 'M-01'      | '2'      |         2.0655     |   3       |        0.2025       |  250                   | -> partial
+
+We can see here that the logic behind partial label only impact the award of the partial findings, eventhough the pie vary, the awards stay the same.
 
 **Conclusion:**
 
