@@ -17,7 +17,7 @@ Contestants are given shares for bugs discovered based on severity, and those sh
 `High Risk Slice: 10 * (0.9 ^ (split - 1)) / split`
 
 Please note that findings with partial credit as still count as 1 finding in the algorithm. \
-During awarding, each award is redeemed for: `pie / slice`.
+During awarding, each award is redeemed for: `award pool / pie / slice`.
 
 ### Bonus for best / selected for report
 
@@ -47,8 +47,6 @@ All issues which identify the same functional vulnerability will be considered d
 
 However, any submissions which do not identify or effectively rationalize the top identified severity case may be judged as “partial credit” and may have their shares  divided at judge’s sole discretion (e.g. 25%, 50%, or 75% of the shares of a satisfactory submission in the duplicate set).
 
-The pie allocated to that findings group will be adapted accordingly so the award of the non-partials findings will remain equal, only the partial findings' award will be adapted.
-
 Let's see an example of a duplicate group without partial findings.
 
 | **Warden**  | **finding** | **risk** |        **pie**     | **split** |      **slice**      |       **award**        |
@@ -66,6 +64,9 @@ Let's see how the pie and slices evolves.
 | 'Warden A'  | 'H-01'      | '3'      |         4.86       |   3       |         3.51        |  1300                  |
 | 'Warden B'  | 'H-01'      | '3'      |         4.86       |   3       |        0.675        |  250                   |
 | 'Warden C'  | 'H-01'      | '3'      |         4.86       |   3       |        0.675        |  250                   |
+
+The pie allocated to that findings group will be adapted accordingly so the award of the non-partials findings will remain equal, only the partial findings' award will be adapted.
+
 
 **Conclusion:**
 
