@@ -4,23 +4,42 @@ To incentivize **wardens**, C4 uses a unique scoring system with two primary goa
 
 **Judges** are incentivized to review findings and decide their severity, validity, and quality by receiving a share of the prize pool themselves.
 
+**Note:**
+* `pie` is the number of shares assigned to that report or finding.
+* `split` is the number of times those shares were divided, the findings count for a given group.
+* `slice` is the number of shares assigned for that warden’s finding.
+
 ## High and Medium Risk bugs
 
-Contestants are given shares for bugs discovered based on severity, and those shares give the owner a pro rata piece of the pot:
+Contestants are given shares for bugs discovered based on severity, and those shares give the owner a pro rata piece of the pie:
 
-`Med Risk Shares: 3 * (0.9 ^ (findingCount - 1)) / findingCount`\
-`High Risk Shares: 10 * (0.9 ^ (findingCount - 1)) / findingCount`
+`Med Risk Slice: 3 * (0.9 ^ (split - 1)) / split`\
+`High Risk Slice: 10 * (0.9 ^ (split - 1)) / split`
 
-FindingCount represents the number of findings for a same specific bug.
-Please note that findings with partial credit as still count as 1 finding in the algorithm
-
-During awarding, each share is redeemed for: `pot / number of shares`.
+Please note that findings with partial credit as still count as 1 finding in the algorithm. \
+During awarding, each award is redeemed for: `pie / slice`.
 
 ### Bonus for best / selected for report
 
 For each unique High or Medium finding, the submission selected for inclusion in the audit report receives a 30% share bonus. \
-The pie ( total of slices ) will be also increased accordingly with the following formula:
-`new pie = previous pie + [selected finding's slice] * 0.3` and the slice of this finding will be adapted accordingly.
+The `pie` ( total of slices ) will be also increased accordingly as well as the slice of this finding.
+
+Let's see an example of a group of set of High risk duplicates, with 3 satisfactory findings.
+
+As per the formula, the pie would be: \
+`10 * (0.9 ^ (findingCount - 1)) = 8.10`
+
+However, the warden A has its findings selected for report, therefore the pie will be adapted as follows: \
+`new pie = previous pie + [selected finding's slice] * 0.3` \
+`-> 8.91 = 8.1 + ( 2.7 * 0.3 )`
+
+So the result would be:
+
+| **Warden**  | **finding** | **risk** |        **pie**     | **split** |      **slice**      |       **award**        |
+| ----------- | ----------- | ---------| ------------------ | --------- | ------------------- | ---------------------- |
+| 'Warden A'  | 'H-02'      | '3'      |         8.91       |   3       |         3.51        |  1300                  |
+| 'Warden B'  | 'H-02'      | '3'      |         8.91       |   3       |         2.70        |  1000                  |
+| 'Warden C'  | 'H-02'      | '3'      |         8.91       |   3       |         2.70        |  1000                  |
 
 ### Duplicates getting partial credit
 
