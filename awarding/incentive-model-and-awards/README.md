@@ -5,7 +5,7 @@ To incentivize **wardens**, C4 uses a unique scoring system with two primary goa
 **Judges** are incentivized to review findings and decide their severity, validity, and quality by receiving a share of the prize pool themselves.
 
 **Note:**
-* `pie` is the number of shares assigned to that report or finding.
+* `pie` is the number of shares / slice assigned to that report or finding.
 * `split` is the number of times those shares were divided, the findings count for a given group.
 * `slice` is the number of shares assigned for that warden’s finding.
 
@@ -21,7 +21,7 @@ During awarding, each award is redeemed for: `pie / slice`.
 
 ### Bonus for best / selected for report
 
-For each unique High or Medium finding, the submission selected for inclusion in the audit report receives a 30% share bonus. \
+For each unique High or Medium finding, the submission selected for inclusion in the audit report receives a 30% slice bonus. \
 The `pie` ( total of slices ) will be also increased accordingly as well as the slice of this finding.
 
 Let's see an example of a group of set of High risk duplicates, with 3 satisfactory findings.
@@ -31,7 +31,7 @@ As per the formula, the pie would be: \
 
 However, the warden A has its findings selected for report, therefore the pie will be adapted as follows: \
 `new pie = previous pie + [selected finding's slice] * 0.3` \
-`-> 8.91 = 8.1 + ( 2.7 * 0.3 )`
+`=> 8.91 = 8.1 + ( 2.7 * 0.3 )`
 
 So the result would be:
 
@@ -59,7 +59,7 @@ Let's see an example of a duplicate group without partial findings.
 
 
 Now, let's compare to a group of 3 high findings, 2 of them are identified as partial-25. Findings from warden B & C.
-Let's see how the pie evolves.
+Let's see how the pie and slices evolves.
 
 | **Warden**  | **finding** | **risk** |        **pie**     | **split** |      **slice**      |       **award**        |
 | ----------- | ----------- | ---------| ------------------ | --------- | ------------------- | ---------------------- |
@@ -69,7 +69,7 @@ Let's see how the pie evolves.
 
 **Conclusion:**
 
-The award amounts for only the "partial" findings have been reduced, in line with expectations. The aim of this adjustment is to recalibrate the rewards allocated for these specific findings. Meanwhile, the awards for the fully validated findings remain unchanged.
+Only the award amounts for "partial" findings have been reduced, in line with expectations. The aim of this adjustment is to recalibrate the rewards allocated for these specific findings. Meanwhile, the awards for the fully validated findings remain unchanged.
 
 ## Bot races
 
