@@ -2,9 +2,8 @@
 
 Certified contributors who meet certain performance criteria within C4 gain "+Backstage" access to C4 audits, which includes:
 
-- Immediate access to findings repos after audits conclude;
-- Contributing to post-audit triage; and
-- Post-judging QA.
+- Immediate access to findings repos after audits conclude
+- Post-judging QA
 
 The minimum criteria to become +Backstage are as follows: 
 
