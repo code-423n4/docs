@@ -79,17 +79,23 @@ Let's compare another two sets of duplicates.
 **Group A**
 | **Warden**  | **finding** | **risk** |        **pie**     | **split** |      **slice**      |       **award**        |
 | ----------- | ----------- | ---------| ------------------ | --------- | ------------------- | ---------------------- |
-| 'Warden A'  | 'M-02'      | '2'      |         2.673      |   3       |        1.0530       |  1300                  | -> selected
-| 'Warden B'  | 'M-02'      | '2'      |         2.673      |   3       |        0.81         |  1000                  | -> full credit
-| 'Warden C'  | 'M-02'      | '2'      |         2.673      |   3       |        0.81         |  1000                  | -> full credit
+| 'Warden A'  | 'M-02'      | '2'      |         2.673      |   3       |        1.0530       |  1300                  |
+-> selected
+| 'Warden B'  | 'M-02'      | '2'      |         2.673      |   3       |        0.81         |  1000                  |
+-> full credit
+| 'Warden C'  | 'M-02'      | '2'      |         2.673      |   3       |        0.81         |  1000                  |
+-> full credit
 
 
 **Group B**
 | **Warden**  | **finding** | **risk** |        **pie**     | **split** |      **slice**      |       **award**        |
 | ----------- | ----------- | ---------| ------------------ | --------- | ------------------- | ---------------------- |
-| 'Warden A'  | 'M-01'      | '2'      |         2.0655     |   3       |        1.0530       |  1300                  | -> selected
-| 'Warden B'  | 'M-01'      | '2'      |         2.0655     |   3       |        0.81         |  1000                  | -> full credit
-| 'Warden C'  | 'M-01'      | '2'      |         2.0655     |   3       |        0.2025       |  250                   | -> partial credit
+| 'Warden A'  | 'M-01'      | '2'      |         2.0655     |   3       |        1.0530       |  1300                  |
+-> selected
+| 'Warden B'  | 'M-01'      | '2'      |         2.0655     |   3       |        0.81         |  1000                  |
+-> full credit
+| 'Warden C'  | 'M-01'      | '2'      |         2.0655     |   3       |        0.2025       |  250                   |
+-> partial credit
 
 We can see here that the logic behind the `partial-` labels only impacts the awards for partial findings; even though the pies vary, the awards stay the same.
 
