@@ -5,7 +5,7 @@ To incentivize **wardens**, C4 uses a unique scoring system with two primary goa
 **Judges** are incentivized to review findings and decide their severity, validity, and quality by receiving a share of the prize pool themselves.
 
 **Note:**
-* `pie` is the number of shares / slice assigned to that report or finding.
+* `pie` is the number of shares assigned to that report or finding.
 * `split` is the number of times those shares were divided, the findings count for a given group.
 * `slice` is the number of shares assigned for that warden’s finding.
 
@@ -16,24 +16,23 @@ Contestants are given shares for bugs discovered based on severity, and those sh
 `Med Risk Slice: 3 * (0.9 ^ (split - 1)) / split`\
 `High Risk Slice: 10 * (0.9 ^ (split - 1)) / split`
 
-Please note that findings with partial credit as still count as 1 finding in the algorithm. \
+Please note that findings with partial credit still count as 1 finding in the algorithm. \
 During awarding, each award is redeemed for: `award pool / pie / slice`.
 
 ### Bonus for best / selected for report
 
-For each unique High or Medium finding, the submission selected for inclusion in the audit report receives a 30% slice bonus. \
-The `pie` ( total of slices ) will be also increased accordingly as well as the slice of this finding.
+For each unique High or Medium finding, the submission selected for inclusion in the audit report receives a 30% slice bonus. The `pie` (total of slices) is also increased accordingly.
 
-Let's see an example of a group of set of High risk duplicates, with 3 satisfactory findings.
+Let's look at an example of a set of High risk duplicates, with 3 satisfactory findings.
 
 As per the formula, the pie would be: \
 `10 * (0.9 ^ (findingCount - 1)) = 8.10`
 
-However, the warden A has its findings selected for report, therefore the pie will be adapted as follows: \
+Warden A's finding is selected for report; therefore the pie is adjusted as follows: \
 `new pie = previous pie + [selected finding's slice] * 0.3` \
-`=> 8.91 = 8.1 + ( 2.7 * 0.3 )`
+`=> 8.1 + ( 2.7 * 0.3 ) = 8.91`
 
-So the result would be:
+The resulting awards are:
 
 | **Warden**  | **finding** | **risk** |        **pie**     | **split** |      **slice**      |       **award**        |
 | ----------- | ----------- | ---------| ------------------ | --------- | ------------------- | ---------------------- |
@@ -47,7 +46,7 @@ All issues which identify the same functional vulnerability will be considered d
 
 However, any submissions which do not identify or effectively rationalize the top identified severity case may be judged as “partial credit” and may have their shares  divided at judge’s sole discretion (e.g. 25%, 50%, or 75% of the shares of a satisfactory submission in the duplicate set).
 
-Let's see an example of a duplicate group without partial findings.
+Let's first review an example of a duplicate group *without* partial findings.
 
 | **Warden**  | **finding** | **risk** |        **pie**     | **split** |      **slice**      |       **award**        |
 | ----------- | ----------- | ---------| ------------------ | --------- | ------------------- | ---------------------- |
@@ -56,8 +55,8 @@ Let's see an example of a duplicate group without partial findings.
 | 'Warden C'  | 'H-02'      | '3'      |         8.91       |   3       |         2.70        |  1000                  |
 
 
-Now, let's compare to a group of 3 high findings, 2 of them are identified as partial-25. Findings from warden B & C.
-Let's see how the pie and slices evolves.
+Now, let's compare to a group of three high findings where two of the duplicate findings are identified as `partial-25`: the findings from wardens B and C.
+Let's see how the pie and slices evolve.
 
 | **Warden**  | **finding** | **risk** |        **pie**     | **split** |      **slice**      |       **award**        |
 | ----------- | ----------- | ---------| ------------------ | --------- | ------------------- | ---------------------- |
@@ -65,38 +64,38 @@ Let's see how the pie and slices evolves.
 | 'Warden B'  | 'H-01'      | '3'      |         4.86       |   3       |        0.675        |  250                   |
 | 'Warden C'  | 'H-01'      | '3'      |         4.86       |   3       |        0.675        |  250                   |
 
-The pie allocated to that findings group will be adapted accordingly so the award of the non-partials findings will remain equal, only the partial findings' award will be adapted.
+The pie allocated to that findings group is adjusted accordingly so the award of the full-credit findings remains constant; only the partial findings' award is adjusted.
 
-Below is another example of 2 different group of duplicate.
+Let's compare another two sets of duplicates.
 
-1) Group A:
-- 3 satisfactory findings
-- Warden A's finding is selected for report.
-2) Group B:
-- Warden A's finding is selected for report
-- Warden B's finding is satisfactory
-- Warden C's finding is partial-25
+1. Group A:
+  - 3 full-credit findings
+  - Warden A's finding is selected for report
+2. Group B:
+  - Warden A's finding is selected for report
+  - Warden B's finding is a full-credit duplicate
+  - Warden C's finding is a partial-credit (`partial-25`) duplicate
 
 **Group A**
 | **Warden**  | **finding** | **risk** |        **pie**     | **split** |      **slice**      |       **award**        |
 | ----------- | ----------- | ---------| ------------------ | --------- | ------------------- | ---------------------- |
 | 'Warden A'  | 'M-02'      | '2'      |         2.673      |   3       |        1.0530       |  1300                  | -> selected
-| 'Warden B'  | 'M-02'      | '2'      |         2.673      |   3       |        0.81         |  1000                  | -> satis
-| 'Warden C'  | 'M-02'      | '2'      |         2.673      |   3       |        0.81         |  1000                  | -> satis
+| 'Warden B'  | 'M-02'      | '2'      |         2.673      |   3       |        0.81         |  1000                  | -> full credit
+| 'Warden C'  | 'M-02'      | '2'      |         2.673      |   3       |        0.81         |  1000                  | -> full credit
 
 
 **Group B**
 | **Warden**  | **finding** | **risk** |        **pie**     | **split** |      **slice**      |       **award**        |
 | ----------- | ----------- | ---------| ------------------ | --------- | ------------------- | ---------------------- |
 | 'Warden A'  | 'M-01'      | '2'      |         2.0655     |   3       |        1.0530       |  1300                  | -> selected
-| 'Warden B'  | 'M-01'      | '2'      |         2.0655     |   3       |        0.81         |  1000                  | -> satis
-| 'Warden C'  | 'M-01'      | '2'      |         2.0655     |   3       |        0.2025       |  250                   | -> partial
+| 'Warden B'  | 'M-01'      | '2'      |         2.0655     |   3       |        0.81         |  1000                  | -> full credit
+| 'Warden C'  | 'M-01'      | '2'      |         2.0655     |   3       |        0.2025       |  250                   | -> partial credit
 
-We can see here that the logic behind partial label only impact the award of the partial findings, eventhough the pie vary, the awards stay the same.
+We can see here that the logic behind the `partial-` labels only impacts the awards for partial findings; even though the pies vary, the awards stay the same.
 
 **Conclusion:**
 
-Only the award amounts for "partial" findings have been reduced, in line with expectations. The aim of this adjustment is to recalibrate the rewards allocated for these specific findings. Meanwhile, the awards for the fully validated findings remain unchanged.
+Only the award amounts for "partial" findings have been reduced, in line with expectations. The aim of this adjustment is to recalibrate the rewards allocated for these specific findings. Meanwhile, the awards for full-credit findings remain unchanged.
 
 ## Bot races
 
