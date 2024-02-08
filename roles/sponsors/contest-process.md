@@ -3,7 +3,7 @@
 ### Before the audit
 
 * If you haven’t already, join the [C4 Discord](https://discord.gg/YgBwyreF9B) server and let us know you’re interested in sponsoring an audit in the `#💼i-want-c4-to-audit-our-code` channel.
-* We'll ask you to share your current smart contracts and answer a few questions about the scope you’d like wardens to focus on. If you decide to move ahead with an audit, **the relevant code will be made public** at the time of your audit.
+* We'll ask you to share your current smart contracts and answer a few questions about the scope you’d like wardens to focus on. If you decide to move ahead with an open competitive audit, **the relevant code will be made public** at the time of your audit.
 * After your code has been reviewed, Code4rena staff will contact you to iron out the details.
 * Once we’ve received a deposit, we will finalize scheduling and begin to promote the audit.
 * In order to launch your audit on schedule, your audit repo (including the `README`) must be completely set up and shared with us at least 48 business hours (2 business days) before your audit is scheduled to start. This ensures we have time to review it and help you finalize any last-minute details.
