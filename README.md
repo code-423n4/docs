@@ -10,26 +10,38 @@ The players in the arena:
 * [**Sponsors**](roles/sponsors/) create prize pools to attract wardens to audit their project.
 * [**Judges**](roles/judges/) decide the severity, validity, and quality of findings and rate the performance of wardens.
 
-C4 audits are different from both bug bounties and traditional audits.
+# How Code4rena works
 
-### Bug bounties vs C4 audits
+These docs provide detailed information and guidelines for current and potential community members, and aim to answer the most frequently-asked questions about how Code4rena — and our competitive audits — work. 
 
-| Bug bounties                                                                                            | Competitive audits                                                                                                                                    |
-| ------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Spec work.** No way to have confidence that the time invested will produce a payout.                  | **Guaranteed payouts.** Auditors know it’s highly likely they can find a bug that will make it worth their time.                                  |
-| **Dark forest.** Who knows how much competition there is right now? Or how mature the codebase is?      | **Low-hanging fruit.** If a project is seeking an audit, it’s likely fresh code with clear opportunities to dig in.                               |
-| **Grow on your own.** Researchers have to proactively look for ways to learn and level up their skills. | **Learning community.** Open, competitive audits let auditors compare everyone’s findings and learn new things every single week.                            |
-| **Paradox of choice.** So many projects have bounties. How does an auditor choose which to focus on?    | **Less FOMO.** C4 runs a handful of active audits at a time and wardens can RSVP to signal to each other which audits have more participants. |
+Here are some of the most-visited sections:
 
-### Traditional audits vs C4 audits
+## For Sponsors
 
-| Traditional audits                                                                                                     | C4 audits                                                                                                         |
-| ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| **Constrained time.** If you want a quality audit from a top firm, you’re going to have to wait.                       | **Time flexible.** Code audits can be put together quickly for teams eager to go to market.                             |
-| **Constrained cost.** Audit firms must recruit and retain talent, and defensively maintain their brand.                | **Flexible cost.** C4 scales to meet demand. Sponsors can increase pot size to attract more attention.                    |
-| **Constrained diversity.** Audit firm staff have to work to stay ahead of DeFi's complex and expanding attack surface. | **Diverse capability.** C4 audits allow specialized security researchers to demonstrate their skill and creativity.     |
-| **Systematic.** Firms use set processes for evaluating code, which differs from the way attackers approach things.     | **Rigorous.** C4 wardens are incentivized to work creatively to find as many rare, high risk vulnerabilities as possible. |
+- [Scoping and scheduling your audit](roles/sponsors)
+- [Overview of the Code4rena competitive audit process](roles/sponsors/contest-process)
+- [How to prepare for a Code4rena audit](roles/sponsors/preparing-for-audit)
 
-## Incentive model and awards
+## For Wardens
 
-Details on Code4rena's incentive model and awards can now be found [here](awarding/incentive-model-and-awards/README.md).
+- [How to get started as a Code4rena warden](roles/wardens#joining-an-audit)
+- [Submission policy](roles/wardens/submission-policy) and [reporting guidelines](roles/wardens/submission-guidelines)
+- [Becoming Certified (KYC’d): benefits and process](roles/certified-contributors)
+    - [+Backstage warden role: overview, criteria and process](roles/certified-contributors/backstage-wardens)
+    - [Lookout role: overview, criteria and process](roles/certified-contributors/lookouts)
+    - [Scout role: overview and selection process](roles/certified-contributors/scouts)
+- Awarding [model](awarding/incentive-model-and-awards) and [process](awarding/incentive-model-and-awards/awarding-process)
+- [Judging criteria](awarding/judging-criteria) and [severity categorization](awarding/judging-criteria/severity-categorization)
+- [Notes on fairness and validity](awarding/fairness-and-validity)
+
+## For Judges
+
+- [How to apply for the Judge role](roles/judges#becoming-a-judge)
+- [How to judge a Code4rena audit](roles/judges/how-to-judge-a-contest)
+
+## Philosophy
+
+- [Security is about people](philosophy/security-is-about-people)
+- [The culture we’re building](philosophy/how-we-work.md)
+- [Intentionally structured](philosophy/intentionally-structured.md)
+- [How consensus is built](philosophy/how-consensus-is-built.md)
