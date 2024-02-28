@@ -41,7 +41,7 @@ While this may be seen as ‘inconsistent’, it is also true that standards wit
 
 The correct assessment when this happens is not that a judge is being inconsistent, it is that they have objectively observed that the quality of competition has increased, and that observation shapes their view of the whole set of submissions; they are consistent in valuing submissions in the context of each other, which is a central way that performance in a competition is measured.
 
-Per [the Autumn 2023 Supreme Court verdicts](https://docs.code4rena.com/awarding/judging-criteria/supreme-court-decisions-fall-2023), it is within the judge’s discretion to invalidate all of a warden’s findings in a particular contest in the case of repeated low-quality submissions.
+Per [the Autumn 2023 Supreme Court verdicts](https://docs.code4rena.com/awarding/judging-criteria/supreme-court-decisions-fall-2023), it is within the judge’s discretion to invalidate all of a warden’s findings in a particular contest in the case of repeated low-quality submissions. For more details on this, please see ["Good citizenship" in the Submission guidelines](https://docs.code4rena.com/roles/wardens/submission-guidelines#good-citizenship-is-a-requirement-for-compensation).
 
 # If you disagree with a judge's decision
 
