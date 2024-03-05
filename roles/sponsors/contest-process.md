@@ -2,7 +2,7 @@
 
 ### Before the audit
 
-* If you haven’t already, join the [C4 Discord](https://discord.gg/YgBwyreF9B) server and let us know you’re interested in sponsoring an audit in the `#💼i-want-c4-to-audit-our-code` channel.
+* If you haven’t already, join the [C4 Discord](https://discord.gg/code4rena) server and let us know you’re interested in sponsoring an audit in the `#💼i-want-c4-to-audit-our-code` channel.
 * We'll ask you to share your current smart contracts and answer a few questions about the scope you’d like wardens to focus on. If you decide to move ahead with an open competitive audit, **the relevant code will be made public** at the time of your audit.
 * After your code has been reviewed, Code4rena staff will contact you to iron out the details.
 * Once we’ve received a deposit, we will finalize scheduling and begin to promote the audit.
