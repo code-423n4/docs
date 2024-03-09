@@ -36,7 +36,9 @@ All team registrations and updates will create pull requests that are flagged fo
 
 When audit sponsors come to Code4rena for an audit, we always encourage them to provide documentation, and to make themselves available for questions, so they get the most out of their audit.
 
-When a sponsor designates a team member who is available for questions, that person will introduce themselves in the C4 Discord (in a audit-specific channel), and we recommend contacting them via DM with any questions you may have.
+When a sponsor designates a team member who is available for questions, that person will introduce themselves in the C4 Discord (in an audit-specific channel). You may start a private thread with them if you have questions; however, please be sure to first review all of the provided information for the audit to ensure the answer hasn't already been provided.
+
+*Note: general questions about such topics as auditing or C4 processes should be asked in the `Questions` or `Wardens` channels in the C4 Discord, not directed to the sponsor.*
 
 ### ⏩ TL;DR
 
