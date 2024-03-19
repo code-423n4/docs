@@ -36,7 +36,9 @@ One important caveat to all of the above: _**unless otherwise specified by the a
 
 ## Dealing with spam / repeated low-quality submissions
 
-Per [the Autumn 2023 Supreme Court verdicts](https://docs.code4rena.com/awarding/judging-criteria/supreme-court-decisions-fall-2023.md), it is within the judge’s discretion to invalidate all of a warden’s findings in a particular contest in the case of repeated low-quality submissions.
+Please see the [Good Citizen policy](https://docs.code4rena.com/roles/wardens/submission-guidelines#good-citizenship-is-a-requirement-for-compensation).
+
+Note: this policy was instated after [this proposal](https://docs.code4rena.com/awarding/judging-criteria/supreme-court-decisions-fall-2023#proposal-penalties-for-invalid-submissions) from the Autumn 2023 Supreme Court session.
 
 ## Discussing issues with the sponsor
 
