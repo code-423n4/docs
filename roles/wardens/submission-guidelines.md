@@ -81,6 +81,9 @@ For more details on QA and Gas reports, and estimating risk, please see [Judging
 
 In order to be eligible for awards, competitors must contribute more value than they take. This is measured by impact rather than intent.
 
+Acting as a good citizen implies and is not limited to, competitors doing their best to reduce the workload of every participants in the competition.
+Thus, making multiple submissions of identical findings by each member of a team increases the overall workload for the judges/sponsors without providing any incremental value to the sponsors beyond what would have been provided, had just one submission been made.
+
 Contributing value to sponsors by helping secure their code must always be the central concern. Attempts that have the impact of gaming the system or circumventing rules will be interpreted as breaking the rules.
 
 Judges have the right to deem a warden ineligible for awards based on behavior and net quality/accuracy of submissions. This includes interactions with judges, staff, sponsors, and other wardens. Multiple violations or egregious abuses may also result in additional consequences, including account suspension or bans.
