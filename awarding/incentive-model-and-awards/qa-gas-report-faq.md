@@ -4,7 +4,7 @@ This FAQ pertains to the award mechanism update that takes effect February 3, 20
 
 ### What happens to the award pool if no Med/High vulns are found? 
 
-The full pool would then be divided based on the QA Report curve.
+Unless otherwise stipulated in the audit repo, the full pool would then be divided based on the QA Report curve.
 
 ### Will non-critical findings hold some weight? Just want to know if it's worth spending a considerable amount of time writing this part of the report.
 
