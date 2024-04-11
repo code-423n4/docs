@@ -13,10 +13,10 @@ We are working on tightening up all of our processes in order to be able to dist
 | Audit submissions close | Day 1 | Day 1 |
 | Lookout pre-sorts findings (de-duping and triage) | Day 7 | Day 7 |
 | Sponsors review and give feedback on findings | Day 9 | Day 14 |
-| Judges determine final severity | Day 12 | Day 21-30 |
-| Judging QA complete; awards announced | Day 15 | Day 25-34 |
-| Awards are distributed; Sponsors complete mitigation of any issues | Day 15 | Day 32-44 |
-| Audit report is published; Audit issues are made public | Day 21 | Day 42-60 |
+| Judges determine final severity | Day 12 | Day 21 |
+| Judging QA complete; awards announced | Day 15 | Day 22-24 |
+| Awards are distributed; Sponsors complete mitigation of any issues | Day 15 | Day 25-39 |
+| Audit report is published; Audit issues are made public | Day 21 | Day 40-60 |
 
 Presently, the process takes us longer than the ideal, but we are actively working to improve our planning and processes that will smooth out the rough spots that slow things down.
 
