@@ -1,29 +1,24 @@
-# Register your account
+# Registration Process
 
-If you competed in C4 audits prior to October 5, 2022 and have not previously registered your username via wallet authentication, you must register your account.
+To register, follow these steps:
 
-## Authenticate with your wallet
+1. Go to [code4rena.com/login](https://code4rena.com/login) and select 'register'.
+2. Fill in your information. You can choose to connect a web3 wallet for authorization or use only a username and password.
+3. Provide your Polygon wallet payment address for audit rewards.
+4. Note: You can update any of your details at any time after signup, except for your username.
 
-You can authenticate with your wallet using either MetaMask or WalletConnect and submit findings without re-entering the same info over and over. After you register you can have the option to log in with either your wallet or your username and password.
+## Account Setup Process
 
-If you have and existing Code4rena username, you can re-register your warden handle at https://code4rena.com/ by connecting your wallet from the "connect" dropdown.
+After registration, complete the following steps to set up your account:
 
-## Authenticate with username and password
-
-If you're a new warden, you can choose to sign up with a username and password only. **If you choose this option, you won't be able to link a wallet to your account for authentication purposes later.**
-
-## How to connect your wallet and submit findings
-
-- Go to https://code4rena.com/ and hover over the “connect” dropdown.
-- Choose whether to connect with MetaMask or WalletConnect, or sign up with just a username and password.
-- If you were a registered warden and submitted valid findings before May 25, 2022, you need to connect your wallet. Make sure to connect with an address you’ve used previously to receive earnings from code4rena audits prior to May 25, 2022.
-- Follow the prompts to connect your C4 username with your wallet.
-- Check your email for further instructions.
-
-## Once your request to connect your wallet is complete and approved:
-
-- Sign in with the same method you used to register.
-- Proceed to the audit of your choice and submit a finding as usual.
+1. You'll be directed to [code4rena.com/account](https://code4rena.com/account) for verification.
+2. Discord verification is required:
+   - Click 'Join Discord Server' to join the Code4rena Discord server.
+   - Click 'Verify Discord' to confirm your membership and verify your account.
+3. Email verification is also necessary:
+   - Check your inbox for an email from noreply@code4rena.com.
+   - Click the verification link to confirm your email address.
+4. Once both verifications are complete, your account setup will finalize, granting you access to Code4rena's platform!
 
 ## Teams
 
@@ -31,58 +26,59 @@ Once individual team members are authenticated, they will be able to submit find
 
 ## FAQ / Troubleshooting
 
-### **If you were a registered warden prior to June 28, 2022 and you see this error when you fill out the registration form:**
+### Can't Find Email Verification Email
 
-`[your handle] is already a registered username`
+If you can't find the email verification message:
 
-If you submitted valid findings before May 25, 2022, please choose either MetaMask or WalletConnect from the "connect" dropdown.
+1. Log in and go to [code4rena.com/account](https://code4rena.com/account).
+2. Navigate to the 'Account Verification' section and select 'Re-send Email'.
+3. Check your inbox for the new email and click the link to confirm your email address.
 
-1. If you did that and ended up on the registration page, please make sure you connect with a wallet address you’ve used for a Code4rena contest prior to May 25, 2022.
-2. If that doesn’t work, please [submit a Help Desk request](https://code4rena.com/help/).
+### Wallet Connect Issues
 
-### **If your registration was merged but you still can't log in:**
+If you encounter issues with wallet connection:
 
-If you registered with a wallet, make sure you are authenticating with the same address you used when you registered.
+- Ensure your wallet is unlocked and connected to your device/browser.
+- Make sure the Polygon network is selected in your wallet settings.
 
-If that doesn’t work, please [submit a Help Desk request](https://code4rena.com/help/).
+### Forgot Password
 
-### **If you previously submitted findings, but your wallet is not supported by WalletConnect:**
+To reset your password:
 
-The best solution here is for you to import your wallet to either MetaMask, or another wallet app that is supported by WalletConnect.
+1. Go to [code4rena.com/login](https://code4rena.com/login) and select "Forgot Password".
+2. Enter your email address and click 'Reset Password'.
+3. Check your email for a link to reset your password.
 
-If you can’t do that, then [submit a Help Desk request](https://code4rena.com/help/) and C4 staff will help you get your account registered.
+### Change Email Address
 
-### **Can I change the wallet address where I receive awards?**
+To update your email address:
 
-You can change your payment information any time. Simply log in and go to [your account management page](https://code4rena.com/account).
+1. Go to [code4rena.com/account](https://code4rena.com/account) and locate the 'Email Address' field.
+2. Click 'Edit' and enter your new email address.
+3. Follow the email instructions to confirm your new email address.
 
+### Add/Remove Web3 Wallets for Authorization
+
+To manage your web3 wallets for login authorization:
+
+1. Visit [code4rena.com/account](https://code4rena.com/account) and find 'Login Addresses'.
+2. To remove a login address:
+   - Locate it in the table and select "Remove".
+   - Follow the onscreen instructions to confirm removal.
+3. To add a new wallet for authorization:
+   - Select "Link New Address".
+   - Follow the prompts to connect your wallet and sign a message.
+
+### Edit Payment Address
+
+To edit your payment address:
+
+1. Audits typically pay rewards on the Polygon network.
+2. Your payment address can differ from your login authentication address.
+3. Go to [code4rena.com/account](https://code4rena.com/account) and find 'Payment Information'.
+4. Click 'Edit' and enter your desired payment address.
 Note: for each contest, C4 distributes awards to the payment address on file *at the time of award calculation*.
 
-### **Can I change the wallet address I log in with?**
+### My Problem Is Not Solved!
 
-Unfortunately due to some restrictions in Moralis, changing addresses is not currently supported as well as we’d like it to be in the future. There is one exception: if you use MetaMask, you can link multiple addresses to your C4 account.
-
-However, **it’s critical that you do not try to log in with the new address that you want to link before you link it.** Attempting to connect while signed in to the new MetaMask address you want to connect will create a new user object. That new user object will block your ability to associate that address with your C4 account. Please watch the video below for details.
-
-To link multiple addresses in MetaMask, please follow the instructions in this video:
-
-{% embed url="https://youtu.be/cPI_3VjJWF4" %}
-Linking Wallets with MetaMask (works only with MetaMask)
-{% endembed %}
-
-### **Can I change my login method after I register?**
-
-If you registered with your wallet, you can have the option to log in with either your wallet or your username and password.
-
-If you registered prior to October 5, 2022, you can set your password by going to your [account management page](https://code4rena.com/account) and clicking on the "reset password" button. This will send you an email with a password reset link. After you set your password, you can log in with your c4 username and password immediately.
-
-If you registered with only a password and not a wallet, you will only be able to log in with your username and password.
-
-### **What if my wallet was hacked?**
-
-Please follow these steps:
-
-1. If you are not logged in and you haven't set up your password yet, click "Log in" from the connect dropdown and then click "forgot password" to get a password reset link
-2. Log in with your username and password
-3. Update your payment addresses from the account page
-4. Submit a help request through our [Help Desk](https://code4rena.com/help/) while logged in so that we can remove the hacked wallet from your account.
+Feel free to reach out and [submit a Help Desk request](https://code4rena.com/help/).
