@@ -1,4 +1,4 @@
-# Registration Process
+# Registration process
 
 To register, follow these steps:
 
@@ -7,7 +7,7 @@ To register, follow these steps:
 3. Provide your Polygon wallet payment address for audit rewards.
 4. Note: You can update any of your details at any time after signup, except for your username.
 
-## Account Setup Process
+## Account setup process
 
 After registration, complete the following steps to set up your account:
 
@@ -24,9 +24,9 @@ After registration, complete the following steps to set up your account:
 
 Once individual team members are authenticated, they will be able to submit findings as individuals or on behalf of the team.
 
-## FAQ / Troubleshooting
+## FAQ / troubleshooting
 
-### Can't Find Email Verification Email
+### Can't find email verification message
 
 If you can't find the email verification message:
 
@@ -34,14 +34,14 @@ If you can't find the email verification message:
 2. Navigate to the 'Account Verification' section and select 'Re-send Email'.
 3. Check your inbox for the new email and click the link to confirm your email address.
 
-### Wallet Connect Issues
+### Wallet connect issues
 
 If you encounter issues with wallet connection:
 
 - Ensure your wallet is unlocked and connected to your device/browser.
 - Make sure the Polygon network is selected in your wallet settings.
 
-### Forgot Password
+### Forgot password
 
 To reset your password:
 
@@ -49,7 +49,7 @@ To reset your password:
 2. Enter your email address and click 'Reset Password'.
 3. Check your email for a link to reset your password.
 
-### Change Email Address
+### Change email address
 
 To update your email address:
 
@@ -57,7 +57,7 @@ To update your email address:
 2. Click 'Edit' and enter your new email address.
 3. Follow the email instructions to confirm your new email address.
 
-### Add/Remove Web3 Wallets for Authorization
+### Add/remove web3 wallets for authorization
 
 To manage your web3 wallets for login authorization:
 
@@ -69,7 +69,7 @@ To manage your web3 wallets for login authorization:
    - Select "Link New Address".
    - Follow the prompts to connect your wallet and sign a message.
 
-### Edit Payment Address
+### Edit payment address
 
 To edit your payment address:
 
@@ -79,6 +79,6 @@ To edit your payment address:
 4. Click 'Edit' and enter your desired payment address.
 Note: for each contest, C4 distributes awards to the payment address on file *at the time of award calculation*.
 
-### My Problem Is Not Solved!
+### My problem is not solved!
 
 Feel free to reach out and [submit a Help Desk request](https://code4rena.com/help/).
