@@ -10,15 +10,15 @@ Code4rena audits let people of a wide range of skill levels get rewarded while s
 
 ### Joining an audit
 
-Anyone can apply to participate in an audit. [Apply using this form](https://code4rena.com/register/), then pop into Discord and give us a howl in `#`[`i-want-to-be-a-warden`](https://discord.gg/pmGC2gH9Mg).
+Anyone can register to participate in an audit. [Register here](https://code4rena.com/login/), confirm your email address, then pop into Discord and give us a howl in `#`[`i-want-to-be-a-warden`](https://discord.gg/pmGC2gH9Mg).
 
-Once you've completed those steps and been approved, [have a look at the C4 website](https://code4rena.com), where you'll find a list of open and upcoming audits, along with their pot size, start and end date, and other relevant information. Active audits will typically include a link to the code repo, as well as the submission form for findings.
+Once you've completed those verification steps, [have a look at the C4 website](https://code4rena.com), where you'll find a list of open and upcoming audits, along with their pool size, start and end date, and other relevant information. Active audits will typically include a link to the code repo, as well as the submission form for findings.
 
 As a reminder, for Wardens participating in code audits, please familiarize yourself with the [submission policy](submission-policy.md) and [judging criteria](/awarding/judging-criteria/README.md) prior to participating.
 
 ### Registering a team
 
-To register a team, you must first register your individual warden handles, and then register your team [here](https://code4rena.com/register/team/).  
+To register a team, you must first login to your Warden account, and then register your team [here](https://code4rena.com/register/team/).  
 
 Once a team is created, you have the ability to add/remove members and update your payment address while logged in to the Code4rena website.  
 
@@ -46,5 +46,5 @@ When a sponsor designates a team member who is available for questions, that per
 * For each audit, submit your Medium and High risk findings individually.
 * Bundle all of your low-risk and non-critical findings into a *single* QA report. 
 * Similarly, list *all* of your gas optimizations together in a single Gas report.
-* Be sure to [register your handle and Polygon address](https://code4rena.com/register/) to receive your share.
+* Be sure to [register your handle and Polygon address](https://code4rena.com/login/) to receive your share.
 * Publicly disclosing (e.g. publishing or discussing) any discovered bugs or vulnerabilities before the audit report has been published is grounds for disqualification from all C4 events.
