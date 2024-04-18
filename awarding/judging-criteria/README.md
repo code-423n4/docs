@@ -59,7 +59,7 @@ In the interest of everyone's time, **please do not offer QA or gas reports on a
 
 ## Acceptance of reports based on automated findings
 
-Wardens and judges are recommended to read [the Supreme Court's verdict on this issue]((https://docs.code4rena.com/awarding/judging-criteria/supreme-court-decisions-fall-2023). 
+Wardens and judges are recommended to read [the Supreme Court's verdict on this issue](https://docs.code4rena.com/awarding/judging-criteria/supreme-court-decisions-fall-2023). 
 
 ## Scoring
 
