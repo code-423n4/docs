@@ -17,7 +17,7 @@
   * [How to judge an audit](roles/judges/how-to-judge-a-contest.md)
 * [Certified contributors](roles/certified-contributors/README.md)
   * [+Backstage wardens](roles/certified-contributors/backstage-wardens.md)
-  * [Lookouts](roles/certified-contributors/lookouts.md)
+  * [Validators](roles/certified-contributors/validators.md)
   * [Scouts](roles/certified-contributors/scouts.md)
 
 ## Awarding
