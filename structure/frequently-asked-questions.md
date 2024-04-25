@@ -106,7 +106,7 @@ Explaining and rationalizing the potential impact is an essential part of a qual
 
 ### Do Judges have the final say?
 
-While sponsor input is a significant criterion, ultimately judges have final say in determining validity and severity of issues, as well as whether/how issues are considered duplicates. If you have fact-based evidence of a vulnerability's existence, you're welcome to submit it in accordance with C4's [submission guidelines](https://docs.code4rena.com/roles/wardens/submission-guidelines). Judges will review submissions and sponsor input to come to their own independent conclusion in alignment with our criteria. Doing this ensures the impartiality of the process. You can read more about our approach to this [here](https://docs.code4rena.com/awarding/judging-criteria).
+While sponsor input is a significant criterion, ultimately judges have final say in determining validity and severity of issues, as well as whether/how issues are considered duplicates. If wardens have fact-based evidence of a vulnerability's existence, they are welcome to submit it in accordance with C4's [submission guidelines](https://docs.code4rena.com/roles/wardens/submission-guidelines). Judges will review submissions and sponsor input to come to their own independent conclusion in alignment with our criteria. Doing this ensures the impartiality of the process. You can read more about our approach to this [here](https://docs.code4rena.com/awarding/judging-criteria).
 
 ### Is the judging criteria set in stone, or does it change?
 
