@@ -2,7 +2,7 @@
 
 To register, follow these steps:
 
-1. Go to [code4rena.com/register](https://code4rena.com/register/account) and select 'register'.
+1. Go to [code4rena.com/register](https://code4rena.com/register/account).
 2. Fill in your information. You can choose to connect a web3 wallet for authorization or use only a username and password.
 3. Provide your Polygon wallet payment address for audit rewards.
 4. Note: You can update any of your details at any time after signup, except for your username.
