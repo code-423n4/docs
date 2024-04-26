@@ -20,7 +20,7 @@ The simplest way to define the difference between Wardens and Masons is this: Wa
 
 ### How do I sign up to be a Warden?
 
-Jump into our [Discord](https://discord.gg/code4rena) and get started! From there, you’ll need to [register](https://code4rena.com/register) as a Warden, then say hi in our #i-want-to-be-a-warden Discord channel. 
+Jump into our [Discord](https://discord.gg/code4rena) and get started! From there, you’ll need to [register](https://code4rena.com/register/account) as a Warden.
 
 ### Can I change my username? 
 
