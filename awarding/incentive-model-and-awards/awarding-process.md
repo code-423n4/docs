@@ -16,7 +16,7 @@ Judging data is used to generate the awards using Code4rena's award calculation 
 - Risk level
 - Validity
 - Number of duplicates
-- Grade (A, B, C; Satisfactory/Unsatisfactory)
+- Rank (1st, 2nd, 3rd; Satisfactory/Unsatisfactory)
 - In some cases, "partial duplicate" status
 
  It should be possible to reverse engineer awards using a combination of two CSV files:

@@ -44,7 +44,7 @@ When a sponsor designates a team member who is available for questions, that per
 
 * Turn in your reports before the audit end time.
 * For each audit, submit your Medium and High risk findings individually.
-* Bundle all of your low-risk and non-critical findings into a *single* QA report. 
+* Bundle all of your low-risk and governance findings into a single QA report. 
 * Similarly, list *all* of your gas optimizations together in a single Gas report.
-* Be sure to [register your handle and Polygon address](https://code4rena.com/login/) to receive your share.
+* Be sure to [register your handle and Polygon address](https://code4rena.com/register/account) to receive your share.
 * Publicly disclosing (e.g. publishing or discussing) any discovered bugs or vulnerabilities before the audit report has been published is grounds for disqualification from all C4 events.
