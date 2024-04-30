@@ -3,14 +3,14 @@
 > Validators decentralize triage by reviewing submissions from wardens with accuracy rates below the qualifying threshold (eg 50%).
 > 
 
-All open competitive audits at Code4rena that begin on or after May 1, 2024 will include Validators.
+All open competitive audits at Code4rena that begin on or after April 30, 2024 will include Validators.
 
 ## Validator tl;dr
 
 - Each competition has a **qualifying threshold** that allows wardens to bypass validators. This threshold is based on your submission accuracy rate and being established as a quality contributor and as non-sybil. (For those familiar with ‘backstage warden’ criteria, it is essentially that plus an acceptable accuracy rate.)
 - Qualified wardens’ submissions go directly to the usual findings repo.
 - All other wardens’ submissions are routed to a Validation repo.
-- 3-5 **Validators** (✨ new role) review submissions in the Validation repo immediately after the audit closes
+- 3-5 **Validators** review submissions in the Validation repo immediately after the audit closes
     - Satisfactory submissions are forwarded to the findings repo
     - Unsatisfactory submissions are closed
     - Validators may also enhance submissions (add PoC, increase quality of report, etc.) in exchange for a percentage of the finding’s payout. (See “Awarding” section below.)
@@ -38,6 +38,8 @@ The new **Validator** role replaces the Lookout role, so the Lookout pool will b
 - Validator can edit (improve) an issue and submit it (see below for more detail)
 - After completing 5 issues, another set of 5 will be assigned to you.
 - Reviewing 1 submission (adding any label other than `unknown`) from within the `unknown` queue will assign you another 5 issues. This incentivizes picking up issues that other validators passed on in order to capture more of the pool since you can only have a limited number of issues assigned to you at a given time.
+- In addition to the initial set of 5 HM issues, each Validator is assigned a share of QA and Gas reports to review: `total_reports / total_validators`
+    - Each validator should select the top 3 of their own reviewed QA/Gas reports and forward them to the findings repo for judging.
 - ⏰ **Timeline:** goal is for Validators to complete work within 48h after the audit closes.
 
 ## Limbo Round (for any Judges/Validators) — after 48 hours
@@ -70,12 +72,17 @@ Each round's validations have different values.
 - The findings repo (for high-performing wardens’ submissions + Validated submissions) will also have duplicate submissions.
     - The Judge is responsible for reviewing and finalizing dupe sets, and assessing quality.
 
-## Validators can improve submissions
+## Validators can improve HM submissions
+
+Validators may improve High and Medium-risk submissions (HMs); they may not improve QA or Gas reports.
 
 If a validator chooses to improve a submission:
 
 - The original submission is preserved for the judge to see
 - The judge evaluates validators’ enhancements and whether they validated, proved, or enhanced them. (See “Awarding” section below.)
+- Improved submissions must share the same root cause as the original submission.
+
+*N.B. If the finding is already present in the findings repo, then improved submissions will be judged in their original versions, and Validator improvements will be disregarded.*
 
 ## Awarding
 
@@ -98,10 +105,16 @@ If a validator chooses to improve a submission:
 
 ## Miscellaneous
 
-- Judges can play the Judge and Validator role on the same audit.
+- Judges can play the Judge and Validator role on the same audit, but are not eligible for any HM pool payouts on audits they judge — even if they enhance an issue.
 - Both the Validation repo and the Findings repo will be open to wardens with the SR role, for the purposes of post-judging QA.
     - All PJQA requests must be posted in the Github Discussion in the findings repo.
+    - QA and Gas reports closed by Validators (i.e. *not* added to the findings repo) are NOT eligible 
 - Both repos will be made public when the audit report is published.
 - Validators’ accuracy score as a warden is impacted by their accuracy as Validators:
     - 50% of Validators’ *round 1* validator accuracy is applied to their personal accuracy score.
     - Limbo phase accuracy only has a 25% impact on their accuracy.
+    - All report types (High, Medium, QA, and Gas) are counted towards accuracy scores.
+    - False positives count 50% toward Validators' submission accuracy
+    - False negatives count 100% toward Validators' submission accuracy
+    - In other words, each false negative is double the negative value of false positives in the ‘incorrect’ count.
+- Backstage wardens may appeal improvements made by Validators, and request that the judge review their original submission during post-judging QA.
