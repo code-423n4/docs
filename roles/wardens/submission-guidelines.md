@@ -31,7 +31,7 @@ Wardens who submit multiple QA and/or Gas findings to a single audit without fol
 
 ### QA reports (low/governance)
 
-Low and non-critical findings must be submitted as a single QA report per warden. We allocate a **fixed 2.5% of prize pools toward QA reports.**
+Low and non-critical findings must be submitted as a single QA report per warden. We allocate a **fixed 4% of prize pools toward QA reports.**
 
 Your QA report should include:
 
