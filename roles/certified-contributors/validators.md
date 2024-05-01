@@ -39,7 +39,7 @@ The new **Validator** role replaces the Lookout role, so the Lookout pool will b
 - After completing 5 issues, another set of 5 will be assigned to you.
 - Reviewing 1 submission (adding any label other than `unknown`) from within the `unknown` queue will assign you another 5 issues. This incentivizes picking up issues that other validators passed on in order to capture more of the pool since you can only have a limited number of issues assigned to you at a given time.
 - In addition to the initial set of 5 HM issues, each Validator is assigned a share of QA and Gas reports to review: `total_reports / total_validators`
-    - Each validator should select the top 3 of their own reviewed QA/Gas reports and forward them to the findings repo for judging.
+    - Each validator should forward all satisfactory QA/Gas reports to the findings repo for judging.
 - ⏰ **Timeline:** goal is for Validators to complete work within 48h after the audit closes.
 
 ## Limbo Round (for any Judges/Validators) — after 48 hours
@@ -92,9 +92,9 @@ If a validator chooses to improve a submission:
     - The phase during which the issues were triaged, and
     - Final accuracy.
 - For Validator-improved submissions:  if the judge believes the validator added a measurable enhancement, they get a split of the value of the issue:
-    - 25% cut → small enhancement = moved submission from unsatisfactory to satisfactory
-    - 50% cut → med enhancement = moved submission from invalid to valid
-    - 75% cut → large enhancement = identified a more severe vulnerability
+    - 25% cut → small enhancement
+    - 50% cut → med enhancement
+    - 75% cut → large enhancement
 - Phases and points:
     - **Round 1** validations are worth 1 point each
     - **Round 2 (”limbo”)** validations validations are assigned a value on a curve based on the order of the submission (the "nonce") such that the later the submission is validated the more it is worth. The function for this is `steepness ^ (totalNonces - nonceOrder)` where steepness is set to `1.015`
