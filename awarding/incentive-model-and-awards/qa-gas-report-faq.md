@@ -10,7 +10,7 @@ Unless otherwise stipulated in the audit repo, the full pool would then be divid
 
 Non-critical findings are discouraged for QA reports. 
 
-### What if a low-impact QA report turns out to be a high-impact report?  Would the report be upgraded?
+### What if a low-impact QA report turns out to be a high-impact report? Would the report be upgraded?
 
 It's conceivable it could be upgraded, though it's important to consider that part of auditing is demonstrating proper theory of how an issue could be exploited. If a warden notices something is "off" but is unable to articulate why it could lead to loss of funds, for example, the job is only half-done; without understanding the implications, a developer could very well overlook or deprioritize the issue.
 
