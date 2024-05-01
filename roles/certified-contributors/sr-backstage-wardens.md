@@ -1,11 +1,11 @@
-# SR (formerly +Backstage) wardens
+# Certified Security Researchers (formerly +Backstage wardens)
 
-Certified contributors who meet certain performance criteria within C4 gain the SR role, which provides access to:
+Certified contributors who meet certain performance criteria within C4 gain the Certified Security Researcher (SR) role, which provides access to:
 
 - Findings repos, immediately after audits conclude
 - Post-judging QA
 
-The minimum criteria to become an SR are as follows: 
+The minimum criteria to become a Certified SR are as follows: 
 
 1. Be approved as a Certified C4 contributor;
 1. Submit valid findings to at least 3 Code4rena audits (i.e. valid findings on the [Code4rena leaderboard](https://code4rena.com/leaderboard/));

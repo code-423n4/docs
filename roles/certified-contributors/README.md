@@ -8,7 +8,7 @@ Contributors who have provided ID verification and a signed agreement may be eli
 - Private or invite-only audits
 - Scout role (focused on scoping and pre-audit code intel)
 - [Judging](/roles/judges/README.md)
-- [SR opportunities](sr-backstage-wardens.md) (post-audit triage and post-judging QA)
+- [Certified Security Researchers opportunities](sr-backstage-wardens.md) (post-audit triage and post-judging QA)
 - Providing mitigation review services
 - Offering solo audit and consulting services through C4
 

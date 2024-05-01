@@ -117,4 +117,4 @@ If a validator chooses to improve a submission:
     - False positives count 50% toward Validators' submission accuracy
     - False negatives count 100% toward Validators' submission accuracy
     - In other words, each false negative is double the negative value of false positives in the ‘incorrect’ count.
-- Backstage wardens may appeal improvements made by Validators, and request that the judge review their original submission during post-judging QA.
+- [Certified Security Researchers](../certified-contributors/sr-backstage-wardens.md) may appeal improvements made by Validators, and request that the judge review their original submission during post-judging QA.

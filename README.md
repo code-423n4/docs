@@ -27,7 +27,7 @@ Here are some of the most-visited sections:
 - [How to get started as a Code4rena warden](roles/wardens#joining-an-audit)
 - [Submission policy](roles/wardens/submission-policy.md) and [reporting guidelines](roles/wardens/submission-guidelines.md)
 - [Becoming Certified (KYC’d): benefits and process](roles/certified-contributors)
-    - [SR role: overview, criteria and process](roles/certified-contributors/sr-backstage-wardens.md)
+    - [Certified Security Researchers: overview, criteria and process](roles/certified-contributors/sr-backstage-wardens.md)
     - [Validator role: overview, criteria and process](roles/certified-contributors/validators.md)
     - [Scout role: overview and selection process](roles/certified-contributors/scouts.md)
 - Awarding [model](awarding/incentive-model-and-awards) and [process](awarding/incentive-model-and-awards/awarding-process.md)
