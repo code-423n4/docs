@@ -116,9 +116,9 @@ Only the award amounts for "partial" findings have been reduced, in line with ex
 [Validators](../../roles/certified-contributors/validators.md) may enhance submissions (add PoC, increase quality of report, etc.) in exchange for a % of the finding’s payout. 
 
 For Validator-improved submissions:  if the judge believes the validator added a measurable enhancement, they get a split of the value of the issue:
-- 25% cut → small enhancement = moved submission from unsatisfactory to satisfactory
-- 50% cut → med enhancement = moved submission from invalid to valid
-- 75% cut → large enhancement = identified a more severe vulnerability
+- 25% cut → small enhancement
+- 50% cut → med enhancement
+- 75% cut → large enhancement
 
 ## QA and Gas Optimization Reports
 
