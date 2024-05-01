@@ -82,7 +82,7 @@ If a validator chooses to improve a submission:
 - The judge evaluates validators’ enhancements and whether they validated, proved, or enhanced them. (See “Awarding” section below.)
 - Improved submissions must share the same root cause as the original submission.
 
-*N.B. If the finding is already present in the findings repo, then improved submissions will be judged in their original versions, and Validator improvements will be disregarded.*
+*N.B. If the finding is already present in the findings repo, then improved submissions will be judged in their original versions, and Validator improvements will be disregarded.* Validators should check the findings repo for duplicates prior to improving a submission.
 
 ## Awarding
 
