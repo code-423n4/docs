@@ -189,3 +189,14 @@ Analyses share high-level advice and insights from wardens' review of the code.
 Where individual findings are the "trees" in an audit, the Analysis is a "forest"-level view.
 
 Analyses compete for a portion of each audit's award pool, and are graded and awarded similarly to QA and Gas Optimization reports.
+
+### Understanding historical grading for QA, Gas, and Analysis reports
+
+For audits that started before April 30, 2024: 
+
+- Analyses, QA reports and Gas reports in this time period were graded A, B, or C.
+- C scores are unsatisfactory and ineligible for awards.
+- All A-grade reports receive a score of 2; All B-grade reports get a 1. Awarding for QA and Gas reports is on a curve that's described [here](https://docs.code4rena.com/awarding/incentive-model-and-awards/curve-logic).
+- Judges chose the best report in each category (Analysis, QA report, and Gas report), each of which earns the same 30% share bonus described under "High and Medium Risk bugs."
+
+**Note:** if the `selected for report` submission has a B-grade label, it will still be treated as A-grade and given proportionally more than B-grade, plus the 30% bonus for being `selected for report`.
