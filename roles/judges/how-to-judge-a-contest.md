@@ -7,9 +7,11 @@ We ask that you try to complete the judging process quickly so that we can distr
 
 ## Here’s how the process works leading up to judging
 
-C4 kicks off the code competition and establishes a private repo to receive incoming issues. Typically, most findings come in on the last day of the audit. When the audit ends, a Lookout will presort the repo and then it will be handed to the sponsor. Sponsors will have the chance to review the findings, comment, and provide feedback on issues.
+C4 kicks off the code competition and establishes a private repo to receive incoming issues. Typically, most findings come in on the last day of the audit. When the audit ends, you will get access to both the validation repo and the findings repo. A group of [Validators](../certified-contributors/validators.md) will triage submissions from all wardens below a set accuracy threshold, and submissions they deem satisfactory will be added to the findings repo.
 
-Sponsor input is non-binding, and do note that sponsors are heavily biased against having a report that includes very many vulnerabilities. Focus your work as a judge on protecting users and providing feedback to wardens.
+Sponsors are invited to review the findings, comment, and provide feedback on issues within the findings repo. Sponsor input is non-binding, and do note that sponsors are heavily biased against having a report that includes very many vulnerabilities. Focus your work as a judge on protecting users and providing feedback to wardens.
+
+Judges may begin work anytime after the submission period ends.
 
 ## Before you get started
 
@@ -32,7 +34,7 @@ Those documents also includes all information regarding de-duping, grading QA/Ga
 
 > “Sandwich attacks are inherent to AMMs, so this isn’t a unique issue presented by the MarginSwap implementation. With this in mind, I’m downgrading the risk from a proposed medium severity to QA.”
 
-One important caveat to all of the above: _**unless otherwise specified by the audit sponsor or intended to be handled by the code**_**.** For example, flash loans are generally unavoidable, but since MarginSwap had a safeguard against them, we considered these findings relevant in their contest.
+One important caveat to all of the above: _**unless otherwise specified by the audit sponsor or intended to be handled by the code**_**.** For example, flash loans are generally unavoidable, but since MarginSwap had a safeguard against them, we considered these findings relevant in their audit.
 
 ## Dealing with spam / repeated low-quality submissions
 
@@ -46,7 +48,7 @@ Ultimately the judge has the final word, but we want your decisions to be well-i
 
 ## If you have questions
 
-Do not hesitate to post in the #judges Discord channel, or DM a Contest Administrator with questions as you're working on judging. Any questions or feedback you can add to this documentation, or comments/questions on items above are highly welcome and essential for us improving our process. Thank you! 🙏
+Do not hesitate to post in the #judges Discord channel, or DM a Civics Administrator with questions as you're working on judging. Any questions or feedback you can add to this documentation, or comments/questions on items above are highly welcome and essential for us improving our process. Thank you! 🙏
 
 ## Final step before handing off
 
@@ -54,4 +56,4 @@ Please add a comment to your top scoring QA report noting where there are any it
 
 ## When you’re done reviewing
 
-Ping a C4 Contest Administrator and let us know you’re ready to hand off the results for post-judge QA and then award distribution.
+Ping a C4 Civics Administrator and let us know you’re ready to hand off the results for post-judge QA and then award distribution.

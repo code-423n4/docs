@@ -37,18 +37,24 @@ Your QA report should include:
 
 - all low severity findings
 - all Governance findings (centralization risks and admin privileged functions)
+- Non-critical findings are discouraged. 
 
-Non-critical findings are discouraged. Wardens are encouraged to use a standard format to label findings, e.g. `L-01`, `L-02`, etc. for low-risk findings, and `C-01]`, `C-02`, etc. for centralization/governance findings. (Please do not use `G-` prefixes as those are typically used to identify Gas optimization findings.)
+Formatting:
 
-Each QA report will be assessed based on report quality and thoroughness as compared with other reports. 
+- Wardens are encouraged to use a standard format to label findings, e.g. `L-01`, `L-02`, etc. for low-risk findings, and `C-01]`, `C-02`, etc. for centralization/governance findings. 
+- Please do not use `G-` prefixes as those are typically used to identify Gas optimization findings.
+- Non-standard labels such as `R-` (refactor), `I-` (informational), or `S-` (suggestion) will be considered non-critical and are therefore discouraged.
+
+Each QA report is assessed based on report quality and thoroughness as compared with other reports. 
 
 Wardens overstating the severity of QA issues (submitting low/non-critical issues as med/high in order to angle for higher payouts) will have their scores reduced by judges.
 
 ### Gas reports
 
-Not all audits include a Gas optimization pool; please check the audit repo before submitting a Gas report. 
-
-Gas reports should be submitted using the same approach as the QA reports: a single submission per warden which includes all identified optimizations.
+- Not all audits include a Gas optimization pool; please check the audit repo before submitting a Gas report. 
+- Gas reports should be submitted using the same approach as the QA reports: a single submission per warden which includes all identified optimizations.
+- It is highly recommended to clearly spell out the impact of proposed gas optimizations.
+- Submissions that claim gas optimization when the optimizer is inactive will be considered invalid.
 
 For more details on QA and Gas reports, and estimating risk, please see [Judging Criteria](https://docs.code4rena.com/roles/wardens/judging-criteria#qa-reports-low-non-critical).
 

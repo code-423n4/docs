@@ -11,8 +11,8 @@ We are working on tightening up all of our processes in order to be able to dist
 |  | Ideal | Actual (on average) |
 | --- | --- | --- |
 | Audit submissions close | Day 1 | Day 1 |
-| Lookout pre-sorts findings (de-duping and triage) | Day 7 | Day 3-4 |
-| Sponsors review and give feedback on findings | Day 9 | Day 9-10 |
+| Validators triage findings | Day 3-4 | Day 3-4 |
+| Sponsors review and give feedback on findings | Day 7 | Day 9-10 |
 | Judges determine final severity | Day 12 | Day 19-21 |
 | Judging QA complete; awards announced | Day 15 | Day 21-22 |
 | Awards are distributed; Sponsors complete mitigation of any issues | Day 15 | Day 25-39 |

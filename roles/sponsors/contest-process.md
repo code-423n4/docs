@@ -23,7 +23,7 @@ Your work will play a role in developing a public report of the audit.
 
 ### How Code4rena mitigation reviews work
 
-- While judging for your audit contest is underway, your team works through whatever mitigations you choose to pursue. For each mitigation, you link them back to the findings in the repo.
+- While judging for your audit is underway, your team works through whatever mitigations you choose to pursue. For each mitigation, you link them back to the findings in the repo.
 - After judging is finalized, the valid findings in the repo will be assigned a set of IDs containing a risk prefix + number (e.g. H-01 for a high-risk issue, M-03 for a medium). Mitigations of all High and Medium issues (we call them "HMs" for short) will be considered in-scope. We don't expect you to mitigate every QA / Gas issue, so we exclude those from mitigation reviews.
 - Most mitigation reviews are invitational competitions between 3-5 of the top-performing wardens from your audit. Code4rena staff will post the opportunity for RSVP as soon as judging is finalized for your initial audit. 
 - Usually we can kick off the mitigation review within a few days of judging (assuming your mitigations have been completed), and they typically run for 5 days.

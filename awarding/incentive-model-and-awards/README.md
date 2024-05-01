@@ -1,6 +1,6 @@
 # Incentive model and awards
 
-To incentivize **wardens**, C4 uses a unique scoring system with two primary goals: reward contestants for finding unique bugs and also to make the audit resistant to Sybil attack. A secondary goal of the scoring system is to encourage contestants to form teams and collaborate.
+To incentivize **wardens**, C4 uses a unique scoring system with two primary goals: reward participants for finding unique bugs and also to make the audit resistant to Sybil attack. A secondary goal of the scoring system is to encourage participants to form teams and collaborate.
 
 **Judges** are incentivized to review findings and decide their severity, validity, and quality by receiving a share of the prize pool themselves.
 
@@ -11,7 +11,7 @@ To incentivize **wardens**, C4 uses a unique scoring system with two primary goa
 
 ## High and Medium Risk bugs
 
-Contestants are given shares for bugs discovered based on severity, and those shares give the owner a pro rata piece of the pie:
+Wardens are given shares for bugs discovered based on severity, and those shares give the owner a pro rata piece of the pie:
 
 `Med Risk Slice: 3 * (0.9 ^ (split - 1)) / split`\
 `High Risk Slice: 10 * (0.9 ^ (split - 1)) / split`
@@ -41,7 +41,7 @@ The resulting awards are:
 | 'Warden C'  | 'H-02'      | '3'      |         8.91       |   3       |         2.70        |  1000                  |
 
 ### Bonuses for top competitors
-For each audit starting on or after April 30, 2024, there are two bonuses for top-performing wardens:
+For audits starting on or after April 30, 2024, there are two bonuses for top-performing wardens:
 
 1. **Hunter bonus:** 10% of the HM pool will be awarded to the warden or team who identities the greatest number of unique HMs.
 2. **Gatherer bonus:** 10% of the HM pool will be awarded to the warden or team who identifies the greatest number of valid HMs.
@@ -134,21 +134,19 @@ QA and gas optimization reports are awarded on a curve based on the judge’s sc
 
 There is a very high burden of quality and value provided for QA and gas optimization reports. Only submissions that demonstrate full effort worthy of consideration for inclusion in the report will be eligible for rewards.
 
-It is highly recommended to clearly spell out the impact of proposed gas optimizations.
-
 **Note:** Audits pre-dating February 3, 2022 awarded low risk and gas optimization shares as: `Low Risk Shares: 1 * (0.9 ^ (findingCount - 1)) / findingCount`
-
-In the unlikely event that zero high- or medium-risk vulnerabilities are found, the HM award pool will be divided based on the QA Report curve.
 
 ### Ranks for QA and Gas reports
 
 _These guidelines apply to all audits starting on or after April 30, 2024._ 
 
-After judging is complete, the Judge and Validators vote to select the top 3 QA reports and Gas reports. (In the case of a tie vote, there may be a 4th place report.)
+After post-judging QA is complete, the Judge and Validators vote to select the top 3 QA reports and Gas reports. (In the case of a tie vote, there may be a 4th place report.)
 
 The 1st, 2nd, and 3rd place winners are awarded using a curve model that will be documented here ASAP. 
 
 Satisfactory reports not among the winning reports will not be awarded -- but will count towards wardens' accuracy scores.
+
+In the unlikely event that zero high- or medium-risk vulnerabilities are found, the HM award pool will be divided based on the QA Report curve, unless otherwise stated in the audit repo. 
 
 ## Satisfactory / unsatisfactory submissions
 
