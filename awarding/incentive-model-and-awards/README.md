@@ -43,7 +43,7 @@ The resulting awards are:
 ### Bonuses for top competitors
 For audits starting on or after April 30, 2024, there are two bonuses for top-performing wardens:
 
-1. **Hunter bonus:** 10% of the HM pool will be awarded to the warden or team who identities the greatest number of unique HMs.
+1. **Hunter bonus:** 10% of the HM pool will be awarded to the warden or team who identifies the greatest number of unique HMs.
 2. **Gatherer bonus:** 10% of the HM pool will be awarded to the warden or team who identifies the greatest number of valid HMs.
 
 Both bonuses weigh Highs more heavily than Mediums, similarly to Code4rena's standard awarding mechanism.
@@ -115,7 +115,7 @@ Only the award amounts for "partial" findings have been reduced, in line with ex
 
 [Validators](https://docs.code4rena.com/roles/certified-contributors/validators.md) may enhance submissions (add PoC, increase quality of report, etc.) in exchange for a % of the finding’s payout. 
 
-For Validator-improved submissions:  if the judge believes the validator added a measurable enhancement, they get a split of the value of the issue:
+For Validator-improved submissions: if the judge believes the validator added a measurable enhancement, they get a split of the value of the issue:
 - 25% cut → small enhancement
 - 50% cut → med enhancement
 - 75% cut → large enhancement
@@ -124,7 +124,7 @@ For Validator-improved submissions:  if the judge believes the validator added a
 
 In order to incentivize wardens to focus efforts on high and medium severity findings while also ensuring quality coverage, the pool’s allocation is capped for low severity, governance, and gas optimization findings.
 
-Low and governance findings are submitted as a **single** QA report. Similarly, gas optimizations are submitted as a single gas report. For more on reports, see [Judging criteria](/awarding/judging-criteria/README.md).
+Low severity and governance findings are submitted as a **single** QA report. Similarly, gas optimizations are submitted as a single gas report. For more on reports, see [Judging criteria](/awarding/judging-criteria/README.md).
 
 QA and gas optimization reports are awarded on a curve based on the judge’s score.
 
@@ -197,6 +197,6 @@ For audits that started before April 30, 2024:
 - Analyses, QA reports and Gas reports in this time period were graded A, B, or C.
 - C scores are unsatisfactory and ineligible for awards.
 - All A-grade reports receive a score of 2; All B-grade reports get a 1. Awarding for QA and Gas reports is on a curve that's described [here](https://docs.code4rena.com/awarding/incentive-model-and-awards/curve-logic).
-- Judges chose the best report in each category (Analysis, QA report, and Gas report), each of which earns the same 30% share bonus described under "High and Medium Risk bugs."
+- Judges choose the best report in each category (Analysis, QA report, and Gas report), each of which earns the same 30% share bonus described under "High and Medium Risk bugs."
 
 **Note:** if the `selected for report` submission has a B-grade label, it will still be treated as A-grade and given proportionally more than B-grade, plus the 30% bonus for being `selected for report`.
