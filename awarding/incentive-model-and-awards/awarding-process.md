@@ -5,7 +5,7 @@ description: >-
 
 # Awarding process
 
-At the conclusion of an audit, sponsors review wardens’ findings and express their opinions with regard to severity of issues. Judges evaluate input from both and make the ultimate decision in terms of severity and validity of issues. (See [How to judge an audit](../../roles/judges/how-to-judge-a-contest.md) for more detail.)
+At the conclusion of an audit, sponsors review wardens’ findings and express their opinions with regard to severity of issues. Judges evaluate input from both and make the ultimate decision in terms of severity and validity of issues. (See [How to judge an audit](https://docs.code4rena.com/roles/judges/how-to-judge-a-contest.md) for more detail.)
 
 In making their determination, judges add labels to Github issues, while the original submission data (including the warden's proposed severity rating) is preserved via a JSON data file. 
 

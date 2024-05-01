@@ -14,7 +14,7 @@ Non-critical findings are discouraged for QA reports.
 
 It's conceivable it could be upgraded, though it's important to consider that part of auditing is demonstrating proper theory of how an issue could be exploited. If a warden notices something is "off" but is unable to articulate why it could lead to loss of funds, for example, the job is only half-done; without understanding the implications, a developer could very well overlook or deprioritize the issue.
 
-The tl;dr for [determining severity](../../awarding/judging-criteria/severity-categorization.md) is relatively clear with regard to separating by impact.
+The tl;dr for [determining severity](https://docs.code4rena.com/awarding/judging-criteria/severity-categorization.md) is relatively clear with regard to separating by impact.
 
 ### What happens when an issue submitted by the warden as part of their QA report (an L or C) *DOES* get bumped up to Med/High by the judge after review?
 

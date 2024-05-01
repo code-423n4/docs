@@ -113,7 +113,7 @@ Only the award amounts for "partial" findings have been reduced, in line with ex
 
 ### Validator-improved submissions
 
-[Validators](../../roles/certified-contributors/validators.md) may enhance submissions (add PoC, increase quality of report, etc.) in exchange for a % of the finding’s payout. 
+[Validators](https://docs.code4rena.com/roles/certified-contributors/validators.md) may enhance submissions (add PoC, increase quality of report, etc.) in exchange for a % of the finding’s payout. 
 
 For Validator-improved submissions:  if the judge believes the validator added a measurable enhancement, they get a split of the value of the issue:
 - 25% cut → small enhancement

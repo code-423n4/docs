@@ -30,7 +30,7 @@ All team registrations and updates will create pull requests that are flagged fo
 ### Audit timeline
 
 * **Most audits run for 3-7 days,** and typically start and end at 20:00 UTC.
-* The rest of our audit timeline is documented on the [Audit timeline](../../structure/our-process/) page.
+* The rest of our audit timeline is documented on the [Audit timeline](https://docs.code4rena.com/structure/our-process/) page.
 
 ### Questions?
 
