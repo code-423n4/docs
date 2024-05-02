@@ -97,7 +97,7 @@ If a validator chooses to improve a submission:
     - 75% cut → large enhancement
 - Phases and points:
     - **Round 1** validations are worth 1 point each
-    - **Round 2 (”limbo”)** validations validations are assigned a value on a curve based on the order of the submission (the "nonce") such that the later the submission is validated the more it is worth. The function for this is `steepness ^ (totalNonces - nonceOrder)` where steepness is set to `1.015`
+    - **Round 2 (”limbo”)** validations are assigned a value on a curve based on the order of the submission (the "nonce") such that the later the submission is validated the more it is worth. The function for this is `steepness ^ (totalNonces - nonceOrder)` where steepness is set to `1.015`
     - Passing costs `0.5` (ie passing twice neutralizes the value of 1 successful validation)
     - The validator's accuracy in this competition has an impact on their overall point total. `points = ((roundOneTotal + limboTotal - (pass*y)) * (accuracy ^x)` where `y` is the `pass cost` (`0.5` by default) and `x` is the accuracy decrementer (`3` by default).
         - For Round 2 (”limbo”) submissions, the value of the accuracy decrementer is 50% of the nonce value.
