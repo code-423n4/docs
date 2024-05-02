@@ -69,7 +69,34 @@ The scoring system has three primary goals:
 * Hardening C4 code audits to Sybil attacks
 * Encouraging coordination by incentivizing Wardens to form teams.
 
+### QA reports (Low risk and Governance/Centralization risk)
+
+Low risk and Governance/Centralization risk findings must be submitted as a _single_ QA report per warden. We allocate a **fixed 4% of prize pools toward QA reports.**
+
+QA reports should include:
+
+* all low severity findings; and
+* all Governance/Centralization risk findings.
+
+Each QA report should be assessed based on report quality and thoroughness as compared with other reports, with awards distributed on a curve. 
+
+Judges have discretion to assign a lower grade to wardens overstating the severity of QA issues (submitting low/non-critical issues as med/high in order to angle for higher payouts). Judges may also raise the severity of a QA finding at their discretion. 
+
+### Gas reports
+
+Gas reports should be submitted using the **same approach as the QA reports:** a single submission per warden which includes all identified optimizations. 
+
+Gas pools are optional, but for audits that include Gas optimizations, the precise award pool can be found in that audit's repo.
+
+## Estimating Risk
+
+See [Severity Categorization](https://docs.code4rena.com/awarding/judging-criteria/severity-categorization).
+
+## Other report types
+
 ### Analysis
+
+_This report type is currently paused, and is not accepted for audits starting on or after April 30, 2024._
 
 Analyses are judged A, B, or C, with C being unsatisfactory and ineligible for awards. The judge selects the best Analysis for inclusion in the audit report.
 
@@ -99,30 +126,3 @@ Areas of interest include:
 - Weakspots and any single points of failure
 
 Merely repeating the code functionality in pseudo-documentation is not considered valuable information.
-
-### QA reports (low/non-critical)
-
-QA reports are graded A, B, or C, with C being unsatisfactory and ineligible for awards. The judge selects the best QA report for inclusion in the audit report.
-
-Low and non-critical findings must be submitted as a _single_ QA report per warden. We allocate a **fixed 2.5% of prize pools toward QA reports.**
-
-QA reports should include:
-
-* all low severity findings; and
-* all non-critical findings.
-
-Each QA report should be assessed based on report quality and thoroughness as compared with other reports, with awards distributed on a curve. 
-
-Judges have discretion to assign a lower grade to wardens overstating the severity of QA issues (submitting low/non-critical issues as med/high in order to angle for higher payouts). Judges may also raise the severity of a QA finding at their discretion. 
-
-### Gas reports
-
-Gas reports are graded A, B, or C, with C being unsatisfactory and ineligible for awards. The judge selects the best Gas report for inclusion in the audit report.
-
-Gas reports should be submitted using the **same approach as the QA reports:** a single submission per warden which includes all identified optimizations. The gas pool is allocated on a curve. 
-
-The gas pool varies from audit to audit, but typically it consists of 2.5% of the total prize pool. The precise gas pool for each audit can be found in that audit's repo.
-
-## Estimating Risk
-
-See [Severity Categorization](https://docs.code4rena.com/awarding/judging-criteria/severity-categorization).

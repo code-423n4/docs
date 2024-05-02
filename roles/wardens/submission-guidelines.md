@@ -23,57 +23,38 @@ It is also recommended to ensure you receive email confirmation of each submissi
 - **High, Medium, and QA reports:**
     - Wardens should [review Code4rena's severity categorization](https://docs.code4rena.com/awarding/judging-criteria/severity-categorization) prior to submitting vulnerabilities, and select the appropriate risk when submitting.
     - Medium or High severity findings should be submitted individually.
-    - All QA findings (Low risk or Non-critical) must be submitted as a single QA report per warden (or team).
-    - Centralization risks, systemic risks, and architecture recommendations should be submitted as part of an Analysis (see below).
-- **Analyses:** An analysis is a written submission outlining:
-    - Wardens' analysis of the codebase as a whole and any observations or advice they have about architecture, mechanism, or approach
-    - Broader concerns like systemic risks or centralization risks
-    - The approach taken in reviewing the code
-    - New insights and learnings from the audit
-- **Gas optimizations:** All identified gas optimizations should be submitted as a separate report. Note: the gas award pool is set according to the sponsor's preference, and some audits do not include gas optimizations awards.
-
-### Report formats
-
-- Medium or High severity findings should be submitted individually.
-- Analyses should be submitted via the "Submit Analysis report" form.
-- All QA findings (Low risk or Non-critical) must be submitted within a single QA report per warden (or team).
-- All Gas optimizations must be submitted within a single Gas report per warden (or team).
+    - All QA findings (Low risk or Governance / Centralization risk) must be submitted as a single QA report per warden (or team).
+    - Centralization risks, and systemic risks should be submitted as part of the QA report.
+- **Gas optimizations:** For audits that include a Gas optimization pool, all identified gas optimizations should be submitted within a single Gas report per warden (or team). Note: the gas award pool is set according to the sponsor's preference.
 
 Wardens who submit multiple QA and/or Gas findings to a single audit without following the required format will have all QA/Gas submissions invalidated for that audit.
 
-### Analyses
+### QA reports (low/governance)
 
-An analysis allows wardens to provide a high-level architectural review and codebase analysis as well as recommendations — and to win a slice of the pool based on their insights and advice.
-
-The Analysis submission form includes a set of questions for you to answer to the best of your ability:
-
-1. Analysis of the codebase (What's unique? What's using existing patterns?)
-2. Architecture feedback
-3. Centralization risks
-4. Systemic risks
-5. Other recommendations
-6. How much time did you spend?
-
-### QA reports (low/non-critical)
-
-Low and non-critical findings must be submitted as a single QA report per warden. We allocate a **fixed 2.5% of prize pools toward QA reports.**
+Low and non-critical findings must be submitted as a single QA report per warden. We allocate a **fixed 4% of prize pools toward QA reports.**
 
 Your QA report should include:
 
-- all low severity findings; and
-- all non-critical findings.
+- all low severity findings
+- all Governance / Centralization risk findings (including centralization risks and admin privileged functions)
+- Non-critical findings are discouraged. 
 
-Each QA report will be assessed based on report quality and thoroughness as compared with other reports, with awards distributed on a curve. The top QA report author will receive the top prize from the category.
+Formatting:
+
+- Wardens are encouraged to use a standard format to label findings, e.g. `L-01`, `L-02`, etc. for low-risk findings, and `C-01`, `C-02`, etc. for centralization/governance findings. 
+- Please do not use `G-` prefixes as those are typically used to identify Gas optimization findings.
+- Non-standard labels such as `R-` (refactor), `I-` (informational), or `S-` (suggestion) will be considered non-critical and are therefore discouraged.
+
+Each QA report is assessed based on report quality and thoroughness as compared with other reports. 
 
 Wardens overstating the severity of QA issues (submitting low/non-critical issues as med/high in order to angle for higher payouts) will have their scores reduced by judges.
 
-In the unlikely event that zero high- or medium-risk vulnerabilities are found, the full pool will be divided based on the QA Report curve.
-
 ### Gas reports
 
-Gas reports should be submitted using the same approach as the QA reports: a single submission per warden which includes all identified optimizations. The gas pool will be allocated on a curve, and the top reporter will receive the top prize in the category.
-
-The gas pool varies from audit to audit, but typically it consists of 2.5% of the total prize pool. The precise gas pool for each audit can be found in that audit's repo.
+- Not all audits include a Gas optimization pool; please check the audit repo before submitting a Gas report. 
+- Gas reports should be submitted using the same approach as the QA reports: a single submission per warden which includes all identified optimizations.
+- It is highly recommended to clearly spell out the impact of proposed gas optimizations.
+- Submissions that claim gas optimization when the optimizer is inactive will be considered invalid.
 
 For more details on QA and Gas reports, and estimating risk, please see [Judging Criteria](https://docs.code4rena.com/roles/wardens/judging-criteria#qa-reports-low-non-critical).
 

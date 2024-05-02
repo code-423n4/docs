@@ -5,15 +5,15 @@ description: In order to create opportunities for contributions which rely on es
 
 Contributors who have provided ID verification and a signed agreement may be eligible to participate in:
 
-- Private or invite-only contests
-- Scout role (focused on scoping and pre-contest code intel)
+- Private or invite-only audits
+- Scout role (focused on scoping and pre-audit code intel)
 - [Judging](/roles/judges/README.md)
-- ["Backstage" warden opportunities](backstage-wardens.md) (post-contest triage and post-judging QA)
+- [Certified Security Researchers opportunities](sr-backstage-wardens.md) (post-audit findings access and post-judging QA)
 - Providing mitigation review services
 - Offering solo audit and consulting services through C4
 
 Additional opportunities we are considering include: 
-- Certain contest bonus token awards which may be restricted from US persons due to regulations or token grant agreements
+- Certain bonus token awards which may be restricted from US persons due to regulations or token grant agreements
 - May be a factor in maxing out awards in the future
 
 ## **Certification process and constraints**

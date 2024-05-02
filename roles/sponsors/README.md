@@ -51,23 +51,13 @@ We use a 120-character line length standard for scoping, and our default `.prett
 
 To attract warden participation in the highly competitive engineering market, we work with standard award pool sizes based on the scope of the audit. We regularly evaluate and adjust audit pricing to ensure incentive alignment with wardens. Sponsors always have the option of boosting their award pool, which tends to attract more warden talent and attention.
 
-#### Analysis pool
-
-5% of each audit's award pool is typically allocated to Analyses. These reports contain high-level advice and review of the code: the "forest" to individual findings' "trees." They augment and contextualize the bug reports that are incentivized by the remaining 95% of the pool. 
-
-For a long time, wardens have wanted a better place to contribute value via the high-level / overview / advice that isn't necessarily covered by specific bugs. The Analysis pool provides them with a method to get credit for this advisory-level work. 
-
-Projects have discretion to adjust the default allocation for the Analysis pool up or down; this should be clarified during the pre-audit booking and setup phase.
-
 #### Gas optimization pool
 
-By default, 2.5% of the award pool is allocated to valid gas optimizations. We encourage all sponsors to keep this in place, as we can help each other be conscious of ways to minimize gas fees for users -- and indeed some sponsors may wish to allocate a higher percentage of the award pool to this purpose. 
-
-Some projects may not wish to create a separate incentive for gas optimizations, and removing it should be discussed with Code4rena staff during the pre-audit setup phase. 
+You may opt to allocate a portion of your award pool to gas optimizations; typically we recommend 2.5% of the award pool, but the amount is discretionary. 
 
 ### Org fee
 
-There is a fee on top of the determined audit pool, which goes to the Code4rena DAO to cover the costs associated with organizing, promoting, and reporting on audits.
+There is a fee on top of the determined audit pool, which goes to Code4rena to cover the costs associated with organizing, promoting, and reporting on audits.
 
 ### Audit scheduling
 

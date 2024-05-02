@@ -7,13 +7,15 @@ We ask that you try to complete the judging process quickly so that we can distr
 
 ## Here’s how the process works leading up to judging
 
-C4 kicks off the code competition and establishes a private repo to receive incoming issues. Typically, most findings come in on the last day of the audit. When the audit ends, a Lookout will presort the repo and then it will be handed to the sponsor. Sponsors will have the chance to review the findings, comment, and provide feedback on issues.
+C4 kicks off the code competition and establishes a private repo to receive incoming issues. Typically, most findings come in on the last day of the audit. When the audit ends, you will get access to both the validation repo and the findings repo. A group of [Validators](https://docs.code4rena.com/certified-contributors/validators.md) will triage submissions from all wardens below a set accuracy threshold, and submissions they deem satisfactory will be added to the findings repo.
 
-Sponsor input is non-binding, and do note that sponsors are heavily biased against having a report that includes very many vulnerabilities. Focus your work as a judge on protecting users and providing feedback to wardens.
+Sponsors are invited to review the findings, comment, and provide feedback on issues within the findings repo. Sponsor input is non-binding, and do note that sponsors are heavily biased against having a report that includes very many vulnerabilities. Focus your work as a judge on protecting users and providing feedback to wardens.
+
+Judges may begin work anytime after the submission period ends.
 
 ## Before you get started
 
-Read the [Judging Criteria](https://docs.code4rena.com/roles/wardens/judging-criteria), [Submission Policy](../wardens/submission-policy.md), and review the audit readme as provided by the sponsor.
+Read the [Judging Criteria](https://docs.code4rena.com/roles/wardens/judging-criteria), [Submission Policy](https://docs.code4rena.com/wardens/submission-policy.md), and review the audit readme as provided by the sponsor.
 
 You may also be interested in browsing past audits, and [reviewing open issues in the Rulebook repo](https://github.com/code-423n4/rulebook/issues), in order to see how other judges have handled issues.
 
@@ -32,7 +34,7 @@ Those documents also includes all information regarding de-duping, grading QA/Ga
 
 > “Sandwich attacks are inherent to AMMs, so this isn’t a unique issue presented by the MarginSwap implementation. With this in mind, I’m downgrading the risk from a proposed medium severity to QA.”
 
-One important caveat to all of the above: _**unless otherwise specified by the audit sponsor or intended to be handled by the code**_**.** For example, flash loans are generally unavoidable, but since MarginSwap had a safeguard against them, we considered these findings relevant in their contest.
+One important caveat to all of the above: _**unless otherwise specified by the audit sponsor or intended to be handled by the code**_**.** For example, flash loans are generally unavoidable, but since MarginSwap had a safeguard against them, we considered these findings relevant in their audit.
 
 ## Dealing with spam / repeated low-quality submissions
 
@@ -42,11 +44,11 @@ Note: this policy was instated after [this proposal](https://docs.code4rena.com/
 
 ## Discussing issues with the sponsor
 
-Ultimately the judge has the final word, but we want your decisions to be well-informed.  In a typical C4 audit, there will be a few issues that benefit from discussion with the sponsor; the judge may find that their understanding of the system is incomplete and you need to ask for clarification, or where there is room for misunderstanding. Don’t hesitate to connect directly with the sponsor, either in the Github comments (where you can tag them in if needed), or via Discord.
+Ultimately the judge has the final word, but we want your decisions to be well-informed. In a typical C4 audit, there will be a few issues that benefit from discussion with the sponsor; the judge may find that their understanding of the system is incomplete and you need to ask for clarification, or where there is room for misunderstanding. Don’t hesitate to connect directly with the sponsor, either in the Github comments (where you can tag them in if needed), or via Discord.
 
 ## If you have questions
 
-Do not hesitate to post in the #judges Discord channel, or DM a Contest Administrator with questions as you're working on judging. Any questions or feedback you can add to this documentation, or comments/questions on items above are highly welcome and essential for us improving our process. Thank you! 🙏
+Do not hesitate to post in the #judges Discord channel, or DM a Civics Administrator with questions as you're working on judging. Any questions or feedback you can add to this documentation, or comments/questions on items above are highly welcome and essential for us improving our process. Thank you! 🙏
 
 ## Final step before handing off
 
@@ -54,4 +56,4 @@ Please add a comment to your top scoring QA report noting where there are any it
 
 ## When you’re done reviewing
 
-Ping a C4 Contest Administrator and let us know you’re ready to hand off the results for post-judge QA and then award distribution.
+Ping a C4 Civics Administrator and let us know you’re ready to hand off the results for post-judging QA and then award distribution.
