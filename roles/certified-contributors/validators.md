@@ -55,7 +55,7 @@ Once the audit is finalized:
 
 Each round's validations have different values.
 
-(`*`) Note: After May 1, 2024, the Lookout role will be retired in favour of the new Validator role. All current judges and lookouts will be granted the Validator role by default. Going forward, the Validator role will be granted to community members who meet the eligibility criteria. 
+(`*`) Note: After April 30, 2024, the Lookout role will be retired in favour of the new Validator role. All current judges and lookouts will be granted the Validator role by default. Going forward, the Validator role will be granted to community members who meet the eligibility criteria. 
 
 ---
 
