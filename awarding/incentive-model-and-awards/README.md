@@ -122,9 +122,9 @@ For Validator-improved submissions: if the judge believes the validator added a 
 
 ## QA and Gas Optimization Reports
 
-In order to incentivize wardens to focus efforts on high and medium severity findings while also ensuring quality coverage, the pool’s allocation is capped for low severity, governance, and gas optimization findings.
+In order to incentivize wardens to focus efforts on high and medium severity findings while also ensuring quality coverage, the pool’s allocation is capped for low severity, governance/centralization risk, and gas optimization findings.
 
-Low severity and governance findings are submitted as a **single** QA report. Similarly, gas optimizations are submitted as a single gas report. For more on reports, see [Judging criteria](/awarding/judging-criteria/README.md).
+Low severity and governance/centralization risk findings are submitted as a **single** QA report. Similarly, gas optimizations are submitted as a single gas report. For more on reports, see [Judging criteria](/awarding/judging-criteria/README.md).
 
 QA and gas optimization reports are awarded on a curve based on the judge’s score.
 

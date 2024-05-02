@@ -69,14 +69,14 @@ The scoring system has three primary goals:
 * Hardening C4 code audits to Sybil attacks
 * Encouraging coordination by incentivizing Wardens to form teams.
 
-### QA reports (low risk and governance)
+### QA reports (Low risk and Governance/Centralization risk)
 
-Low risk and Governance findings must be submitted as a _single_ QA report per warden. We allocate a **fixed 4% of prize pools toward QA reports.**
+Low risk and Governance/Centralization risk findings must be submitted as a _single_ QA report per warden. We allocate a **fixed 4% of prize pools toward QA reports.**
 
 QA reports should include:
 
 * all low severity findings; and
-* all Governance findings.
+* all Governance/Centralization risk findings.
 
 Each QA report should be assessed based on report quality and thoroughness as compared with other reports, with awards distributed on a curve. 
 

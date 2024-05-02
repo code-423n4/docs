@@ -23,7 +23,7 @@ It is also recommended to ensure you receive email confirmation of each submissi
 - **High, Medium, and QA reports:**
     - Wardens should [review Code4rena's severity categorization](https://docs.code4rena.com/awarding/judging-criteria/severity-categorization) prior to submitting vulnerabilities, and select the appropriate risk when submitting.
     - Medium or High severity findings should be submitted individually.
-    - All QA findings (Low risk or Governance) must be submitted as a single QA report per warden (or team).
+    - All QA findings (Low risk or Governance / Centralization risk) must be submitted as a single QA report per warden (or team).
     - Centralization risks, and systemic risks should be submitted as part of the QA report.
 - **Gas optimizations:** For audits that include a Gas optimization pool, all identified gas optimizations should be submitted within a single Gas report per warden (or team). Note: the gas award pool is set according to the sponsor's preference.
 
@@ -36,7 +36,7 @@ Low and non-critical findings must be submitted as a single QA report per warden
 Your QA report should include:
 
 - all low severity findings
-- all Governance findings (centralization risks and admin privileged functions)
+- all Governance / Centralization risk findings (including centralization risks and admin privileged functions)
 - Non-critical findings are discouraged. 
 
 Formatting:
