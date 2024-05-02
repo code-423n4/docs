@@ -41,7 +41,7 @@ Your QA report should include:
 
 Formatting:
 
-- Wardens are encouraged to use a standard format to label findings, e.g. `L-01`, `L-02`, etc. for low-risk findings, and `C-01]`, `C-02`, etc. for centralization/governance findings. 
+- Wardens are encouraged to use a standard format to label findings, e.g. `L-01`, `L-02`, etc. for low-risk findings, and `C-01`, `C-02`, etc. for centralization/governance findings. 
 - Please do not use `G-` prefixes as those are typically used to identify Gas optimization findings.
 - Non-standard labels such as `R-` (refactor), `I-` (informational), or `S-` (suggestion) will be considered non-critical and are therefore discouraged.
 
