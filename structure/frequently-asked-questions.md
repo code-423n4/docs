@@ -36,7 +36,7 @@ It’s really simple! Just visit [this link](https://code4rena.typeform.com/i-wa
 
 ### Do you have a blog?
 
-We do indeed, [here](https://medium.com/code-423n4). We post product updates, sponsor interviews and more.
+We do indeed, [here](https://code4rena.com/blog). We post product updates, sponsor interviews and more.
 
 ### What’s the best way to stay up to date with Code4rena?
 
@@ -80,7 +80,7 @@ You should also receive an email confirmation from submissions@code4rena.com. (I
 
 ### I submitted a finding but then realized it was invalid. Do I need to contact Code4rena?
 
-You can go to the `Your Findings` tab (located to the right of `Details`) on the specific audit page and open the finding. There you will see an option to `Withdraw` the finding.
+While the audit is still active, you can go to the `Your Findings` tab (located to the right of `Details`) on the specific audit page and open the finding. There you will see an option to `Withdraw` the finding.
 
 ### Can I edit my findings post-submission?
 
