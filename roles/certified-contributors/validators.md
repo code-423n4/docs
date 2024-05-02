@@ -7,7 +7,7 @@ All open competitive audits at Code4rena that begin on or after April 30, 2024 w
 
 ## Validator tl;dr
 
-- Each competition has a **qualifying threshold** that allows wardens to bypass validators. This threshold is based on your submission accuracy rate and being established as a quality contributor and as non-sybil. (For those familiar with ‘backstage warden’ criteria, it is essentially that plus an acceptable accuracy rate.)
+- Each competition has a **qualifying threshold** that allows wardens to bypass validators. This threshold is based on your submission accuracy rate, as well as being established as a quality contributor and as non-sybil. (For those familiar with ‘backstage warden’ criteria, it is essentially that plus an acceptable accuracy rate.)
 - Qualified wardens’ submissions go directly to the usual findings repo.
 - All other wardens’ submissions are routed to a Validation repo.
 - 3-5 **Validators** review submissions in the Validation repo immediately after the audit closes
