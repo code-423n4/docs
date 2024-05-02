@@ -44,7 +44,7 @@ Note: this policy was instated after [this proposal](https://docs.code4rena.com/
 
 ## Discussing issues with the sponsor
 
-Ultimately the judge has the final word, but we want your decisions to be well-informed.  In a typical C4 audit, there will be a few issues that benefit from discussion with the sponsor; the judge may find that their understanding of the system is incomplete and you need to ask for clarification, or where there is room for misunderstanding. Don’t hesitate to connect directly with the sponsor, either in the Github comments (where you can tag them in if needed), or via Discord.
+Ultimately the judge has the final word, but we want your decisions to be well-informed. In a typical C4 audit, there will be a few issues that benefit from discussion with the sponsor; the judge may find that their understanding of the system is incomplete and you need to ask for clarification, or where there is room for misunderstanding. Don’t hesitate to connect directly with the sponsor, either in the Github comments (where you can tag them in if needed), or via Discord.
 
 ## If you have questions
 
@@ -56,4 +56,4 @@ Please add a comment to your top scoring QA report noting where there are any it
 
 ## When you’re done reviewing
 
-Ping a C4 Civics Administrator and let us know you’re ready to hand off the results for post-judge QA and then award distribution.
+Ping a C4 Civics Administrator and let us know you’re ready to hand off the results for post-judging QA and then award distribution.
