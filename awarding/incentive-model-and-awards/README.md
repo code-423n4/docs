@@ -146,7 +146,7 @@ The 1st, 2nd, and 3rd place winners are awarded using a curve model that will be
 
 Satisfactory reports not among the winning reports will not be awarded -- but will count towards wardens' accuracy scores.
 
-In the unlikely event that zero high- or medium-risk vulnerabilities are found, the HM award pool will be divided based on the QA Report curve, unless otherwise stated in the audit repo. 
+In the unlikely event that zero high- or medium-risk vulnerabilities are found, the HM award pool will be divided among all satisfactory QA reports based on the QA Report curve, **unless otherwise stated in the audit repo.** 
 
 ## Satisfactory / unsatisfactory submissions
 
