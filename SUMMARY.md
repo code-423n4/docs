@@ -13,6 +13,7 @@
 * [Sponsors](roles/sponsors/README.md)
   * [Audit process](roles/sponsors/contest-process.md)
   * [Preparing for a Code4rena audit](roles/sponsors/preparing-for-audit.md)
+  * [Appealing a verdict](roles/sponsors/sponsor-appeals.md)
 * [Judges](roles/judges/README.md)
   * [How to judge an audit](roles/judges/how-to-judge-a-contest.md)
 * [Certified contributors](roles/certified-contributors/README.md)
