@@ -19,11 +19,11 @@ Sponsors may choose to appeal a judge's verdict for their Code4rena audit, if th
 
 ## Costs and fees
 
-- Code4rena collects an appeal deposit of $375 USDC per appealed finding. (Appeal deposits for up to 10 findings may be drawn from your refundable deposit, unless your audit includes refundable award pools.)
-- In case of a clear mistake (3/3 consensus to overturn the original verdict), the $375 court fee is **deducted from the original judge’s fee,** and the sponsor’s appeal deposit is returned.
-- In case of a 2/3 consensus (mistake, but not a clear mistake), the $375 court fee is paid by Code4rena, and the sponsor is refunded 50% of their appeal deposit.
+- Code4rena collects an appeal deposit of $525 USDC per appealed finding. (Appeal deposits for up to 10 findings may be drawn from your refundable deposit, unless your audit includes refundable award pools.)
+- In case of a clear mistake (3/3 consensus to overturn the original verdict), the $525 court fee is **deducted from the original judge’s fee,** and the sponsor’s appeal deposit is returned.
+- In case of a 2/3 consensus (mistake, but not a clear mistake), the $525 court fee is paid by Code4rena, and the sponsor is refunded 50% of their appeal deposit.
 - If the appellate court rules in favour of the original judge’s decision (i.e. only 0/3 or 1/3 judges vote to overturn the original decision), the sponsor's appeal deposit is paid out to the appeals court.
-- Regardless of outcome, the full amount of $375 is distributed to the appellate court judges ($100 USDC per judge, per appealed issue, plus $75 per issue for the lead judge).
+- Regardless of outcome, the full amount of $525 is distributed to the appellate court judges ($150 USDC per judge, per appealed issue, plus $75 per issue for the lead judge).
 
 
 ## Appeal process
