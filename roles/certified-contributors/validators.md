@@ -30,9 +30,9 @@ The new **Validator** role replaces the Lookout role, so the Lookout pool will b
 
 - 3-5 Validators are selected for each audit, via RSVP in #rsvp-judging
 - Validators who participate in the audit will be automatically assigned a first batch of 5 issues
-- Each Validator can label an issue as `valid`, `invalid` , `unknown`, or `improved`
-    - `valid` - issue is valid; forwards submission to the findings repo
-    - `invalid` - closes issue and does not forward
+- Each Validator can label an issue as `sufficient quality`, `insufficient quality` , `unknown`, or `improved`
+    - `sufficient quality` - issue is valid; forwards submission to the findings repo
+    - `insufficient quality` - closes issue and does not forward
     - `unknown` - returns issue to the Validator pool
     - `improved` - Validator enhanced issue; forwards submission to the findings repo
 - Validator can edit (improve) an issue and submit it (see below for more detail)
@@ -106,6 +106,7 @@ If a validator chooses to improve a submission:
 ## Miscellaneous
 
 - Judges can play the Judge and Validator role on the same audit, but are not eligible for any HM pool payouts on audits they judge — even if they enhance an issue.
+- If a Warden plays the Validator role on an audit in which they competed as a Warden, they must forgo any Warden awards they would have received for their findings in said audit.
 - Both the Validation repo and the Findings repo will be open to wardens with the SR role, for the purposes of post-judging QA.
     - All PJQA requests must be posted in the Github Discussion in the findings repo.
     - QA and Gas reports closed by Validators (i.e. *not* added to the findings repo) are NOT eligible 
