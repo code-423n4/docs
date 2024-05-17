@@ -5,7 +5,7 @@ To incentivize **wardens**, C4 uses a unique scoring system with two primary goa
 **Judges** are incentivized to review findings and decide their severity, validity, and quality by receiving a share of the prize pool themselves.
 
 **Note:**
-* `pie` is the number of shares assigned to that report or finding.
+* `pie` is the number of shares assigned to a unique [report](https://docs.code4rena.com/roles/wardens/submission-guidelines#qa-reports-low-governance) or [finding](https://docs.code4rena.com/roles/wardens/submission-guidelines#submission-types).
 * `split` is the number of times those shares were divided, the findings count for a given group.
 * `slice` is the number of shares assigned for that warden’s finding.
 
