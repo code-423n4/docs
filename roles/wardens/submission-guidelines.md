@@ -62,7 +62,7 @@ For more details on QA and Gas reports, and estimating risk, please see [Judging
 
 In order to be eligible for awards, competitors must contribute more value than they take. This is measured by impact rather than intent.
 
-Contributing value to sponsors by helping secure their code must always be the central concern. Attempts that have the impact of gaming the system or circumventing rules will be interpreted as breaking the rules.
+Contributing value to sponsors by helping secure their code must always be the central concern. Attempts that have the impact of gaming the system or circumventing rules will be interpreted as breaking the rules. (See [Satisfactory / unsatisfactory submissions](https://docs.code4rena.com/awarding/incentive-model-and-awards#satisfactory-unsatisfactory-submissions) for some examples.)
 
 Judges have the right to deem a warden ineligible for awards based on behavior and net quality/accuracy of submissions. This includes interactions with judges, staff, sponsors, and other wardens. Multiple violations or egregious abuses may also result in additional consequences, including account suspension or bans.
 
