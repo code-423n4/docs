@@ -1,5 +1,9 @@
 # Curve Logic for QA and Gas Optimization Reports
 
+This document describes the curve logic for Code4rena audits that started prior to April 30, 2024. Recent changes to the awarding rules are not yet reflected here, but will be posted as soon as possible. For general information about ranks and award pools for QA and Gas optimization reports, see [Incentive model and awards](https://docs.code4rena.com/awarding/incentive-model-and-awards#ranks-for-qa-and-gas-reports)
+
+---
+
 The reports will be graded based on 3 different grades:
 * Grade-a: outstanding report.
 * Grade-b: satisfactory report.
