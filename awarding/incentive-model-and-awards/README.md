@@ -144,6 +144,12 @@ After post-judging QA is complete, the Judge and Validators vote to select the t
 
 The 1st, 2nd, and 3rd place winners are awarded using a curve model that will be documented here ASAP. 
 
+Tie votes are handled as follows:
+- 3-way tie for 1st place: the QA/Gas pool is split evenly between the three 1st place winners (no 2nd or 3rd place reports).
+- 2-way tie for 1st place: the awards for 1st and 2nd place are combined and split evenly among the tied reports (no 2nd place report).
+- If 2 or more reports tie for 2nd place, the awards for 2nd and 3rd place are combined and split evenly among the tied reports (no 3rd place report).
+- If 2 or more reports tie for 3rd place, the 3rd place awards are split evenly among the tied reports.
+
 Satisfactory reports not among the winning reports will not be awarded -- but will count towards wardens' accuracy scores.
 
 In the unlikely event that zero high- or medium-risk vulnerabilities are found, the HM award pool will be divided among all satisfactory QA reports based on the QA Report curve, **unless otherwise stated in the audit repo.** 
