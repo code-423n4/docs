@@ -41,12 +41,31 @@ The resulting awards are:
 | 'Warden C'  | 'H-02'      | '3'      |         8.91       |   3       |         2.70        |  1000                  |
 
 ### Bonuses for top competitors
-For audits starting on or after April 30, 2024, there are two bonuses for top-performing wardens:
+For audits starting on or after April 30, 2024, there are two bonuses for top-performing wardens/teams:
 
 1. **Hunter bonus:** 10% of the HM pool will be awarded to the warden or team who identifies the greatest number of unique HMs.
 2. **Gatherer bonus:** 10% of the HM pool will be awarded to the warden or team who identifies the greatest number of valid HMs.
 
 Both bonuses weigh Highs more heavily than Mediums, similarly to Code4rena's standard awarding mechanism.
+
+**Top Hunter score**
+Each participant's High- and Medium-risk findings are used to calculate the Top Hunter score. The scoring logic is as follows:
+
+- Only HM findings with fewer than 5 submissions in the findings set count towards the top hunter score.
+- For each High-risk finding, score += 10 * 1/x, where x = number of duplicates 
+- For each Medium-risk finding, score += 3 * 1/x, where x = number of duplicates 
+
+For example, if a warden found: 
+- 1 High-risk finding that was found by 3 other wardens, that finding's score would be 10 * 1/4 = 2.5 
+- 1 unique Medium, that finding's score would be 3 * 1 += 3
+- …for a total score of 5.5.
+
+**Top Gatherer score**
+The Top Gatherer score is calculated using all High- and Medium-risk findings, as follows: 
+
+- (Number of High-risk findings for `user` / Total number of High-risk findings) * 10 = `highScore`
+- (Number of Medium-risk findings for `user` / Total number of Medium-risk findings) * 3 = `mediumScore`
+- `highScore` + `mediumScore` = `gathererScore`
 
 ### Duplicates getting partial credit
 
