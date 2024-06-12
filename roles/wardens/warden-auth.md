@@ -34,6 +34,14 @@ If you can't find the email verification message:
 2. Navigate to the 'Account Verification' section and select 'Re-send Email'.
 3. Check your inbox for the new email and click the link to confirm your email address.
 
+### Discord verification
+
+If you can't see most channels in the Code4rena Discord server, your Discord verification may be incomplete. The `warden` role in Discord is automatically assigned when the verification process is successfully completed. To troubleshoot:
+
+1. **Check [discord.com](https://discord.com) in your web browser.** You may be logged into a different Discord account in your web browser, and if so, that Discord account has received the warden role instead.
+2. Log out of Discord.
+3. **Perform the Discord verification again:** Log into the account you want associated with your C4 user account, in the same browser you are using to interact with code4rena.com. Next, head to your account settings and perform the Discord verification again.
+
 ### Wallet connect issues
 
 If you encounter issues with wallet connection:
