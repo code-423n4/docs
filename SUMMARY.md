@@ -27,6 +27,7 @@
   * [Awarding process](awarding/incentive-model-and-awards/awarding-process.md)
   * [Curve logic for QA and Gas optimization reports](awarding/incentive-model-and-awards/curve-logic.md)
   * [FAQ about QA and Gas Reports](awarding/incentive-model-and-awards/qa-gas-report-faq.md)
+  * [Historical context for Code4rena awards](awarding/incentive-model-and-awards/historical-info.md)
 * [Judging criteria](awarding/judging-criteria/README.md)
   * [Severity Categorization](awarding/judging-criteria/severity-categorization.md)
   * [Decisions from the inaugural Supreme Court session, Fall 2023](awarding/judging-criteria/supreme-court-decisions-fall-2023.md)

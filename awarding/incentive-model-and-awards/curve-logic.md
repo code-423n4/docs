@@ -1,82 +1,126 @@
 # Curve Logic for QA and Gas Optimization Reports
 
-This document describes the curve logic for Code4rena audits that started prior to April 30, 2024. Recent changes to the awarding rules are not yet reflected here, but will be posted as soon as possible. For general information about ranks and award pools for QA and Gas optimization reports, see [Incentive model and awards](https://docs.code4rena.com/awarding/incentive-model-and-awards#ranks-for-qa-and-gas-reports)
+QA and Gas reports are [ranked and graded as described here](https://docs.code4rena.com/awarding/incentive-model-and-awards#ranks-for-qa-and-gas-reports): 
+- 1st place (score: 5)
+- 2nd place (score: 4)
+- 3rd place (score: 3)
+- satisfactory (score: 0, except in rare cases -- see below)
+- unsatisfactory (score: 0)
 
----
+In most cases, only 1st, 2nd, and 3rd place reports are eligible for awards. See "If there are no valid HM findings" below for an exception.
 
-The reports will be graded based on 3 different grades:
-* Grade-a: outstanding report.
-* Grade-b: satisfactory report.
-* Grade-c: unsatisfactory report.
+- Reports (referred to as `findings` in the code) are sorted in descending order based on their scores. indings without a score are treated as having a score of 0.
+- For each report, a point value is calculated using the formula `qaAndGasConstant^(2 - idx)`, where `idx` is the index of the report in the sorted array. This means the highest-scored report gets the highest point value, decreasing exponentially for subsequent reports.
+- **Pie** - The total value of the pie is the sum of all point values.
+- **Mapping score to points** - unique score is mapped to an array of point values associated with findings that have that score.
+- **Slice for each score** - sum the points for each score to determine the slice size for each score.
+- **Split** - number of reports sharing the same score
 
-Each grade will be allocated a portion of the pool, with a decrementer of 0.6 between, and steps of 0.2.
+```js
+sortedFindings = [{id: 1, score: 5}, {id: 2, score: 4}, {id: 3, score: 3}];
+points = [4, 2, 1];  // 2^(2-0), 2^(2-1), 2^(2-2)
+pie = 4 + 2 + 1 = 7;
 
-#### What happens if there are tied report scores?
+scorePointMap = { 5: [4], 4: [2], 3: [1] };
 
-If two or more QA (or gas optimization) reports have tied scores, they split the _total_ awards for the slots they would otherwise occupy — i.e. if two wardens tie for 3rd place, they split the total awards for 3rd and 4th place. Or if three wardens tie for 3rd, they split the total awards for 3rd, 4th, and 5th place.
+slices = [
+  { id: 1, score: 5, pie: 7, split: 1, slice: 4 },
+  { id: 2, score: 4, pie: 7, split: 1, slice: 2 },
+  { id: 3, score: 3, pie: 7, split: 1, slice: 1 }
+];
+```
 
-#### What if there are no high or medium severity findings?
+## Curve model
 
-Total findings pool will be split based on QA report scores unless other arrangements are made.
-#### Can I see some examples of how awards work?
+Code example
+```javascript
+  function qaAndGasRanking (constant = 1.5, awardSatisfactory = true) {
+      const sorted = findings.sort((a, b) => {
+          return b.score - a.score;
+      });
 
-Awards for each audit are [posted on the Code4rena website](https://code4rena.com/contests). See [Numoen](https://code4rena.com/contests/2023-01-numoen-contest), for example. The award calculation for Numoen had the following parameters:
+      const points = sorted.map((_, idx) => Math.pow(constant, 2 - idx));
+      const pie = points.reduce((a, p) => a+p, 0);
 
-* **Total awards: 50,000 USDC**
-* Main award pool: 42,500 USDC
-* QA pool: 5,000 USDC
-* Gas pool: 2,500 USDC
+      const scorePointMap = sorted.reduce((a, c, idx) => {
+          const score = c.score;
+          if (!a[score]) {
+              a[score] = [];
+          }
 
-The table below shows each unique high and medium severity finding (`H-XX`, `M-XX`), QA report (`Q-XX`), gas optimization report (`G-XX`), and the way each submission’s award was calculated:
+          a[score].push(points[idx]);
+          return a;
+      }, {})
 
-* `pie` is the number of shares assigned to that report or finding
-* `split` is the number of times those shares were divided
-* `slice` is the number of shares assigned for that warden’s finding
-* each `award` is calculated by `shares * (pot / number_of_shares)`
+      const scoreSliceMap = {};
+      for (const [score, points] of Object.entries(scorePointMap)) {
+          scoreSliceMap[score] = points.reduce((a, c) => a+c, 0)
+      }
 
-**Tribe Turbo awards**
+      return sorted.map((s) => {
+          return {
+              ...s,
+              pie,
+              split: scorePointMap[s.score].length,
+              slice: scoreSliceMap[s.score],
+          }
+      })
+  }
+```
 
-| **handle**       | **finding** | **risk** |        **pie**     | **split** |      **slice**      |       **award**        |
-| ---------------- | ----------- | -------- | ------------------ | --------- | ------------------- | ---------------------- |
-| 'hansfriese'     | 'H-01'      | '3'      |         13         |   1       |         13          | 17615.514252816203     |
-| 'RaymondFam'     | 'M-01'      | '2'      | 2.0863980000000004 |   5       | 0.5117580000000002  | 693.4523340763628      |
-| '0xhacksmithh'   | 'M-01'      | '2'      | 2.0863980000000004 |   5       | 0.39366000000000007 |  533.424872366433      |
-| 'Deivitto'       | 'M-01'      | '2'      | 2.0863980000000004 |   5       | 0.39366000000000007 |  533.424872366433      |
-| 'rvierdiiev'     | 'M-01'      | '2'      | 2.0863980000000004 |   5       | 0.39366000000000007 |  533.424872366433      |
-| 'peakbolt'       | 'M-01'      | '2'      | 2.0863980000000004 |   5       | 0.39366000000000007 |  533.424872366433      |
-| 'hansfriese'     | 'M-02'      | '2'      |        3.9         |   1       | 3.9000000000000004  | 5284.654275844861      |
-| 'Allarious'      | 'M-03'      | '2'      |        3.9         |   1       | 3.9000000000000004  | 5284.654275844861      |
-| 'hansfriese'     | 'M-04'      | '2'      | 3.1050000000000004 |   2       | 1.7550000000000001  | 2378.0944241301877     |
-| 'peakbolt'       | 'M-05'      | '2'      |       2.268        |   3       | 1.0530000000000002  | 1426.8566544781127     |
-| 'nadin'          | 'M-04'      | '2'      | 3.1050000000000004 |   2       |        1.35         | 1829.3034031770674     |
-| 'adeolu'         | 'M-05'      | '2'      |       2.268        |   3       |        0.405        | 548.7910209531202      |
-| 'rvierdiiev'     | 'M-05'      | '2'      |       2.268        |   3       |        0.81         | 1097.5820419062404     |
-| 'Breeje'         | 'M-06'      | '2'      | 3.1050000000000004 |   2       |        1.35         | 1829.3034031770674     |
-| 'ladboy233'      | 'M-06'      | '2'      | 3.1050000000000004 |   2       | 1.7550000000000001  | 2378.0944241301877     |
-| 'Deivitto'       | 'G-01'      | 'g'      |  86.5490783392284  |  15       |  5.76993855594856   | 45.42556528683028      |
-| 'Aymen0909'      | 'G-02'      | 'g'      |  86.5490783392284  |  15       |  5.76993855594856   | 45.42556528683028      |
-| 'matrix_0wl'     | 'G-03'      | 'g'      |  86.5490783392284  |  15       |  5.76993855594856   | 45.42556528683028      |
-| 'RaymondFam'     | 'G-04'      | 'g'      |  86.5490783392284  |  15       |  5.76993855594856   | 45.42556528683028      |
-| 'c3phas'         | 'G-05'      | 'g'      |        140         |   2       |         70          | 551.0959153628928      |
-| 'Rageur'         | 'G-06'      | 'g'      |  86.5490783392284  |  15       |  5.76993855594856   | 45.42556528683028      |
-| 'nadin'          | 'G-07'      | 'g'      |  86.5490783392284  |  15       |  5.76993855594856   | 45.42556528683028      |
-| 'IllIllI'        | 'G-08'      | 'g'      |        140         |   2       |         70          | 551.0959153628928      |
-| 'cryptostellar5' | 'G-09'      | 'g'      |  86.5490783392284  |  15       |  5.76993855594856   | 45.42556528683028      |
-| 'Diana'          | 'G-10'      | 'g'      |  86.5490783392284  |  15       |  5.76993855594856   | 45.42556528683028      |
-| 'antonttc'       | 'G-11'      | 'g'      |  86.5490783392284  |  15       |  5.76993855594856   | 45.42556528683028      |
-| '0xackermann'    | 'G-12'      | 'g'      |  86.5490783392284  |  15       |  5.76993855594856   | 45.42556528683028      |
-| '0xSmartContract'| 'G-13'      | 'g'      |  86.5490783392284  |  15       |  5.76993855594856   | 45.42556528683028      |
-| 'ReyAdmirado'    | 'G-14'      | 'g'      |  86.5490783392284  |  15       |  5.76993855594856   | 45.42556528683028      |
-| 'NoamYakov'      | 'G-15'      | 'g'      |         91         |   1       |         91          | 716.4246899717607      |
-| 'Rolezn'         | 'G-16'      | 'g'      |  86.5490783392284  |  15       |  5.76993855594856   | 45.42556528683028      |
-| 'oyc_109'        | 'G-17'      | 'g'      |  86.5490783392284  |  15       |  5.76993855594856   | 45.42556528683028      |
-| 'arialblack14'   | 'G-18'      | 'g'      |  86.5490783392284  |  15       |  5.76993855594856   | 45.42556528683028      |
-| 'matrix_0wl'     | 'Q-01'      | 'q'      | 38.296345887055885 |   5       |  7.659269177411177  | 142.48406332285143     |
-| 'SleepingBugs'   | 'Q-02'      | 'q'      | 38.296345887055885 |   5       |  7.659269177411177  | 142.48406332285143     |
-| 'CodingNameKiki' | 'Q-03'      | 'q'      |       69.68        |   1       |        69.68        | 1296.2450205584805     |
-| 'IllIllI'        | 'Q-04'      | 'q'      |       160.8        |   3       |        53.6         | 997.1115542757543      |
-| '0xAgro'         | 'Q-05'      | 'q'      | 38.296345887055885 |   5       |  7.659269177411177  | 142.48406332285143     |
-| '0xSmartContract'| 'Q-06'      | 'q'      |       160.8        |   3       |        53.6         | 997.1115542757543      |
-| 'btk'            | 'Q-07'      | 'q'      |       160.8        |   3       |        53.6         | 997.1115542757543      |
-| 'chrisdior4'     | 'Q-08'      | 'q'      | 38.296345887055885 |   5       |  7.659269177411177  | 142.48406332285143     |
-| 'Rolezn'         | 'Q-09'      | 'q'      | 38.296345887055885 |   5       |  7.659269177411177  | 142.48406332285143     |
+## Sample input
+
+```
+  [
+    { score: 2, issueId: 4, reportId: 'Q-08' },
+    { score: 1, issueId: 28, reportId: 'Q-16' },
+    { score: 1, issueId: 113, reportId: 'Q-19' },
+    { score: 1, issueId: 135, reportId: 'Q-18' },
+    { score: 1, issueId: 144, reportId: 'Q-15' },
+    { score: 1, issueId: 314, reportId: 'Q-17' },
+    { score: 2, issueId: 337, reportId: 'Q-14' },
+    { score: 1, issueId: 471, reportId: 'Q-13' },
+    { score: 2, issueId: 534, reportId: 'Q-12' },
+    { score: 2, issueId: 544, reportId: 'Q-10' },
+    { score: 3, issueId: 548, reportId: 'Q-11' },
+    { score: 1, issueId: 664, reportId: 'Q-09' },
+    { score: 1, issueId: 819, reportId: 'Q-04' },
+    { score: 1, issueId: 896, reportId: 'Q-07' },
+    { score: 1, issueId: 914, reportId: 'Q-06' },
+    { score: 2, issueId: 938, reportId: 'Q-05' },
+    { score: 2, issueId: 984, reportId: 'Q-02' },
+    { score: 4, issueId: 1044, reportId: 'Q-03' },
+    { score: 5, issueId: 1124, reportId: 'Q-01' }
+  ]
+```
+
+## Sample output
+| score | issueID | Pie               | Split | Slice               | reportID |
+| ----- | ------- | ----------------- | ----- | ------------------- | -------- | 
+| 5     | 1124    | 6.746955122319307 | 1     | 2.25                | 'Q-01'   |
+| 4     | 1044    | 6.746955122319307 | 1     | 1.5                 | 'Q-03'   |
+| 3     | 548     | 6.746955122319307 | 1     | 1                   | 'Q-11'   |
+| 2     | 4       | 6.746955122319307 | 6     | 1.824417009602195   | 'Q-08'   |
+| 2     | 337     | 6.746955122319307 | 6     | 1.824417009602195   | 'Q-14'   |
+| 2     | 534     | 6.746955122319307 | 6     | 1.824417009602195   | 'Q-12'   |
+| 2     | 544     | 6.746955122319307 | 6     | 1.824417009602195   | 'Q-10'   |
+| 2     | 938     | 6.746955122319307 | 6     | 1.824417009602195   | 'Q-05'   |
+| 2     | 984     | 6.746955122319307 | 6     | 1.824417009602195   | 'Q-02'   |
+| 1     | 28      | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-16'   |
+| 1     | 113     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-19'   |
+| 1     | 135     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-18'   |
+| 1     | 144     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-15'   |
+| 1     | 314     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-17'   |
+| 1     | 471     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-13'   |
+| 1     | 664     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-09'   |
+| 1     | 819     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-04'   |
+| 1     | 896     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-07'   |
+| 1     | 914     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-06'   |
+
+## If there are no valid HM findings
+
+In the unlikely event that zero high- or medium-risk vulnerabilities are found, all satisfactory reports without a 1st/2nd/3rd place rank will be assigned a `score` of `1` and the HM award pool will be divided among all satisfactory QA reports based on the QA report curve, *unless otherwise stated in the audit repo.* 
+
+## If there are tied report scores
+
+If two or more QA (or gas optimization) reports have tied scores, they split the _total_ awards for the slots they would otherwise occupy — i.e. if two wardens tie for 2nd place, they split the total awards for 2nd and 3rd place. Or if three wardens tie for 3rd, they split the total awards for 3rd place.
