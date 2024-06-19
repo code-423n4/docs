@@ -153,8 +153,6 @@ There is a very high burden of quality and value provided for QA and gas optimiz
 
 ### Ranks for QA and Gas reports
 
-_These guidelines apply to all audits starting on or after April 30, 2024._ 
-
 After post-judging QA is complete, the Judge and Validators vote to select the top 3 QA reports and Gas reports. (In the case of a tie vote, there may be a 4th place report.)
 
 The 1st, 2nd, and 3rd place winners are awarded using a curve model that will be documented here ASAP. 
@@ -186,8 +184,6 @@ It is possible for a submission to be *technically* valid and still unsatisfacto
 
 Any submissions that appear to be direct copies of other reports in the current audit will be collectively deemed unsatisfactory.
 
-
-
-### Historical notes
+## Historical notes
 
 For more context on paused submission types and past formulas for calculating awards, see [Historical context for Code4rena awards](/incentive-model-and-awards/historical-info.md)
