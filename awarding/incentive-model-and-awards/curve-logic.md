@@ -4,12 +4,12 @@ QA and Gas reports are [ranked and graded as described here](https://docs.code4r
 - 1st place (score: 5)
 - 2nd place (score: 4)
 - 3rd place (score: 3)
-- satisfactory (score: 0, except in rare cases -- see below)
-- unsatisfactory (score: 0)
+- `grade-a` and `grade-b` (score: 0, except in rare cases -- see below)
+- `grade-c` (score: 0)
 
 In most cases, only 1st, 2nd, and 3rd place reports are eligible for awards. See "If there are no valid HM findings" below for an exception.
 
-- Reports (referred to as `findings` in the code) are sorted in descending order based on their scores. indings without a score are treated as having a score of 0.
+- Reports (referred to as `findings` in the code) are sorted in descending order based on their scores. Findings without a score are treated as having a score of 0.
 - For each report, a point value is calculated using the formula `qaAndGasConstant^(2 - idx)`, where `idx` is the index of the report in the sorted array. This means the highest-scored report gets the highest point value, decreasing exponentially for subsequent reports.
 - **Pie** - The total value of the pie is the sum of all point values.
 - **Mapping score to points** - unique score is mapped to an array of point values associated with findings that have that score.
@@ -95,31 +95,34 @@ Code example
 ```
 
 ## Sample output
-| score | issueID | Pie               | Split | Slice               | reportID |
-| ----- | ------- | ----------------- | ----- | ------------------- | -------- | 
-| 5     | 1124    | 6.746955122319307 | 1     | 2.25                | 'Q-01'   |
-| 4     | 1044    | 6.746955122319307 | 1     | 1.5                 | 'Q-03'   |
-| 3     | 548     | 6.746955122319307 | 1     | 1                   | 'Q-11'   |
-| 2     | 4       | 6.746955122319307 | 6     | 1.824417009602195   | 'Q-08'   |
-| 2     | 337     | 6.746955122319307 | 6     | 1.824417009602195   | 'Q-14'   |
-| 2     | 534     | 6.746955122319307 | 6     | 1.824417009602195   | 'Q-12'   |
-| 2     | 544     | 6.746955122319307 | 6     | 1.824417009602195   | 'Q-10'   |
-| 2     | 938     | 6.746955122319307 | 6     | 1.824417009602195   | 'Q-05'   |
-| 2     | 984     | 6.746955122319307 | 6     | 1.824417009602195   | 'Q-02'   |
-| 1     | 28      | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-16'   |
-| 1     | 113     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-19'   |
-| 1     | 135     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-18'   |
-| 1     | 144     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-15'   |
-| 1     | 314     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-17'   |
-| 1     | 471     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-13'   |
-| 1     | 664     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-09'   |
-| 1     | 819     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-04'   |
-| 1     | 896     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-07'   |
-| 1     | 914     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-06'   |
+
+This is an example where no HMs were found, and the HM pool is distributed among all satisfactory (`grade-a` and `grade-b`) QA reports. 
+
+| score | issueID | Pie               | Split | Slice               | reportID | award |
+| ----- | ------- | ----------------- | ----- | ------------------- | -------- | ----- |
+| 5     | 1124    | 6.746955122319307 | 1     | 2.25                | 'Q-01'   |  |
+| 4     | 1044    | 6.746955122319307 | 1     | 1.5                 | 'Q-03'   |  |
+| 3     | 548     | 6.746955122319307 | 1     | 1                   | 'Q-11'   |  |
+| 2     | 4       | 6.746955122319307 | 6     | 1.824417009602195   | 'Q-08'   |  |
+| 2     | 337     | 6.746955122319307 | 6     | 1.824417009602195   | 'Q-14'   |  |
+| 2     | 534     | 6.746955122319307 | 6     | 1.824417009602195   | 'Q-12'   |  |
+| 2     | 544     | 6.746955122319307 | 6     | 1.824417009602195   | 'Q-10'   |  |
+| 2     | 938     | 6.746955122319307 | 6     | 1.824417009602195   | 'Q-05'   |  |
+| 2     | 984     | 6.746955122319307 | 6     | 1.824417009602195   | 'Q-02'   |  |
+| 1     | 28      | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-16'   |  |
+| 1     | 113     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-19'   |  |
+| 1     | 135     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-18'   |  |
+| 1     | 144     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-15'   |  |
+| 1     | 314     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-17'   |  |
+| 1     | 471     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-13'   |  |
+| 1     | 664     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-09'   |  |
+| 1     | 819     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-04'   |  |
+| 1     | 896     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-07'   |  |
+| 1     | 914     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-06'   |  |
 
 ## If there are no valid HM findings
 
-In the unlikely event that zero high- or medium-risk vulnerabilities are found, all satisfactory reports without a 1st/2nd/3rd place rank will be assigned a `score` of `1` and the HM award pool will be divided among all satisfactory QA reports based on the QA report curve, *unless otherwise stated in the audit repo.* 
+In the unlikely event that zero high- or medium-risk vulnerabilities are found, all satisfactory reports without a 1st/2nd/3rd place rank will be assigned a `score` according to grade -- `grade-a` receives a score of `2`, and `grade-b` receives a score of `1` -- and the HM award pool is divided among all satisfactory QA reports based on the QA report curve, *unless otherwise stated in the audit repo.* 
 
 ## If there are tied report scores
 
