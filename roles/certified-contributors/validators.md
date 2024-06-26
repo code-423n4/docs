@@ -16,12 +16,6 @@ All open competitive audits at Code4rena that begin on or after April 30, 2024 w
     - Validators may also enhance submissions (add PoC, increase quality of report, etc.) in exchange for a percentage of the finding’s payout. (See “Awarding” section below.)
 - The judge reviews all submissions in the findings repo.
 
-The minimum criteria to become a Validator are as follows: 
-
-1. Compete in at least 3 Code4rena audits;
-2. Be a [Certified C4 contributor](https://docs.code4rena.com/roles/certified-contributors) in good standing;
-3. Find at least 1 high severity finding OR 3 medium severity findings OR score A on at least 3 QA or Gas reports
-
 The new **Validator** role replaces the Lookout role, so the Lookout pool will be distributed to Validators instead; Validators can earn additional awards by enhancing submissions they review. More details on compensation follow below. 
 
 ## Whose submissions require Validator review?
@@ -125,3 +119,37 @@ If a validator chooses to improve a submission:
     - False negatives count 100% toward Validators' submission accuracy
     - In other words, each false negative is double the negative value of false positives in the ‘incorrect’ count.
 - [Certified Security Researchers](../certified-contributors/sr-backstage-wardens.md) may appeal improvements made by Validators, and request that the judge review their original submission during post-judging QA.
+
+# Becoming a Validator
+
+To become a Validator, you may be nominated by a Judge or Validator in good standing, or nominate yourself.
+
+## Minimum criteria
+
+The minimum criteria to become a Validator are as follows: 
+
+1. Compete in at least 3 Code4rena audits;
+2. Be a [Certified C4 contributor](https://docs.code4rena.com/roles/certified-contributors) in good standing; and
+3. Find at least 1 high severity finding OR 3 medium severity findings OR score A on at least 3 QA or Gas reports
+
+## Non-technical criteria
+
+- **Sense of fairness**—i.e. evidence suggests you don't show favoritism, but instead aim for a fair competition where quality is rewarded.
+- **Clear written communication**—your English does not need to be perfect, but you should be able to engage in technical discussions with judges and sponsors via written English.
+
+## How to apply
+
+Complete [this application form](https://code4rena.com/validator-application) and share:
+
+- Short bio/intro and summary of relevant experience
+- Links that help demonstrate your expertise
+- 3 example submissions to Code4rena audits that you’re especially proud of
+- Description of how each submission demonstrates your depth of knowledge
+
+**Note:** Validator applications are reviewed during a one-week period each month. Notices of application and review windows will be posted in the C4 Discord server.
+
+**Validator selection process**
+
+Being a Validator is a critical role and we only have so many spots.
+
+Validator applications are reviewed monthly by a group of C4 judges and Validators. The group will review your application and give you a "yes" or "not yet".
