@@ -16,6 +16,12 @@ All open competitive audits at Code4rena that begin on or after April 30, 2024 w
     - Validators may also enhance submissions (add PoC, increase quality of report, etc.) in exchange for a percentage of the finding’s payout. (See “Awarding” section below.)
 - The judge reviews all submissions in the findings repo.
 
+The minimum criteria to become a Validator are as follows: 
+
+1. Compete in at least 3 Code4rena audits;
+2. Be a [Certified C4 contributor](https://docs.code4rena.com/roles/certified-contributors) in good standing;
+3. Find at least 1 high severity finding OR 3 medium severity findings OR score A on at least 3 QA or Gas reports
+
 The new **Validator** role replaces the Lookout role, so the Lookout pool will be distributed to Validators instead; Validators can earn additional awards by enhancing submissions they review. More details on compensation follow below. 
 
 ## Whose submissions require Validator review?
