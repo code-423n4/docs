@@ -68,7 +68,43 @@ Code example
   }
 ```
 
-## Sample input
+## If there are tied report scores
+
+If two or more QA (or gas optimization) reports have tied scores, they split the _total_ awards for the slots they would otherwise occupy — i.e. if two wardens tie for 2nd place, they split the total awards for 2nd and 3rd place. Or if three wardens tie for 3rd, they split the total awards for 3rd place.
+
+### Sample input with ties for 1st place
+
+```
+  {
+    number: 4,
+    risk: 'q',
+    labels: '["QA (Quality Assurance)","Q-08","3rd place"]'
+  },
+  {
+    number: 28,
+    risk: 'q',
+    labels: '["QA (Quality Assurance)","Q-16","1st place"]'
+  },
+  {
+    number: 113,
+    risk: 'q',
+    labels: '["QA (Quality Assurance)","Q-19","1st place"]'
+  }
+```
+
+### Sample output with ties for 1st place
+
+| issueID | reportID | risk | pie | split | slice | score | award | 
+| ------- | -------- | ---- | --- | ----- | ----- | ----- | ----- |
+|  4 | `Q-08 ` | Q | 4.75 | 1 | 1 | 3 | 1578.9473684210525 |
+| 28 | `Q-16 ` | Q | 4.75 | 2 | 3.75 | 5 | 2960.5263157894738 |
+| 113 | `Q-19 ` | Q | 4.75 | 2 | 3.75 | 5 | 2960.5263157894738 |
+
+## If there are no valid HM findings
+
+In the unlikely event that zero high- or medium-risk vulnerabilities are found, all satisfactory reports without a 1st/2nd/3rd place rank will be assigned a `score` according to grade -- `grade-a` receives a score of `2`, and `grade-b` receives a score of `1` -- and the HM award pool is divided among all satisfactory QA reports based on the QA report curve, *unless otherwise stated in the audit repo.* 
+
+### Sample input (distribution to all satisfactory QA)
 
 ```
   [
@@ -94,36 +130,27 @@ Code example
   ]
 ```
 
-## Sample output
+### Sample output (distribution to all satisfactory QA)
 
 This is an example where no HMs were found, and the HM pool is distributed among all satisfactory (`grade-a` and `grade-b`) QA reports. 
 
-| score | issueID | Pie               | Split | Slice               | reportID | award |
-| ----- | ------- | ----------------- | ----- | ------------------- | -------- | ----- |
-| 5     | 1124    | 6.746955122319307 | 1     | 2.25                | 'Q-01'   |  |
-| 4     | 1044    | 6.746955122319307 | 1     | 1.5                 | 'Q-03'   |  |
-| 3     | 548     | 6.746955122319307 | 1     | 1                   | 'Q-11'   |  |
-| 2     | 4       | 6.746955122319307 | 6     | 1.824417009602195   | 'Q-08'   |  |
-| 2     | 337     | 6.746955122319307 | 6     | 1.824417009602195   | 'Q-14'   |  |
-| 2     | 534     | 6.746955122319307 | 6     | 1.824417009602195   | 'Q-12'   |  |
-| 2     | 544     | 6.746955122319307 | 6     | 1.824417009602195   | 'Q-10'   |  |
-| 2     | 938     | 6.746955122319307 | 6     | 1.824417009602195   | 'Q-05'   |  |
-| 2     | 984     | 6.746955122319307 | 6     | 1.824417009602195   | 'Q-02'   |  |
-| 1     | 28      | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-16'   |  |
-| 1     | 113     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-19'   |  |
-| 1     | 135     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-18'   |  |
-| 1     | 144     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-15'   |  |
-| 1     | 314     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-17'   |  |
-| 1     | 471     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-13'   |  |
-| 1     | 664     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-09'   |  |
-| 1     | 819     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-04'   |  |
-| 1     | 896     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-07'   |  |
-| 1     | 914     | 6.746955122319307 | 10    | 0.17253811271711028 | 'Q-06'   |  |
-
-## If there are no valid HM findings
-
-In the unlikely event that zero high- or medium-risk vulnerabilities are found, all satisfactory reports without a 1st/2nd/3rd place rank will be assigned a `score` according to grade -- `grade-a` receives a score of `2`, and `grade-b` receives a score of `1` -- and the HM award pool is divided among all satisfactory QA reports based on the QA report curve, *unless otherwise stated in the audit repo.* 
-
-## If there are tied report scores
-
-If two or more QA (or gas optimization) reports have tied scores, they split the _total_ awards for the slots they would otherwise occupy — i.e. if two wardens tie for 2nd place, they split the total awards for 2nd and 3rd place. Or if three wardens tie for 3rd, they split the total awards for 3rd place.
+| issueID | reportID | risk | pie | split | slice | score | award | 
+| ------- | -------- | ---- | --- | ----- | ----- | ----- | ----- |
+| 4 | `Q-08` | Q | 6.746955122319307 | 6 | 1.824417009602195 | 2 | 2478.7214802565936 |
+| 28 | `Q-16` | Q | 6.746955122319307 | 10 | 0.17253811271711028 | 1 | 140.65005661663508 |
+| 113 | `Q-19` | Q | 6.746955122319307 | 10 | 0.17253811271711028 | 1 | 140.65005661663508 |
+| 135 | `Q-18` | Q | 6.746955122319307 | 10 | 0.17253811271711028 | 1 | 140.65005661663508 |
+| 144 | `Q-15` | Q | 6.746955122319307 | 10 | 0.17253811271711028 | 1 | 140.65005661663508 |
+| 314 | `Q-17` | Q | 6.746955122319307 | 10 | 0.17253811271711028 | 1 | 140.65005661663508 |
+| 337 | `Q-14` | Q | 6.746955122319307 | 6 | 1.824417009602195 | 2 | 2478.7214802565936 |
+| 471 | `Q-13` | Q | 6.746955122319307 | 10 | 0.17253811271711028 | 1 | 140.65005661663508 |
+| 534 | `Q-12` | Q | 6.746955122319307 | 6 | 1.824417009602195 | 2 | 2478.7214802565936 |
+| 544 | `Q-10` | Q | 6.746955122319307 | 6 | 1.824417009602195 | 2 | 2478.7214802565936 |
+| 548 | `Q-11` | Q | 6.746955122319307 | 1 | 1 | 3 | 8151.825379430331 |
+| 664 | `Q-09` | Q | 6.746955122319307 | 10 | 0.17253811271711028 | 1 | 140.65005661663508 |
+| 819 | `Q-04` | Q | 6.746955122319307 | 10 | 0.17253811271711028 | 1 | 140.65005661663508 |
+| 896 | `Q-07` | Q | 6.746955122319307 | 10 | 0.17253811271711028 | 1 | 140.65005661663508 |
+| 914 | `Q-06` | Q | 6.746955122319307 | 10 | 0.17253811271711028 | 1 | 140.65005661663508 |
+| 984 | `Q-02` | Q | 6.746955122319307 | 6 | 1.824417009602195 | 2 | 2478.7214802565936 |
+| 1044 | `Q-03` | Q | 6.746955122319307 | 1 | 1.5 | 4 | 12227.738069145495 |
+| 1124 | `Q-01` | Q | 6.746955122319307 | 1 | 2.25 | 5 | 18341.60710371824 |
