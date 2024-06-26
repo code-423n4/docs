@@ -139,7 +139,7 @@ The minimum criteria to become a Validator are as follows:
 
 ## How to apply
 
-Complete [this application form](https://code4rena.com/lookout-application/) and share:
+Complete [this application form](https://code4rena.com/validator-application) and share:
 
 - Short bio/intro and summary of relevant experience
 - Links that help demonstrate your expertise
