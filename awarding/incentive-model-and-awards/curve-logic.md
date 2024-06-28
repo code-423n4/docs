@@ -32,7 +32,7 @@ slices = [
 
 ## Curve model
 
-Code example
+### Code example
 ```javascript
   function qaAndGasRanking (constant = 1.5, awardSatisfactory = true) {
       const sorted = findings.sort((a, b) => {
@@ -67,6 +67,14 @@ Code example
       })
   }
 ```
+### Sample output
+
+| issueID | reportID | risk | score | award | 
+| ------- | -------- | ---- | ----- | ----- |
+| 13 | `Q-01` | Q | "1st place" | 3552.6315789473683 |
+| 207 | `Q-02` | Q | "2nd place" | 2368.4210526315787 |
+| 42 | `Q-03` | Q | "3rd place" | 1578.9473684210525 |
+
 
 ## If there are tied report scores
 
