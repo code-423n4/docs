@@ -51,7 +51,7 @@ Both bonuses weigh Highs more heavily than Mediums, similarly to Code4rena's sta
 **Top Hunter score**
 Each participant's High- and Medium-risk findings are used to calculate the Top Hunter score. The scoring logic is as follows:
 
-- Only HM findings with fewer than 5 submissions in the findings set count towards the top hunter score.
+- Only full-credit HM findings with fewer than 5 submissions in the findings set count towards the top hunter score.
 - For each High-risk finding, score += 10 * 1/x, where x = number of duplicates 
 - For each Medium-risk finding, score += 3 * 1/x, where x = number of duplicates 
 
@@ -61,11 +61,13 @@ For example, if a warden found:
 - …for a total score of 5.5.
 
 **Top Gatherer score**
-The Top Gatherer score is calculated using all High- and Medium-risk findings, as follows: 
+The Top Gatherer score is calculated using all full-credit High- and Medium-risk findings, as follows: 
 
 - (Number of High-risk findings for `user` / Total number of High-risk findings) * 10 = `highScore`
 - (Number of Medium-risk findings for `user` / Total number of Medium-risk findings) * 3 = `mediumScore`
 - `highScore` + `mediumScore` = `gathererScore`
+
+Partial credit duplicates (see next section) do not count towards the Top Hunter / Top Gatherer scores.
 
 ### Duplicates getting partial credit
 
