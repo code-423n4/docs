@@ -10,7 +10,7 @@ QA and Gas reports are [ranked and graded as described here](https://docs.code4r
 In most cases, only 1st, 2nd, and 3rd place reports are eligible for awards. See "If there are no valid HM findings" below for an exception.
 
 - Reports (referred to as `findings` in the code) are sorted in descending order based on their scores. Findings without a score are treated as having a score of 0.
-- For each report, a point value is calculated using the formula `qaAndGasConstant^(2 - idx)`, where `idx` is the index of the report in the sorted array. This means the highest-scored report gets the highest point value, decreasing exponentially for subsequent reports.
+- For each report, a point value is calculated using the formula `qaAndGasConstant^(2 - idx)`, where `qaAndGasConstant` is defined in the `qaAndGasRanking` code (see example below), and  `idx` is the index of the report in the sorted array. This means the highest-scored report gets the highest point value, decreasing exponentially for subsequent reports.
 - **Pie** - The total value of the pie is the sum of all point values.
 - **Mapping score to points** - unique score is mapped to an array of point values associated with findings that have that score.
 - **Slice for each score** - sum the points for each score to determine the slice size for each score.

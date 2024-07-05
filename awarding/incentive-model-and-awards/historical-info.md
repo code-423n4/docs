@@ -27,7 +27,7 @@ Analyses compete for a portion of each audit's award pool, and are graded and aw
 
 ## Understanding historical grading for QA, Gas, and Analysis reports
 
-For audits that started before April 30, 2024: 
+For audits that started after October 13, 2022 and before April 30, 2024: 
 
 - Analyses, QA reports and Gas reports in this time period were graded A, B, or C.
 - C scores are unsatisfactory and ineligible for awards.
@@ -38,7 +38,7 @@ For audits that started before April 30, 2024:
 
 ## QA/Gas curve for audits prior to April 30, 2024
 
-For Code4rena audits that started before April 30, 2024, the QA/Gas curve logic worked as follows.
+For Code4rena audits that started after October 13, 2022 and before April 30, 2024, the QA/Gas curve logic worked as follows.
 
 Reports were graded based on 3 different grades:
 * Grade-a: outstanding report.
@@ -113,7 +113,7 @@ The table below shows each unique high and medium severity finding (`H-XX`, `M-X
 
 ## Partial credit duplicates prior to April 2024
 
-For audits that started before April 30, 2024, the math for partial-credit duplicates was handled as described below. 
+For audits that started after October 13, 2022 and before April 30, 2024, the math for partial-credit duplicates was handled as described below. 
 
 Let's first review an example of a duplicate group *without* partial findings.
 
