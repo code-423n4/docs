@@ -51,7 +51,7 @@ Both bonuses weigh Highs more heavily than Mediums, similarly to Code4rena's sta
 **Top Hunter score**
 Each participant's High- and Medium-risk findings are used to calculate the Top Hunter score. The scoring logic is as follows:
 
-- Only HM findings with fewer than 5 submissions in the findings set count towards the top hunter score.
+- Only full-credit HM findings with fewer than 5 submissions in the findings set count towards the top hunter score.
 - For each High-risk finding, score += 10 * 1/x, where x = number of duplicates 
 - For each Medium-risk finding, score += 3 * 1/x, where x = number of duplicates 
 
@@ -61,11 +61,13 @@ For example, if a warden found:
 - …for a total score of 5.5.
 
 **Top Gatherer score**
-The Top Gatherer score is calculated using all High- and Medium-risk findings, as follows: 
+The Top Gatherer score is calculated using all full-credit High- and Medium-risk findings, as follows: 
 
 - (Number of High-risk findings for `user` / Total number of High-risk findings) * 10 = `highScore`
 - (Number of Medium-risk findings for `user` / Total number of Medium-risk findings) * 3 = `mediumScore`
 - `highScore` + `mediumScore` = `gathererScore`
+
+Partial credit duplicates (see next section) do not count towards the Top Hunter / Top Gatherer scores.
 
 ### Duplicates getting partial credit
 
@@ -73,64 +75,60 @@ All issues which identify the same functional vulnerability will be considered d
 
 However, any submissions which do not identify or effectively rationalize the top identified severity case may be judged as “partial credit” and may have their shares  divided at judge’s sole discretion (e.g. 25%, 50%, or 75% of the shares of a satisfactory submission in the duplicate set).
 
-Let's first review an example of a duplicate group *without* partial findings.
+Awards for partial duplicates are calculated as follows: 
 
-| **Warden**  | **finding** | **risk** |        **pie**     | **split** |      **slice**      |       **award**        |
-| ----------- | ----------- | ---------| ------------------ | --------- | ------------------- | ---------------------- |
-| 'Warden A'  | 'H-02'      | '3'      |         8.91       |   3       |         3.51        |  1300                  |
-| 'Warden B'  | 'H-02'      | '3'      |         8.91       |   3       |         2.70        |  1000                  |
-| 'Warden C'  | 'H-02'      | '3'      |         8.91       |   3       |         2.70        |  1000                  |
+First, the portion of the total pie allocated to a specific slice is calculated, based on the scores of related findings:
 
+1. Select findings that share the same `reportId` as the given slice.
+2. Calculate total credit - for each finding in the filtered group:
+  - Add the score to totalCredit if the score is ≤ 1
+  - Add 1.3 to totalCredit if the score is > 1
+3. Calculate slice credit, based on the slice score of each finding in the filtered group:
+  - If the score is 2, set sliceCredit to 1.3
+  - If the score is 1, set sliceCredit to 1
+  - If the score is < 1, set sliceCredit to the score (Partials -> 0.25, 0.5, 0.75)
+  - If the score is 0, return 0
+4. Compute the portion as `portion = slice.pie * (sliceCredit/totalCredit)`
 
-Now, let's compare to a group of three high findings where two of the duplicate findings are identified as `partial-25`: the findings from wardens B and C.
-Let's see how the pie and slices evolve.
+Next, the award is calculated using `award = (portion/mainSliceTotal) * prize.mainPool`. (In the code, `mainPool` refers to the HM pool.)
 
-| **Warden**  | **finding** | **risk** |        **pie**     | **split** |      **slice**      |       **award**        |
-| ----------- | ----------- | ---------| ------------------ | --------- | ------------------- | ---------------------- |
-| 'Warden A'  | 'H-01'      | '3'      |         4.86       |   3       |         3.51        |  1300                  |
-| 'Warden B'  | 'H-01'      | '3'      |         4.86       |   3       |        0.675        |  250                   |
-| 'Warden C'  | 'H-01'      | '3'      |         4.86       |   3       |        0.675        |  250                   |
+#### Sample results
 
-The pie allocated to that findings group is adjusted accordingly so the award of the full-credit findings remains constant; only the partial findings' award is adjusted.
+Scenario: 
+- 1 Solo High
+- Group of 19 High duplicates
+- 5 partial-25 credit duplicates
+- 5 partial-50 credit duplicates
+- 5 partial-75 credit duplicates
+- 1 selected for report
+- 3 satisfactory
 
-Let's compare another two sets of duplicates.
-
-1. Group A:
-  - 3 full-credit findings
-  - Warden A's finding is selected for report
-2. Group B:
-  - Warden A's finding is selected for report
-  - Warden B's finding is a full-credit duplicate
-  - Warden C's finding is a partial-credit (`partial-25`) duplicate
-
-**Group A**
-| **Warden**  | **finding** | **risk** |        **pie**     | **split** |      **slice**      |       **award**        |
-| ----------- | ----------- | ---------| ------------------ | --------- | ------------------- | ---------------------- |
-| 'Warden A'  | 'M-02'      | '2'      |         2.673      |   3       |        1.0530       |  1300                  |
--> selected
-| 'Warden B'  | 'M-02'      | '2'      |         2.673      |   3       |        0.81         |  1000                  |
--> full credit
-| 'Warden C'  | 'M-02'      | '2'      |         2.673      |   3       |        0.81         |  1000                  |
--> full credit
-
-
-**Group B**
-| **Warden**  | **finding** | **risk** |        **pie**     | **split** |      **slice**      |       **award**        |
-| ----------- | ----------- | ---------| ------------------ | --------- | ------------------- | ---------------------- |
-| 'Warden A'  | 'M-01'      | '2'      |         2.0655     |   3       |        1.0530       |  1300                  |
--> selected
-| 'Warden B'  | 'M-01'      | '2'      |         2.0655     |   3       |        0.81         |  1000                  |
--> full credit
-| 'Warden C'  | 'M-01'      | '2'      |         2.0655     |   3       |        0.2025       |  250                   |
--> partial credit
-
-We can see here that the logic behind the `partial-` labels only impacts the awards for partial findings; even though the pies vary, the awards stay the same.
-
-**Conclusion:**
-
-Only the award amounts for "partial" findings have been reduced, in line with expectations. The aim of this adjustment is to recalibrate the rewards allocated for these specific findings. Meanwhile, the awards for full-credit findings remain unchanged.
+| Handle   | Finding | Pie   | Split | Slice | Score | Award        |
+| -------- | ------- | ----- | ----- | ----- | ----- | ------------ |
+| warden_2 | H-02    | 13.00 | 1     | 13.00 | 2     | 4475.15 USDC |
+| warden_c | H-01    | 1.52  | 19    | 0.17  | 2     | 57.82 USDC   |
+| warden_a | H-01    | 1.52  | 19    | 0.13  | 1     | 44.48 USDC   |
+| warden_b | H-01    | 1.52  | 19    | 0.13  | 1     | 44.48 USDC   |
+| warden_d | H-01    | 1.52  | 19    | 0.13  | 1     | 44.48 USDC   |
+| warden_n | H-01    | 1.52  | 19    | 0.10  | 0.75  | 33.36 USDC   |
+| warden_o | H-01    | 1.52  | 19    | 0.10  | 0.75  | 33.36 USDC   |
+| warden_p | H-01    | 1.52  | 19    | 0.10  | 0.75  | 33.36 USDC   |
+| warden_q | H-01    | 1.52  | 19    | 0.10  | 0.75  | 33.36 USDC   |
+| warden_r | H-01    | 1.52  | 19    | 0.10  | 0.75  | 33.36 USDC   |
+| warden_j | H-01    | 1.52  | 19    | 0.06  | 0.5   | 22.24 USDC   |
+| warden_k | H-01    | 1.52  | 19    | 0.06  | 0.5   | 22.24 USDC   |
+| warden_l | H-01    | 1.52  | 19    | 0.06  | 0.5   | 22.24 USDC   |
+| warden_m | H-01    | 1.52  | 19    | 0.06  | 0.5   | 22.24 USDC   |
+| warden_m | H-01    | 1.52  | 19    | 0.06  | 0.5   | 22.24 USDC   |
+| warden_e | H-01    | 1.52  | 19    | 0.03  | 0.25  | 11.12 USDC   |
+| warden_f | H-01    | 1.52  | 19    | 0.03  | 0.25  | 11.12 USDC   |
+| warden_g | H-01    | 1.52  | 19    | 0.03  | 0.25  | 11.12 USDC   |
+| warden_h | H-01    | 1.52  | 19    | 0.03  | 0.25  | 11.12 USDC   |
+| warden_i | H-01    | 1.52  | 19    | 0.03  | 0.25  | 11.12 USDC   |
 
 ### Validator-improved submissions
+
+*Validator improvements are paused until further notice.*
 
 [Validators](https://docs.code4rena.com/roles/certified-contributors/validators.md) may enhance submissions (add PoC, increase quality of report, etc.) in exchange for a % of the finding’s payout. 
 
@@ -156,8 +154,6 @@ There is a very high burden of quality and value provided for QA and gas optimiz
 **Note:** Audits pre-dating February 3, 2022 awarded low risk and gas optimization shares as: `Low Risk Shares: 1 * (0.9 ^ (findingCount - 1)) / findingCount`
 
 ### Ranks for QA and Gas reports
-
-_These guidelines apply to all audits starting on or after April 30, 2024._ 
 
 After post-judging QA is complete, the Judge and Validators vote to select the top 3 QA reports and Gas reports. (In the case of a tie vote, there may be a 4th place report.)
 
@@ -190,38 +186,6 @@ It is possible for a submission to be *technically* valid and still unsatisfacto
 
 Any submissions that appear to be direct copies of other reports in the current audit will be collectively deemed unsatisfactory.
 
-## Other submission types
+## Historical notes
 
-As of April 30, 2024, the following submission types are paused:
-
-### Bot reports
-
-The first hour of each Code4rena audit is devoted to a bot race, to incentivize high quality automated findings as the first wave of the audit.
-
-- The winning bot report is selected and shared with all wardens within 24 hours of the audit start time.
-- The full set of issues identified by the best automated tools are considered out of scope for the audit and ineligible for awards.
-
-Doing this eliminates the enormous overlapping effort of all wardens needing to document common low-hanging issues And because the best bot report is shared with auditors at the start of the audit, these findings serve as a thorough starting place for understanding the codebase and where weaknesses may exist.
-
-**Ultimately, the bot race ensures human auditors are focused on things humans can do.**
-
-By designating a portion of the pool in this direction, Code4rena creates a separate lane for the significant investment of effort that many auditors already make in automated tooling -- and rather than awarding 100 people for identifying the same issue, we award the best automated tools.
-
-### Analyses
-
-Analyses share high-level advice and insights from wardens' review of the code.
-
-Where individual findings are the "trees" in an audit, the Analysis is a "forest"-level view.
-
-Analyses compete for a portion of each audit's award pool, and are graded and awarded similarly to QA and Gas Optimization reports.
-
-### Understanding historical grading for QA, Gas, and Analysis reports
-
-For audits that started before April 30, 2024: 
-
-- Analyses, QA reports and Gas reports in this time period were graded A, B, or C.
-- C scores are unsatisfactory and ineligible for awards.
-- All A-grade reports receive a score of 2; All B-grade reports get a 1. Awarding for QA and Gas reports is on a curve that's described [here](https://docs.code4rena.com/awarding/incentive-model-and-awards/curve-logic).
-- Judges choose the best report in each category (Analysis, QA report, and Gas report), each of which earns the same 30% share bonus described under "High and Medium Risk bugs."
-
-**Note:** if the `selected for report` submission has a B-grade label, it will still be treated as A-grade and given proportionally more than B-grade, plus the 30% bonus for being `selected for report`.
+For more context on paused submission types and past formulas for calculating awards, see [Historical context for Code4rena awards](/incentive-model-and-awards/historical-info.md)
