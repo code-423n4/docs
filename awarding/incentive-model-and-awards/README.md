@@ -30,15 +30,15 @@ As per the formula, the pie would be: \
 
 Warden A's finding is selected for report; therefore the pie is adjusted as follows: \
 `new pie = previous pie + [selected finding's slice] * 0.3` \
-`=> 7.225 + ( 2.4083333 * 0.3 ) = 7.94749999
+`=> 7.225 + ( 2.408333333333333 * 0.3 ) = 7.9475
 
 The resulting awards are:
 
 | **Warden**  | **finding** | **risk** |        **pie**     | **split** |      **slice**      |       **award**        |
 | ----------- | ----------- | ---------| ------------------ | --------- | ------------------- | ---------------------- |
-| 'Warden A'  | 'H-02'      | '3'      |     7.947499956666667     |   3    |      3.13083329  |  1300                  |
-| 'Warden B'  | 'H-02'      | '3'      |     7.947499956666667     |   3    |      2.4083333   |  1000                  |
-| 'Warden C'  | 'H-02'      | '3'      |     7.947499956666667     |   3    |      2.4083333   |  1000                  |
+| 'Warden A [selected]'  | 'H-02'      | '3'      |     7.9475     |   3    |      3.1308333333333334  |  1040                  |
+| 'Warden B'  | 'H-02'      | '3'      |     7.9475     |   3    |      2.4083333   |  800                  |
+| 'Warden C'  | 'H-02'      | '3'      |     7.9475     |   3    |      2.4083333   |  800                  |
 
 ### Bonuses for top competitors
 For audits starting on or after April 30, 2024, there are two bonuses for top-performing wardens/teams:
