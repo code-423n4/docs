@@ -153,4 +153,4 @@ Any submissions that appear to be direct copies of other reports in the current 
 
 ## Historical notes
 
-For more context on paused submission types and past formulas for calculating awards, see [Historical context for Code4rena awards](/incentive-model-and-awards/historical-info.md)
+For more context on paused submission types and past formulas for calculating awards, see [Historical context for Code4rena awards](https://docs.code4rena.com/awarding/incentive-model-and-awards/historical-info)
