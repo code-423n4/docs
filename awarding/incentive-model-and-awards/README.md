@@ -13,8 +13,8 @@ To incentivize **wardens**, C4 uses a unique scoring system with two primary goa
 
 Wardens are given shares for bugs discovered based on severity, and those shares give the owner a pro rata piece of the pie:
 
-`Med Risk Slice: 3 * (0.9 ^ (split - 1)) / split`\
-`High Risk Slice: 10 * (0.9 ^ (split - 1)) / split`
+`Med Risk Slice: 3 * (0.85 ^ (split - 1)) / split`\
+`High Risk Slice: 10 * (0.85 ^ (split - 1)) / split`
 
 Please note that findings with partial credit still count as 1 finding in the algorithm. \
 During awarding, each award is redeemed for: `award pool / pie / slice`.
@@ -26,19 +26,19 @@ For each unique High or Medium finding, the submission selected for inclusion in
 Let's look at an example of a set of High risk duplicates, with 3 satisfactory findings.
 
 As per the formula, the pie would be: \
-`10 * (0.9 ^ (findingCount - 1)) = 8.10`
+`10 * (0.85 ^ (findingCount - 1)) = 7.225`
 
 Warden A's finding is selected for report; therefore the pie is adjusted as follows: \
 `new pie = previous pie + [selected finding's slice] * 0.3` \
-`=> 8.1 + ( 2.7 * 0.3 ) = 8.91`
+`=> 7.225 + ( 2.408333333333333 * 0.3 ) = 7.9475
 
 The resulting awards are:
 
 | **Warden**  | **finding** | **risk** |        **pie**     | **split** |      **slice**      |       **award**        |
 | ----------- | ----------- | ---------| ------------------ | --------- | ------------------- | ---------------------- |
-| 'Warden A'  | 'H-02'      | '3'      |         8.91       |   3       |         3.51        |  1300                  |
-| 'Warden B'  | 'H-02'      | '3'      |         8.91       |   3       |         2.70        |  1000                  |
-| 'Warden C'  | 'H-02'      | '3'      |         8.91       |   3       |         2.70        |  1000                  |
+| 'Warden A [selected]'  | 'H-02'      | '3'      |     7.9475     |   3    |      3.1308333333333334  |  1040                  |
+| 'Warden B'  | 'H-02'      | '3'      |     7.9475     |   3    |      2.4083333   |  800                  |
+| 'Warden C'  | 'H-02'      | '3'      |     7.9475     |   3    |      2.4083333   |  800                  |
 
 ### Bonuses for top competitors
 For audits starting on or after April 30, 2024, there are two bonuses for top-performing wardens/teams:
@@ -92,39 +92,6 @@ First, the portion of the total pie allocated to a specific slice is calculated,
 
 Next, the award is calculated using `award = (portion/mainSliceTotal) * prize.mainPool`. (In the code, `mainPool` refers to the HM pool.)
 
-#### Sample results
-
-Scenario: 
-- 1 Solo High
-- Group of 19 High duplicates
-- 5 partial-25 credit duplicates
-- 5 partial-50 credit duplicates
-- 5 partial-75 credit duplicates
-- 1 selected for report
-- 3 satisfactory
-
-| Handle   | Finding | Pie   | Split | Slice | Score | Award        |
-| -------- | ------- | ----- | ----- | ----- | ----- | ------------ |
-| warden_2 | H-02    | 13.00 | 1     | 13.00 | 2     | 4475.15 USDC |
-| warden_c | H-01    | 1.52  | 19    | 0.17  | 2     | 57.82 USDC   |
-| warden_a | H-01    | 1.52  | 19    | 0.13  | 1     | 44.48 USDC   |
-| warden_b | H-01    | 1.52  | 19    | 0.13  | 1     | 44.48 USDC   |
-| warden_d | H-01    | 1.52  | 19    | 0.13  | 1     | 44.48 USDC   |
-| warden_n | H-01    | 1.52  | 19    | 0.10  | 0.75  | 33.36 USDC   |
-| warden_o | H-01    | 1.52  | 19    | 0.10  | 0.75  | 33.36 USDC   |
-| warden_p | H-01    | 1.52  | 19    | 0.10  | 0.75  | 33.36 USDC   |
-| warden_q | H-01    | 1.52  | 19    | 0.10  | 0.75  | 33.36 USDC   |
-| warden_r | H-01    | 1.52  | 19    | 0.10  | 0.75  | 33.36 USDC   |
-| warden_j | H-01    | 1.52  | 19    | 0.06  | 0.5   | 22.24 USDC   |
-| warden_k | H-01    | 1.52  | 19    | 0.06  | 0.5   | 22.24 USDC   |
-| warden_l | H-01    | 1.52  | 19    | 0.06  | 0.5   | 22.24 USDC   |
-| warden_m | H-01    | 1.52  | 19    | 0.06  | 0.5   | 22.24 USDC   |
-| warden_m | H-01    | 1.52  | 19    | 0.06  | 0.5   | 22.24 USDC   |
-| warden_e | H-01    | 1.52  | 19    | 0.03  | 0.25  | 11.12 USDC   |
-| warden_f | H-01    | 1.52  | 19    | 0.03  | 0.25  | 11.12 USDC   |
-| warden_g | H-01    | 1.52  | 19    | 0.03  | 0.25  | 11.12 USDC   |
-| warden_h | H-01    | 1.52  | 19    | 0.03  | 0.25  | 11.12 USDC   |
-| warden_i | H-01    | 1.52  | 19    | 0.03  | 0.25  | 11.12 USDC   |
 
 ### Validator-improved submissions
 
@@ -150,8 +117,6 @@ QA and gas optimization reports are awarded on a curve based on the judge’s sc
 - QA and Gas optimization reports are awarded on a curve.
 
 There is a very high burden of quality and value provided for QA and gas optimization reports. Only submissions that demonstrate full effort worthy of consideration for inclusion in the report will be eligible for rewards.
-
-**Note:** Audits pre-dating February 3, 2022 awarded low risk and gas optimization shares as: `Low Risk Shares: 1 * (0.9 ^ (findingCount - 1)) / findingCount`
 
 ### Ranks for QA and Gas reports
 
@@ -188,4 +153,4 @@ Any submissions that appear to be direct copies of other reports in the current 
 
 ## Historical notes
 
-For more context on paused submission types and past formulas for calculating awards, see [Historical context for Code4rena awards](/incentive-model-and-awards/historical-info.md)
+For more context on paused submission types and past formulas for calculating awards, see [Historical context for Code4rena awards](https://docs.code4rena.com/awarding/incentive-model-and-awards/historical-info)

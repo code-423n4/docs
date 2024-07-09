@@ -47,6 +47,8 @@ Reports were graded based on 3 different grades:
 
 Each grade will be allocated a portion of the pool, with a decrementer of 0.6 between, and steps of 0.2.
 
+Audits pre-dating February 3, 2022 awarded low risk and gas optimization shares as: `Low Risk Shares: 1 * (0.9 ^ (findingCount - 1)) / findingCount`
+
 ### Can I see some examples of how awards work?
 
 Awards for each audit are [posted on the Code4rena website](https://code4rena.com/contests). See [Numoen](https://code4rena.com/contests/2023-01-numoen-contest), for example. The award calculation for Numoen had the following parameters:
