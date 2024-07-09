@@ -92,39 +92,6 @@ First, the portion of the total pie allocated to a specific slice is calculated,
 
 Next, the award is calculated using `award = (portion/mainSliceTotal) * prize.mainPool`. (In the code, `mainPool` refers to the HM pool.)
 
-#### Sample results
-
-Scenario: 
-- 1 Solo High
-- Group of 19 High duplicates
-- 5 partial-25 credit duplicates
-- 5 partial-50 credit duplicates
-- 5 partial-75 credit duplicates
-- 1 selected for report
-- 3 satisfactory
-
-| Handle   | Finding | Pie   | Split | Slice | Score | Award        |
-| -------- | ------- | ----- | ----- | ----- | ----- | ------------ |
-| warden_2 | H-02    | 13.00 | 1     | 13.00 | 2     | 4475.15 USDC |
-| warden_c | H-01    | 1.52  | 19    | 0.17  | 2     | 57.82 USDC   |
-| warden_a | H-01    | 1.52  | 19    | 0.13  | 1     | 44.48 USDC   |
-| warden_b | H-01    | 1.52  | 19    | 0.13  | 1     | 44.48 USDC   |
-| warden_d | H-01    | 1.52  | 19    | 0.13  | 1     | 44.48 USDC   |
-| warden_n | H-01    | 1.52  | 19    | 0.10  | 0.75  | 33.36 USDC   |
-| warden_o | H-01    | 1.52  | 19    | 0.10  | 0.75  | 33.36 USDC   |
-| warden_p | H-01    | 1.52  | 19    | 0.10  | 0.75  | 33.36 USDC   |
-| warden_q | H-01    | 1.52  | 19    | 0.10  | 0.75  | 33.36 USDC   |
-| warden_r | H-01    | 1.52  | 19    | 0.10  | 0.75  | 33.36 USDC   |
-| warden_j | H-01    | 1.52  | 19    | 0.06  | 0.5   | 22.24 USDC   |
-| warden_k | H-01    | 1.52  | 19    | 0.06  | 0.5   | 22.24 USDC   |
-| warden_l | H-01    | 1.52  | 19    | 0.06  | 0.5   | 22.24 USDC   |
-| warden_m | H-01    | 1.52  | 19    | 0.06  | 0.5   | 22.24 USDC   |
-| warden_m | H-01    | 1.52  | 19    | 0.06  | 0.5   | 22.24 USDC   |
-| warden_e | H-01    | 1.52  | 19    | 0.03  | 0.25  | 11.12 USDC   |
-| warden_f | H-01    | 1.52  | 19    | 0.03  | 0.25  | 11.12 USDC   |
-| warden_g | H-01    | 1.52  | 19    | 0.03  | 0.25  | 11.12 USDC   |
-| warden_h | H-01    | 1.52  | 19    | 0.03  | 0.25  | 11.12 USDC   |
-| warden_i | H-01    | 1.52  | 19    | 0.03  | 0.25  | 11.12 USDC   |
 
 ### Validator-improved submissions
 
@@ -150,8 +117,6 @@ QA and gas optimization reports are awarded on a curve based on the judge’s sc
 - QA and Gas optimization reports are awarded on a curve.
 
 There is a very high burden of quality and value provided for QA and gas optimization reports. Only submissions that demonstrate full effort worthy of consideration for inclusion in the report will be eligible for rewards.
-
-**Note:** Audits pre-dating February 3, 2022 awarded low risk and gas optimization shares as: `Low Risk Shares: 1 * (0.85 ^ (findingCount - 1)) / findingCount`
 
 ### Ranks for QA and Gas reports
 
