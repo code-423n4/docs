@@ -13,8 +13,8 @@ To incentivize **wardens**, C4 uses a unique scoring system with two primary goa
 
 Wardens are given shares for bugs discovered based on severity, and those shares give the owner a pro rata piece of the pie:
 
-`Med Risk Slice: 3 * (0.9 ^ (split - 1)) / split`\
-`High Risk Slice: 10 * (0.9 ^ (split - 1)) / split`
+`Med Risk Slice: 3 * (0.85 ^ (split - 1)) / split`\
+`High Risk Slice: 10 * (0.85 ^ (split - 1)) / split`
 
 Please note that findings with partial credit still count as 1 finding in the algorithm. \
 During awarding, each award is redeemed for: `award pool / pie / slice`.
@@ -26,19 +26,19 @@ For each unique High or Medium finding, the submission selected for inclusion in
 Let's look at an example of a set of High risk duplicates, with 3 satisfactory findings.
 
 As per the formula, the pie would be: \
-`10 * (0.9 ^ (findingCount - 1)) = 8.10`
+`10 * (0.85 ^ (findingCount - 1)) = 7.225`
 
 Warden A's finding is selected for report; therefore the pie is adjusted as follows: \
 `new pie = previous pie + [selected finding's slice] * 0.3` \
-`=> 8.1 + ( 2.7 * 0.3 ) = 8.91`
+`=> 7.225 + ( 2.4083333 * 0.3 ) = 7.94749999
 
 The resulting awards are:
 
 | **Warden**  | **finding** | **risk** |        **pie**     | **split** |      **slice**      |       **award**        |
 | ----------- | ----------- | ---------| ------------------ | --------- | ------------------- | ---------------------- |
-| 'Warden A'  | 'H-02'      | '3'      |         8.91       |   3       |         3.51        |  1300                  |
-| 'Warden B'  | 'H-02'      | '3'      |         8.91       |   3       |         2.70        |  1000                  |
-| 'Warden C'  | 'H-02'      | '3'      |         8.91       |   3       |         2.70        |  1000                  |
+| 'Warden A'  | 'H-02'      | '3'      |     7.947499956666667     |   3    |      3.13083329  |  1300                  |
+| 'Warden B'  | 'H-02'      | '3'      |     7.947499956666667     |   3    |      2.4083333   |  1000                  |
+| 'Warden C'  | 'H-02'      | '3'      |     7.947499956666667     |   3    |      2.4083333   |  1000                  |
 
 ### Bonuses for top competitors
 For audits starting on or after April 30, 2024, there are two bonuses for top-performing wardens/teams:
@@ -151,7 +151,7 @@ QA and gas optimization reports are awarded on a curve based on the judge’s sc
 
 There is a very high burden of quality and value provided for QA and gas optimization reports. Only submissions that demonstrate full effort worthy of consideration for inclusion in the report will be eligible for rewards.
 
-**Note:** Audits pre-dating February 3, 2022 awarded low risk and gas optimization shares as: `Low Risk Shares: 1 * (0.9 ^ (findingCount - 1)) / findingCount`
+**Note:** Audits pre-dating February 3, 2022 awarded low risk and gas optimization shares as: `Low Risk Shares: 1 * (0.85 ^ (findingCount - 1)) / findingCount`
 
 ### Ranks for QA and Gas reports
 
