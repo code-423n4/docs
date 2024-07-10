@@ -92,6 +92,39 @@ First, the portion of the total pie allocated to a specific slice is calculated,
 
 Next, the award is calculated using `award = (portion/mainSliceTotal) * prize.mainPool`. (In the code, `mainPool` refers to the HM pool.)
 
+#### Sample results
+
+Scenario: 
+- 1 Solo High
+- Group of 19 High duplicates
+- 5 partial-25 credit duplicates
+- 5 partial-50 credit duplicates
+- 5 partial-75 credit duplicates
+- 1 selected for report
+- 3 satisfactory
+
+| Handle   | Finding | Pie   | Split | Slice | Score | Award        |
+| -------- | ------- | ----- | ----- | ----- | ----- | ------------ |
+| warden_2 | H-02    | 13.00 | 1     | 13.00 | 2     | 4798.84 USDC |
+| warden_c | H-01    | 0.54  | 19    | 0.6   | 2     | 22.16 USDC   |
+| warden_a | H-01    | 0.54  | 19    | 0.05  | 1     | 17.05 USDC   |
+| warden_b | H-01    | 0.54  | 19    | 0.05  | 1     | 17.05 USDC   |
+| warden_d | H-01    | 0.54  | 19    | 0.05  | 1     | 17.05 USDC   |
+| warden_n | H-01    | 0.54  | 19    | 0.03  | 0.75  | 12.79 USDC   |
+| warden_o | H-01    | 0.54  | 19    | 0.03  | 0.75  | 12.79 USDC   |
+| warden_p | H-01    | 0.54  | 19    | 0.03  | 0.75  | 12.79 USDC   |
+| warden_q | H-01    | 0.54  | 19    | 0.03  | 0.75  | 12.79 USDC   |
+| warden_r | H-01    | 0.54  | 19    | 0.03  | 0.75  | 12.79 USDC   |
+| warden_j | H-01    | 0.54  | 19    | 0.02  | 0.5   | 8.52 USDC    |
+| warden_k | H-01    | 0.54  | 19    | 0.02  | 0.5   | 8.52 USDC    |
+| warden_l | H-01    | 0.54  | 19    | 0.02  | 0.5   | 8.52 USDC    |
+| warden_m | H-01    | 0.54  | 19    | 0.02  | 0.5   | 8.52 USDC    |
+| warden_m | H-01    | 0.54  | 19    | 0.02  | 0.5   | 8.52 USDC    |
+| warden_e | H-01    | 0.54  | 19    | 0.01  | 0.25  | 4.26 USDC    |
+| warden_f | H-01    | 0.54  | 19    | 0.01  | 0.25  | 4.26 USDC    |
+| warden_g | H-01    | 0.54  | 19    | 0.01  | 0.25  | 4.26 USDC    |
+| warden_h | H-01    | 0.54  | 19    | 0.01  | 0.25  | 4.26 USDC    |
+| warden_i | H-01    | 0.54  | 19    | 0.01  | 0.25  | 4.26 USDC    |
 
 ### Validator-improved submissions
 
