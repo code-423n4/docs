@@ -9,7 +9,7 @@ At the conclusion of an audit, sponsors review wardens’ findings and express t
 
 In making their determination, judges add labels to Github issues, while the original submission data (including the warden's proposed severity rating) is preserved via a JSON data file. 
 
-The judge's decisions are reviewed by the sponsoring project team and by [certified Security Researchers](https://docs.code4rena.com/roles/certified-contributors/backstage-wardens) via a 48-hour QA process, to ensure fairness and quality. 
+The judge's decisions are reviewed by the sponsoring project team and by [certified Security Researchers](https://docs.code4rena.com/roles/certified-contributors/sr-backstage-wardens) via a 48-hour QA process, to ensure fairness and quality. 
 
 Judging data is used to generate the awards using Code4rena's award calculation script, which factors in:
 
