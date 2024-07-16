@@ -40,7 +40,7 @@ Code4rena has tax reporting responsibility as a US entity. As such, we have crea
 
 Wardens and other contributors (e.g. judges, validators, scouts, etc.) who are eligible to receive awards from Code4rena will be provided with a link to a questionnaire to determine what, if any, U.S. reporting or withholding obligations exist.
 
-Based on our obligations to operate within tax regulation, completing that questionnaire will be required by participants in order to receive awards from competitions.
+Based on our obligations to operate within tax regulation, completing that questionnaire will be required by participants in order to receive awards.
 
 Detailed information about the process, background, and specific requirements by region can be found [here](https://github.com/code-423n4/org/discussions/146).
 
