@@ -34,6 +34,16 @@ If awards have been sent, and you don’t see them in your wallet, please verify
 
 If you still don’t see the award in your wallet, please [open a help desk ticket](https://code4rena.com/help).
 
+# Tax information for Code4rena contributors (wardens, judges, etc)
+
+Code4rena has tax reporting responsibility as a US entity. As such, we have created a system and process for enabling tax reporting which also ensures confidentiality and privacy.
+
+Wardens and other contributors (e.g. judges, validators, scouts, etc.) who are eligible to receive awards from Code4rena will be provided with a link to a questionnaire to determine what, if any, U.S. reporting or withholding obligations exist.
+
+Based on our obligations to operate within tax regulation, completing that questionnaire will be required by participants in order to receive awards from competitions.
+
+Detailed information about the process, background, and specific requirements by region can be found [here](https://github.com/code-423n4/org/discussions/146).
+
 # Tax and legal questions
 
 > *Note: Do your own research; this is not legal or tax advice. You should consult a professional in your area.*
