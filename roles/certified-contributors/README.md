@@ -20,7 +20,7 @@ Additional opportunities we are considering include:
 
 C4 continues to focus on privacy, so our certification process is done through a third party ([Provenance](https://provenancecompliance.com/)) that is bound by confidentiality. The certification process is as follows:
 
-1. An eligible contributor submits the [Certified Contributor Application form](https://code4rena.com/certified-contributor-application/), and agrees to the Certified Contributor Terms and Conditions (see the application form).
+1. An eligible contributor submits the Certified Contributor Application form (temporarily unavailable), and agrees to the Certified Contributor Terms and Conditions (see the application form).
 1. The DAO's AML/KYC agent, [Provenance](https://provenancecompliance.com/), contacts the contributor to certify their identity.
 1. Provenance certifies a contributor as having completed their identity verification process, and having signed an agreement binding them to code of conduct and non-disclosure. Code4 Corporation and the Code4rena DAO do NOT have access to personal information, simply the verified knowledge that the contributor was certified.
 1. Code4 Corporation contacts the certified contributor to let them know their application has been approved.
@@ -60,7 +60,7 @@ Note: the document has to be less than 3 months old.
 
 ### How long does it take to get certified? 
 
-Once you submit the [Certified Contributor Application form](https://code4rena.com/certified-contributor-application/), Provenance typically emails you within one business day. (If you don't see an email within that time frame, we recommend checking your spam folder for email from `@provenance.company` or `provenancecompliance.com`.)
+Once you submit the Certified Contributor Application form, Provenance typically emails you within one business day. (If you don't see an email within that time frame, we recommend checking your spam folder for email from `@provenance.company` or `provenancecompliance.com`.)
 
 Provenance will provide you with detailed instructions. If you have all the available documents, the process can usually be completed within a day. 
 
