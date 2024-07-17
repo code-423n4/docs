@@ -15,7 +15,7 @@ C4 staff will hand off to the judge when the sponsor review phase concludes. Tha
 
 ## Before you get started
 
-Read the [Judging Criteria](https://docs.code4rena.com/roles/wardens/judging-criteria), [Submission Policy](https://docs.code4rena.com/wardens/submission-policy.md), and review the audit readme as provided by the sponsor.
+Read the [Judging Criteria](https://docs.code4rena.com/roles/wardens/judging-criteria), [Submission Policy](https://docs.code4rena.com/roles/wardens/submission-policy), and review the audit readme as provided by the sponsor.
 
 You may also be interested in browsing past audits, and [reviewing open issues in the Rulebook repo](https://github.com/code-423n4/rulebook/issues), in order to see how other judges have handled issues.
 
