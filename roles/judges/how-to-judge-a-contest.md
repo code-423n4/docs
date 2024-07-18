@@ -9,19 +9,19 @@ We ask that you try to complete the judging process quickly so that we can distr
 
 C4 kicks off the code competition and establishes a private repo to receive incoming issues. Typically, most findings come in on the last day of the audit. When the audit ends, you will get access to both the validation repo and the findings repo. A group of [Validators](https://docs.code4rena.com/certified-contributors/validators.md) will triage submissions from all wardens below a set accuracy threshold, and submissions they deem satisfactory will be added to the findings repo.
 
-Sponsors are invited to review the findings, comment, and provide feedback on issues within the findings repo. Sponsor input is non-binding, and do note that sponsors are heavily biased against having a report that includes very many vulnerabilities. Focus your work as a judge on protecting users and providing feedback to wardens.
+Sponsors are then invited to review the findings, comment, and provide feedback on issues within the findings repo. Sponsor input is non-binding, and do note that sponsors are heavily biased against having a report that includes very many vulnerabilities. Focus your work as a judge on protecting users and providing feedback to wardens.
 
-Judges may begin work anytime after the submission period ends.
+C4 staff will hand off to the judge when the sponsor review phase concludes. That said, judges may begin work anytime after the submission period ends.
 
 ## Before you get started
 
-Read the [Judging Criteria](https://docs.code4rena.com/roles/wardens/judging-criteria), [Submission Policy](https://docs.code4rena.com/wardens/submission-policy.md), and review the audit readme as provided by the sponsor.
+Read the [Judging Criteria](https://docs.code4rena.com/roles/wardens/judging-criteria), [Submission Policy](https://docs.code4rena.com/roles/wardens/submission-policy), and review the audit readme as provided by the sponsor.
 
 You may also be interested in browsing past audits, and [reviewing open issues in the Rulebook repo](https://github.com/code-423n4/rulebook/issues), in order to see how other judges have handled issues.
 
 ## Reviewing submissions
 When your judge application is approved, C4 staff will contact you to invite you to our Github organization and provide you with technical documentation on our judging tools.
-Those documents also includes all information regarding de-duping, grading QA/Gas and other judging tasks.
+Those documents also include all information regarding de-duping, grading QA/Gas and other judging tasks.
 
 ## Notes on judging
 
@@ -48,11 +48,7 @@ Ultimately the judge has the final word, but we want your decisions to be well-i
 
 ## If you have questions
 
-Do not hesitate to post in the #judges Discord channel, or DM a Civics Administrator with questions as you're working on judging. Any questions or feedback you can add to this documentation, or comments/questions on items above are highly welcome and essential for us improving our process. Thank you! 🙏
-
-## Final step before handing off
-
-Please add a comment to your top scoring QA report noting where there are any items that you disagreed with the severity listed and/or any items that were invalid. These comments will be integrated into the final report.
+Do not hesitate to post in the #judges Discord channel, or reach out to the C4 Civics Administrators with questions as you're working on judging. Any questions or feedback you can add to this documentation, or comments/questions on items above are highly welcome and essential for us improving our process. Thank you! 🙏
 
 ## When you’re done reviewing
 

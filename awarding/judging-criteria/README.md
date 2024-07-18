@@ -45,8 +45,6 @@ More specifically, if fixing the Root Cause (in a reasonable manner) would cause
 
 Given the above, when similar exploits would demonstrate different impacts, the highest, most irreversible would be the one used for scoring the finding. Duplicates of the finding will be graded based on the achieved impact relative to the Submission Chosen for Report.
 
-The above applies to duplicates from Bot Races, for which a rational fix has to be assumed.
-
 ## Scope
 
 Each audit may include code that is explicitly in scope and out of scope, and specific issues which also may be identified as out of scope.

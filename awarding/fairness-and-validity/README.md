@@ -45,7 +45,7 @@ Per [the Autumn 2023 Supreme Court verdicts](https://docs.code4rena.com/awarding
 
 # If you disagree with a judge's decision
 
-If you disagree with a decision, and you do not have [the +backstage role](https://docs.code4rena.com/roles/certified-contributors/backstage-wardens), there's nothing further that can be done or changed; the judge's decisions are final. 
+If you disagree with a decision, and you do not have [the C4 SR role](https://docs.code4rena.com/roles/certified-contributors/sr-backstage-wardens) (formerly +backstage role), there's nothing further that can be done or changed; the judge's decisions are final. 
 
 However, if the concern regarding judging is focused on a matter of inconsistency or process or lack of clarity in the rules, you are encouraged to review the issues in https://github.com/code-423n4/org/issues and:
 
