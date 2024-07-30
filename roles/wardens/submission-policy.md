@@ -8,12 +8,13 @@ Reports can be submitted at any point prior to stop time for a given audit. The 
 
 All community members agree to be bound by the Code4rena Code of Conduct, which can be viewed [in the Code4rena Discord](https://discord.com/channels/810916927919620096/851883682470166558/851891396255940618).
 
-## Audit contest guidelines
-
 Under this policy, audit contests covers activities in which you:
 
 * Register as a C4 Warden within an individual capacity or as part of a team.
 * Submit your bug report using the submission form.
+
+## Audit contest guidelines
+
 * Make every effort to avoid privacy violations, degradation of user experience, disruption to production systems, and destruction or manipulation of data, especially in regard to funds.
 * Only use exploits to the extent necessary to confirm a vulnerability’s presence. Do not use an exploit to compromise funds, exfiltrate data, establish persistent permissioning access, or use the exploit to redirect to other systems.
 * **Wait until the audit report has been published** before you disclose any findings or submissions publicly.
@@ -45,11 +46,11 @@ c. Sub-Contracting: You will not subcontract or delegate any services subject to
 
 ## Indemnification
 
-You shall defend indemnify and hold harmless C4 and C4's Agent, including each of their affiliates, and each of their respective officers, directors, shareholders, employees, representatives, agents, C4 and its members, Participants, and all successors and assigns ("C4 Indemnitees") from and against any loss, damage or costs (including reasonable attorneys' fees) incurred in connection with claims, demands, suits, or proceedings ("Claims") made or brought against one or more C4 Indemnitee by a third party to the extent arising out of (a) Your negligence or willful misconduct; (b) a breach by You of this Policy, or (c) Your use of intellectual property owned by a third party or licensed by You from a third party.
+You shall defend indemnify and hold harmless C4, including each of their affiliates, and each of their respective officers, directors, shareholders, employees, representatives, agents, C4 and its members, Participants, and all successors and assigns ("C4 Indemnitees") from and against any loss, damage or costs (including reasonable attorneys' fees) incurred in connection with claims, demands, suits, or proceedings ("Claims") made or brought against one or more C4 Indemnitee by a third party to the extent arising out of (a) Your negligence or willful misconduct; (b) a breach by You of this Policy, or (c) Your use of intellectual property owned by a third party or licensed by You from a third party.
 
 ## Limitation of Liability
 
-THE CUMULATIVE LIABILITY OF C4 AND ITS SUBSIDIARIES, AFFILIATES, OFFICERS, EMPLOYEES, AGENTS (INCLUDING BUT NOT LIMITED TO C4'S AGENT), PARTNERS AND LICENSORS TO THE CERTIFIED CONTRIBUTOR FOR ACTIVITIES UNDERTAKEN AS A CERTIFIED CONTRIBUTOR IS LIMITED TO THE AMOUNTS PAID TO CERTIFIED CONTRIBUTOR IN THE TWELVE (12) MONTH PERIOD PRECEDING THE CLAIM. IN NO EVENT SHALL C4 BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL, EXEMPLARY OR CONSEQUENTIAL DAMAGES, WHETHER OR NOT FORESEEABLE AND HOWEVER ARISING. THIS LIMITATION SHALL APPLY BUT NOT BE LIMITED TO LOST INCOME, REVENUE, GOODWILL, USE, OR OTHER INTANGIBLE LOSSES. IT WILL ALSO APPLY IRRESPECTIVE OF WHETHER THE LIABILITY ARISES UNDER CONTRACT, TORT, OR ANY OTHER THEORY.
+THE CUMULATIVE LIABILITY OF C4 AND ITS SUBSIDIARIES, AFFILIATES, OFFICERS, EMPLOYEES, AGENTS, PARTNERS AND LICENSORS TO THE CERTIFIED CONTRIBUTOR FOR ACTIVITIES UNDERTAKEN AS A CERTIFIED CONTRIBUTOR IS LIMITED TO THE AMOUNTS PAID TO CERTIFIED CONTRIBUTOR IN THE TWELVE (12) MONTH PERIOD PRECEDING THE CLAIM. IN NO EVENT SHALL C4 BE LIABLE FOR ANY SPECIAL, INDIRECT, INCIDENTAL, EXEMPLARY OR CONSEQUENTIAL DAMAGES, WHETHER OR NOT FORESEEABLE AND HOWEVER ARISING. THIS LIMITATION SHALL APPLY BUT NOT BE LIMITED TO LOST INCOME, REVENUE, GOODWILL, USE, OR OTHER INTANGIBLE LOSSES. IT WILL ALSO APPLY IRRESPECTIVE OF WHETHER THE LIABILITY ARISES UNDER CONTRACT, TORT, OR ANY OTHER THEORY.
 
 ## Miscellaneous
 
