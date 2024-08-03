@@ -3,9 +3,9 @@
 To register, follow these steps:
 
 1. Go to [code4rena.com/register](https://code4rena.com/register/account).
-2. Fill in your information. You can choose to connect a web3 wallet for authorization or use only a username and password.
-3. Provide your Polygon wallet payment address for audit rewards.
-4. Note: You can update any of your details at any time after signup, except for your username.
+2. Fill in your information. You can choose to connect a web3 wallet for authorization or use only a username and password. 
+   - Note: You can update any of your details at any time after signup, **except for your username.**
+3. **Wardens:** Provide your Polygon wallet payment address for audit rewards.
 
 ## Account setup process
 
@@ -20,9 +20,11 @@ After registration, complete the following steps to set up your account:
    - Click the verification link to confirm your email address.
 4. Once both verifications are complete, your account setup will finalize, granting you access to Code4rena's platform!
 
-## Teams
+## Warden teams
 
 Once individual team members are authenticated, they will be able to submit findings as individuals or on behalf of the team.
+
+---
 
 ## FAQ / troubleshooting
 
@@ -41,6 +43,25 @@ If you can't see most channels in the Code4rena Discord server, your Discord ver
 1. **Check [discord.com](https://discord.com) in your web browser.** You may be logged into a different Discord account in your web browser, and if so, that Discord account has received the warden role instead.
 2. Log out of Discord.
 3. **Perform the Discord verification again:** Log into the account you want associated with your C4 user account, in the same browser you are using to interact with code4rena.com. Next, head to your account settings and perform the Discord verification again.
+
+### Github verification (optional)
+
+Certified and SR wardens should verify their Github accounts in order to access private repos. 
+
+**Note:** Ensure that you are logged in to the correct GitHub account before starting the verification process.
+
+To verify your GitHub account on Code4rena, follow these steps:
+
+1. Log in to your Code4rena account.
+2. Go to the **Account Settings** page.
+3. Look for the section labeled **User Information**.
+4. Check if your GitHub account is verified.
+5. If not verified, click the **Verify** link next to "Please verify your GitHub account."
+6. You will be redirected to GitHub for authorization.
+7. On the GitHub authorization page, click **Authorize**.
+8. You will be redirected back to Code4rena, and you should see "✓ GitHub verified" if successful.
+
+Your GitHub account is now successfully linked and verified on Code4rena!
 
 ### Wallet connect issues
 
@@ -86,6 +107,8 @@ To edit your payment address:
 3. Go to [code4rena.com/account](https://code4rena.com/account) and find 'Payment Information'.
 4. Click 'Edit' and enter your desired payment address.
 Note: for each contest, C4 distributes awards to the payment address on file *at the time of award calculation*.
+
+---
 
 ### My problem is not solved!
 
