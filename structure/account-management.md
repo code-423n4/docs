@@ -53,7 +53,7 @@ Certified and SR wardens should verify their Github accounts in order to access 
 To verify your GitHub account on Code4rena, follow these steps:
 
 1. Log in to your Code4rena account.
-2. Go to the **Account Settings** page.
+2. Go to the [**Account Settings**](https://code4rena.com/account) page.
 3. Look for the section labeled **User Information**.
 4. Check if your GitHub account is verified.
 5. If not verified, click the **Verify** link next to "Please verify your GitHub account."

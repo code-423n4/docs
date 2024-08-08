@@ -16,7 +16,7 @@ The minimum criteria to become a Certified SR are as follows:
 
 Once you meet the eligibility criteria, submit a [Help Desk Request](https://code4rena.com/help/) to request the SR role, and C4 staff will get you set up.
 
-You should also verify your Github account via your Code4rena account management screen, in order to access private repos.
+You should also verify your Github account via [your Code4rena account management screen](https://code4rena.com/account), in order to access private repos.
 
 ## Certified contributor professional conduct guidelines
 
