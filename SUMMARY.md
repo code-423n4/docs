@@ -8,7 +8,7 @@
   * [Submission guidelines](roles/wardens/submission-guidelines.md)
   * [Submission policy](roles/wardens/submission-policy.md)
   * [Solo/team audits](roles/wardens/solo-team-audits.md)
-  * [Set up your warden account](roles/wardens/warden-auth.md)
+  * [Set up your warden account](structure/account-management.md)
   * [Tools and resources](roles/wardens/tools-and-resources.md)
 * [Sponsors](roles/sponsors/README.md)
   * [Audit process](roles/sponsors/contest-process.md)
@@ -42,6 +42,7 @@
 
 ## Other Details <a href="#structure" id="structure"></a>
 
+* [Account setup and management](structure/account-management.md)
 * [FAQ](structure/frequently-asked-questions.md)
 * [Audit timeline](structure/our-process/README.md)
 * [Where can I find…?](structure/where-can-i-find....md)
