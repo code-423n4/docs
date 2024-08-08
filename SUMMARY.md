@@ -40,7 +40,7 @@
 * [Intentionally structured](philosophy/intentionally-structured.md)
 * [How consensus is built](philosophy/how-consensus-is-built.md)
 
-## Other Details <a href="#structure" id="structure"></a>
+## Other Details 
 
 * [Account setup and management](structure/account-management.md)
 * [FAQ](structure/frequently-asked-questions.md)
