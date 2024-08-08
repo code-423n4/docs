@@ -8,7 +8,6 @@
   * [Submission guidelines](roles/wardens/submission-guidelines.md)
   * [Submission policy](roles/wardens/submission-policy.md)
   * [Solo/team audits](roles/wardens/solo-team-audits.md)
-  * [Set up your warden account](structure/account-management.md)
   * [Tools and resources](roles/wardens/tools-and-resources.md)
 * [Sponsors](roles/sponsors/README.md)
   * [Audit process](roles/sponsors/contest-process.md)
@@ -40,9 +39,9 @@
 * [Intentionally structured](philosophy/intentionally-structured.md)
 * [How consensus is built](philosophy/how-consensus-is-built.md)
 
-## Other Details 
+## Other Details
 
-* [Account setup and management](structure/account-management.md)
+* [Account setup and management](other-details/account-management.md)
 * [FAQ](structure/frequently-asked-questions.md)
 * [Audit timeline](structure/our-process/README.md)
 * [Where can I find…?](structure/where-can-i-find....md)
