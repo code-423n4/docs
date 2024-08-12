@@ -1,10 +1,10 @@
-# Registration process
+# Account setup and management
 
 To register, follow these steps:
 
 1. Go to [code4rena.com/register](https://code4rena.com/register/account).
-2. Fill in your information. You can choose to connect a web3 wallet for authorization or use only a username and password. 
-   - Note: You can update any of your details at any time after signup, **except for your username.**
+2. Fill in your information. You can choose to connect a web3 wallet for authorization or use only a username and password.
+   * Note: You can update any of your details at any time after signup, **except for your username.**
 3. **Wardens:** Provide your Polygon wallet payment address for audit rewards.
 
 ## Account setup process
@@ -13,18 +13,18 @@ After registration, complete the following steps to set up your account:
 
 1. You'll be directed to [code4rena.com/account](https://code4rena.com/account) for verification.
 2. Discord verification is required:
-   - Click 'Join Discord Server' to join the Code4rena Discord server.
-   - Click 'Verify Discord' to confirm your membership and verify your account.
+   * Click 'Join Discord Server' to join the Code4rena Discord server.
+   * Click 'Verify Discord' to confirm your membership and verify your account.
 3. Email verification is also necessary:
-   - Check your inbox for an email from noreply@code4rena.com.
-   - Click the verification link to confirm your email address.
+   * Check your inbox for an email from noreply@code4rena.com.
+   * Click the verification link to confirm your email address.
 4. Once both verifications are complete, your account setup will finalize, granting you access to Code4rena's platform!
 
 ## Warden teams
 
 Once individual team members are authenticated, they will be able to submit findings as individuals or on behalf of the team.
 
----
+***
 
 ## FAQ / troubleshooting
 
@@ -40,13 +40,13 @@ If you can't find the email verification message:
 
 If you can't see most channels in the Code4rena Discord server, your Discord verification may be incomplete. The `warden` role in Discord is automatically assigned when the verification process is successfully completed. To troubleshoot:
 
-1. **Check [discord.com](https://discord.com) in your web browser.** You may be logged into a different Discord account in your web browser, and if so, that Discord account has received the warden role instead.
+1. **Check** [**discord.com**](https://discord.com) **in your web browser.** You may be logged into a different Discord account in your web browser, and if so, that Discord account has received the warden role instead.
 2. Log out of Discord.
 3. **Perform the Discord verification again:** Log into the account you want associated with your C4 user account, in the same browser you are using to interact with code4rena.com. Next, head to your account settings and perform the Discord verification again.
 
 ### Github verification (optional)
 
-Certified and SR wardens should verify their Github accounts in order to access private repos. 
+Certified and SR wardens should verify their Github accounts in order to access private repos.
 
 **Note:** Ensure that you are logged in to the correct GitHub account before starting the verification process.
 
@@ -67,8 +67,8 @@ Your GitHub account is now successfully linked and verified on Code4rena!
 
 If you encounter issues with wallet connection:
 
-- Ensure your wallet is unlocked and connected to your device/browser.
-- Make sure the Polygon network is selected in your wallet settings.
+* Ensure your wallet is unlocked and connected to your device/browser.
+* Make sure the Polygon network is selected in your wallet settings.
 
 ### Forgot password
 
@@ -92,11 +92,11 @@ To manage your web3 wallets for login authorization:
 
 1. Visit [code4rena.com/account](https://code4rena.com/account) and find 'Login Addresses'.
 2. To remove a login address:
-   - Locate it in the table and select "Remove".
-   - Follow the onscreen instructions to confirm removal.
+   * Locate it in the table and select "Remove".
+   * Follow the onscreen instructions to confirm removal.
 3. To add a new wallet for authorization:
-   - Select "Link New Address".
-   - Follow the prompts to connect your wallet and sign a message.
+   * Select "Link New Address".
+   * Follow the prompts to connect your wallet and sign a message.
 
 ### Edit payment address
 
@@ -105,10 +105,22 @@ To edit your payment address:
 1. Audits typically pay rewards on the Polygon network.
 2. Your payment address can differ from your login authentication address.
 3. Go to [code4rena.com/account](https://code4rena.com/account) and find 'Payment Information'.
-4. Click 'Edit' and enter your desired payment address.
-Note: for each contest, C4 distributes awards to the payment address on file *at the time of award calculation*.
+4. Click 'Edit' and enter your desired payment address. Note: for each contest, C4 distributes awards to the payment address on file _at the time of award calculation_.
 
----
+### Tax reporting information
+
+As a US-based entity, Code4rena is legally bound to comply with US tax law and OFAC sanctions. Therefore we collect tax information prior to distributing all award payments.
+
+You can [complete your tax information here](https://code4rena.com/tax-info) or update it anytime from your [account settings](https://code4rena.com/account).
+
+We take being entrusted with your privacy and personal information very seriously. As such:
+
+* This info is submitted via an end-to-end encrypted transmission to isolated data storage separate from other Code4rena APIs.
+* There is extremely restricted access to the key.
+* The sole use of provided information is to ensure OFAC compliance and enable accountants (under NDA) to submit annual tax reports.
+* The only other cases data could be accessed would be under legal subpoena or due to justified inquiries based on compelling evidence of grave ethical violations.
+
+***
 
 ### My problem is not solved!
 
