@@ -116,7 +116,7 @@ You can [complete your tax information here](https://code4rena.com/tax-info) or 
 We take being entrusted with your privacy and personal information very seriously. As such:
 
 * This info is submitted via an end-to-end encrypted transmission to isolated data storage separate from other Code4rena APIs.
-* There is extremely restricted access to the key.
+* There is extremely restricted access to the key. During the course of its day-to-day operations, Code4rena does not have access to names, addresses or tax identification numbers.
 * The sole use of provided information is to ensure OFAC compliance and enable accountants (under NDA) to submit annual tax reports.
 * The only other cases data could be accessed would be under legal subpoena or due to justified inquiries based on compelling evidence of grave ethical violations.
 
