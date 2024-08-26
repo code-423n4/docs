@@ -3,7 +3,7 @@
 ### 🧰 Tools
 
 * [Hardhat](https://hardhat.org)
-* [Scaffold](https://github.com/austintgriffith/scaffold-eth)
+* [Scaffold](https://github.com/scaffold-eth/scaffold-eth-2)
 * [Solidity Visual Auditor](https://marketplace.visualstudio.com/items?itemName=tintinweb.solidity-visual-auditor)
 * [Remix](https://remix.ethereum.org)
 * [Mythril](https://github.com/ConsenSys/mythril)
