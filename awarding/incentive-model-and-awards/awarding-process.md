@@ -49,3 +49,9 @@ Detailed information about the process, background, and specific requirements by
 > *Note: Do your own research; this is not legal or tax advice. You should consult a professional in your area.*
 
 We are occasionally asked how wardens should declare Code4rena earnings for tax (or other financial/legal) purposes. You must assess and determine your own best course of action.
+
+Legal entity details for invoices, which can be sent to admin (at) code4rena [dotcom]:
+
+ZC Security Holdings, LLC  
+PO Box 2349  
+Richland WA 99352 USA
