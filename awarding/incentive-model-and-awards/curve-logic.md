@@ -3,7 +3,7 @@
 Code4rena's ranked curve is used to calculate rank-based award distributions, including: 
 - [QA reports](https://docs.code4rena.com/awarding/incentive-model-and-awards#ranks-for-qa-and-gas-reports)
 - [Gas reports](https://docs.code4rena.com/awarding/incentive-model-and-awards#ranks-for-qa-and-gas-reports)
-- [Dark Horse bonuses](🔴TODO: add link here)
+- [Dark Horse bonuses](https://docs.code4rena.com/awarding/incentive-model-and-awards#z-pools-and-dark-horse-bonuses)
 
 ## If there are tied ranks
 
@@ -170,7 +170,7 @@ This is an example where no HMs were found, and the HM pool is distributed among
 
 ## Dark Horse bonuses: ranked curve awarding
 
-Dark Horse bonuses are calculated using the same ranked curve as QA and Gas reports -- except that in lieu of assigning points for each rank (1, 2, 3), the number of ranks is flexible. Shares are calculated using a decrementer of 0.2 (starting with a decrementer of 0.5). 
+[Dark Horse bonuses](https://docs.code4rena.com/awarding/incentive-model-and-awards#z-pools-and-dark-horse-bonuses) are calculated using the same ranked curve as QA and Gas reports -- except that in lieu of assigning points for each rank (1, 2, 3), the number of ranks is flexible. Shares are calculated using a decrementer of 0.2 (starting with a decrementer of 0.5). 
 
 ### If there are only 2 Dark Horse winners
 

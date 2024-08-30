@@ -126,17 +126,6 @@ Scenario:
 | warden_h | H-01    | 0.54  | 19    | 0.01  | 0.25  | 4.26 USDC    |
 | warden_i | H-01    | 0.54  | 19    | 0.01  | 0.25  | 4.26 USDC    |
 
-### Validator-improved submissions
-
-*Validator improvements are paused until further notice.*
-
-[Validators](https://docs.code4rena.com/roles/certified-contributors/validators.md) may enhance submissions (add PoC, increase quality of report, etc.) in exchange for a % of the finding’s payout. 
-
-For Validator-improved submissions: if the judge believes the validator added a measurable enhancement, they get a split of the value of the issue:
-- 25% cut → small enhancement
-- 50% cut → med enhancement
-- 75% cut → large enhancement
-
 ## QA and Gas Optimization Reports
 
 In order to incentivize wardens to focus efforts on high and medium severity findings while also ensuring quality coverage, the pool’s allocation is capped for low severity, governance/centralization risk, and gas optimization findings.
@@ -166,6 +155,34 @@ Tie votes are handled as follows:
 Satisfactory reports not among the winning reports will not be awarded -- but will count towards wardens' accuracy scores.
 
 In the unlikely event that zero high- or medium-risk vulnerabilities are found, the HM award pool will be divided among all satisfactory QA reports based on the QA Report curve, **unless otherwise stated in the audit repo.** 
+
+## Z Pools and Dark Horse bonuses
+
+If a Z pool is listed among an audit's award pools, then it has a Z pool, which may be repurposed (in part or whole) as a Dark Horse pool. For audits with a Z pool: 
+
+- `n` [Zenith](https://code4rena.com/zenith) Researchers (ZRs) are designated as leads for the audit ("LZRs"), with teams counting as one.
+- Z pool is split among LZRs based on their [Gatherer score](https://docs.code4rena.com/awarding/incentive-model-and-awards#bonuses-for-top-competitors), using the [ranked curve](https://docs.code4rena.com/awarding/incentive-model-and-awards/curve-logic#dark-horse-bonuses-ranked-curve-awarding)
+- LZRs also compete for a portion of HM awards and are eligible for Hunter/Gatherer bonuses
+
+### Dark Horse bonus pool
+
+Dark Horse is (1) a non-LZR who (2) finishes in the top `n + 3`, and (3) outperforms (or ties) the top-ranked LZR auditor based on [Gatherer score](https://docs.code4rena.com/awarding/incentive-model-and-awards#bonuses-for-top-competitors) 
+
+Dark Horse awards come out of the Z pool.
+
+- If an LZR ranks outside the top `n` (by [Top Gatherer score](https://docs.code4rena.com/awarding/incentive-model-and-awards#bonuses-for-top-competitors)):
+    - 50% of their share of the Z pool goes to the Dark Horse bonus pool
+- If an LZR ranks outside the top `n + 3` (by [Top Gatherer score](https://docs.code4rena.com/awarding/incentive-model-and-awards#bonuses-for-top-competitors)):
+    - The LZR forfeits their share of the Z pool (but are still eligible for HM / QA awards)
+    - 50% of their share of the Z pool goes to the Dark Horse bonus pool
+    - 50% of their share of the Z pool is refunded to sponsor
+- Dark Horse awards are distributed using C4’s ranked curve.
+
+### Specific edge cases:
+
+- If no lead ranks outside the top `n`, no Dark Horse bonus is awarded.
+- In the event that no LZRs rank in the top `n + 3` the Dark Horse pool will be distributed, but only the top `n` ranked competitors will earn the Dark Horse achievement for the competition.
+- Any unused portion of the Z pool is returned to the Sponsor
 
 ## Satisfactory / unsatisfactory submissions
 
