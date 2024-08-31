@@ -24,7 +24,7 @@
 
 * [Incentive model and awards](awarding/incentive-model-and-awards/README.md)
   * [Awarding process](awarding/incentive-model-and-awards/awarding-process.md)
-  * [Curve logic for QA and Gas optimization reports](awarding/incentive-model-and-awards/curve-logic.md)
+  * [Ranked curve model](awarding/incentive-model-and-awards/curve-logic.md)
   * [FAQ about QA and Gas Reports](awarding/incentive-model-and-awards/qa-gas-report-faq.md)
   * [Historical context for Code4rena awards](awarding/incentive-model-and-awards/historical-info.md)
 * [Judging criteria](awarding/judging-criteria/README.md)
