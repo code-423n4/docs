@@ -178,6 +178,12 @@ Dark Horse awards come out of the Z pool.
     - 50% of their share of the Z pool is refunded to sponsor
 - Dark Horse awards are distributed using C4’s ranked curve.
 
+If a warden earns the Dark Horse achievement for a competition, they are immediately eligible for Zenith Researcher (ZR) status. (This only applies to individual wardens -- not to wardens competing as part of a team.) The warden must be a [Certified contributor](https://docs.code4rena.com/roles/certified-contributors) in good standing, and a positive community contributor.
+
+**Caveats**: 
+
+- Warden must be in good standing, a positive community contributors, and fully KYC'd
+
 ### Specific edge cases:
 
 - If no lead ranks outside the top `n`, no Dark Horse bonus is awarded.
