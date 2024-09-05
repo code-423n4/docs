@@ -170,7 +170,7 @@ This is an example where no HMs were found, and the HM pool is distributed among
 
 ## Dark Horse bonuses: ranked curve awarding
 
-[Dark Horse bonuses](https://docs.code4rena.com/awarding/incentive-model-and-awards#z-pools-and-dark-horse-bonuses) are calculated using the same ranked curve as QA and Gas reports -- except that in lieu of assigning points for each rank (1, 2, 3), the number of ranks is flexible. Shares are calculated using a decrementer of 0.2 (starting with a decrementer of 0.5). 
+[Dark Horse bonuses](https://docs.code4rena.com/awarding/incentive-model-and-awards#z-pools-and-dark-horse-bonuses) are calculated using the same ranked curve as QA and Gas reports -- except that in lieu of assigning points for each rank (1, 2, 3), the number of ranks is flexible. 
 
 ### If there are only 2 Dark Horse winners
 
@@ -182,9 +182,9 @@ Using a Dark Horse bonus pool of $10,000:
 
 | warden rank | decrementer | shares      | award     | 
 | ----------- | ----------- | ----------- | --------- | 
-| 1           | 0.5         | 100         | $4,980.08 |
-| 2           | 0.4	        | 60	        | $2,988.05 |
-| 3           | 0.32	      | 40.8        | $2,031.87 |
+| 1           | 0.5         | 100         | $4,736.84 |
+| 2           | 0.4	        | 60	        | $3,157.89 |
+| 3           | 0.32	      | 40.8        | $2,105.26 |
 
 ### Sample output with 5 Dark Horse winners
 
@@ -192,8 +192,8 @@ Using a Dark Horse bonus pool of $10,000:
 
 | warden rank | decrementer | shares      | award     | 
 | ----------- | ----------- | ----------- | --------- | 
-| 1           | 0.5         | 100         | $3,917.06 |
-| 2           | 0.4	        | 60	        | $2,350.23 |
-| 3           | 0.32	      | 40.8        | $1,598.16 |
-| 4           | 0.256	      | 30.3552     | $1,189.03 |
-| 5           | 0.2048      |	24.13845504 |   $945.52 |
+| 1           | 0.5         | 100         | $3,838.86 |
+| 2           | 0.4	        | 60	        | $2,559.24 |
+| 3           | 0.32	      | 40.8        | $1,706.16 |
+| 4           | 0.256	      | 30.3552     | $1,137.44 |
+| 5           | 0.2048      |	24.13845504 |   $758.29 |
