@@ -3,7 +3,7 @@
 Any registered warden can submit bugs to Code4rena bug bounties. 
 
 - Only Critical and High risk issues are acceptable
-- Coded runnable PoCs are required [🔴 TBD]
+- Coded runnable PoCs are required
 
 ## High likelihood
 
