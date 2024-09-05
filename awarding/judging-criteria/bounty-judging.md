@@ -21,13 +21,16 @@ In the event of a judge appeal or final appeal, judge(s) are selected by Code4re
 - If the judge rules in favor of the warden, the $400 court fee is charged to the sponsor, and the warden's appeal deposit is returned. 
 - If the judge rules that the submission is not a valid High or Critical severity finding, the $400 court fee is not refunded. 
 
-**To file an appeal,** wardens should submit a [Help Desk request](https://code4rena.com/help) with the subject "Bug bounty appeal," and include: 
-- name of the bug bounty 
-- title of submission
+**To file an appeal,** wardens should:
+
+- log into their Code4rena user account
+- submit a [Help Desk request](https://code4rena.com/help) with the subject "Bug bounty appeal," and include:
+   - the name of the bug bounty 
+   - the title of their bounty submission
 
 The timestamp of the Help Desk request submission will be used to determine whether the appeal was filed within the requisite 7 day limit.
 
-Code4rena staff will respond within 1-2 business days to collect the $400 deposit and initiate the appeal process.
+Code4rena staff will respond within 1-2 business days, via a private thread in the C4 Discord server, to collect the $400 deposit and initiate the appeal process.
 
 ### Final appeal process
 In the event that a sponsor or warden objects to a judge's decision, either party may initiate a final appeal by:
