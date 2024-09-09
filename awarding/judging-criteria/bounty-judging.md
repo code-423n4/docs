@@ -1,12 +1,12 @@
 # Judging process for Code4rena bug bounties
 
-Unless otherwise noted in the bounty's `readme`, bounty submissions are judged by the sponsor team. 
+Unless otherwise noted in the bounty's `readme`, bounty submissions are judged by the sponsor team. The following guidelines apply to sponsor-judged bounties. 
 
 ## Sponsor judging responsibilities
 
 Sponsors are responsible for reviewing and assessing submitted findings, and providing a written response indicating their determination, within 7 days of submission. 
 
-Sponsors' written responses are typically shared with the warden who reported the finding within 1-2 business days of receipt.
+Code4rena typically shares sponsors' written responses with the warden who reported the finding within 1-2 business days of receipt.
 
 ## Appeals process for bounty programs
 
