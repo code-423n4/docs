@@ -29,6 +29,8 @@
   * [Historical context for Code4rena awards](awarding/incentive-model-and-awards/historical-info.md)
 * [Judging criteria](awarding/judging-criteria/README.md)
   * [Severity Categorization](awarding/judging-criteria/severity-categorization.md)
+  * [Criteria for C4 bug bounties](awarding/judging-criteria/bounty-criteria.md)
+  * [Judging for C4 bug bounties](awarding/judging-criteria/bounty-judging.md)
   * [Decisions from the inaugural Supreme Court session, Fall 2023](awarding/judging-criteria/supreme-court-decisions-fall-2023.md)
 * [Fairness and validity](awarding/fairness-and-validity/README.md)
 
