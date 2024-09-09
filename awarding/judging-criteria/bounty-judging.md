@@ -41,7 +41,7 @@ In the event that a sponsor or warden objects to a judge's decision, either part
 
 Final appeals are reviewed and judged by a panel of three Code4rena judges.
 
-🔴 Court fees are handled as follows: 
+Court fees are handled as follows: 
 - If the sponsor initiates the final appeal, no refund is made. 
 - If the warden initiates the final appeal and the panel rules that their appealed finding is a valid Critical or High severity finding, the court fees are charged to the sponsor. 
 - If a warden initiates the final appeal and the panel rules that their appealed finding is not a valid Critical or High severity finding, no refund is made.
