@@ -6,6 +6,8 @@ Unless otherwise noted in the bounty's `readme`, bounty submissions are judged b
 
 Sponsors are responsible for reviewing and assessing submitted findings, and providing a written response indicating their determination, within 7 days of submission. 
 
+Sponsors' written responses are typically shared with the warden who reported the finding within 1-2 business days of receipt.
+
 ## Appeals process for bounty programs
 
 Wardens may choose to appeal a sponsor's verdict for a Code4rena bounty submission, if they wish to formally contest the assessed validity and/or risk level of one or more findings.
@@ -14,9 +16,9 @@ In the event of a judge appeal or final appeal, judge(s) are selected by Code4re
 
 ### Judge appeal process
 
-- If a sponsor does not submit a written response within 7 days, the warden has 14 days from the date of submission to file a judge appeal.
-- If a sponsor submits a written response, the warden has 7 days from the date of the written response to file a judge appeal. 
-- Code4rena collects a judge appeal deposit of $400 USDC per appealed finding. 
+- If a sponsor does not submit a written response within 7 days, the warden has 14 days from the date of submission to file a judge appeal, with a judge appeal deposit of $1,000 USDC per appealed issue paid by the sponsor.
+- If a sponsor submits a written response, the warden has 7 days from the date of the written response to file a judge appeal, with a judge appeal deposit of $400 USDC per appealed finding paid by the warden. 
+- Code4rena collects the judge appeal deposit.
 - A Code4rena judge reviews the evidence and assesses the validity and risk level of the appealed submission.
 - If the judge rules in favor of the warden, the $400 court fee is charged to the sponsor, and the warden's appeal deposit is returned. 
 - If the judge rules that the submission is not a valid High or Critical severity finding, the $400 court fee is not refunded. 
