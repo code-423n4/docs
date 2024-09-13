@@ -27,55 +27,7 @@ In most cases, only 1st, 2nd, and 3rd place reports are eligible for awards. See
 - **Slice for each score** - sum the points for each score to determine the slice size for each score.
 - **Split** - number of reports sharing the same score
 
-```js
-sortedFindings = [{id: 1, score: 5}, {id: 2, score: 4}, {id: 3, score: 3}];
-points = [4, 2, 1];  // 2^(2-0), 2^(2-1), 2^(2-2)
-pie = 4 + 2 + 1 = 7;
 
-scorePointMap = { 5: [4], 4: [2], 3: [1] };
-
-slices = [
-  { id: 1, score: 5, pie: 7, split: 1, slice: 4 },
-  { id: 2, score: 4, pie: 7, split: 1, slice: 2 },
-  { id: 3, score: 3, pie: 7, split: 1, slice: 1 }
-];
-```
-
-### Code example
-```javascript
-  function qaAndGasRanking (constant = 1.5, awardSatisfactory = true) {
-      const sorted = findings.sort((a, b) => {
-          return b.score - a.score;
-      });
-
-      const points = sorted.map((_, idx) => Math.pow(constant, 2 - idx));
-      const pie = points.reduce((a, p) => a+p, 0);
-
-      const scorePointMap = sorted.reduce((a, c, idx) => {
-          const score = c.score;
-          if (!a[score]) {
-              a[score] = [];
-          }
-
-          a[score].push(points[idx]);
-          return a;
-      }, {})
-
-      const scoreSliceMap = {};
-      for (const [score, points] of Object.entries(scorePointMap)) {
-          scoreSliceMap[score] = points.reduce((a, c) => a+c, 0)
-      }
-
-      return sorted.map((s) => {
-          return {
-              ...s,
-              pie,
-              split: scorePointMap[s.score].length,
-              slice: scoreSliceMap[s.score],
-          }
-      })
-  }
-```
 ### Sample output
 
 | issueID | reportID | risk | score | award | 
