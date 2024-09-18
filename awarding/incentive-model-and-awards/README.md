@@ -144,7 +144,7 @@ There is a very high burden of quality and value provided for QA and gas optimiz
 
 ### Ranks for QA and Gas reports
 
-After post-judging QA is complete, the Judge and Validators vote to select the top 3 QA reports and Gas reports. (In the case of a tie vote, there may be a 4th place report.)
+After post-judging QA is complete, the Judge and Validators vote to select the top 3 QA reports and Gas reports.
 
 The 1st, 2nd, and 3rd place winners are awarded using a curve model that will be documented here ASAP. 
 
