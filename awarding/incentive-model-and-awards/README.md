@@ -4,10 +4,12 @@ To incentivize **wardens**, C4 uses a unique scoring system with two primary goa
 
 **Judges** are incentivized to review findings and decide their severity, validity, and quality by receiving a share of the prize pool themselves.
 
-**Note:**
+**Notes:**
 * `pie` is the number of shares assigned to a unique [report](https://docs.code4rena.com/roles/wardens/submission-guidelines#qa-reports-low-governance) or [finding](https://docs.code4rena.com/roles/wardens/submission-guidelines#submission-types).
 * `split` is the number of times those shares were divided, the findings count for a given group.
 * `slice` is the number of shares assigned for that warden’s finding.
+
+We periodically ship bug fixes that may produce minor differences in award calculation results over time. 
 
 ## High and Medium Risk bugs
 
@@ -30,7 +32,7 @@ As per the formula, the pie would be: \
 
 Warden A's finding is selected for report; therefore the pie is adjusted as follows: \
 `new pie = previous pie + [selected finding's slice] * 0.3` \
-`=> 7.225 + ( 2.408333333333333 * 0.3 ) = 7.9475
+`=> 7.225 + ( 2.408333333333333 * 0.3 ) = 7.9475`
 
 The resulting awards are:
 
@@ -142,7 +144,7 @@ There is a very high burden of quality and value provided for QA and gas optimiz
 
 ### Ranks for QA and Gas reports
 
-After post-judging QA is complete, the Judge and Validators vote to select the top 3 QA reports and Gas reports. (In the case of a tie vote, there may be a 4th place report.)
+After post-judging QA is complete, the Judge and Validators vote to select the top 3 QA reports and Gas reports.
 
 The 1st, 2nd, and 3rd place winners are awarded using a curve model that will be documented here ASAP. 
 
