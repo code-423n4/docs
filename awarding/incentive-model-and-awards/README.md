@@ -32,7 +32,7 @@ As per the formula, the pie would be: \
 
 Warden A's finding is selected for report; therefore the pie is adjusted as follows: \
 `new pie = previous pie + [selected finding's slice] * 0.3` \
-`=> 7.225 + ( 2.408333333333333 * 0.3 ) = 7.9475
+`=> 7.225 + ( 2.408333333333333 * 0.3 ) = 7.9475`
 
 The resulting awards are:
 
