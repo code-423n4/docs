@@ -9,6 +9,7 @@
   * [Submission policy](roles/wardens/submission-policy.md)
   * [Solo/team audits](roles/wardens/solo-team-audits.md)
   * [Tools and resources](roles/wardens/tools-and-resources.md)
+  * [Audit catalyst](roles/wardens/audit-catalyst.md)
 * [Sponsors](roles/sponsors/README.md)
   * [Audit process](roles/sponsors/contest-process.md)
   * [Preparing for a Code4rena audit](roles/sponsors/preparing-for-audit.md)
