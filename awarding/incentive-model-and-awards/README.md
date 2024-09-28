@@ -94,6 +94,20 @@ First, the portion of the total pie allocated to a specific slice is calculated,
 
 Next, the award is calculated using `award = (portion/mainSliceTotal) * prize.mainPool`. (In the code, `mainPool` refers to the HM pool.)
 
+### The "live criticals" exception
+A submission matching the following criteria has special rules:
+
+- [high severity](https://docs.code4rena.com/awarding/judging-criteria/severity-categorization#estimating-risk) or [critical](https://docs.code4rena.com/awarding/judging-criteria/bounty-criteria#critical-severity) vulnerability in LIVE contracts,
+- reported using the [proper procedure](https://docs.code4rena.com/roles/wardens/submission-guidelines#how-to-submit-zero-day-or-otherwise-highly-sensitive-bugs),
+= accompanied by [coded proof of concept](https://docs.code4rena.com/roles/wardens/submission-guidelines#how-to-include-a-proof-of-concept), AND
+- submitted prior to the related code being fixed or the bug documented in any way potentially accessible to wardens
+
+In order to ensure fairness and to incentivize prompt reporting of such issues, findings meeting these criteria will be the only ones in the duplicate set eligible for payout from the competitive audit pool.
+
+In order to preserve the fairness of the competition, sponsors agree to only make fixes for high severity / critical issues submitted in this way and to refrain from fixing or leaking anything else prior to the end of the competition.
+
+**Warning:** A false positive submitted this way which seems to have taken advantage of the system and wasted sponsor time will result in a potential []"good citizen rule"](https://docs.code4rena.com/roles/wardens/submission-guidelines#good-citizenship-is-a-requirement-for-compensation) violation.
+
 #### Sample results
 
 Scenario: 
