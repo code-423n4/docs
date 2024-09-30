@@ -106,7 +106,7 @@ In order to ensure fairness and to incentivize prompt reporting of such issues, 
 
 To preserve the fairness of the competition, sponsors agree to only make fixes for high severity / critical issues submitted in this way and to refrain from fixing or leaking anything else prior to the end of the competition.
 
-**Warning:** A false positive submitted this way which seems to have taken advantage of the system and wasted sponsor time will result in a potential []"good citizen rule"](https://docs.code4rena.com/roles/wardens/submission-guidelines#good-citizenship-is-a-requirement-for-compensation) violation.
+**Warning:** A false positive submitted this way which seems to have taken advantage of the system and wasted sponsor time will result in a potential ["good citizen rule"](https://docs.code4rena.com/roles/wardens/submission-guidelines#good-citizenship-is-a-requirement-for-compensation) violation.
 
 #### Sample results
 
