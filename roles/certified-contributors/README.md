@@ -16,7 +16,7 @@ Additional opportunities we are considering include:
 - Certain bonus token awards which may be restricted from US persons due to regulations or token grant agreements
 - May be a factor in maxing out awards in the future
 
-## **Certification process and constraints**
+## Certification process and constraints
 
 C4 continues to focus on privacy, so our certification process is done through a third party ([Provenance](https://provenancecompliance.com/)) that is bound by confidentiality. The certification process is as follows:
 
@@ -29,6 +29,15 @@ C4 continues to focus on privacy, so our certification process is done through a
 
 - In the event that a certified contributor was alleged to have violated the agreement, the Code4rena Cayman Foundation could hire an attorney to pursue remediation.
 - In the event a certified C4 contributor was alleged to be involved in an exploit, Provenance would provide identifying information to authorities.
+
+## Invitational relegation
+
+Wardens who RSVP for an invitational and:
+
+- Perform >50% below median gatherer score in an audit, or
+- Deliver >50% below median in test coverage points
+
+will lose invitational eligibility for 90 days.
 
 # FAQ
 
