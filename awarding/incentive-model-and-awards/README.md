@@ -62,6 +62,13 @@ For example, if a warden found:
 - 1 unique Medium, that finding's score would be 3 * 1 += 3
 - …for a total score of 5.5.
 
+Partial-credit duplicates (see next section) do not count towards a competitor's Top Hunter score, but they are factored into the value of `x` (number of duplicates), as follows: 
+
+- If a group of High-risk duplicates (`Finding A`) includes 4 full-credit submissions and 1 `partial-50` submission, `x` = 4 + 0.5 = 4.5.
+- If a group of High-risk duplicates (`Finding B`) includes 4 full-credit submissions and 2 `partial-50` submissions, `x` = 4 + (2 * 0.5) = 5.
+
+In these examples, any full-credit submissions within `Finding A` would count for `+= 10 * 1/4.5`, whereas full-credit submissions within `Finding B` would not be counted towards the Top Hunter score. 
+
 **Top Gatherer score**
 The Top Gatherer score is calculated using all full-credit High- and Medium-risk findings, as follows: 
 
@@ -69,7 +76,7 @@ The Top Gatherer score is calculated using all full-credit High- and Medium-risk
 - (Number of Medium-risk findings for `user` / Total number of Medium-risk findings) * 3 = `mediumScore`
 - `highScore` + `mediumScore` = `gathererScore`
 
-Partial credit duplicates (see next section) do not count towards the Top Hunter / Top Gatherer scores.
+Partial credit duplicates (see next section) do not count towards the  Top Gatherer scores.
 
 ### Duplicates getting partial credit
 
