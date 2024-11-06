@@ -50,7 +50,7 @@ For audits starting on or after April 30, 2024, there are two bonuses for top-pe
 
 Both bonuses weigh Highs more heavily than Mediums, similarly to Code4rena's standard awarding mechanism.
 
-**Top Hunter score**
+**Top Hunter score**<br>
 Each participant's High- and Medium-risk findings are used to calculate the Top Hunter score. The scoring logic is as follows:
 
 - Only full-credit HM findings with fewer than 5 submissions in the findings set count towards the top hunter score.
@@ -69,7 +69,7 @@ Partial-credit duplicates (see next section) do not count towards a competitor's
 
 In these examples, any full-credit submissions within `Finding A` would count for `+= 10 * 1/4.5`, whereas full-credit submissions within `Finding B` would not be counted towards the Top Hunter score. 
 
-**Top Gatherer score**
+**Top Gatherer score**<br>
 The Top Gatherer score is calculated using all full-credit High- and Medium-risk findings, as follows: 
 
 - (Number of High-risk findings for `user` / Total number of High-risk findings) * 10 = `highScore`
