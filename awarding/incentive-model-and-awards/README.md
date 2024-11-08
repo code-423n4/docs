@@ -65,10 +65,10 @@ For example, if a warden found:
 
 Partial-credit duplicates (see next section) do not count towards a competitor's Top Hunter score, but they are factored into the value of `x` (number of duplicates), as follows: 
 
-- If a group of High-risk duplicates (`Finding A`) includes 4 full-credit submissions and 1 `partial-50` submission, `x` = 4 + 0.5 = 4.5.
+- If a group of High-risk duplicates (`Finding A`) includes 4 full-credit submissions and 1 `partial-25` submission, `x` = 4 + 0.25 = 4.25.
 - If a group of High-risk duplicates (`Finding B`) includes 4 full-credit submissions and 2 `partial-50` submissions, `x` = 4 + (2 * 0.5) = 5.
 
-In these examples, any full-credit submissions within `Finding A` would count for `+= 10 * 1/4.5`, whereas full-credit submissions within `Finding B` would not be counted towards the Top Hunter score. 
+In these examples, any full-credit submissions within `Finding A` would count for `+= 10 * 1/4.5`, whereas full-credit submissions within `Finding B` would not be counted towards the Top Hunter score (since it does not meet the `fewer than 5 submissions in the findings set` criterion). 
 
 **Top Gatherer score** 
 
