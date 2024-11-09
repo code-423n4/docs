@@ -1,4 +1,4 @@
-# Code4rena FAQ
+# FAQ
 
 ### What is Code4rena?
 
@@ -18,9 +18,9 @@ In short, yes! Anyone can become a Code4rena Warden, and plenty of resources are
 
 [Head over here](https://code4rena.com/register/account) to register as a Warden.
 
-### Can I change my username? 
+### Can I change my username?
 
-At this time we do not support username changes. You can register with a new username if you wish, but your new user account would start from zero on the leaderboard, and your existing username will remain visible if it is already on the leaderboard. 
+At this time we do not support username changes. You can register with a new username if you wish, but your new user account would start from zero on the leaderboard, and your existing username will remain visible if it is already on the leaderboard.
 
 ### How can I become a Judge?
 
@@ -40,7 +40,7 @@ We do indeed, [here](https://code4rena.com/blog). We post product updates, spons
 
 ### What’s the best way to stay up to date with Code4rena?
 
-[Follow us](https://twitter.com/code4rena) on Twitter and turn on notifications in our #announcements channel in [Discord](https://discord.gg/code4rena). 
+[Follow us](https://twitter.com/code4rena) on Twitter and turn on notifications in our #c4-updates channel in [Discord](https://discord.gg/code4rena).
 
 ### Where can I view the audit results?
 
@@ -52,17 +52,17 @@ We push all public audit reports to the ‘[Reports](https://code4rena.com/repor
 
 ### How are audits judged?
 
-We have a lot of documents outlining the technicalities of our judging process, which you can view [here](https://docs.code4rena.com/roles/judges/how-to-judge-a-contest). In short, Judges follow stringent criteria, whilst making sure submissions adhere to C4 policies. We’ve also implemented a severity standardization guide to ensure a homogenized approach. 
+We have a lot of documents outlining the technicalities of our judging process, which you can view [here](https://docs.code4rena.com/roles/judges/how-to-judge-a-contest). In short, Judges follow stringent criteria, whilst making sure submissions adhere to C4 policies. We’ve also implemented a severity standardization guide to ensure a homogenized approach.
 
 ### How can I verify a legitimate member of Code4arena staff?
 
-All Code4rena staff have the `staff` role in the Code4rena Discord server. You can check their roles by clicking on their username or profile picture. 
+All Code4rena staff have the `staff` role in the Code4rena Discord server. You can check their roles by clicking on their username or profile picture.
 
-### Who makes all the great art for C4? 
+### Who makes all the great art for C4?
 
 Code4rena works with an amazing team of artists, led by [Jaime Robles](https://bsky.app/profile/brownies4thedead.bsky.social).
 
-### What does "HM" stand for? 
+### What does "HM" stand for?
 
 "HM" is Code4rena shorthand for "High and Medium risk findings." C4 audits typically have an HM award pool that is distributed according to our [incentive model](https://docs.code4rena.com/awarding/incentive-model-and-awards/README.md).
 
@@ -90,7 +90,7 @@ Yes! Go to the `Your Findings` tab (located to the right of `Details`) on the sp
 
 You can change your payment information at any time. Simply log in and go to [your account management page](https://code4rena.com/account).
 
-Note: for each audit, C4 distributes awards to the payment address on file *at the time of award calculation*.
+Note: for each audit, C4 distributes awards to the payment address on file _at the time of award calculation_.
 
 ### Why was my finding marked as invalid?
 
