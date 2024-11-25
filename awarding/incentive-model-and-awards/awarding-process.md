@@ -28,8 +28,6 @@ Once awards are determined, we generate a CSV file enumerating funds to be sent.
 
 ## Award distribution requirements and schedule
 
-**Update: Award distribution requirements and schedule**
-
 All participants in Code4rena audits must provide C4 with [tax reporting information](https://docs.code4rena.com/awarding/incentive-model-and-awards/awarding-process#tax-information-for-code4rena-contributors-wardens-judges-etc) in order to receive payment.
 
 Awards are sent in two batches:
