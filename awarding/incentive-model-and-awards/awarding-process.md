@@ -36,7 +36,7 @@ Awards are sent in two batches:
  1. Participants who have have already submitted their tax info when awards are announced will receive awards with 1 week of the announcement. 
  2. Once the 30-day window (after the announcement) passes, C4 will review any newly submitted tax info and send the second and final batch of awards within 1 week. *If your tax info is not received within 30 days of the award announcement, you will not be eligible to receive that award.*
 
-It is sufficient to have *submitted* your tax information by the allotted deadline; it does not need to have been reviewed by us by the deadline.
+From a timing standpoint, it is sufficient to have *submitted* your tax information by the allotted deadline; it does not need to have been reviewed or approved by us by the deadline. However, your submission must be reviewed and approved in order for Code4rena to pay you. 
 
 Registered users can [submit their tax information here](https://code4rena.com/tax-info).
 
