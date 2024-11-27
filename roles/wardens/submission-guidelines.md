@@ -151,7 +151,7 @@ It is possible that a warden might want to withdraw a report after submitting it
 In this situation, wardens who wish to have a report withdrawn should:
 
 1. Sign into https://code4rena.com with your wallet.
-2. Find the audit on the C4 Audit page and click “view competitio
+2. Find the audit on the C4 Audit page and click “view competition"
 3. Click on the “Findings” tab. There you will see a list of all your submissions for that audit (both individual and team findings).
 4. Select a finding from the list, and choose the "withdraw" option.
 
