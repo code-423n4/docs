@@ -6,7 +6,7 @@ description: Signal is Code4rena's accuracy metric for wardens and teams.
 
 The `signal` metric is a means of identifying wardens and teams who have consistently submitted valid findings. For a warden or team, it is the ratio between the number of valid high or medium valid findings versus all of the high and mediums they've submitted.
 
-`signal(warden) = findings_warden / submissions(warden)`
+`signal = findings / submissions`
 
 A signal of 1 means that the warden has consistently submitted valid H and M whereas a signal of 0 means the warden has either submitted only invalid findings or has submitted none.
 
@@ -16,11 +16,11 @@ signal is used in the validation process to decide how your submissions are rout
 
 We use the following threshold:
 
-```
-signal >= 0.68
-participated in at least 3 contests
-submitted at least 5 findings
-```
+- signal >= 0.68
+- participated in at least 3 contests
+- submitted at least 5 findings
+
+If your submissions meet this threshold, then they will be submitted directly to the sponsor team. Otherwise, they will be held for validation.
 
 ## High/Medium submissions downgraded to QA
 
