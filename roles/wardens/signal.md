@@ -17,7 +17,7 @@ signal is used in the validation process to decide how your submissions are rout
 We use the following threshold:
 
 - signal >= 0.68
-- participated in at least 3 contests
+- participated in at least 3 audits
 - submitted at least 5 findings
 
 If your submissions meet this threshold, then they will be submitted directly to the sponsor team. Otherwise, they will be held for validation.
