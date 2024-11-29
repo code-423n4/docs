@@ -4,7 +4,7 @@ description: Signal is Code4rena's accuracy metric for wardens and teams.
 
 # Signal metrics
 
-The `signal` metric is a means of identifying wardens and teams who have consistently submitted valid findings. For a warden or team, it is the ratio between the number of valid high or medium valid findings versus all of the high and mediums they've submitted.
+The `signal` metric is a means of identifying wardens and teams who have consistently submitted valid findings. For a warden or team, it is the ratio between the number of valid high or medium findings versus all of the high and mediums they've submitted.
 
 `signal = findings / submissions`
 
