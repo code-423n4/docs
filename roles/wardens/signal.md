@@ -33,6 +33,9 @@ We expect this to change in future, and will update this documentation as the fo
 **Q. How can I view my signal?** 
 A. You can view your `signal` score on [your account settings screen](https://code4rena.com/account).
 
+**Q. How can I view my team's signal?**
+A. You can view the score on the [teams page](https://code4rena.com/account/teams) in your account settings
+
 **Q. Who else can see my signal?** 
 A. [Judges](https://docs.code4rena.com/roles/judges) and [sponsors](https://docs.code4rena.com/roles/sponsors) can see the `signal` score of wardens and teams alongside their submissions. Your `signal` score is not visible to other wardens.
 
