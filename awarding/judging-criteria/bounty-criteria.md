@@ -7,7 +7,7 @@ Any registered warden can submit bugs to Code4rena bug bounties.
 
 ## High likelihood
 
-A finding with high likelihood is defined as a vulnerability purely exploitable by code without social engineering or privileged access, where 
+A finding with high likelihood is defined as a vulnerability that purely exploitable by code without social engineering or privileged access, where 
 1. the attacker has control over creating the requisite circumstances; *and* 
 2. requisite circumstances not under control of the attacker can be reasonably expected to occur and can be predicted or anticipated by the attacker using publicly available information. 
 
