@@ -20,7 +20,7 @@ Should multiple submissions describing the same vulnerability be submitted, Judg
 
 The lack of certain components has the following affect scoring:
 
-The requisites of a full mark report are:
+The requirements of a full mark report are:
 - Identification and demonstration of the root cause
 - Identification and demonstration of the maximum achievable impact of the root cause
 
