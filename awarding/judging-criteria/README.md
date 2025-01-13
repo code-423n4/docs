@@ -4,9 +4,9 @@
 
 C4 strives to ensure a deliberate and transparent process for reviewing and judging submissions.
 
-At the end of a given audit period, all reports will be reviewed and categorized based on these criteria. Pending sponsor review, final reports will be shared publicly on the [C4 Audit Report page](https://code4rena.com/reports). Audit results are shared on the C4 Discord and winners announced on the [C4 Twitter](https://twitter.com/code423n4).
+At the end of a given audit period, all submissions will be reviewed and categorized based on these criteria. Pending sponsor review, audit reports will be shared publicly on the [C4 Audit Report page](https://code4rena.com/reports). Audit results are shared on the C4 Discord and winners announced on [C4's X account](https://x.com/code423n4).
 
-Reports are also judged based on grammar, conciseness, and formatting.
+Submissions are also judged based on grammar, conciseness, and formatting.
 
 ## Best Current Practices
 
@@ -16,11 +16,11 @@ The [Code4rena org repo](https://github.com/code-423n4/org) documents open discu
 
 Should multiple submissions describing the same vulnerability be submitted, Judges have the discretion to place these bugs into the same bucket, in which case, the award will be shared among those who submitted. However, multiple submissions from the same warden (or warden team), are treated as one by the awarding algorithm and do not split the pie into smaller pieces.
 
-### Penalty / Award Standardization - Duplicate Report PoC Thoroughness
+### Penalty / Award Standardization - Duplicate Submission PoC Thoroughness
 
 The lack of certain components has the following affect scoring:
 
-The requisites of a full mark report are:
+The requisites of a full mark submission are:
 - Identification and demonstration of the root cause
 - Identification and demonstration of the maximum achievable impact of the root cause
 
@@ -43,19 +43,27 @@ Findings are duplicates if they share the same root cause.
 
 More specifically, if fixing the Root Cause (in a reasonable manner) would cause the finding to no longer be exploitable, then the findings are duplicates.
 
-Given the above, when similar exploits would demonstrate different impacts, the highest, most irreversible would be the one used for scoring the finding. Duplicates of the finding will be graded based on the achieved impact relative to the Submission Chosen for Report.
+Given the above, when similar exploits would demonstrate different impacts, the highest, most irreversible would be the one used for scoring the finding. Duplicates of the finding will be graded based on the achieved impact relative to the submission selected for inclusion in the report.
+
+### Findings published in prior audit reports
+
+Findings from previous audit reports listed in the audit repo `README` should generally be considered as known issues and therefore out of scope, especially if they were evaluated as acknowledged/wontfix by the sponsor. 
+ 
+If the finding was confirmed, and can be reasonably expected to have been mitigated prior to the sponsor's Code4rena audit, then the judge may assess it as a valid finding since the vulnerability has persisted. Judges should use their discretion to assess whether the submission a) provides value to the customer, and/or b) would be irresponsible to exclude from the Code4rena audit report. 
+
+If a submission shares a root cause with an acknowledged/wontfix issue, then it may be considered a duplicate of a known issue by the same logic as the "Similar exploits under a single issue" section above (i.e. taking both root cause and impact into consideration).
 
 ## Scope
 
 Each audit may include code that is explicitly in scope and out of scope, and specific issues which also may be identified as out of scope.
 
-Wardens who adhere to the audit guidelines and report valid low/medium/high severity bugs which are not explicitly excluded from scope will earn a guaranteed payment.
+Wardens who adhere to the audit guidelines and submit valid medium/high severity bugs which are not explicitly excluded from scope will earn a guaranteed payment.
 
 Wardens _may_ elect to argue to bring things into scope—either by making the case that an issue poses a more urgent threat than identified or by submitting a medium or high severity finding in code which is out of scope. However, it is up to judges' absolute discretion whether to include these findings and award them, and these issues should include a clear argument as to why the items merit being brought into scope.
 
 In the interest of everyone's time, **please do not offer QA or gas reports on any code or known issues which are identified as out of scope.**
 
-## Acceptance of reports based on automated findings
+## Acceptance of submissions based on automated findings
 
 Wardens and judges are recommended to read [the Supreme Court's verdict on this issue](https://docs.code4rena.com/awarding/judging-criteria/supreme-court-decisions-fall-2023). 
 
@@ -107,7 +115,7 @@ An analysis is a written submission outlining:
 
 If individual findings are trees, Analyses are the forest. They provide wardens with an opportunity to contribute value through high level insights and advice that aren't necessarily covered by specific bugs -- and a way to get credit for doing so.
 
-Each Analysis is judged based on quality and thoroughness as compared with other reports, with awards distributed on a curve. Wardens are encouraged to read the top-scoring Analyses from past Code4rena audits, which are highlighted in [C4's audit reports](https://code4rena.com/reports).
+Each Analysis is judged based on quality and thoroughness as compared with other Analyses, with awards distributed on a curve. Wardens are encouraged to read the top-scoring Analyses from past Code4rena audits, which are highlighted in [C4's audit reports](https://code4rena.com/reports).
 
 The Autumn 2023 Supreme Court session provided further judging guidelines for Analyses, saying they should provide "[actionable] insight on improvement steps of outlined characteristics." 
 
