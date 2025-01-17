@@ -90,13 +90,16 @@ C4 cannot "transfer" your submission to another audit after the audit ends. If y
 
 ## How to submit Zero-day or otherwise highly sensitive bugs
 
-If you discover a highly sensitive bug, e.g. a high-severity vulnerability affecting deployed contracts, please follow these steps:
+If you discover a high- or critical-severity vulnerability affecting deployed contracts, please follow these steps:
 
+1. Confirm that the audit scope includes live/deployed code. Typically this info will be posted in the audit channel in  C4's Discord server.
 1. Review [the "live criticals" exception](https://docs.code4rena.com/awarding/incentive-model-and-awards#duplicates) section of our docs for definitions and awarding rules
 1. Submit a placeholder finding using the audit submission form, with a non-specific title (e.g. "Potentially sensitive issue - disclosed privately")
 1. While logged in to the Code4rena website, [submit a Help Desk request](https://code4rena.com/help/), and select "Sensitive disclosure" for "What type of problem do you need help with?" Please include:
     - Name of audit, and
     - Link to a private Gist containing the finding.
+
+**All Highs affecting live code should be reported as sensitive disclosures** (and therefore must include coded PoC). Duplicates of such findings that are not submitted via the proper procedure will not be eligible for awards.
 
 Code4rena staff will review the issue immediately with the judge and sponsor, and will ensure the submission is added to the audit repo after any immediate risks have been addressed.
 
