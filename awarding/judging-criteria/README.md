@@ -49,9 +49,12 @@ Given the above, when similar exploits would demonstrate different impacts, the 
 
 Findings from previous audit reports listed in the audit repo `README` should generally be considered as known issues and therefore out of scope, especially if they were evaluated as acknowledged/wontfix by the sponsor. 
  
-If the finding was confirmed, and can be reasonably expected to have been mitigated prior to the sponsor's Code4rena audit, then the judge may assess it as a valid finding since the vulnerability has persisted. Judges should use their discretion to assess whether the submission a) provides value to the customer, and/or b) would be irresponsible to exclude from the Code4rena audit report. 
+- If the finding was confirmed, and can be reasonably expected to have been mitigated prior to the sponsor's Code4rena audit, then the judge may assess it as a valid finding since the vulnerability has persisted. 
+- If the submission demonstrates a substantively distinct or higher-severity attack path, the judge may deem it to be valid.
 
-If a submission shares a root cause with an acknowledged/wontfix issue, then it may be considered a duplicate of a known issue by the same logic as the "Similar exploits under a single issue" section above (i.e. taking both root cause and impact into consideration).
+Judges should use their discretion to assess whether the submission a) provides value to the customer, and/or b) would be irresponsible to exclude from the Code4rena audit report. 
+
+
 
 ## Scope
 
