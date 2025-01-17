@@ -92,8 +92,8 @@ C4 cannot "transfer" your submission to another audit after the audit ends. If y
 
 If you discover a high- or critical-severity vulnerability affecting deployed contracts, please follow these steps:
 
-1. Confirm that the audit scope includes live/deployed code. Typically this info will be posted in the audit channel in  C4's Discord server.
-1. Review [the "live criticals" exception](https://docs.code4rena.com/awarding/incentive-model-and-awards#duplicates) section of our docs for definitions and awarding rules
+1. Confirm that the audit scope includes live/deployed code. Typically this info will be posted in the audit channel in C4's Discord server.
+1. Review [the "live criticals" exception](https://docs.code4rena.com/awarding/incentive-model-and-awards#the-live-criticals-exception) section of our docs for definitions and awarding rules
 1. Submit a placeholder finding using the audit submission form, with a non-specific title (e.g. "Potentially sensitive issue - disclosed privately")
 1. While logged in to the Code4rena website, [submit a Help Desk request](https://code4rena.com/help/), and select "Sensitive disclosure" for "What type of problem do you need help with?" Please include:
     - Name of audit, and
