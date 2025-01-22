@@ -54,8 +54,6 @@ Findings from previous audit reports listed in the audit repo `README` should ge
 
 Judges should use their discretion to assess whether the submission a) provides value to the customer, and/or b) would be irresponsible to exclude from the Code4rena audit report. 
 
-
-
 ## Scope
 
 Each audit may include code that is explicitly in scope and out of scope, and specific issues which also may be identified as out of scope.

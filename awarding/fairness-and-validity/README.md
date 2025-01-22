@@ -18,15 +18,6 @@ It may be worth reading [this longer piece](https://github.com/code-423n4/org/di
 - Wardens should be able to have clear rule expectations of contests they contribute to—as clear as possible within the constraints.
 - Judges should be impartial and free to act independently to do what they see best in a given contest within the guidelines they are provided.
 
-# Role of hired staff (Code4 Corporation)
-
-The role of staff is regulatory, supportive, and administrative:
-
-- Code4 is a neutral party in contests dedicated to serving and collaborating with all sides of the market in driving the success of Code4rena as a platform.
-- Code4 is responsible for improving documentation, process, and tools in support of the goals and expectations of each of the parties involved in Code4rena, providing information, context, and guidance to sponsors, judges, and wardens within the rules.
-- Code4 has no role in determining the outcomes of findings and does not put its hand on the scale in individual contests.
-- Code4 does have a role to provide sponsors, judges, and wardens with historical context on the intent of rules so that those rules can be applied appropriately when ambiguity is present.
-
 # What constitutes a ‘valid’ report’?
 
 The validity of an audit report submission is not based on whether it is ‘true’ or not. A report may contain a finding which is factually 'true' (the most literal interpretation of 'valid'), but if it does not add value or if it is not presented in such a way that adds value to a sponsor, it may be deemed invalid by a judge.
