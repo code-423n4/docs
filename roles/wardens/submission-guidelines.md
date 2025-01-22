@@ -99,7 +99,7 @@ If you discover a high- or critical-severity vulnerability affecting deployed co
     - Name of audit, and
     - Link to a private Gist containing the finding.
 
-**All Highs affecting live code should be reported as sensitive disclosures** (and therefore must include coded PoC). Duplicates of such findings that are not submitted via the proper procedure will not be eligible for awards.
+**All Highs affecting live code should be reported as sensitive disclosures** (and therefore must include coded PoC). Findings that meet the above criteria and are not submitted via the proper procedure will not be eligible for awards.
 
 Code4rena staff will review the issue immediately with the judge and sponsor, and will ensure the submission is added to the audit repo after any immediate risks have been addressed.
 
