@@ -140,12 +140,12 @@ Scenario:
 ### The "live criticals" exception
 A submission matching the following criteria has special rules:
 
-- [high severity](https://docs.code4rena.com/awarding/judging-criteria/severity-categorization#estimating-risk) or [critical](https://docs.code4rena.com/awarding/judging-criteria/bounty-criteria#critical-severity) vulnerability in LIVE contracts,
+- [High severity](https://docs.code4rena.com/awarding/judging-criteria/severity-categorization#estimating-risk) or [critical](https://docs.code4rena.com/awarding/judging-criteria/bounty-criteria#critical-severity) vulnerability in LIVE contracts,
 - reported using the [proper procedure](https://docs.code4rena.com/roles/wardens/submission-guidelines#how-to-submit-zero-day-or-otherwise-highly-sensitive-bugs),
 = accompanied by [coded proof of concept](https://docs.code4rena.com/roles/wardens/submission-guidelines#how-to-include-a-proof-of-concept), AND
 - submitted prior to the related code being fixed or the bug documented in any way potentially accessible to wardens
 
-In order to ensure fairness and to incentivize prompt reporting of such issues, findings meeting these criteria will be the only ones in the duplicate set eligible for payout from the competitive audit pool.
+In order to ensure fairness and to incentivize prompt reporting of such issues, findings meeting these criteria will be the only ones in the duplicate set eligible for payout from the competitive audit pool. Submissions that meet the above criteria and are not reported via the proper procedure will not be eligible for awards.
 
 To preserve the fairness of the competition, sponsors agree to only make fixes for high severity / critical issues submitted in this way and to refrain from fixing or leaking anything else prior to the end of the competition.
 

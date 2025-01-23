@@ -20,7 +20,7 @@ In order to ensure accountability for impartiality, the C4 community taps judges
 
 We also have a process for vetting judge applications from within the C4 community.
 
-### Community judges&#x20;
+### Community judges
 
 Community judges are those who emerge self-selected from the C4 community. We are thrilled to have folks interested in playing this role.
 
@@ -51,10 +51,14 @@ Complete [this form](https://code4rena.com/judge-application/) and share:
 
 ### Judge selection process
 
-Being a judge is a critical role and we only have so many spots.&#x20;
+Being a judge is a critical role and we only have so many spots.
 
-Judge applications are reviewed monthly by the C4 judge selection committee, which includes top leaderboard wardens and past judges. The committee will review your application and give you a "yes" or "not yet".
+Judge applications are reviewed monthly by the C4 judge selection committee, which includes top leaderboard wardens, past judges, and C4 staff. The committee will review your application and give you a "yes" or "not yet".
 
 ### Is it possible for a warden who competed in an audit to judge that same audit?
 
 Yes—but in the interest of impartiality, they must forgo any awards they would have received for their findings in said audit.
+
+## Staff oversight of judges
+
+Judges' decisions and performance are reviewed and overseen by senior members of Code4rena staff. 
