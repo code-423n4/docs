@@ -8,6 +8,8 @@ Sponsors are responsible for reviewing and assessing submitted findings, and pro
 
 Code4rena will make best efforts to share sponsors' written responses with the warden who reported the finding as soon as possible.
 
+Findings which do not receive a sponsor response within 14 days of submission are closed by default.
+
 ## Appeals process for bounty programs
 
 Wardens may choose to appeal a sponsor's verdict for a Code4rena bounty submission, if they wish to formally contest the assessed validity and/or risk level of one or more findings.
