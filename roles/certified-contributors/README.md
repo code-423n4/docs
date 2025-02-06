@@ -24,7 +24,7 @@ The certification process is as follows:
 
 ### Constraints
 
-- In the event that a certified contributor was alleged to have violated the Terms and Conditions, Code4rena could hire an attorney to pursue remediation.
+- In the event that a certified contributor violates or is believed to have violated the Terms and Conditions, Code4rena reserves the right to pursue all legal remedies available including but not limited to litigation.
 
 ## Invitational relegation
 
