@@ -22,9 +22,7 @@ The certification process is as follows:
 1. Certn certifies a contributor as having completed their identity verification process.
 1. Code4rena staff onboard the certified contributor once their application has been approved.
 
-### Constraints
-
-- In the event that a certified contributor violates or is believed to have violated the Terms and Conditions, Code4rena reserves the right to pursue all legal remedies available including but not limited to litigation.
+In the event that a certified contributor violates or is believed to have violated the Terms and Conditions, Code4rena reserves the right to pursue all remedies available, including removal from the platform or legal action.
 
 ## Invitational relegation
 
