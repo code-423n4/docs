@@ -2,21 +2,17 @@
 
 Certified contributors who meet certain performance criteria within C4 gain the Certified Security Researcher (SR) role, which provides access to:
 
-- Findings repos, immediately after audits conclude
+- Submissions to open competitive audits, immediately after submission deadline
 - Post-judging QA
+- Unrestricted number of submissions per audit
 
-The minimum criteria to become a Certified SR are as follows: 
+The criteria (visible on [your Code4rena account screen](https://code4rena.com/account)) to become a Certified SR are as follows:
 
-1. Be approved as a Certified C4 contributor;
-1. Submit valid findings to at least 3 Code4rena audits (i.e. valid findings on the [Code4rena leaderboard](https://code4rena.com/leaderboard/));
-1. Have at least 1 high severity finding OR 3 medium severity findings on the [Code4rena leaderboard](https://code4rena.com/leaderboard/), OR score A on a QA report, Gas report, or Analysis (formerly "Advanced Analysis"; basic Analysis grades are not eligible);
-1. Abide by the Certified Contributor Terms and Conditions (see application form (temporarily unavailable)).
-
-## To request the SR role
-
-Once you meet the eligibility criteria, submit a [Help Desk Request](https://code4rena.com/help/) to request the SR role, and C4 staff will get you set up.
-
-You should also verify your Github account via [your Code4rena account management screen](https://code4rena.com/account), in order to access private repos.
+1. **Your `signal` is 50% (0.5) or higher.** This is shown at the top of the page, below the “User information” heading.
+1. **Your tax information has been accepted.** Scroll down to the “Tax information” section to confirm that your tax information has been accepted. If not, you must submit it to qualify for the SR role.
+1. **Your Github account is verified.** You can check this in the “Contributor certification” section.
+1. **Be approved as a Certified C4 contributor** -- if all other criteria are met, then you’ll see an option to “Certify your identity.” (If this option is not shown, double-check that you have met all of the other criteria. It will not display unless all other criteria are met.)
+1. Abide by the Certified Contributor Terms and Conditions.
 
 ## Certified contributor professional conduct guidelines
 
