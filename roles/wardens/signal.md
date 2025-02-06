@@ -10,17 +10,49 @@ The `signal` metric is a means of identifying wardens and teams who have consist
 
 A signal of 1 means that the warden has consistently submitted valid H and M whereas a signal of 0 means the warden has either submitted only invalid findings or has submitted none.
 
-Contributors' `signal` is considered `null` until they have:
-- participated in at least 3 audits, and
-- submitted at least 5 findings
-
-## Validator process
+## Validation process
 
 `signal` is used in the validation process to decide how your submissions are routed.
 
 We currently use the following threshold: `signal >= 0.68`
 
 If your submissions meet this threshold, then they will be submitted directly to the sponsor team. Otherwise, they will be held for validation.
+
+## Submission limits based on `signal`
+
+To reduce spam while keeping C4 competitions open to all, `signal` determines the maximum number of submissions wardens/teams can make to each audit.
+
+- The higher your signal , the more submissions you get.
+- Low- or no-signal users' submissions are capped, to disincentivize "spray and pray" behavior and encourage newer wardens to focus on their highest-risk, highest-quality findings.
+- Earn bonus (or uncapped) submissions by verifying your Github account and submitting your tax information.
+- Unrestricted submissions unlock at 0.2 (20%) signal + verified GH/tax info.
+
+These limits are subject to change, based on the volume of low-quality/spam submissions we receive over time.
+
+| User's `signal` | Max # of submissions per audit | Verified Github + submitted tax info | 
+| --------------- | ------------------------------ | ------------------------------------ |
+| n/a (*)         | 7                              | 10                                   |
+| < 0.2           | 7                              | 10                                   |
+| 0.2-0.3999      | 25                             | unrestricted                         |
+| 0.4+            | unrestricted                   | unrestricted                         |
+
+- If (( signal = `null` (e.g. you are a newly-registered user, or have participated in < 3 audits) OR signal  < 0.2 )) and you have not verified your Github account and submitted tax info, then you will be limited to 7 submissions per audit.
+  - If you meet these criteria, and have both:
+    - verified Github, and
+    - submitted tax info, 
+    then you will unlock 3 bonus submissions per audit (i.e. max 10 submissions in total)
+- If your `signal` = 0.2-0.3999 and you have not verified your Github account and submitted tax info, then you will be limited to 25 submissions per audit.
+    - If you meet these criteria, and have both:
+    - verified Github, and
+    - submitted tax info, 
+    then you will have unrestricted submissions.
+- If your `signal`  >/= 0.4, you will have unrestricted submissions (regardless of Github verification or tax info submission status). 
+
+**How do submission limits apply to teams?**
+- Warden teams are subject to the same criteria as individual wardens.
+- Submission limits apply to both teams and individual wardens.
+- To unlock bonus submissions, *all* members of a team must verify their Github account and submit tax info.
+
 
 ## High/Medium submissions downgraded to QA
 
