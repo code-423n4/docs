@@ -39,16 +39,6 @@ A **WontFix finding** is a high impact issue which has been deemed valid but whi
 
 In order to be considered a WontFix Finding, the issue must be assessed as Critical Severity or High Severity.
 
-## Delayed fix
-A **Delayed fix finding** is a valid finding which the Sponsor originally categorized as WontFix, but for which a fix was later deployed.
-
-If a warden notes that a fix has been applied to an issue they reported that was judged as WontFix, they may [file a judge appeal](/awarding/judging-criteria/bounty-judging.md#appeals-process-for-bounty-programs) for a deposit of $200 USDC.
-
-If a finding is determined to be WontFix and a judge later determines that the sponsor includes the fix in a later release, the warden will be compensated for the finding as follows:
-- **Within 30 days of submission:** 100% of the bug’s full assessed value.
-- Within 60 days of submission: 50% of the bug’s full assessed value
-- **More than 60 days after submission:** the WontFix Fee multiplied by 2.
-
 ## Out of scope
 - Impacts requiring attacks that the warden has already exploited themselves, leading to damage
 - Impacts caused by attacks requiring access to leaked keys/credentials
