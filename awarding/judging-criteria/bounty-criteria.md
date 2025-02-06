@@ -35,9 +35,7 @@ A **High severity finding** is a high impact issue with any likelihood which res
 - Temporary freezing NFTs
 
 ## WontFix
-A **WontFix finding** is a high impact issue which has been deemed valid but which the Sponsor chooses not to take action on.
-
-In order to be considered a WontFix Finding, the issue must be assessed as Critical Severity or High Severity.
+A **WontFix finding** is an impact issue which has been deemed valid but which the Sponsor chooses not to take action on.
 
 ## Out of scope
 - Impacts requiring attacks that the warden has already exploited themselves, leading to damage
