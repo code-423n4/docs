@@ -10,15 +10,15 @@ The `signal` metric is a means of identifying wardens and teams who have consist
 
 A signal of 1 means that the warden has consistently submitted valid H and M whereas a signal of 0 means the warden has either submitted only invalid findings or has submitted none.
 
+Contributors' `signal` is considered `null` until they have:
+- participated in at least 3 audits, and
+- submitted at least 5 findings
+
 ## Validator process
 
-signal is used in the validation process to decide how your submissions are routed.
+`signal` is used in the validation process to decide how your submissions are routed.
 
-We use the following threshold:
-
-- signal >= 0.68
-- participated in at least 3 audits
-- submitted at least 5 findings
+We currently use the following threshold: `signal >= 0.68`
 
 If your submissions meet this threshold, then they will be submitted directly to the sponsor team. Otherwise, they will be held for validation.
 
