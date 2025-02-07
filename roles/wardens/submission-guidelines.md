@@ -16,8 +16,6 @@ In order to help us triage and prioritize submissions, please ensure that your r
 - Have not been surfaced as "known issues" (see audit repo README for details).
 - Are written in English, if possible.
 
-It is also recommended to ensure you receive email confirmation of each submission. (If you do not see an email confirmation, please check your spam folder.)
-
 ## Submission types
 
 ### High, Medium, and QA reports
@@ -127,10 +125,6 @@ We are aware this privileges native English speakers as online translation servi
 Judges must make the best decision they can regarding quality and understandability of findings.
 
 ## Automated findings considered known issues
-
-- At the start of each audit, Code4rena runs a [Bot Race](https://www.code4rena.com/register/bot) where wardens compete to see whose AI-driven bot can create the highest quality and most thorough audit report.
-- The winning report is shared with all C4 wardens within 24 hours of the audit start time, both in the audit repo and in the audit's Discord channel.
-- All findings in the winning Bot Report will be declared publicly known issues, and therefore ineligible for awards.
 
 Wardens may use automated tools as a first pass, and build on these findings to identify High and Medium severity issues ("HM issues"). However, submissions based on automated tools will have a higher burden of proof for demonstrating to sponsors a relevant HM exploit path in order to be considered satisfactory.
 
