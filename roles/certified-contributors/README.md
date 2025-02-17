@@ -1,5 +1,5 @@
 ---
-description: In order to create opportunities for contributions which rely on establishment of trust, Code4rena allows community members to opt into certifying their identity and entering into a simple agreement.
+description: In order to create opportunities for contributions which rely on establishment of trust, Code4rena allows community members to opt into verifying their identity and entering into a simple agreement.
 
 ---
 
@@ -18,7 +18,7 @@ Certification is available to [SR-eligible wardens](/roles/certified-contributor
 The certification process is as follows:
 
 1. An eligible contributor submits the Certified Contributor Application form, and agrees to the Certified Contributor Terms and Conditions (see the application form).
-1. C4's KYC provider, [Certn](https://certn.co/), contacts the contributor to certify their identity.
+1. C4's KYC provider, [Certn](https://certn.co/), contacts the contributor to verify their identity.
 1. Certn certifies a contributor as having completed their identity verification process.
 1. Code4rena staff onboard the certified contributor once their application has been approved.
 
