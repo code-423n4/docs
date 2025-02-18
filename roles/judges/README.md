@@ -59,6 +59,8 @@ Judge applications are reviewed monthly by the C4 judge selection committee, whi
 
 Yes—but in the interest of impartiality, they must forgo any awards they would have received for their findings in said audit.
 
+Teams that include the judge/validator are also ineligible for awards in such cases, to avoid conflict of interest.
+
 ## Staff oversight of judges
 
 Judges' decisions and performance are reviewed and overseen by senior members of Code4rena staff. 
