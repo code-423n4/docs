@@ -61,6 +61,8 @@ Contributing value to sponsors by helping secure their code must always be the c
 
 Judges have the right to deem a warden ineligible for awards based on behavior and net quality/accuracy of submissions. This includes interactions with judges, staff, sponsors, and other wardens. Multiple violations or egregious abuses may also result in additional consequences, including account suspension or bans.
 
+Wardens who do not have the [SR role](https://docs.code4rena.com/roles/certified-contributors/sr-backstage-wardens) must not solicit SR wardens, validators, or judges to perform post-judging QA (PJQA) actions on their behalf; doing so is a violation of this policy. 
+
 In order to ensure fairness and objectivity, a judge who makes the determination that a warden is deserving of consequences under the Good Citizen Rule will need “+1s” from two other judges. Staff will consider and validate each discipline recommendation based on the evidence presented by judges.
 
 ## Burden of proof

@@ -111,3 +111,12 @@ We’re an organization that aims to refine our processes wherever and whenever 
 ### If I’ve got questions about the severity I should assign to a finding, where should I go?
 
 In the C4 Discord, these types of questions are commonly asked in #questions and/or #wardens.
+
+### What is post-judging QA? 
+
+After preliminary judging is complete, there is a 48-hour period during which wardens with the [SR role](/roles/certified-contributors/sr-backstage-wardens/) can raise questions or concerns for the judge's review. 
+
+The post-judging QA process helps to:
+- identify overlooked duplicates
+- provide consistent implementation of Code4rena's judging guidelines regarding submissions' validity and/or risk assessment; and
+- ensure that every C4 audit's submissions have been reviewed with a fine-toothed comb.
