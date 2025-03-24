@@ -167,9 +167,9 @@ There is a very high burden of quality and value provided for QA and gas optimiz
 
 ### Ranks for QA and Gas reports
 
-After post-judging QA is complete, the Judge and Validators vote to select the top 3 QA reports and Gas reports.
+After post-judging QA is complete, the Judge selects the top 3 QA reports and Gas reports.
 
-The 1st, 2nd, and 3rd place winners are awarded using a curve model that will be documented here ASAP. 
+The 1st, 2nd, and 3rd place winners are awarded using Code4rena's standard [curve model](/incentive-model-and-awards/curve-logic/). 
 
 Tie votes are handled as follows:
 - 3-way tie for 1st place: the QA/Gas pool is split evenly between the three 1st place winners (no 2nd or 3rd place reports).
