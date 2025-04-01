@@ -66,5 +66,5 @@ We are occasionally asked how wardens should declare Code4rena earnings for tax 
 Legal entity details for invoices, which can be sent to admin (at) code4rena [dotcom]:
 
 ZC Security Holdings, LLC  
-PO Box 2349  
-Richland WA 99352 USA
+Park Ave S #97576
+New York NY USA
