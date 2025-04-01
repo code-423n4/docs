@@ -40,9 +40,3 @@ Here are some of the most-visited sections:
 - [How to apply for the Judge role](roles/judges#becoming-a-judge)
 - [How to judge a Code4rena audit](roles/judges/how-to-judge-a-contest.md)
 
-## Philosophy
-
-- [Security is about people](philosophy/security-is-about-people.md)
-- [The culture we’re building](philosophy/how-we-work.md)
-- [Intentionally structured](philosophy/intentionally-structured.md)
-- [How consensus is built](philosophy/how-consensus-is-built.md)

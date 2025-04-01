@@ -36,13 +36,6 @@
   * [Decisions from the inaugural Supreme Court session, Fall 2023](awarding/judging-criteria/supreme-court-decisions-fall-2023.md)
 * [Fairness and validity](awarding/fairness-and-validity/README.md)
 
-## Philosophy
-
-* [Security is about people](philosophy/security-is-about-people.md)
-* [The culture we’re building](philosophy/how-we-work.md)
-* [Intentionally structured](philosophy/intentionally-structured.md)
-* [How consensus is built](philosophy/how-consensus-is-built.md)
-
 ## Other Details
 
 * [Account setup and management](other-details/account-management.md)
