@@ -12,7 +12,7 @@ Code4rena audits let people of a wide range of skill levels get rewarded while s
 
 Anyone can register to participate in an audit. [Register here](https://code4rena.com/register/account), confirm your email address, then join [our Discord](https://discord.gg/code4rena) to get started.
 
-Once you've completed those verification steps, [have a look at the C4 website](https://code4rena.com/audits/), where you'll find a list of open and upcoming audits, along with their pool size, start and end date, and other relevant information. Active audits will typically include a link to the code repo, as well as the submission form for findings.
+Once you've completed those verification steps, [have a look at the C4 website](https://code4rena.com/audits/), where you'll find a list of open and upcoming audits, along with their pool size, start and end date. To view specific audit details and other relevant information, you'll need to click the "Join audit" button. Once active, audits will typically include a link to the code repo, as well as the submission form for findings.
 
 Please familiarize yourself with the [submission policy](submission-policy.md) and [judging criteria](../../awarding/judging-criteria/) prior to participating.
 
