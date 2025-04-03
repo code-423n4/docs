@@ -2,7 +2,7 @@
 
 ## Submission types paused
 
-As of April 30, 2024, the following submission types are paused:
+As of April 30, 2024, the following submission types are deprecated:
 
 ### Bot reports
 
@@ -19,11 +19,35 @@ By designating a portion of the pool in this direction, Code4rena creates a sepa
 
 ### Analyses
 
-Analyses share high-level advice and insights from wardens' review of the code.
+An analysis is a written submission outlining:
 
-Where individual findings are the "trees" in an audit, the Analysis is a "forest"-level view.
+- Wardens' analysis of the codebase as a whole and any observations or advice they have about architecture, mechanism, or approach
+- Broader concerns like systemic risks or centralization risks
+- The approach taken in reviewing the code
+- New insights and learnings from the audit
 
-Analyses compete for a portion of each audit's award pool, and are graded and awarded similarly to QA and Gas Optimization reports.
+If individual findings are trees, Analyses are the forest. They provide wardens with an opportunity to contribute value through high level insights and advice that aren't necessarily covered by specific bugs -- and a way to get credit for doing so.
+
+Each Analysis is judged based on quality and thoroughness as compared with other Analyses, with awards distributed on a curve. Wardens are encouraged to read the top-scoring Analyses from past Code4rena audits, which are highlighted in [C4's audit reports](https://code4rena.com/reports).
+
+Analyses are judged A, B, or C, with C being unsatisfactory and ineligible for awards. The judge selects the best Analysis for inclusion in the audit report.
+
+The Autumn 2023 Supreme Court session provided further judging guidelines for Analyses, saying they should provide "[actionable] insight on improvement steps of outlined characteristics." 
+
+Areas of interest include:
+- Full representation of the project’s risk model:
+  - Admin abuse risks
+  - Systemic risks
+  - Technical risks
+  - Integration risks
+  - Non-standard token risks (if in scope)
+- Software engineering considerations
+- In-depth architecture assessment of business logic 
+- Testing suite
+- Weakspots and any single points of failure
+
+Merely repeating the code functionality in pseudo-documentation is not considered valuable information.
+
 
 ## Understanding historical grading for QA, Gas, and Analysis reports
 
@@ -173,3 +197,31 @@ We can see here that the logic behind the `partial-` labels only impacts the awa
 **Conclusion:**
 
 Only the award amounts for "partial" findings have been reduced, in line with expectations. The aim of this adjustment is to recalibrate the rewards allocated for these specific findings. Meanwhile, the awards for full-credit findings remain unchanged.
+
+## Z Pools and Dark Horse bonuses
+
+If a Z pool is listed among an audit's award pools, then it has a Z pool, which may be repurposed (in part or whole) as a Dark Horse pool. For audits with a Z pool: 
+
+- `n` [Zenith](https://code4rena.com/zenith) Researchers (ZRs) are designated as leads for the audit ("LZRs"), with teams counting as one.
+- Z pool is split among LZRs based on their [Gatherer score](https://docs.code4rena.com/awarding/incentive-model-and-awards#bonuses-for-top-competitors), using the [ranked curve](https://docs.code4rena.com/awarding/incentive-model-and-awards/curve-logic#dark-horse-bonuses-ranked-curve-awarding)
+- LZRs also compete for a portion of HM awards and are eligible for Hunter/Gatherer bonuses
+
+### Dark Horse bonus pool
+
+Dark Horse is (1) a non-LZR who (2) finishes in the top `n + 3`, and (3) outperforms (or ties) the top-ranked LZR auditor based on [Gatherer score](https://docs.code4rena.com/awarding/incentive-model-and-awards#bonuses-for-top-competitors) 
+
+Dark Horse awards come out of the Z pool.
+
+- If an LZR ranks outside the top `n` (by [Top Gatherer score](https://docs.code4rena.com/awarding/incentive-model-and-awards#bonuses-for-top-competitors)):
+    - 50% of their share of the Z pool goes to the Dark Horse bonus pool
+- If an LZR ranks outside the top `n + 3` (by [Top Gatherer score](https://docs.code4rena.com/awarding/incentive-model-and-awards#bonuses-for-top-competitors)):
+    - The LZR forfeits their share of the Z pool (but are still eligible for HM / QA awards)
+    - 50% of their share of the Z pool goes to the Dark Horse bonus pool
+    - 50% of their share of the Z pool is refunded to sponsor
+- Dark Horse awards are distributed using C4’s ranked curve.
+
+### Specific edge cases:
+
+- If no lead ranks outside the top `n`, no Dark Horse bonus is awarded.
+- In the event that no LZRs rank in the top `n + 3` the Dark Horse pool will be distributed, but only the top `n` ranked competitors will earn the Dark Horse achievement for the competition.
+- Any unused portion of the Z pool is returned to the Sponsor

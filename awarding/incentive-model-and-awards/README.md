@@ -1,6 +1,6 @@
 # Incentive model and awards
 
-To incentivize **wardens**, C4 uses a unique scoring system with two primary goals: reward participants for finding unique bugs and also to make the audit resistant to Sybil attack. A secondary goal of the scoring system is to encourage participants to form teams and collaborate.
+To incentivize **wardens**, C4 uses a unique scoring system with two primary goals: reward participants for finding unique vulnerabilities and also to make the audit resistant to Sybil attack. A secondary goal of the scoring system is to encourage participants to form teams and collaborate.
 
 **Judges** are incentivized to review findings and decide their severity, validity, and quality by receiving a share of the prize pool themselves.
 
@@ -11,27 +11,27 @@ To incentivize **wardens**, C4 uses a unique scoring system with two primary goa
 
 We periodically ship bug fixes that may produce minor differences in award calculation results over time. 
 
-## High and Medium Risk bugs
+## High and Medium Risk findings
 
-Wardens are given shares for bugs discovered based on severity, and those shares give the owner a pro rata piece of the pie:
+Wardens are given shares for findings discovered based on severity, and those shares give the owner a pro rata piece of the pie:
 
 `Med Risk Slice: 3 * (0.85 ^ (split - 1)) / split`\
 `High Risk Slice: 10 * (0.85 ^ (split - 1)) / split`
 
-Please note that findings with partial credit still count as 1 finding in the algorithm. \
+Please note that submissions with partial credit still count as 1 submission in the algorithm. \
 During awarding, each award is redeemed for: `award pool / pie / slice`.
 
 ### Bonus for best / selected for report
 
 For each unique High or Medium finding, the submission selected for inclusion in the audit report receives a 30% slice bonus. The `pie` (total of slices) is also increased accordingly.
 
-Let's look at an example of a set of High risk duplicates, with 3 satisfactory findings.
+Let's look at an example of a High risk finding (set of duplicates), containing 3 satisfactory submissions.
 
 As per the formula, the pie would be: \
 `10 * (0.85 ^ (findingCount - 1)) = 7.225`
 
-Warden A's finding is selected for report; therefore the pie is adjusted as follows: \
-`new pie = previous pie + [selected finding's slice] * 0.3` \
+Warden A's submission is selected for report; therefore the pie is adjusted as follows: \
+`new pie = previous pie + [selected submission's slice] * 0.3` \
 `=> 7.225 + ( 2.408333333333333 * 0.3 ) = 7.9475`
 
 The resulting awards are:
@@ -52,7 +52,7 @@ Both bonuses weigh Highs more heavily than Mediums, similarly to Code4rena's sta
 
 **Top Hunter score**
 
-Each participant's High- and Medium-risk findings are used to calculate the Top Hunter score. The scoring logic is as follows:
+Each participant's High- and Medium-risk submissions are used to calculate the Top Hunter score. The scoring logic is as follows:
 
 - Only full-credit HM findings with fewer than 5 submissions in the findings set count towards the top hunter score.
 - For each High-risk finding, score += 10 * 1/x, where x = number of duplicates 
@@ -82,9 +82,9 @@ Partial credit duplicates (see next section) do not count towards the  Top Gathe
 
 ### Duplicates getting partial credit
 
-All issues which identify the same functional vulnerability will be considered duplicates regardless of effective rationalization of severity or exploit path.
+All submissions that identify the same functional vulnerability will be considered duplicates regardless of effective rationalization of severity or exploit path.
 
-However, any submissions which do not identify or effectively rationalize the top identified severity case may be judged as “partial credit” and may have their shares  divided at judge’s sole discretion (e.g. 25%, 50%, or 75% of the shares of a satisfactory submission in the duplicate set).
+However, any submissions which do not identify or effectively rationalize the top identified severity case may be judged as “partial credit” and may have their shares divided at the judge’s sole discretion (e.g. 25%, 50%, or 75% of the shares of a satisfactory submission in the duplicate set).
 
 Awards for partial duplicates are calculated as follows: 
 
@@ -159,7 +159,7 @@ Low severity and governance/centralization risk findings are submitted as a **si
 
 QA and gas optimization reports are awarded on a curve based on the judge’s score.
 
-- QA reports compete for a share of 4% of the prize pool (e.g. $2,000 for a $50,000 audit);
+- QA reports typically compete for a share of ~4% of the prize pool (e.g. $2,000 for a $50,000 audit);
 - The gas optimization pool varies from audit to audit;
 - QA and Gas optimization reports are awarded on a curve.
 
@@ -180,34 +180,6 @@ Tie votes are handled as follows:
 Satisfactory reports not among the winning reports will not be awarded -- but will count towards wardens' accuracy scores.
 
 In the unlikely event that zero high- or medium-risk vulnerabilities are found, the HM award pool will be divided among all satisfactory QA reports based on the QA Report curve, **unless otherwise stated in the audit repo.** 
-
-## Z Pools and Dark Horse bonuses
-
-If a Z pool is listed among an audit's award pools, then it has a Z pool, which may be repurposed (in part or whole) as a Dark Horse pool. For audits with a Z pool: 
-
-- `n` [Zenith](https://code4rena.com/zenith) Researchers (ZRs) are designated as leads for the audit ("LZRs"), with teams counting as one.
-- Z pool is split among LZRs based on their [Gatherer score](https://docs.code4rena.com/awarding/incentive-model-and-awards#bonuses-for-top-competitors), using the [ranked curve](https://docs.code4rena.com/awarding/incentive-model-and-awards/curve-logic#dark-horse-bonuses-ranked-curve-awarding)
-- LZRs also compete for a portion of HM awards and are eligible for Hunter/Gatherer bonuses
-
-### Dark Horse bonus pool
-
-Dark Horse is (1) a non-LZR who (2) finishes in the top `n + 3`, and (3) outperforms (or ties) the top-ranked LZR auditor based on [Gatherer score](https://docs.code4rena.com/awarding/incentive-model-and-awards#bonuses-for-top-competitors) 
-
-Dark Horse awards come out of the Z pool.
-
-- If an LZR ranks outside the top `n` (by [Top Gatherer score](https://docs.code4rena.com/awarding/incentive-model-and-awards#bonuses-for-top-competitors)):
-    - 50% of their share of the Z pool goes to the Dark Horse bonus pool
-- If an LZR ranks outside the top `n + 3` (by [Top Gatherer score](https://docs.code4rena.com/awarding/incentive-model-and-awards#bonuses-for-top-competitors)):
-    - The LZR forfeits their share of the Z pool (but are still eligible for HM / QA awards)
-    - 50% of their share of the Z pool goes to the Dark Horse bonus pool
-    - 50% of their share of the Z pool is refunded to sponsor
-- Dark Horse awards are distributed using C4’s ranked curve.
-
-### Specific edge cases:
-
-- If no lead ranks outside the top `n`, no Dark Horse bonus is awarded.
-- In the event that no LZRs rank in the top `n + 3` the Dark Horse pool will be distributed, but only the top `n` ranked competitors will earn the Dark Horse achievement for the competition.
-- Any unused portion of the Z pool is returned to the Sponsor
 
 ## Satisfactory / unsatisfactory submissions
 

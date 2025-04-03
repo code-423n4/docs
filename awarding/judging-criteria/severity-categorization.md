@@ -68,19 +68,15 @@ Loss of **matured** yield should be regarded as an impact similar to any other l
 Loss of **unmatured** yield or yield in motion shall be capped to medium severity.
 
 ## Approve race condition - NC or Invalid
-
+Notes from [the Fall 2023 Supreme Court decisions](https://docs.code4rena.com/awarding/judging-criteria/supreme-court-decisions-fall-2023/): 
 - We have long rejected the finding as anything above NC
 - OZ has deprecated increaseAllowance and decreaseAllowance
 - We officially confirm:
-```
   - Approve and safeApprove front-run is NOT a valid vulnerability
   - Approve and safeApprove are NOT deprecated
   - increaseAllowance and decreaseAllowance ARE deprecated, although usage of those functions
-    is not regarded as a bug report.
-```
+  is not regarded as a bug report.
 
 ## Severity Standardization Process
 
-Judges and the C4 community collaborate in open discussions of severity standards, which has created an evolving meta that's unique to C4 and enables both the organizations being audited and the auditors themselves to be part of a platform that is self-reflective and is constantly iterating on its processes for their collective benefit.
-
-The rules above act as a starting point, and these open discussions act as a growing set of case law examples. You can view the open forum where these discussions are held [here](https://github.com/code-423n4/org/issues?q=is%3Aissue+is%3Aopen+label%3Arules).
+Judges and the C4 community collaborate in open discussions of severity standards via [the Code4rena Discord server](https://discord.gg/code4rena).

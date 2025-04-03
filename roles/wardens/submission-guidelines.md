@@ -6,15 +6,15 @@ Best practices and recommendations for submitting to Code4rena competitions. Ple
 
 C4 accepts vulnerability reports via the audit submission form.
 
-In order to help us triage and prioritize submissions, please ensure that your reports:
+In order to help us triage and prioritize findings, please ensure that your submissions:
 
-- Are submitted no later than the audit stop time.
-- Use the audit submission process.
-- Follow the correct report format. (See next section.)
-- Describe the location the vulnerability was discovered and the potential impact of exploitation.
-- Offer a detailed description of the steps needed to reproduce the vulnerability (proof of concept scripts or screenshots are helpful).
-- Have not been surfaced as "known issues" (see audit repo README for details).
-- Are written in English, if possible.
+- Are submitted before the submission deadline;
+- Use the correct submission form;
+- Follow the correct format (see next section);
+- Describe the location the vulnerability was discovered and the potential impact of exploitation;
+- Offer a detailed description of the steps needed to reproduce the vulnerability (coded Proof of Concept or screenshots are encouraged);
+- Have not been surfaced as "known issues" (see audit repo README for details); and
+- Are written in English.
 
 ## Submission types
 
@@ -25,15 +25,15 @@ In order to help us triage and prioritize submissions, please ensure that your r
 
 ### QA reports (low/governance)
 
-Low and non-critical findings must be submitted as a single QA report per warden. We allocate **4% of most prize pools toward QA reports.**
+Low and non-critical findings must be submitted as a single QA report per warden. 
 
 Your QA report should include:
 - all Low severity findings
 - all Governance / Centralization risk findings (including centralization risks, systemic risks, and admin privileged functions)
-- Non-critical findings are discouraged. 
+
+**Non-critical findings are discouraged.** 
 
 Formatting:
-
 - Wardens are encouraged to use a standard format to label findings, e.g. `L-01`, `L-02`, etc. for low-risk findings, and `C-01`, `C-02`, etc. for centralization/governance findings. 
 - Please do not use `G-` prefixes as those are typically used to identify Gas optimization findings.
 - Non-standard labels such as `R-` (refactor), `I-` (informational), or `S-` (suggestion) will be considered non-critical and are therefore discouraged.
