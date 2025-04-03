@@ -20,8 +20,6 @@ Here are some of the most-visited sections:
 
 - [Scoping and scheduling your audit](roles/sponsors)
 - [Overview of the Code4rena competitive audit process](roles/sponsors/contest-process.md)
-- [How to prepare for a Code4rena audit](roles/sponsors/preparing-for-audit.md)
-- [Appealing a verdict](roles/sponsors/sponsor-appeals.md)
 
 ## For Wardens
 
