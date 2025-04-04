@@ -1,15 +1,6 @@
 
 Fairness, validity, and consistency
 
-# Fundamental principles
-
-These are the fundamental principles that underly how we look at the question of “fairness” in Code4rena.
-
-1. Code4rena aims to be a fair and impartial system.
-1. Where the system is insufficient or vague, we depend on the judgment of fair and impartial individuals.
-1. When we depend too heavily on the judgment of individuals, we work to improve the system long-term in iterative and sustainable ways.
-1. Because we are working every day within the constraints of the systems we have, we aim to be patient with the time and consideration that improvement takes and gracious toward the individuals tasked by the system with making difficult decisions.
-
 # Expectations of participants
 
 - [Sponsors](https://docs.code4rena.com/roles/sponsors/) should be able to trust that Code4rena as a system is working to help them secure their code and that their funds are a good investment toward that end.

@@ -151,28 +151,24 @@ To preserve the fairness of the competition, sponsors agree to only make fixes f
 
 **Warning:** A false positive submitted this way which seems to have taken advantage of the system and wasted sponsor time will result in a potential ["good citizen rule"](https://docs.code4rena.com/roles/wardens/submission-guidelines#good-citizenship-is-a-requirement-for-compensation) violation.
 
-## QA and Gas Optimization Reports
+## QA Reports
 
-In order to incentivize wardens to focus efforts on high and medium severity findings while also ensuring quality coverage, the pool’s allocation is capped for low severity, governance/centralization risk, and gas optimization findings.
+In order to incentivize wardens to focus efforts on high and medium severity findings while also ensuring quality coverage, the pool’s allocation is capped for low severity, and governance/centralization risk findings.
 
-Low severity and governance/centralization risk findings are submitted as a **single** QA report. Similarly, gas optimizations are submitted as a single gas report. For more on reports, see [Judging criteria](/awarding/judging-criteria/README.md).
+Low severity and governance/centralization risk findings are submitted as a **single** QA report. For more on reports, see [Judging criteria](/awarding/judging-criteria/).
 
-QA and gas optimization reports are awarded on a curve based on the judge’s score.
+QA reports are [awarded on a curve](https://docs.code4rena.com/awarding/incentive-model-and-awards/curve-logic) based on the judge’s score.
 
-- QA reports typically compete for a share of ~4% of the prize pool (e.g. $2,000 for a $50,000 audit);
-- The gas optimization pool varies from audit to audit;
-- QA and Gas optimization reports are awarded on a curve.
+There is a very high burden of quality and value provided for QA reports. Only submissions that demonstrate full effort worthy of consideration for inclusion in the report will be eligible for rewards.
 
-There is a very high burden of quality and value provided for QA and gas optimization reports. Only submissions that demonstrate full effort worthy of consideration for inclusion in the report will be eligible for rewards.
+### Ranks for QA reports
 
-### Ranks for QA and Gas reports
-
-After post-judging QA is complete, the Judge selects the top 3 QA reports and Gas reports.
+After post-judging QA is complete, the Judge selects the top 3 QA reports.
 
 The 1st, 2nd, and 3rd place winners are awarded using Code4rena's standard [curve model](/incentive-model-and-awards/curve-logic/). 
 
 Tie votes are handled as follows:
-- 3-way tie for 1st place: the QA/Gas pool is split evenly between the three 1st place winners (no 2nd or 3rd place reports).
+- 3-way tie for 1st place: the QA pool is split evenly between the three 1st place winners (no 2nd or 3rd place reports).
 - 2-way tie for 1st place: the awards for 1st and 2nd place are combined and split evenly among the tied reports (no 2nd place report).
 - If 2 or more reports tie for 2nd place, the awards for 2nd and 3rd place are combined and split evenly among the tied reports (no 3rd place report).
 - If 2 or more reports tie for 3rd place, the 3rd place awards are split evenly among the tied reports.
