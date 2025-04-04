@@ -8,7 +8,6 @@
   * [Submission guidelines](roles/wardens/submission-guidelines.md)
   * [Submission policy](roles/wardens/submission-policy.md)
   * [Signal metrics](roles/wardens/signal.md)
-  * [Tools and resources](roles/wardens/tools-and-resources.md)
 * [Sponsors](roles/sponsors/README.md)
   * [Audit process](roles/sponsors/contest-process.md)
 * [Judges](roles/judges/README.md)
