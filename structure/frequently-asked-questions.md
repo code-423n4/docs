@@ -32,27 +32,23 @@ You can’t, just yet! Right now, Scouts are hand-picked by the C4 team as it’
 
 ### I want Code4rena to audit my project, where do I start?
 
-It’s really simple! Just visit [this link](https://code4rena.typeform.com/i-want-an-audit) and fill out the form. Our team will be in touch with you shortly after you’ve completed it.
-
-### Do you have a blog?
-
-We do indeed, [here](https://code4rena.com/blog). We post product updates, sponsor interviews and more.
+It’s really simple! Just visit [this link](https://go.code4rena.com/start) and fill out the form. Our team will be in touch with you shortly after you’ve completed it.
 
 ### What’s the best way to stay up to date with Code4rena?
 
-[Follow us](https://twitter.com/code4rena) on Twitter and turn on notifications in our #c4-updates channel in [Discord](https://discord.gg/code4rena).
+[Follow us](https://twitter.com/code4rena) on X and turn on notifications in our #c4-updates channel in [Discord](https://discord.gg/code4rena).
 
 ### Where can I view the audit results?
 
-Once an audit's results have been finalized, they’ll be shared in our #announcements channel in Discord. The audit's page in the ‘[Audits](https://code4rena.com/contests)’ section on our website will also be updated to show results.
+Once an audit's results have been finalized, they’ll be shared in our #c4-updates channel in Discord. The audit's page in the ‘[Audits](https://code4rena.com/audits)’ section on our website will also be updated to show results.
 
 ### Where can I read past Code4rena audit reports?
 
-We push all public audit reports to the ‘[Reports](https://code4rena.com/reports)’ section on our website. This enables you to read through past findings, evaluate commonalities, and continue your learning journey. Our [GitHub](https://github.com/code-423n4/) repos are also public, for those of you interested in diving deeper.
+All public audit reports are published to the ‘[Reports](https://code4rena.com/reports)’ section on our website. This enables you to read through past findings, evaluate commonalities, and continue your learning journey. Most C4 [audit repos](https://github.com/code-423n4/) are also public, for those of you interested in diving deeper.
 
 ### How are audits judged?
 
-We have a lot of documents outlining the technicalities of our judging process, which you can view [here](https://docs.code4rena.com/roles/judges/how-to-judge-a-contest). In short, Judges follow stringent criteria, whilst making sure submissions adhere to C4 policies. We’ve also implemented a severity standardization guide to ensure a homogenized approach.
+We have a lot of documents outlining the technicalities of our judging process, which you can view [here](https://docs.code4rena.com/roles/judges/). In short, Judges follow stringent criteria, whilst making sure submissions adhere to C4 policies. We’ve also implemented a severity standardization guide to ensure a consistent approach.
 
 ### How can I verify a legitimate member of Code4arena staff?
 
@@ -64,19 +60,17 @@ Code4rena works with an amazing team of artists, led by [Jaime Robles](https://b
 
 ### What does "HM" stand for?
 
-"HM" is Code4rena shorthand for "High and Medium risk findings." C4 audits typically have an HM award pool that is distributed according to our [incentive model](https://docs.code4rena.com/awarding/incentive-model-and-awards/README.md).
+"HM" is Code4rena shorthand for "High and Medium risk findings." C4 audits typically have an HM award pool that is distributed according to our [incentive model](https://docs.code4rena.com/awarding/incentive-model-and-awards/).
 
 ## Warden FAQ
 
-### How do I submit issues to an audit?
+### How do I submit vulnerabilities to an audit?
 
-Simply navigate to the audit page, click on the `Submit Findings` button, and fill out the form with your findings. Make sure to validate your wallet address beforehand.
+Simply navigate to the audit page, click `Join`, then click on the `Submit Findings` button to fill out the form with your findings. 
 
-### How can I confirm that Code4rena has received my finding?
+### How can I confirm that Code4rena has received my submission?
 
-Simply head over to the specific audit page and navigate to the `Your Findings` tab (located to the right of `Details`). If you see your issue listed, then it is already received by the C4 team.
-
-You should also receive an email confirmation from submissions@code4rena.com. (If you don’t see it in your inbox, check your spam folder.)
+Simply head over to the specific audit page and navigate to the `Your Findings` tab (located to the right of `Details`). If you see your issue listed, then it has been received by the C4 team.
 
 ### I submitted a finding but then realized it was invalid. Do I need to contact Code4rena?
 
@@ -90,23 +84,19 @@ Yes! Go to the `Your Findings` tab (located to the right of `Details`) on the sp
 
 You can change your payment information at any time. Simply log in and go to [your account management page](https://code4rena.com/account).
 
-Note: for each audit, C4 distributes awards to the payment address on file _at the time of award calculation_.
+**Note:** for each audit, C4 distributes awards to the payment address on file _at the time of award calculation_.
 
 ### Why was my finding marked as invalid?
 
-The validity of an audit report submission is not based on whether it is ‘true’ or not. A report may contain a finding which is factually 'true' (the most literal interpretation of 'valid'), but if it does not add value or if it is not presented in such a way that adds value to a sponsor, it may be deemed invalid by a judge.
+The validity of an audit report submission is not based on whether it is ‘true’ or not. A report may contain a finding which is factually 'true' (the most literal interpretation of 'valid'), but if it does not add value or if it is not presented in such a way that adds value to a sponsor, it may be deemed invalid by a judge. For more information, see the ["Fairness and validity" page](https://docs.code4rena.com/awarding/fairness-and-validity).
 
 ### Why was my finding downgraded from the severity I gave it?
 
-Explaining and rationalizing the potential impact is an essential part of a quality submission. The burden of proof increases based on the potential value of the submission (rarity, severity). Judges will refer to the criteria on [this page](https://docs.code4rena.com/awarding/judging-criteria#estimating-risk-tl-dr) to ascertain whether a finding matches the severity a warden has initially given it.
+Explaining and rationalizing the potential impact is an essential part of a quality submission. The burden of proof increases based on the potential value of the submission (rarity, severity). Judges will refer to Code4rena's [judging criteria](https://docs.code4rena.com/awarding/judging-criteria) to ascertain whether a finding matches the severity a warden has initially given it.
 
 ### Do Judges have the final say?
 
 While sponsor input is a significant criterion, ultimately judges have final say in determining validity and severity of issues, as well as whether/how issues are considered duplicates. If wardens have fact-based evidence of a vulnerability's existence, they are welcome to submit it in accordance with C4's [submission guidelines](https://docs.code4rena.com/roles/wardens/submission-guidelines). Judges will review submissions and sponsor input to come to their own independent conclusion in alignment with our criteria. Doing this ensures the impartiality of the process. You can read more about our approach to this [here](https://docs.code4rena.com/awarding/judging-criteria).
-
-### Is the judging criteria set in stone, or does it change?
-
-We’re an organization that aims to refine our processes wherever and whenever possible. At present, there is [this page](https://github.com/code-423n4/org/issues) on our GitHub to discuss open issues in regards to judging standardization.
 
 ### If I’ve got questions about the severity I should assign to a finding, where should I go?
 

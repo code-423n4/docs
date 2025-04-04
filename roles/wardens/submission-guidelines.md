@@ -42,16 +42,7 @@ Each QA report is assessed based on report quality and thoroughness as compared 
 
 Wardens overstating the severity of QA issues (submitting low/non-critical issues as med/high in order to angle for higher payouts) will have their scores reduced by judges. Wardens who submit multiple QA and/or Gas findings to a single audit without following the required format will have all QA/Gas submissions invalidated for that audit.
 
-### Gas optimization reports
-
-- Not all audits include a Gas optimization pool; please check the audit repo before submitting a Gas report. 
-- Gas reports should be submitted using the same approach as the QA reports: a single submission per warden (or team) which includes all identified optimizations.
-- It is highly recommended to clearly spell out the impact of proposed gas optimizations.
-- Submissions that claim gas optimization when the optimizer is inactive will be considered invalid.
-
-For more details on QA and Gas reports, and estimating risk, please see [Judging Criteria](https://docs.code4rena.com/roles/wardens/judging-criteria#qa-reports-low-non-critical).
-
-Wardens who submit multiple QA and/or Gas findings to a single audit without following the required format will have all QA/Gas submissions invalidated for that audit.
+For more details on estimating risk for QA reports, please see [Judging Criteria](https://docs.code4rena.com/roles/wardens/judging-criteria#qa-reports-low-non-critical).
 
 ## Good citizenship is a requirement for compensation
 

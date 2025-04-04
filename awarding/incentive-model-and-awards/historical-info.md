@@ -2,7 +2,13 @@
 
 ## Submission types paused
 
-As of April 30, 2024, the following submission types are deprecated:
+The following submission types are deprecated:
+
+### Gas optimization reports
+
+- Gas reports should be submitted using the same approach as QA reports: a single submission per warden (or team) which includes all identified optimizations.
+- It is highly recommended to clearly spell out the impact of proposed gas optimizations.
+- Submissions that claim gas optimization when the optimizer is inactive will be considered invalid.
 
 ### Bot reports
 
