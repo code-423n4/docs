@@ -10,7 +10,7 @@
 
 ### 🔬 Resources
 
-* [The Auditooor Grindset](https://www.zellic.io/blog/the-auditooor-grindset/): Crash course on smart contract auditing for vulnerability researchers, by Luna Tong
+* [The Auditooor Grindset](https://www.zellic.io/blog/the-auditooor-grindset/)
 * [The Secureum](https://www.secureum.xyz/) - Ethereum security bootcamp
 * [Solidity Docs](https://docs.soliditylang.org/en/v0.8.1/)
 * [Vyper Docs](https://vyper.readthedocs.io/en/stable/)
