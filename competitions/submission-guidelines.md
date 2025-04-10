@@ -1,6 +1,6 @@
 # Submission guidelines
 
-Best practices and recommendations for submitting to Code4rena competitions. Please also refer to the official [submission policy](https://docs.code4rena.com/roles/wardens/submission-policy).
+Best practices and recommendations for submitting to Code4rena competitions. Please also refer to the official [submission policy](/legal/submission-policy).
 
 ## Submitting a report
 
@@ -20,7 +20,7 @@ In order to help us triage and prioritize findings, please ensure that your subm
 
 ### High, Medium, and QA reports
 
-- Wardens should [review Code4rena's severity categorization](https://docs.code4rena.com/awarding/judging-criteria/severity-categorization) prior to submitting vulnerabilities, and select the appropriate risk when submitting.
+- Wardens should [review Code4rena's severity categorization](/competitions/severity-categorization) prior to submitting vulnerabilities, and select the appropriate risk when submitting.
 - Medium or High severity findings should be submitted individually.
 
 ### QA reports (low/governance)
@@ -40,19 +40,25 @@ Formatting:
 
 Each QA report is assessed based on report quality and thoroughness as compared with other reports. 
 
-Wardens overstating the severity of QA issues (submitting low/non-critical issues as med/high in order to angle for higher payouts) will have their scores reduced by judges. Wardens who submit multiple QA and/or Gas findings to a single audit without following the required format will have all QA/Gas submissions invalidated for that audit.
+Wardens overstating the severity of QA issues (submitting low-risk issues as med/high in order to angle for higher payouts) will have their scores reduced by judges. 
 
-For more details on estimating risk for QA reports, please see [Judging Criteria](https://docs.code4rena.com/roles/wardens/judging-criteria#qa-reports-low-non-critical).
+For more details on estimating risk for QA reports, please see [Judging Criteria](/competitions/judging-criteria#qa-reports-low-non-critical).
+
+### Examples of high-quality submissions
+
+Wardens are encouraged to review recently-published [Code4rena audit reports](https://code4rena.com/reports) to see examples of submissions that were judged as both valid and of sufficient quality to be included in a report. 
+
+Most audit reports include examples of High and Medium risk vulnerabilities, as well as the top-ranked QA report. 
 
 ## Good citizenship is a requirement for compensation
 
 In order to be eligible for awards, competitors must contribute more value than they take. This is measured by impact rather than intent.
 
-Contributing value to sponsors by helping secure their code must always be the central concern. Attempts that have the impact of gaming the system or circumventing rules will be interpreted as breaking the rules. (See [Satisfactory / unsatisfactory submissions](https://docs.code4rena.com/awarding/incentive-model-and-awards#satisfactory-unsatisfactory-submissions) for some examples.)
+Contributing value to sponsors by helping secure their code must always be the central concern. Attempts that have the impact of gaming the system or circumventing rules will be interpreted as breaking the rules. (See [Satisfactory / unsatisfactory submissions](/awarding#satisfactory-unsatisfactory-submissions) for some examples.)
 
 Judges have the right to deem a warden ineligible for awards based on behavior and net quality/accuracy of submissions. This includes interactions with judges, staff, sponsors, and other wardens. Multiple violations or egregious abuses may also result in additional consequences, including account suspension or bans.
 
-Wardens who do not have the [SR role](https://docs.code4rena.com/roles/certified-contributors/sr-backstage-wardens) must not solicit SR wardens, validators, or judges to perform post-judging QA (PJQA) actions on their behalf; doing so is a violation of this policy. 
+Wardens who do not have the [SR role](/roles/sr-wardens) must not solicit SR wardens, validators, or judges to perform post-judging QA (PJQA) actions on their behalf; doing so is a violation of this policy. 
 
 In order to ensure fairness and objectivity, a judge who makes the determination that a warden is deserving of consequences under the Good Citizen Rule will need “+1s” from two other judges. Staff will consider and validate each discipline recommendation based on the evidence presented by judges.
 
@@ -84,7 +90,7 @@ C4 cannot "transfer" your submission to another audit after the audit ends. If y
 If you discover a high- or critical-severity vulnerability affecting deployed contracts, please follow these steps:
 
 1. Confirm that the audit scope includes live/deployed code. Typically this info will be posted in the audit channel in C4's Discord server.
-1. Review [the "live criticals" exception](https://docs.code4rena.com/awarding/incentive-model-and-awards#the-live-criticals-exception) section of our docs for definitions and awarding rules.
+1. Review [the "live criticals" exception](/awarding#the-live-criticals-exception) section of our docs for definitions and awarding rules.
 1. Using the audit submission form (audit page > `Submit finding`), submit a placeholder finding, with a non-specific title (e.g. "Potentially sensitive issue - disclosed privately")
    - In the `Links to affected code` field, link to `#L1` of any file in scope. 
    - In the `Vulnerability details` field, enter "Disclosed privately" and omit any other details.
@@ -122,8 +128,6 @@ Judges must make the best decision they can regarding quality and understandabil
 ## Automated findings considered known issues
 
 Wardens may use automated tools as a first pass, and build on these findings to identify High and Medium severity issues ("HM issues"). However, submissions based on automated tools will have a higher burden of proof for demonstrating to sponsors a relevant HM exploit path in order to be considered satisfactory.
-
-Wardens and judges are recommended to read [the Supreme Court's verdict on this issue](https://docs.code4rena.com/awarding/judging-criteria/supreme-court-decisions-fall-2023) for further advice on the validity of submissions based on automated tools.
 
 ## Editing a report
 

@@ -1,3 +1,7 @@
+---
+description: Code4rena registration and account management
+---
+
 # Account setup and management
 
 To register, follow these steps:
@@ -22,7 +26,18 @@ After registration, complete the following steps to set up your account:
 
 ## Warden teams
 
-Once individual team members are authenticated, they will be able to submit findings as individuals or on behalf of the team.
+### Registering a team
+
+To register a team, you must first login to your Warden account, and then register your team [here](https://code4rena.com/register/team/).
+
+Once a team is created, you have the ability to add/remove members and update your payment address while logged in to the Code4rena website.
+
+All team registrations and updates will create pull requests that are flagged for the C4 team to review and approve. Please allow 24-48 business hours for processing.
+
+❗️**Important note: Team awards are sent as a single payment to _one_ wallet.** We strongly recommend using a multisig wallet, or a tool like [PaymentSplitter](https://docs.openzeppelin.com/contracts/4.x/api/finance#PaymentSplitter), to distribute awards among your team members. Note that C4 does not track which team member submitted each finding; your team is responsible for keeping track of that information, and distributing awards. The team structure at C4 is designed so that you submit as a team and get paid as a team.
+
+### Participating as a team 
+Once individual team members are authenticated, and your team has been registered, each team member will be able to submit findings as either an individual participant, or on behalf of the team. These options are shown on the submission form.
 
 ***
 

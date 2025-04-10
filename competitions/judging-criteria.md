@@ -1,12 +1,30 @@
 # Judging criteria
 
-## Submission review process
-
 C4 strives to ensure a deliberate and transparent process for reviewing and judging submissions.
 
-At the end of a given audit period, all submissions will be reviewed and categorized based on these criteria. Pending sponsor review, audit reports will be shared publicly on the [C4 Audit Report page](https://code4rena.com/reports). Audit results are shared on the C4 Discord and winners announced on [C4's X account](https://x.com/code4rena).
+C4's judging and awarding system has three primary goals:
 
-Submissions are also judged based on grammar, conciseness, and formatting.
+* Rewarding Wardens for finding unique vulnerabilities
+* Hardening C4 audits to Sybil attacks
+* Encouraging coordination by incentivizing Wardens to form teams.
+
+## Submission review process
+
+At the end of each audit's submission phase, all submissions will be reviewed and categorized based on these criteria. Pending sponsor review, audit reports will be shared publicly on the [C4 Audit Report page](https://code4rena.com/reports). Audit results are shared on the C4 Discord and winners announced on [C4's X account](https://x.com/code4rena).
+
+## Estimating Risk
+
+See [Severity Categorization](/competitions/severity-categorization).
+
+## Scope
+
+Each audit may include code that is explicitly in scope and out of scope, and specific issues which also may be identified as out of scope.
+
+Wardens who adhere to the audit guidelines and submit valid medium/high severity vulnerabilities which are not explicitly excluded from scope will earn a guaranteed payment.
+
+Wardens _may_ elect to argue to bring things into scope—either by making the case that an issue poses a more urgent threat than identified or by submitting a medium or high severity vulnerability in code which is out of scope. However, it is up to judges' absolute discretion whether to include these findings and award them, and these issues should include a clear argument as to why the items merit being brought into scope.
+
+In the interest of everyone's time, **QA reports should not include findings relating to any code or known issues which are identified as out of scope.**
 
 ## Duplicate submissions
 
@@ -50,29 +68,13 @@ Findings from previous audit reports listed in the audit repo `README` should ge
 
 Judges should use their discretion to assess whether the submission a) provides value to the customer, and/or b) would be irresponsible to exclude from the Code4rena audit report. 
 
-## Scope
+## Quality assessment
 
-Each audit may include code that is explicitly in scope and out of scope, and specific issues which also may be identified as out of scope.
+[🔴 Ellie TODO: add submission labels and what they mean]
 
-Wardens who adhere to the audit guidelines and submit valid medium/high severity vulnerabilities which are not explicitly excluded from scope will earn a guaranteed payment.
+Submissions are also judged based on grammar, conciseness, and formatting.
 
-Wardens _may_ elect to argue to bring things into scope—either by making the case that an issue poses a more urgent threat than identified or by submitting a medium or high severity vulnerability in code which is out of scope. However, it is up to judges' absolute discretion whether to include these findings and award them, and these issues should include a clear argument as to why the items merit being brought into scope.
-
-In the interest of everyone's time, **QA or gas reports should not include findings relating to any code or known issues which are identified as out of scope.**
-
-## Acceptance of submissions based on automated findings
-
-Wardens and judges are recommended to read [the Supreme Court's verdict on this issue](https://docs.code4rena.com/awarding/judging-criteria/supreme-court-decisions-fall-2023). 
-
-## Scoring
-
-The scoring system has three primary goals:
-
-* Rewarding Wardens for finding unique vulnerabilities
-* Hardening C4 audits to Sybil attacks
-* Encouraging coordination by incentivizing Wardens to form teams.
-
-### QA reports (Low risk and Governance/Centralization risk)
+## QA reports (Low risk and Governance/Centralization risk)
 
 Low risk and Governance/Centralization risk findings must be submitted as a _single_ QA report per warden. Most Code4rena audits allocate approximately **4% of prize pools toward QA reports.**
 
@@ -84,13 +86,3 @@ QA reports should include:
 Each QA report should be assessed based on report quality and thoroughness as compared with other reports, with awards distributed on a curve. 
 
 Judges have discretion to assign a lower grade to wardens overstating the severity of QA issues (submitting low/non-critical issues as med/high in order to angle for higher payouts). 
-
-### Gas reports
-
-Gas reports should be submitted using the **same approach as the QA reports:** a single submission per warden which includes all identified optimizations. 
-
-Gas pools are optional, but for audits that include Gas optimizations, the precise award pool can be found in that audit's repo.
-
-## Estimating Risk
-
-See [Severity Categorization](https://docs.code4rena.com/awarding/judging-criteria/severity-categorization).

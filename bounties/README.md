@@ -1,6 +1,8 @@
+[🔴 Ellie TODO: add overview and submission guidelines]
+
 # Judging process for Code4rena bug bounties
 
-Unless otherwise noted in the bounty's `readme`, bounty submissions are judged by the sponsor team. The following guidelines apply to sponsor-judged bounties. 
+Unless otherwise noted in the bounty's `README`, bounty submissions are judged by the sponsor team. The following guidelines apply to sponsor-judged bounties. 
 
 ## Sponsor judging responsibilities
 
