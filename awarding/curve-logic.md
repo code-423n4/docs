@@ -1,9 +1,8 @@
 # Ranked curve model
 
 Code4rena's ranked curve is used to calculate rank-based award distributions, including: 
-- [QA reports](https://docs.code4rena.com/awarding/incentive-model-and-awards#ranks-for-qa-and-gas-reports)
-- [Gas reports](https://docs.code4rena.com/awarding/incentive-model-and-awards#ranks-for-qa-and-gas-reports)
-- [Dark Horse bonuses](https://docs.code4rena.com/awarding/incentive-model-and-awards#z-pools-and-dark-horse-bonuses)
+- [QA reports](/awarding/incentive-model-and-awards#ranks-for-qa-and-gas-reports)
+- Historically, [Gas reports](https://docs.code4rena.com/awarding/incentive-model-and-awards#ranks-for-qa-and-gas-reports) and [Dark Horse bonuses](https://docs.code4rena.com/awarding/incentive-model-and-awards#z-pools-and-dark-horse-bonuses)
 
 ## If there are tied ranks
 

@@ -7,9 +7,9 @@ Fairness, validity, and consistency
 - [Wardens](https://docs.code4rena.com/roles/wardens/) should be able to have clear rule expectations of contests they contribute to—as clear as possible within the constraints.
 - [Judges](https://docs.code4rena.com/roles/judges/) should be impartial and free to act independently to do what they see best in a given contest within the guidelines they are provided.
 
-# What constitutes a ‘valid’ report’?
+# What constitutes a "valid" report?
 
-The validity of an audit report submission is not based on whether it is ‘true’ or not. A report may contain a finding which is factually 'true' (the most literal interpretation of 'valid'), but if it does not add value or if it is not presented in such a way that adds value to a sponsor, it may be deemed invalid by a judge.
+The validity of an audit report submission is not based on whether it is true or not. A report may contain a finding which is factually true (the most literal interpretation of "valid"), but if it does not add value or if it is not presented in such a way that adds value to a sponsor, it may be deemed invalid by a judge.
 
 This may seem harsh and exclusive, but it is essential to consider that Code4rena runs audit competitions, not gotcha-hunts. This means that wardens are providing a service to sponsors and the product of those services should meet what judges feel is a minimum standard in order to be deemed of value.
 
@@ -17,15 +17,15 @@ Auditing is serious, disciplined work that should provide high value consultativ
 
 In that light, judges are right to have high standards. Some judges have always had higher standards than others, and some judges have applied higher standards in later contests than they did in earlier ones.
 
-While this may be seen as ‘inconsistent’, it is also true that standards within a specific contest will always be informed by the overall quality of a contest’s submissions, and that the standard in a judge’s mind is always going to be evolving based on the aggregate quality of submissions that judge has been exposed to and the decisions other judges have made.
+While this may be seen as inconsistent, it is also true that standards within a specific contest will always be informed by the overall quality of a contest’s submissions, and that the standard in a judge’s mind is always going to be evolving based on the aggregate quality of submissions that judge has been exposed to and the decisions other judges have made.
 
 The correct assessment when this happens is not that a judge is being inconsistent, it is that they have objectively observed that the quality of competition has increased, and that observation shapes their view of the whole set of submissions; they are consistent in valuing submissions in the context of each other, which is a central way that performance in a competition is measured.
 
-Per [the Autumn 2023 Supreme Court verdicts](https://docs.code4rena.com/awarding/judging-criteria/supreme-court-decisions-fall-2023), it is within the judge’s discretion to invalidate all of a warden’s findings in a particular contest in the case of repeated low-quality submissions, or for any other breach of the ["Good citizenship" requirements](https://docs.code4rena.com/roles/wardens/submission-guidelines#good-citizenship-is-a-requirement-for-compensation).
+It is within the judge’s discretion to invalidate all of a warden’s findings in a particular contest in the case of repeated low-quality submissions, or for any other breach of the ["Good citizenship" requirements](/competitions/submission-guidelines#good-citizenship-is-a-requirement-for-compensation).
 
 # If you disagree with a judge's decision
 
-If you disagree with a decision, and you do not have [the C4 SR role](https://docs.code4rena.com/roles/certified-contributors/sr-backstage-wardens), there's nothing further that can be done or changed; the judge's decisions are final. 
+If you disagree with a decision, and you do not have [the C4 SR role](/roles/sr-wardens), there's nothing further that can be done or changed; the judge's decisions are final. 
 
 However, if the concern regarding judging is focused on a matter of inconsistency or process or lack of clarity in the rules, you are encouraged to share your suggestions for future improvements to C4 processes in the [#suggestion-box channel in the Code4rena Discord server](https://discord.com/channels/810916927919620096/824698635815223316), as follows:
 

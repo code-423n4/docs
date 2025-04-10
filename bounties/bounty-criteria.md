@@ -1,4 +1,4 @@
-# Criteria for C4 bug bounty findings
+# Rules and severity classifications for C4 bug bounty findings
 
 Any registered warden can submit bugs to Code4rena bug bounties. 
 

@@ -1,5 +1,7 @@
 # Decisions from the inaugural Supreme Court session, Fall 2023
 
+[🔴 Ellie TODO: determine which pages link here and if there's any point in keeping the page as-is]
+
 ## Judges
 
 - [Alex The Entreprenerd](https://code4rena.com/@GalloDaSballo)
