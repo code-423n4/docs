@@ -84,7 +84,7 @@ A. It is updated daily.
 
 **Q. What happens if my signal changes — and crosses the threshold — during an audit?** 
 
-A. Submissions are flagged for [validation](/roles/validators) at the time they’re submitted. Therefore: 
+A. Submissions are flagged for [validation](/roles/validators.md) at the time they’re submitted. Therefore: 
 
 - if a warden’s signal increases to 0.68 or higher during an audit, submissions that they make beyond that point would be shown to the sponsor team immediately after the submission deadline;
 - conversely, if their signal decreases to < 0.68 during an audit, submissions that they make beyond that point would be held for validation.
