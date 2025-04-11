@@ -209,7 +209,7 @@ Only the award amounts for "partial" findings have been reduced, in line with ex
 If a Z pool is listed among an audit's award pools, then it has a Z pool, which may be repurposed (in part or whole) as a Dark Horse pool. For audits with a Z pool: 
 
 - `n` [Zenith](https://www.zenith.security/) Researchers (ZRs) are designated as leads for the audit ("LZRs"), with teams counting as one.
-- Z pool is split among LZRs based on their [Gatherer score](/awarding#bonuses-for-top-competitors), using the [ranked curve](/awarding/curve-logic)
+- Z pool is split among LZRs based on their [Gatherer score](/awarding#bonuses-for-top-competitors), using the [ranked curve](/awarding/curve-logic.md)
 - LZRs also compete for a portion of HM awards and are eligible for Hunter/Gatherer bonuses
 
 ### Dark Horse bonus pool
