@@ -5,7 +5,7 @@ To incentivize **wardens**, C4 uses a unique scoring system with two primary goa
 **Judges** are incentivized to review findings and decide their severity, validity, and quality by receiving a share of the prize pool themselves.
 
 **Notes:**
-* `pie` is the number of shares assigned to a unique [report](/competitions/submission-guidelines#qa-reports-low-governance) or [finding](/competitions/submission-guidelines#high-medium-and-qa-reports).
+* `pie` is the number of shares assigned to a unique [report](/competitions/submission-guidelines.md#qa-reports-low-governance) or [finding](/competitions/submission-guidelines.md#high-medium-and-qa-reports).
 * `split` is the number of times those shares were divided, the findings count for a given group.
 * `slice` is the number of shares assigned for that warden’s finding.
 
@@ -140,24 +140,24 @@ Scenario:
 ### The "live criticals" exception
 A submission matching the following criteria has special rules:
 
-- [High severity](/competitions/severity-categorization#estimating-risk) or [critical](/bounties/bounty-criteria#critical-severity) vulnerability in LIVE contracts,
-- reported using the [proper procedure](/competitions/submission-guidelines#how-to-submit-zero-day-or-otherwise-highly-sensitive-bugs),
-- accompanied by [coded proof of concept](/competitions/submission-guidelines#how-to-include-a-proof-of-concept), AND
+- [High severity](/competitions/severity-categorization.md#estimating-risk) or [critical](/bounties/bounty-criteria.md#critical-severity) vulnerability in LIVE contracts,
+- reported using the [proper procedure](/competitions/submission-guidelines.md#how-to-submit-zero-day-or-otherwise-highly-sensitive-bugs),
+- accompanied by [coded proof of concept](/competitions/submission-guidelines.md#how-to-include-a-proof-of-concept), AND
 - submitted prior to the related code being fixed or the bug documented in any way potentially accessible to wardens
 
 In order to ensure fairness and to incentivize prompt reporting of such issues, findings meeting these criteria will be the only ones in the duplicate set eligible for payout from the competitive audit pool. Submissions that meet the above criteria and are not reported via the proper procedure will not be eligible for awards.
 
 To preserve the fairness of the competition, sponsors agree to only make fixes for high severity / critical issues submitted in this way and to refrain from fixing or leaking anything else prior to the end of the competition.
 
-**Warning:** A false positive submitted this way which seems to have taken advantage of the system and wasted sponsor time will result in a potential ["good citizen rule"](/competitions/submission-guidelines#good-citizenship-is-a-requirement-for-compensation) violation.
+**Warning:** A false positive submitted this way which seems to have taken advantage of the system and wasted sponsor time will result in a potential ["good citizen rule"](/competitions/submission-guidelines.md#good-citizenship-is-a-requirement-for-compensation) violation.
 
 ## QA Reports
 
 In order to incentivize wardens to focus efforts on high and medium severity findings while also ensuring quality coverage, the pool’s allocation is capped for low severity, and governance/centralization risk findings.
 
-Low severity and governance/centralization risk findings are submitted as a **single** QA report. For more on reports, see [Judging criteria](/awarding/judging-criteria/).
+Low severity and governance/centralization risk findings are submitted as a **single** QA report. For more on reports, see [Judging criteria](/awarding/judging-criteria.md).
 
-QA reports are [awarded on a curve](/awarding/curve-logic) based on the judge’s score.
+QA reports are [awarded on a curve](/awarding/curve-logic.md) based on the judge’s score.
 
 There is a very high burden of quality and value provided for QA reports. Only submissions that demonstrate full effort worthy of consideration for inclusion in the report will be eligible for rewards.
 
@@ -165,7 +165,7 @@ There is a very high burden of quality and value provided for QA reports. Only s
 
 After post-judging QA is complete, the Judge selects the top 3 QA reports.
 
-The 1st, 2nd, and 3rd place winners are awarded using Code4rena's standard [curve model](/awarding/curve-logic). 
+The 1st, 2nd, and 3rd place winners are awarded using Code4rena's standard [curve model](/awarding/curve-logic.md). 
 
 Tie votes are handled as follows:
 - 3-way tie for 1st place: the QA pool is split evenly between the three 1st place winners (no 2nd or 3rd place reports).
@@ -179,4 +179,4 @@ In the unlikely event that zero high- or medium-risk vulnerabilities are found, 
 
 ## Historical notes
 
-For more context on paused submission types and past formulas for calculating awards, see [Historical context for Code4rena awards](/awarding/historical-info)
+For more context on paused submission types and past formulas for calculating awards, see [Historical context for Code4rena awards](/awarding/historical-info.md)
