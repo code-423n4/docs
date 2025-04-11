@@ -130,14 +130,14 @@ Wardens may use automated tools as a first pass, and build on these findings to 
 
 ## Editing a report
 
-To edit a submitted finding in an open audit:
+To edit a submission to an open audit:
 
 1. Sign into your https://code4rena.com user account.
-2. Find the audit on the C4 Audit page and click “view competition"
-3. Click on the “Findings” tab. There you will see a list of all your submissions for that audit (both individual and team findings)
-4. Select a finding from the list, make your edits and re-submit.
+2. Select the audit from the C4 Audits page.
+3. Click on the “Your submissions” tab. There you will see a list of all your submissions for that audit (both individual and team submissions).
+4. Select a submission from the list, make your edits and re-submit.
 
-Findings can be edited until the audit deadline.
+Submissions can be edited until the audit deadline.
 
 ## Withdrawing a report
 
@@ -145,9 +145,9 @@ It is possible that a warden might want to withdraw a report after submitting it
 
 In this situation, wardens who wish to have a report withdrawn should:
 
-1. Sign into https://code4rena.com with your wallet.
-2. Find the audit on the C4 Audit page and click “view competition"
-3. Click on the “Findings” tab. There you will see a list of all your submissions for that audit (both individual and team findings).
-4. Select a finding from the list, and choose the "withdraw" option.
+1. Sign into your https://code4rena.com user account.
+2. Select the audit from the C4 Audits page.
+3. Click on the “Your submissions” tab. There you will see a list of all your submissions for that audit (both individual and team submissions).
+4. Select a submission from the list, and choose the "withdraw" option.
 
 Submissions must be withdrawn before the audit deadline.
