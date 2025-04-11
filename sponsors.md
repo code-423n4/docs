@@ -1,5 +1,5 @@
 ---
-description: >-
+description: 
   Sponsors purchase a competitive audit, which includes an award pot to incentivize
   wardens to audit their project.
 ---
