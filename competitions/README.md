@@ -26,5 +26,6 @@ C4's competitive audits are designed to uncover bugs that may be overlooked in t
   - Awards are distributed in [two batches](/awarding/awarding-process/), to allow the winners sufficient time to satisfy payout requirements.
 - The **Audit report** compiles valid findings from the competition and is typically [published on the Code4rena website](https://code4rena.com/reports) for the benefit of both the project's users and the broader Web3 security community. 
   - Audit submissions are usually made public when the report is published.
+- **Viewing audit results:** Once an audit's results have been finalized, they’ll be shared in our #c4-updates channel in Discord. The audit's page in the [Audits](https://code4rena.com/audits) section on our website will also be updated to show results.
 
 When sponsors have stricter privacy requirements, they may opt to keep their code and/or findings private; if this is the case, it will be noted in the audit documentation and/or announced in the C4 Discord.

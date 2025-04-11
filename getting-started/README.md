@@ -120,7 +120,9 @@ To edit your payment address:
 1. Audits typically pay rewards on the Polygon network.
 2. Your payment address can differ from your login authentication address.
 3. Go to [code4rena.com/account](https://code4rena.com/account) and find 'Payment Information'.
-4. Click 'Edit' and enter your desired payment address. Note: for each contest, C4 distributes awards to the payment address on file _at the time of award calculation_.
+4. Click 'Edit' and enter your desired payment address. 
+
+**Note:** for each audit, C4 distributes awards to the payment address on file _at the time of award calculation_.
 
 ### Tax reporting information
 
@@ -134,6 +136,10 @@ We take being entrusted with your privacy and personal information very seriousl
 * There is extremely restricted access to the key. During the course of its day-to-day operations, Code4rena does not have access to names, addresses or tax identification numbers.
 * The sole use of provided information is to ensure OFAC compliance and enable accountants (under NDA) to submit annual tax reports.
 * The only other cases data could be accessed would be under legal subpoena or due to justified inquiries based on compelling evidence of grave ethical violations.
+
+### Can I change my username?
+
+At this time we do not support username changes. You can register with a new username if you wish, but your new user account would start from zero on the leaderboard, and your existing username will remain visible if it is already on the leaderboard.
 
 ***
 
