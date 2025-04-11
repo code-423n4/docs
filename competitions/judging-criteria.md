@@ -137,9 +137,20 @@ Each QA report is assessed based on report quality and thoroughness as compared 
 
 Judges have discretion to assign a lower grade to wardens overstating the severity of QA issues (submitting low/non-critical issues as med/high in order to angle for higher payouts). 
 
+## Post-judging QA (PJQA)
+
+After preliminary judging is complete, there is a 48-hour period during which the sponsor team and wardens with the [SR role](/roles/sr-wardens.md) can raise questions or concerns for the judge's review. 
+
+The post-judging QA process helps to:
+- identify overlooked duplicates
+- provide consistent implementation of Code4rena's judging guidelines; and
+- ensure that every C4 audit's submissions have been reviewed with a fine-toothed comb.
+
+Wardens who do not have the SR role must not solicit SR wardens, validators, or judges to perform post-judging QA (PJQA) actions on their behalf; doing so is a violation of C4's [Good citizenship policy](/competitions/submission-guidelines.md#good-citizenship-is-a-requirement-for-compensation) and may result in penalties, account suspensions, or bans.
+
 ## If you disagree with a judge's decision
 
-If you disagree with a decision, and you do not have [the C4 SR role](/roles/sr-wardens), there's nothing further that can be done or changed; the judge's decisions are final. 
+If you disagree with a decision, and you do not have [the SR role](/roles/sr-wardens.md), there's nothing further that can be done or changed; the judge's decisions are final. 
 
 However, if the concern regarding judging is focused on a matter of inconsistency or process or lack of clarity in the rules, you are encouraged to share your suggestions for future improvements to C4 processes in the [#suggestion-box channel in the Code4rena Discord server](https://discord.com/channels/810916927919620096/824698635815223316), as follows:
 

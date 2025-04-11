@@ -4,7 +4,7 @@ Code4rena audits let people of a wide range of skill levels get rewarded while s
 
 ✨Stay up to date with new audits by [following C4 on Twitter](https://twitter.com/code4rena) and joining our [community Discord](https://discord.gg/EY5dvm3evD).
 
-### Joining an audit
+## Joining an audit
 
 Anyone can register to participate in an audit. [Register here](https://code4rena.com/register/account), confirm your email address, then join [our Discord](https://discord.gg/code4rena) so you can keep up with important announcements about C4 audits and bounties.
 
@@ -14,7 +14,7 @@ To view specific audit details and other relevant information, **click the "Join
 
 Please familiarize yourself with the [submission policy](/legal/submission-policy) and [judging criteria](/competitions/judging-criteria) prior to participating.
 
-### If you have questions during an audit
+## If you have questions during an audit
 
 General questions about auditing or Code4rena processes should be asked in the `#questions` or `#wardens` channels in the C4 Discord, not directed to the sponsor.
 
@@ -26,7 +26,19 @@ If you have questions about a specific audit:
 
 We always encourage sponsors to share any available documentation, and make themselves available for questions, so they get the most out of their audit.
 
-### ⏩ TL;DR
+## How can I confirm that Code4rena has received my submission?
+
+Simply head over to the specific audit page and navigate to the `Your Submissions` tab (located to the right of `Details`). If you see your issue listed, then it has been received by the C4 team.
+
+## Can I edit my findings post-submission?
+
+Yes! Go to the `Your Submissions` tab (located to the right of `Details`) on the specific audit page and open the submission, make edits and submit changes. This option is only available until the submission deadline, though.
+
+## I submitted a finding but then realized it was invalid. Do I need to contact Code4rena?
+
+While the audit is still active, you can go to the `Your Findings` tab (located to the right of `Details`) on the specific audit page and open the finding. There you will see an option to `Withdraw` the finding.
+
+## ⏩ TL;DR
 
 * Turn in your reports before the submission deadline.
 * For each audit, submit your Medium and High risk findings individually.
