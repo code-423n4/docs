@@ -21,7 +21,7 @@
   * [Judges](/roles/judges.md)
   * [Scouts](/roles/scouts.md)
   * [Signal metrics](/roles/signal.md)
-* [Sponsors](roles/sponsors/README.md)
+* [Sponsors](/sponsors.md)
 * Legal
    * [Submission policy](/legal/submission-policy.md)
    * [Privacy Policy](/legal/privacy-policy.md)

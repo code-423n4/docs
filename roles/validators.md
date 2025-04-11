@@ -1,8 +1,6 @@
-# Validator role
+# Validators
 
-> Validators triage submissions from wardens with accuracy rates below the qualifying threshold; they also de-dupe all submissions.
-
-## Validator tl;dr
+Validators triage submissions from wardens with accuracy rates below the qualifying threshold; they also de-dupe all submissions.
 
 - Each competition has a **qualifying threshold** that allows wardens to bypass validators. This threshold is based on your [signal score](/roles/signal.md), as well as being established as a quality contributor and as non-sybil. 
 - Qualified wardens’ submissions are shared with the sponsor team immediately after submissions close.
@@ -28,8 +26,6 @@
 - ⏰ **Timeline:** The goal is for Validators to complete work within 48h after the audit closes. This timeline varies depending on the volume of submissions.
 
 For more information on the judging criteria used by Validators and Judges, see [Judging criteria](/competitions/judging-criteria.md).
-
----
 
 ## Miscellaneous
 

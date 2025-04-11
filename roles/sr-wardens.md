@@ -27,7 +27,7 @@ Your certification status persists even if your `signal` drops below the require
 
 ## Certification process and constraints
 
-Certification is only available to [SR-eligible wardens](/roles/sr-wardens.md). 
+Certification is only available to [SR-eligible wardens](#c4-security-researchers-sr-wardens). 
 
 The certification process is as follows:
 
