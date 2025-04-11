@@ -2,8 +2,6 @@
 description: Community-driven competitions for smart contract audits
 ---
 
-# Code4rena
-
 Code4rena (C4) is a competitive audit and bounty platform where security researchers, referred to as [Wardens](/roles/), review, audit, and analyze codebases for security vulnerabilities in exchange for bounties provided by sponsoring projects.
 
 The players in the arena:
