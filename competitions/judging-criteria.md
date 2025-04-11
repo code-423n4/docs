@@ -10,7 +10,21 @@ C4's judging and awarding system has three primary goals:
 
 ## Submission review process
 
-At the end of each audit's submission phase, all submissions will be reviewed and categorized based on these criteria. Pending sponsor review, audit reports will be shared publicly on the [C4 Audit Report page](https://code4rena.com/reports). Audit results are shared on the C4 Discord and winners announced on [C4's X account](https://x.com/code4rena).
+See ["How competitive audits work"](/competitions#how-competitive-audits-work).
+
+## Understanding judge evaluations
+
+While input from sponsor and the Validator is carefully considered, Judges have final say in determining validity and severity of issues, as well as whether/how issues are considered duplicates. 
+
+During the judging phase, judges make the following assessments: 
+
+- [Validity](/competitions/fairness-and-validity) (valid, invalid, or [out of scope](#scope))
+- [Quality](/competitions/submission-guidelines#burden-of-proof) (sufficient, insufficient, or low quality/spam)
+- [Full/partial credit](#partial-credit-duplicates-standards-for-fullpartial-credit)
+- [Severity](/competitions/severity-categorization)
+- Selection of [primary submission](/awarding#bonus-for-best--selected-for-report) within duplicate sets ("findings")
+
+Submissions are also judged based on grammar, conciseness, and formatting.
 
 ## Estimating Risk
 
@@ -38,9 +52,7 @@ More specifically, if fixing the Root Cause (in a reasonable manner) would cause
 
 Given the above, when similar exploits would demonstrate different impacts, the highest, most irreversible would be the one used for scoring the finding. Duplicates of the finding will be graded based on the achieved impact relative to the submission selected for inclusion in the report.
 
-### Penalty / award standardization - duplicate submission PoC thoroughness
-
-The lack of certain components has the following affect scoring:
+### Partial credit duplicates: standards for full/partial credit
 
 The requisites of a full mark submission are:
 - Identification and demonstration of the root cause
@@ -68,21 +80,15 @@ Findings from previous audit reports listed in the audit repo `README` should ge
 
 Judges should use their discretion to assess whether the submission a) provides value to the customer, and/or b) would be irresponsible to exclude from the Code4rena audit report. 
 
-## Quality assessment
-
-[🔴 Ellie TODO: add submission labels and what they mean]
-
-Submissions are also judged based on grammar, conciseness, and formatting.
-
 ## QA reports (Low risk and Governance/Centralization risk)
 
-Low risk and Governance/Centralization risk findings must be submitted as a _single_ QA report per warden. Most Code4rena audits allocate approximately **4% of prize pools toward QA reports.**
+Low risk and Governance/Centralization risk findings must be submitted as a _single_ QA report per warden. 
 
 QA reports should include:
 
 * all low severity findings; and
 * all governance/centralization risk findings.
 
-Each QA report should be assessed based on report quality and thoroughness as compared with other reports, with awards distributed on a curve. 
+Each QA report is assessed based on report quality and thoroughness as compared with other reports, with awards distributed on a curve. 
 
 Judges have discretion to assign a lower grade to wardens overstating the severity of QA issues (submitting low/non-critical issues as med/high in order to angle for higher payouts). 
