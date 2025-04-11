@@ -1,4 +1,19 @@
-[🔴 Ellie TODO: add overview and submission guidelines]
+Any registered warden can submit bugs to Code4rena bug bounties. 
+
+- Only [Critical and High risk issues](/bounties/bounty-criteria.md) are acceptable.
+- Coded runnable PoCs are required.
+
+# Submitting to a Code4rena bug bounty
+
+- Visit [code4rena.com/bounties](https://code4rena.com/bounties) to see all active bounties.
+- Each bounty page outlines the scope and other details for the bounty.
+- To submit a finding, use the submission form (linked from the bounty page).
+- You will receive an email confirmation that your submission was successful.
+
+Notes: 
+- Bounty submissions **cannot be edited once submitted.**
+- Bounty submissions do not appear in-app, in the []"Your submissions" view](https://code4rena.com/your-submissions).
+- All results for C4 bug bounties are communicated through [the `#c4-bounties` channel in the Code4rena Discord server](https://discord.com/channels/810916927919620096/1250164733777018950). Bug bounty participants are encouraged to enable notifications for that channel.
 
 # Judging process for Code4rena bug bounties
 

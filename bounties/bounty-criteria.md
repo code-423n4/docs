@@ -1,10 +1,5 @@
 # Rules and severity classifications for C4 bug bounty findings
 
-Any registered warden can submit bugs to Code4rena bug bounties. 
-
-- Only Critical and High risk issues are acceptable
-- Coded runnable PoCs are required
-
 ## High likelihood
 
 A finding with high likelihood is defined as a vulnerability purely exploitable by code without social engineering or privileged access, where 
