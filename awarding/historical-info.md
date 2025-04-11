@@ -61,7 +61,7 @@ For audits that started after October 13, 2022 and before April 30, 2024:
 
 - Analyses, QA reports and Gas reports in this time period were graded A, B, or C.
 - C scores are unsatisfactory and ineligible for awards.
-- All A-grade reports receive a score of 2; All B-grade reports get a 1. Awarding for QA and Gas reports is on a curve that's described [here](https://docs.code4rena.com/awarding/incentive-model-and-awards/curve-logic).
+- All A-grade reports receive a score of 2; All B-grade reports get a 1. Awarding for QA and Gas reports is on a curve that's described [here](/awarding/curve-logic.md).
 - Judges choose the best report in each category (Analysis, QA report, and Gas report), each of which earns the same 30% share bonus described under "High and Medium Risk bugs."
 
 **Note:** if the `selected for report` submission has a B-grade label, it will still be treated as A-grade and given proportionally more than B-grade, plus the 30% bonus for being `selected for report`.
@@ -208,19 +208,19 @@ Only the award amounts for "partial" findings have been reduced, in line with ex
 
 If a Z pool is listed among an audit's award pools, then it has a Z pool, which may be repurposed (in part or whole) as a Dark Horse pool. For audits with a Z pool: 
 
-- `n` [Zenith](https://code4rena.com/zenith) Researchers (ZRs) are designated as leads for the audit ("LZRs"), with teams counting as one.
-- Z pool is split among LZRs based on their [Gatherer score](https://docs.code4rena.com/awarding/incentive-model-and-awards#bonuses-for-top-competitors), using the [ranked curve](https://docs.code4rena.com/awarding/incentive-model-and-awards/curve-logic#dark-horse-bonuses-ranked-curve-awarding)
+- `n` [Zenith](https://www.zenith.security/) Researchers (ZRs) are designated as leads for the audit ("LZRs"), with teams counting as one.
+- Z pool is split among LZRs based on their [Gatherer score](/awarding#bonuses-for-top-competitors), using the [ranked curve](/awarding/curve-logic.md)
 - LZRs also compete for a portion of HM awards and are eligible for Hunter/Gatherer bonuses
 
 ### Dark Horse bonus pool
 
-Dark Horse is (1) a non-LZR who (2) finishes in the top `n + 3`, and (3) outperforms (or ties) the top-ranked LZR auditor based on [Gatherer score](https://docs.code4rena.com/awarding/incentive-model-and-awards#bonuses-for-top-competitors) 
+Dark Horse is (1) a non-LZR who (2) finishes in the top `n + 3`, and (3) outperforms (or ties) the top-ranked LZR auditor based on [Gatherer score](/awarding#bonuses-for-top-competitors) 
 
 Dark Horse awards come out of the Z pool.
 
-- If an LZR ranks outside the top `n` (by [Top Gatherer score](https://docs.code4rena.com/awarding/incentive-model-and-awards#bonuses-for-top-competitors)):
+- If an LZR ranks outside the top `n` (by [Top Gatherer score](/awarding#bonuses-for-top-competitors)):
     - 50% of their share of the Z pool goes to the Dark Horse bonus pool
-- If an LZR ranks outside the top `n + 3` (by [Top Gatherer score](https://docs.code4rena.com/awarding/incentive-model-and-awards#bonuses-for-top-competitors)):
+- If an LZR ranks outside the top `n + 3` (by [Top Gatherer score](/awarding#bonuses-for-top-competitors)):
     - The LZR forfeits their share of the Z pool (but are still eligible for HM / QA awards)
     - 50% of their share of the Z pool goes to the Dark Horse bonus pool
     - 50% of their share of the Z pool is refunded to sponsor
@@ -231,3 +231,38 @@ Dark Horse awards come out of the Z pool.
 - If no lead ranks outside the top `n`, no Dark Horse bonus is awarded.
 - In the event that no LZRs rank in the top `n + 3` the Dark Horse pool will be distributed, but only the top `n` ranked competitors will earn the Dark Horse achievement for the competition.
 - Any unused portion of the Z pool is returned to the Sponsor
+
+## Dark Horse bonuses: ranked curve awarding
+
+[Dark Horse bonuses](#z-pools-and-dark-horse-bonuses) are calculated using the same ranked curve as QA and Gas reports -- except that in lieu of assigning points for each rank (1, 2, 3), the number of ranks is flexible. 
+
+### Sample output with 2 Dark Horse winners
+
+Using a Dark Horse bonus pool of $10,000:
+
+| warden rank | shares     | award     | 
+| ----------- | ---------- | --------- | 
+| 1           | 1.5        | $6,000.00 |
+| 2           | 1 	       | $4,000.00 |
+
+### Sample output with 3 Dark Horse winners
+
+Using a Dark Horse bonus pool of $10,000:
+
+| warden rank | shares     | award     | 
+| ----------- | ---------- | --------- | 
+| 1           | 2.25       | $4,736.84 |
+| 2           | 1.5	       | $3,157.89 |
+| 3           | 1          | $2,105.26 |
+
+### Sample output with 5 Dark Horse winners
+
+Using a Dark Horse bonus pool of $10,000:
+
+| warden rank | shares     | award     | 
+| ----------- | ---------- | --------- | 
+| 1           | 5.0625     | $3,838.86 |
+| 2           | 3.375	     | $2,559.24 |
+| 3           | 2.25       | $1,706.16 |
+| 4           | 1.5        | $1,137.44 |
+| 5           |	1          |   $758.29 |

@@ -1,10 +1,6 @@
----
-description: Signal is Code4rena's accuracy metric for wardens and teams.
----
-
 # Signal metrics
 
-The `signal` metric is a means of identifying wardens and teams who have consistently submitted valid findings. For a warden or team, it is the ratio between the number of valid High- or Medium-risk findings versus all of the high and mediums they've submitted.
+The `signal` metric is Code4rena's accuracy metric for wardens and teams: a means of identifying wardens and teams who have consistently submitted valid findings. For a warden or team, it is the ratio between the number of valid High- or Medium-risk findings versus all of the high and mediums they've submitted.
 
 `signal = findings / submissions`
 
@@ -76,7 +72,7 @@ A. You can view the score on the [teams page](https://code4rena.com/account/team
 
 **Q. Who else can see my signal?** 
 
-A. [Judges](https://docs.code4rena.com/roles/judges) and [sponsors](https://docs.code4rena.com/roles/sponsors) can see the `signal` score of wardens and teams alongside their submissions. Your `signal` score is not visible to other wardens.
+A. [Judges](/roles/judges.md) and [sponsors](/sponsors.md) can see the `signal` score of wardens and teams alongside their submissions. Your `signal` score is not visible to other wardens.
 
 **Q. How often is the signal updated?** 
 
@@ -84,7 +80,7 @@ A. It is updated daily.
 
 **Q. What happens if my signal changes — and crosses the threshold — during an audit?** 
 
-A. Submissions are flagged for [validation](https://docs.code4rena.com/roles/certified-contributors/validators) at the time they’re submitted. Therefore: 
+A. Submissions are flagged for [validation](/roles/validators.md) at the time they’re submitted. Therefore: 
 
 - if a warden’s signal increases to 0.68 or higher during an audit, submissions that they make beyond that point would be shown to the sponsor team immediately after the submission deadline;
 - conversely, if their signal decreases to < 0.68 during an audit, submissions that they make beyond that point would be held for validation.

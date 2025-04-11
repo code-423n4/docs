@@ -2,7 +2,7 @@
 
 Where **assets** refer to funds, NFTs, data, authorization, and any information intended to be private or confidential:
 
-* **QA (Quality Assurance)** Includes **Low risk** (e.g. assets are not at risk: state handling, function incorrect as to spec, issues with comments) and **Governance/Centralization risk** (including admin privileges). Excludes Gas optimizations, which are submitted and judged separately. Non-critical issues (code style, clarity, syntax, versioning, off-chain monitoring (events, etc) are discouraged.
+* **QA (Quality Assurance)** Includes **Low risk** (e.g. assets are not at risk: state handling, function incorrect as to spec, issues with comments) and **Governance/Centralization risk** (including admin privileges). Non-critical issues (code style, clarity, syntax, versioning, off-chain monitoring (events, etc) are discouraged.
 * **2 — Med:** Assets not at direct risk, but the function of the protocol or its availability could be impacted, or leak value with a hypothetical attack path with stated assumptions, but external requirements.
 * **3 — High:** Assets can be stolen/lost/compromised directly (or indirectly if there is a valid attack path that does not have hand-wavy hypotheticals).
 
@@ -68,7 +68,7 @@ Loss of **matured** yield should be regarded as an impact similar to any other l
 Loss of **unmatured** yield or yield in motion shall be capped to medium severity.
 
 ## Approve race condition - NC or Invalid
-Notes from [the Fall 2023 Supreme Court decisions](https://docs.code4rena.com/awarding/judging-criteria/supreme-court-decisions-fall-2023/): 
+Notes from the Fall 2023 Supreme Court decisions: 
 - We have long rejected the finding as anything above NC
 - OZ has deprecated increaseAllowance and decreaseAllowance
 - We officially confirm:

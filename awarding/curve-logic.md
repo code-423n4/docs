@@ -1,17 +1,16 @@
 # Ranked curve model
 
 Code4rena's ranked curve is used to calculate rank-based award distributions, including: 
-- [QA reports](https://docs.code4rena.com/awarding/incentive-model-and-awards#ranks-for-qa-and-gas-reports)
-- [Gas reports](https://docs.code4rena.com/awarding/incentive-model-and-awards#ranks-for-qa-and-gas-reports)
-- [Dark Horse bonuses](https://docs.code4rena.com/awarding/incentive-model-and-awards#z-pools-and-dark-horse-bonuses)
+- [QA reports](/awarding#ranks-for-qa-and-gas-reports)
+- Historically, [Gas reports](/awarding/historical-info.md#gas-optimization-reports) and [Dark Horse bonuses](/awarding/historical-info.md#dark-horse-bonus-pool)
 
 ## If there are tied ranks
 
 If two or more wardens (or teams) have tied ranks, they split the _total_ awards for the ranks they would otherwise occupy — i.e. if two wardens tie for 2nd place, they split the total awards for 2nd and 3rd place. Or if three wardens tie for 3rd, they split the total awards for 3rd place.
 
-## QA and Gas reports: ranked curve awarding
+## QA reports: ranked curve awarding
 
-QA and Gas reports are [ranked and graded as described here](https://docs.code4rena.com/awarding/incentive-model-and-awards#ranks-for-qa-and-gas-reports): 
+QA reports are [ranked and graded as described here](/awarding/README.md#ranks-for-qa-reports): 
 - 1st place (score: 5)
 - 2nd place (score: 4)
 - 3rd place (score: 3)
@@ -119,38 +118,3 @@ This is an example where no HMs were found, and the HM pool is distributed among
 | 984 | `Q-02` | Q | 6.746955122319307 | 6 | 1.824417009602195 | 2 | 2478.7214802565936 |
 | 1044 | `Q-03` | Q | 6.746955122319307 | 1 | 1.5 | 4 | 12227.738069145495 |
 | 1124 | `Q-01` | Q | 6.746955122319307 | 1 | 2.25 | 5 | 18341.60710371824 |
-
-## Dark Horse bonuses: ranked curve awarding
-
-[Dark Horse bonuses](https://docs.code4rena.com/awarding/incentive-model-and-awards#z-pools-and-dark-horse-bonuses) are calculated using the same ranked curve as QA and Gas reports -- except that in lieu of assigning points for each rank (1, 2, 3), the number of ranks is flexible. 
-
-### Sample output with 2 Dark Horse winners
-
-Using a Dark Horse bonus pool of $10,000:
-
-| warden rank | shares     | award     | 
-| ----------- | ---------- | --------- | 
-| 1           | 1.5        | $6,000.00 |
-| 2           | 1 	       | $4,000.00 |
-
-### Sample output with 3 Dark Horse winners
-
-Using a Dark Horse bonus pool of $10,000:
-
-| warden rank | shares     | award     | 
-| ----------- | ---------- | --------- | 
-| 1           | 2.25       | $4,736.84 |
-| 2           | 1.5	       | $3,157.89 |
-| 3           | 1          | $2,105.26 |
-
-### Sample output with 5 Dark Horse winners
-
-Using a Dark Horse bonus pool of $10,000:
-
-| warden rank | shares     | award     | 
-| ----------- | ---------- | --------- | 
-| 1           | 5.0625     | $3,838.86 |
-| 2           | 3.375	     | $2,559.24 |
-| 3           | 2.25       | $1,706.16 |
-| 4           | 1.5        | $1,137.44 |
-| 5           |	1          |   $758.29 |
