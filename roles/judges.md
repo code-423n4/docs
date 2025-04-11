@@ -22,7 +22,7 @@ In order to ensure the impartiality and depth of knowledge we aim for among judg
 
 * Compete in at least 3 Code4rena audits
 * Find at least 3 high severity vulnerabilities
-* Must be a [Certified C4 contributor](/roles/certified-contributors) in good standing
+* Must be a [Certified C4 contributor](/roles/certified-contributors.md) in good standing
 
 ### Non-technical criteria
 

@@ -14,12 +14,12 @@ Wardens who meet certain performance criteria within C4 earn the Certified Secur
 - Post-judging QA
 - Unrestricted number of submissions per audit
 
-[More details here](/roles/sr-wardens/).
+[More details here](/roles/sr-wardens.md).
 
 ## Validators, Judges, and Scouts
 
 These prestigious roles are assigned to the most skilled and fair-minded members of Code4rena's community: 
 
-- [Validators](/roles/validators)
-- [Judges](/roles/judges)
-- [Scouts](/roles/scouts) 
+- [Validators](/roles/validators.md)
+- [Judges](/roles/judges.md)
+- [Scouts](/roles/scouts.md) 

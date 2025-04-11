@@ -20,14 +20,14 @@ The criteria (visible on [your Code4rena account screen](https://code4rena.com/a
 ## Certified contributors
 Contributors who have provided ID verification and agreed to Code4rena's [Certified Contributor Terms and Conditions](https://code4rena.com/certified-contributor-terms-and-conditions) may also be eligible for: 
 
-- [Judging](/roles/judges/) opportunities
+- [Judging](/roles/judges.md) opportunities
 - Providing mitigation review services
 
 Your certification status persists even if your `signal` drops below the required threshold for the SR role.
 
 ## Certification process and constraints
 
-Certification is only available to [SR-eligible wardens](/roles/sr-wardens). 
+Certification is only available to [SR-eligible wardens](/roles/sr-wardens.md). 
 
 The certification process is as follows:
 

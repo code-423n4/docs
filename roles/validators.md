@@ -4,7 +4,7 @@
 
 ## Validator tl;dr
 
-- Each competition has a **qualifying threshold** that allows wardens to bypass validators. This threshold is based on your [signal score](/roles/signal), as well as being established as a quality contributor and as non-sybil. 
+- Each competition has a **qualifying threshold** that allows wardens to bypass validators. This threshold is based on your [signal score](/roles/signal.md), as well as being established as a quality contributor and as non-sybil. 
 - Qualified wardens’ submissions are shared with the sponsor team immediately after submissions close.
 - All other wardens’ submissions are routed through a Validator.
 - **Validators** review submissions immediately after submissions close.
@@ -12,22 +12,22 @@
     - Unsatisfactory submissions (either `invalid` or `insufficient quality`) are not shown to the sponsor team.
 - The judge reviews all submissions except those the Validator marked as `spam`. (Note: this includes submissions that the Validator marked as `invalid` and/or `insufficient quality`.)
 
-## Validator evaluation labels
+## Validator evaluations
 
 - The Validator evaluates each submission's **quality** and **validity,** and groups **duplicate submissions** into findings (groups of submissions with shared root cause).
+- **This input is advisory and does not constitute a final evaluation;** the Judge reviews and finalizes all Validator evaluations regarding validity, quality, and duplicate sets. Only submissions marked as `spam` (very low quality) are not reviewed by the Judge.
 - Quality is evaluated as one of three possible levels:
-    - `sufficient quality` - submission meets C4's standards for quality. (For information about quality standards, see the ["Good citizenship"](https://docs.code4rena.com/roles/wardens/submission-guidelines#good-citizenship-is-a-requirement-for-compensation) and ["Burden of proof"](/competitions/submission-guidelines#burden-of-proof) section of the [Submission guidelines](/competitions/submission-guidelines))
+    - `sufficient quality` - submission meets C4's standards for quality. (For information about quality standards, see the ["Good citizenship"](/competitions/submission-guidelines.md#good-citizenship-is-a-requirement-for-compensation) and ["Burden of proof"](/competitions/submission-guidelines.md#burden-of-proof) section of the [Submission guidelines](/competitions/submission-guidelines.md))
     - `insufficient quality` - submission does not meet C4's standards for quality (but will be reviewed by the judge)
     - `spam` - submission appears to be spam (and will not be reviewed by the sponsor or judge)
-    - The Judge later reviews all submissions not marked as `spam` and confirms or adjusts the quality.
 - Validity is evaluated as either: 
     - `valid`
     - `invalid`, or
     - `out of scope`
-    - The Judge later reviews and finalizes all Validator evaluations regarding validity.
 - The Validator de-dupes all `sufficient quality` High- and Medium-risk submissions by selecting a `primary` and grouping duplicates with that primary finding. 
-    - The Judge is responsible for reviewing and finalizing dupe sets.
 - ⏰ **Timeline:** The goal is for Validators to complete work within 48h after the audit closes. This timeline varies depending on the volume of submissions.
+
+For more information on the judging criteria used by Validators and Judges, see [Judging criteria](/competitions/judging-criteria.md).
 
 ---
 
