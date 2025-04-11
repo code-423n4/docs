@@ -5,11 +5,11 @@ description: >-
 
 # Awarding process
 
-At the conclusion of an audit, sponsors review wardens’ findings and express their opinions with regard to severity of issues. Judges evaluate input from both and make the ultimate decision in terms of severity and validity of issues. (See [Judging criteria](/competitions/judging-criteria/) for more detail.)
+At the conclusion of an audit, sponsors review wardens’ findings and express their opinions with regard to severity of issues. Judges evaluate input from both and make the ultimate decision in terms of severity and validity of issues. (See [Judging criteria](/competitions/judging-criteria.md) for more detail.)
 
 In making their determination, judges add labels to Github issues, while the original submission data (including the warden's proposed severity rating) is preserved via a JSON data file. 
 
-The judge's decisions are reviewed by the sponsoring project team and by [certified Security Researchers](/roles/sr-wardens/) via a 48-hour QA process, to ensure fairness and quality. 
+The judge's decisions are reviewed by the sponsoring project team and by [certified Security Researchers](/roles/sr-wardens.md) via a 48-hour QA process, to ensure fairness and quality. 
 
 Judging data is used to generate the awards using Code4rena's [award calculation script](/awarding/), which factors in:
 
@@ -28,7 +28,7 @@ Once awards are determined, we generate a CSV file enumerating funds to be sent.
 
 ## Award distribution requirements and schedule
 
-All participants in Code4rena audits must provide C4 with [tax reporting information](/awarding/awarding-process#tax-information-for-code4rena-contributors-wardens-judges-etc) in order to receive payment.
+All participants in Code4rena audits must provide C4 with [tax reporting information](#tax-information-for-code4rena-contributors-wardens-judges-etc) in order to receive payment.
 
 Awards are sent in two batches:
  1. Participants who have already submitted their tax info when awards are announced will receive awards with 1 week of the announcement. 
@@ -55,7 +55,7 @@ Wardens and other contributors (e.g. judges, validators, scouts, etc.) who are e
 
 Based on our obligations to operate within tax regulation, completing that questionnaire is required by participants in order to receive awards.
 
-Wardens are encouraged to review Code4rena's [Submission Policy](/legal/submission-policy), particularly the "Representations and Warranties" section.
+Wardens are encouraged to review Code4rena's [Submission Policy](/legal/submission-policy.md), particularly the "Representations and Warranties" section.
 
 # Tax and legal questions
 
