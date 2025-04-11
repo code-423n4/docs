@@ -177,23 +177,6 @@ Satisfactory reports not among the winning reports will not be awarded -- but wi
 
 In the unlikely event that zero high- or medium-risk vulnerabilities are found, the HM award pool will be divided among all satisfactory QA reports based on the QA Report curve, **unless otherwise stated in the audit repo.** 
 
-## Satisfactory / unsatisfactory submissions
-
-Any submissions deemed unsatisfactory are ineligible for awards, and count against wardens' accuracy scores.
-
-The bar for satisfactory submissions is that they are roughly at a level that could be found in a draft report by a professional auditor: specifically on the merits of technical substance, with writing quality considered only where it interferes with comprehension of the technical message.
-
-It is possible for a submission to be *technically* valid and still unsatisfactory. An “unsatisfactory” submission may meet any of these criteria:
-
-- incorrect
-- low/incomplete effort
-- out of scope
-- clearly overinflated severity
-- proof of concept does not pass the burden of proof test
-- approach is disrespectful of sponsors’ and judges’ time in some way
-
-Any submissions that appear to be direct copies of other reports in the current audit will be collectively deemed unsatisfactory.
-
 ## Historical notes
 
 For more context on paused submission types and past formulas for calculating awards, see [Historical context for Code4rena awards](/awarding/historical-info)

@@ -14,21 +14,52 @@ See ["How competitive audits work"](/competitions#how-competitive-audits-work).
 
 ## Understanding judge evaluations
 
-While input from sponsor and the Validator is carefully considered, Judges have final say in determining validity and severity of issues, as well as whether/how issues are considered duplicates. 
+While input from Sponsors and the Validator is carefully considered, Judges have final say in determining validity and severity of issues, as well as whether/how issues are considered duplicates. 
 
 During the judging phase, judges make the following assessments: 
 
-- [Validity](/competitions/fairness-and-validity.md) (valid, invalid, or [out of scope](#scope))
-- [Quality](/competitions/submission-guidelines.md#burden-of-proof) (sufficient, insufficient, or low quality/spam)
+- [Validity](#validity)
+- [Quality](#quality) 
 - [Full/partial credit](#partial-credit-duplicates-standards-for-fullpartial-credit)
-- [Severity](/competitions/severity-categorization.md)
+- [Severity](#severityrisk)
 - Selection of [primary submission](/awarding#bonus-for-best--selected-for-report) within duplicate sets ("findings")
 
-Submissions are also judged based on grammar, conciseness, and formatting.
+A submission must be judged as both valid *and* sufficient quality to be eligible for awards. 
 
-## Estimating Risk
+## Validity
+
+Judges assess each submissions' validity as `valid`, `invalid`, or `out of scope`.
+
+Validity is evaluated according to the following guidelines:
+
+- [Burden of proof](/competitions/submission-guidelines.md#burden-of-proof)
+- [Fairness and validity](/competitions/fairness-and-validity.md)
+- [Good citizenship](/competitions/submission-guidelines.md#good-citizenship-is-a-requirement-for-compensation)
+- [Scope](#scope)
+
+## Severity/Risk
 
 See [Severity Categorization](/competitions/severity-categorization.md).
+
+## Quality
+
+Judges assess each submissions' validity as `sufficient`, `insufficient`, or `low quality/spam`.
+
+Any submissions deemed insufficient or low quality are ineligible for awards, and count against wardens' [signal](/roles/signal.md) scores.
+
+The bar for sufficient quality submissions is that they are roughly at a level that could be found in a draft report by a professional auditor: specifically on the merits of technical substance, with writing quality considered only where it interferes with comprehension of the technical message.
+
+It is possible for a submission to be *technically* valid and still insufficient. An insufficient quality submission may meet any of these criteria:
+
+- incorrect
+- low/incomplete effort
+- clearly overinflated severity
+- proof of concept does not pass the burden of proof test
+- approach is disrespectful of sponsors’ and judges’ time in some way
+
+Any submissions that appear to be direct copies of other reports in the current audit will be collectively deemed insufficient.
+
+Submissions are also judged based on grammar, conciseness, and formatting.
 
 ## Scope
 
