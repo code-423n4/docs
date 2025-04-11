@@ -61,7 +61,7 @@ If you can't see most channels in the Code4rena Discord server, your Discord ver
 
 ### Github verification (optional)
 
-Certified and SR wardens should verify their Github accounts in order to access private repos.
+Certified and SR wardens should verify their Github accounts in order to access private repos. SR wardens must verify their Github account to [earn the SR role](/roles/sr-wardens.md).
 
 **Note:** Ensure that you are logged in to the correct GitHub account before starting the verification process.
 
