@@ -1,8 +1,3 @@
----
-description: >-
-  This is a high level overview of the C4 awarding process. 
----
-
 # Awarding process
 
 At the conclusion of an audit, sponsors review wardens’ findings and express their opinions with regard to severity of issues. Judges evaluate input from both and make the ultimate decision in terms of severity and validity of issues. (See [Judging criteria](/competitions/judging-criteria.md) for more detail.)

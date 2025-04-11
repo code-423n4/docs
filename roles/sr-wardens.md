@@ -1,7 +1,3 @@
----
-description: In order to create opportunities for contributions which rely on establishment of trust, Code4rena allows community members to opt into verifying their identity and entering into a simple agreement.
----
-
 # C4 Security Researchers (SR Wardens)
 
 Wardens who meet certain performance criteria within C4 gain the Certified Security Researcher (SR) role, which provides access to:
