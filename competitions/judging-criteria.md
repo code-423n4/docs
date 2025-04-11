@@ -33,9 +33,18 @@ Judges assess each submissions' validity as `valid`, `invalid`, or `out of scope
 Validity is evaluated according to the following guidelines:
 
 - [Burden of proof](/competitions/submission-guidelines.md#burden-of-proof)
-- [Fairness and validity](/competitions/fairness-and-validity.md)
 - [Good citizenship](/competitions/submission-guidelines.md#good-citizenship-is-a-requirement-for-compensation)
-- [Scope](#scope)
+- Scope 
+
+### Scope
+
+Each audit may include code that is explicitly in scope and out of scope, and specific issues which also may be identified as out of scope.
+
+Wardens who adhere to the audit guidelines and submit valid medium/high severity vulnerabilities which are not explicitly excluded from scope will earn a guaranteed payment.
+
+Wardens _may_ elect to argue to bring things into scope—either by making the case that an issue poses a more urgent threat than identified or by submitting a medium or high severity vulnerability in code which is out of scope. However, it is up to judges' absolute discretion whether to include these findings and award them, and these issues should include a clear argument as to why the items merit being brought into scope.
+
+In the interest of everyone's time, **QA reports should not include findings relating to any code or known issues which are identified as out of scope.**
 
 ## Severity (Risk)
 
@@ -61,15 +70,19 @@ Any submissions that appear to be direct copies of other reports in the current 
 
 Submissions are also judged based on grammar, conciseness, and formatting.
 
-## Scope
+## What constitutes a "valid and sufficient quality" report?
 
-Each audit may include code that is explicitly in scope and out of scope, and specific issues which also may be identified as out of scope.
+Judges' evaluation of an audit submission is not only based on whether it is true or not. A submission may be factually true (the most literal interpretation of "valid"), but if it does not add value or if it is not presented in such a way that adds value to a sponsor, it may be deemed `invalid` and/or `insufficient quality` by a judge.
 
-Wardens who adhere to the audit guidelines and submit valid medium/high severity vulnerabilities which are not explicitly excluded from scope will earn a guaranteed payment.
+Code4rena runs audit competitions, not gotcha-hunts. This means that wardens are providing a service to sponsors and the product of those services should meet what judges feel is a minimum standard in order to be deemed of value.
 
-Wardens _may_ elect to argue to bring things into scope—either by making the case that an issue poses a more urgent threat than identified or by submitting a medium or high severity vulnerability in code which is out of scope. However, it is up to judges' absolute discretion whether to include these findings and award them, and these issues should include a clear argument as to why the items merit being brought into scope.
+Auditing is serious, disciplined work that should provide high value consultative expertise to the people paying for the work.
 
-In the interest of everyone's time, **QA reports should not include findings relating to any code or known issues which are identified as out of scope.**
+In that light, judges are right to have high standards. It is also true that standards within a specific contest will always be informed by the overall quality of a contest’s submissions, and that the standard in a judge’s mind is always going to be evolving based on the aggregate quality of submissions that judge has been exposed to and the decisions other judges have made.
+
+The correct assessment when this happens is not that a judge is being inconsistent, it is that they have objectively observed that the quality of competition has increased, and that observation shapes their view of the whole set of submissions; they are consistent in valuing submissions in the context of each other, which is a central way that performance in a competition is measured.
+
+It is within the judge’s discretion to invalidate all of a warden’s findings in a particular contest in the case of repeated low-quality submissions, or for any other breach of the ["Good citizenship" requirements](/competitions/submission-guidelines#good-citizenship-is-a-requirement-for-compensation).
 
 ## Duplicate submissions
 
@@ -123,3 +136,13 @@ QA reports should include:
 Each QA report is assessed based on report quality and thoroughness as compared with other reports, with awards distributed on a curve. 
 
 Judges have discretion to assign a lower grade to wardens overstating the severity of QA issues (submitting low/non-critical issues as med/high in order to angle for higher payouts). 
+
+## If you disagree with a judge's decision
+
+If you disagree with a decision, and you do not have [the C4 SR role](/roles/sr-wardens), there's nothing further that can be done or changed; the judge's decisions are final. 
+
+However, if the concern regarding judging is focused on a matter of inconsistency or process or lack of clarity in the rules, you are encouraged to share your suggestions for future improvements to C4 processes in the [#suggestion-box channel in the Code4rena Discord server](https://discord.com/channels/810916927919620096/824698635815223316), as follows:
+
+1. First, search Discord to see if the type of issue you have experienced has already been raised for discussion. If so, add a purely fact-based comment with additional information and another point of evidence of it being a challenge.
+2. See if any of the suggestions described there would be useful to improving the case you have in mind. If so, feel free to add your thoughts in support.
+3. If a relevant type of issue is not already addressed there which doesn't represent the concern you have, you can feel free to open a new discussion.
