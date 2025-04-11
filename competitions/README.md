@@ -4,13 +4,13 @@ description: How competitive audits work at Code4rena
 
 # Competitive audits at Code4rena
 
-Code4rena invented the competitive audit to provide thorough security reviews for Web3 projects, fast. With a community of over 10,000 auditors and an average of 100+ security researchers participating in each audit, Code4rena's competitive audits provide an unparalleled level of trust, depth, and breadth. 
+Code4rena invented the competitive audit to provide thorough security reviews for Web3 projects, fast. With a community of over 10,000 auditors and an average of 100+ security researchers participating in each audit, C4's competitive audits provide an unparalleled level of trust, depth, and breadth. 
 
 ## Who can participate?
 
-The C4 community includes both seasoned professionals and emerging researchers, with diverse backgrounds and specializations. Anyone can register as a Warden, and join a competition.
+The Code4rena community includes both seasoned professionals and emerging researchers, with diverse backgrounds and specializations. Anyone can [register as a Warden](/getting-started/), and [join a competition](/getting-started/how-to-participate).
 
-As Wardens build experience on Code4rena's platform, they can advance up the leaderboard and earn credibility through different roles, which unlock a variety of privileges.
+As Wardens build experience on Code4rena's platform, they can advance up the leaderboard and earn credibility through different [roles](/roles/), which unlock a variety of privileges.
 
 ## How competitive audits work
 

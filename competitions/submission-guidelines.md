@@ -2,7 +2,7 @@
 
 Best practices and recommendations for submitting to Code4rena competitions. Please also refer to the official [submission policy](/legal/submission-policy).
 
-## Submitting a report
+## Submitting findings
 
 C4 accepts vulnerability reports via the audit submission form.
 
@@ -25,7 +25,7 @@ In order to help us triage and prioritize findings, please ensure that your subm
 
 ### QA reports (low/governance)
 
-Low and non-critical findings must be submitted as a single QA report per warden. 
+Low-risk findings must be submitted as a single QA report per warden. 
 
 Your QA report should include:
 - all Low severity findings
@@ -35,7 +35,6 @@ Your QA report should include:
 
 Formatting:
 - Wardens are encouraged to use a standard format to label findings, e.g. `L-01`, `L-02`, etc. for low-risk findings, and `C-01`, `C-02`, etc. for centralization/governance findings. 
-- Please do not use `G-` prefixes as those are typically used to identify Gas optimization findings.
 - Non-standard labels such as `R-` (refactor), `I-` (informational), or `S-` (suggestion) will be considered non-critical and are therefore discouraged.
 
 Each QA report is assessed based on report quality and thoroughness as compared with other reports. 
@@ -46,7 +45,7 @@ For more details on estimating risk for QA reports, please see [Judging Criteria
 
 ### Examples of high-quality submissions
 
-Wardens are encouraged to review recently-published [Code4rena audit reports](https://code4rena.com/reports) to see examples of submissions that were judged as both valid and of sufficient quality to be included in a report. 
+Wardens are encouraged to review recently published [Code4rena audit reports](https://code4rena.com/reports) to see examples of submissions that were judged as both valid and of sufficiently high quality to be included in a report. 
 
 Most audit reports include examples of High and Medium risk vulnerabilities, as well as the top-ranked QA report. 
 
