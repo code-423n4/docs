@@ -68,7 +68,7 @@ Loss of **matured** yield should be regarded as an impact similar to any other l
 Loss of **unmatured** yield or yield in motion shall be capped to medium severity.
 
 ## Approve race condition - NC or Invalid
-Notes from [the Fall 2023 Supreme Court decisions](https://docs.code4rena.com/awarding/judging-criteria/supreme-court-decisions-fall-2023/): 
+Notes from the Fall 2023 Supreme Court decisions: 
 - We have long rejected the finding as anything above NC
 - OZ has deprecated increaseAllowance and decreaseAllowance
 - We officially confirm:
