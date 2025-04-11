@@ -8,7 +8,6 @@
   * [Submission guidelines](/competitions/submission-guidelines.md)
   * [Judging criteria](/competitions/judging-criteria.md)
   * [Severity classifications](/competitions/severity-categorization.md)
-  * [Fairness and validity](/competitions/fairness-and-validity.md)
 * [Bounties](/bounties/README.md)
   * [Severity classifications](/bounties/bounty-criteria.md)
 * [Awarding](/awarding/README.md)
