@@ -1,7 +1,3 @@
----
-description: How to join a Code4rena competitive audit or bug bounty
----
-
 # Joining competitions and bounties
 
 Code4rena audits let people of a wide range of skill levels get rewarded while showcasing their talent in order to make the DeFi ecosystem more secure.
