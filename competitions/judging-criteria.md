@@ -20,9 +20,9 @@ During the judging phase, judges make the following assessments:
 
 - [Validity](#validity)
 - [Quality](#quality) 
-- [Full/partial credit](#partial-credit-duplicates-standards-for-fullpartial-credit)
-- [Severity](#severityrisk)
-- Selection of [primary submission](/awarding#bonus-for-best--selected-for-report) within duplicate sets ("findings")
+- [Full/partial credit](#standards-for-fullpartial-credit-duplicates)
+- [Severity](#severity-risk)
+- Selection of [primary submission](/awarding#bonus-for-best-selected-for-report) within duplicate sets ("findings")
 
 A submission must be judged as both valid *and* sufficient quality to be eligible for awards. 
 
@@ -37,7 +37,7 @@ Validity is evaluated according to the following guidelines:
 - [Good citizenship](/competitions/submission-guidelines.md#good-citizenship-is-a-requirement-for-compensation)
 - [Scope](#scope)
 
-## Severity/Risk
+## Severity (Risk)
 
 See [Severity Categorization](/competitions/severity-categorization.md).
 
@@ -83,7 +83,7 @@ More specifically, if fixing the Root Cause (in a reasonable manner) would cause
 
 Given the above, when similar exploits would demonstrate different impacts, the highest, most irreversible would be the one used for scoring the finding. Duplicates of the finding will be graded based on the achieved impact relative to the submission selected for inclusion in the report.
 
-### Partial credit duplicates: standards for full/partial credit
+### Standards for full/partial credit duplicates
 
 The requisites of a full mark submission are:
 - Identification and demonstration of the root cause
