@@ -2,7 +2,7 @@
 
 At the conclusion of an audit, sponsors review wardens’ findings and express their opinions with regard to severity of issues. Judges evaluate input from both and make the ultimate decision in terms of severity and validity of issues. (See [Judging criteria](/competitions/judging-criteria.md) for more detail.)
 
-In making their determination, judges add labels to Github issues, while the original submission data (including the warden's proposed severity rating) is preserved via a JSON data file. 
+In making their determination, judges evaluate submissions within the Code4rena app. 
 
 The judge's decisions are reviewed by the sponsoring project team and by [certified Security Researchers](/roles/sr-wardens.md) via a 48-hour QA process, to ensure fairness and quality. 
 
