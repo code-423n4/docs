@@ -231,3 +231,38 @@ Dark Horse awards come out of the Z pool.
 - If no lead ranks outside the top `n`, no Dark Horse bonus is awarded.
 - In the event that no LZRs rank in the top `n + 3` the Dark Horse pool will be distributed, but only the top `n` ranked competitors will earn the Dark Horse achievement for the competition.
 - Any unused portion of the Z pool is returned to the Sponsor
+
+## Dark Horse bonuses: ranked curve awarding
+
+[Dark Horse bonuses](#z-pools-and-dark-horse-bonuses) are calculated using the same ranked curve as QA and Gas reports -- except that in lieu of assigning points for each rank (1, 2, 3), the number of ranks is flexible. 
+
+### Sample output with 2 Dark Horse winners
+
+Using a Dark Horse bonus pool of $10,000:
+
+| warden rank | shares     | award     | 
+| ----------- | ---------- | --------- | 
+| 1           | 1.5        | $6,000.00 |
+| 2           | 1 	       | $4,000.00 |
+
+### Sample output with 3 Dark Horse winners
+
+Using a Dark Horse bonus pool of $10,000:
+
+| warden rank | shares     | award     | 
+| ----------- | ---------- | --------- | 
+| 1           | 2.25       | $4,736.84 |
+| 2           | 1.5	       | $3,157.89 |
+| 3           | 1          | $2,105.26 |
+
+### Sample output with 5 Dark Horse winners
+
+Using a Dark Horse bonus pool of $10,000:
+
+| warden rank | shares     | award     | 
+| ----------- | ---------- | --------- | 
+| 1           | 5.0625     | $3,838.86 |
+| 2           | 3.375	     | $2,559.24 |
+| 3           | 2.25       | $1,706.16 |
+| 4           | 1.5        | $1,137.44 |
+| 5           |	1          |   $758.29 |
