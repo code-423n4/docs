@@ -146,6 +146,8 @@ The post-judging QA process helps to:
 - provide consistent implementation of Code4rena's judging guidelines; and
 - ensure that every C4 audit's submissions have been reviewed with a fine-toothed comb.
 
+No new information should be introduced and considered in PJQA. Elaborations of the already introduced information can be considered (e.g. tweaking a POC), from either the Judge or the Warden, but they will only count towards the validity of the issue, not its quality score.
+
 Wardens who do not have the SR role must not solicit SR wardens, validators, or judges to perform post-judging QA (PJQA) actions on their behalf; doing so is a violation of C4's [Good citizenship policy](/competitions/submission-guidelines.md#good-citizenship-is-a-requirement-for-compensation) and may result in penalties, account suspensions, or bans.
 
 ## If you disagree with a judge's decision
