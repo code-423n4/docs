@@ -5,7 +5,7 @@ To incentivize **wardens**, C4 uses a unique scoring system with two primary goa
 **Judges** are incentivized to review findings and decide their severity, validity, and quality by receiving a share of the prize pool themselves.
 
 **Notes:**
-* `pie` is the number of shares assigned to a unique [report](/competitions/submission-guidelines.md#qa-reports-low-governance) or [finding](/competitions/submission-guidelines.md#high-medium-and-qa-reports).
+* `pie` is the number of shares assigned to a unique [finding](/competitions/submission-guidelines.md#high-medium-and-qa-reports) or [report](/competitions/submission-guidelines.md#qa-reports-low-governance).
 * `split` is the number of times those shares were divided, the findings count for a given group.
 * `slice` is the number of shares assigned for that warden’s finding.
 
