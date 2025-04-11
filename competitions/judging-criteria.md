@@ -18,17 +18,17 @@ While input from sponsor and the Validator is carefully considered, Judges have 
 
 During the judging phase, judges make the following assessments: 
 
-- [Validity](/competitions/fairness-and-validity) (valid, invalid, or [out of scope](#scope))
-- [Quality](/competitions/submission-guidelines#burden-of-proof) (sufficient, insufficient, or low quality/spam)
+- [Validity](/competitions/fairness-and-validity.md) (valid, invalid, or [out of scope](#scope))
+- [Quality](/competitions/submission-guidelines.md#burden-of-proof) (sufficient, insufficient, or low quality/spam)
 - [Full/partial credit](#partial-credit-duplicates-standards-for-fullpartial-credit)
-- [Severity](/competitions/severity-categorization)
+- [Severity](/competitions/severity-categorization.md)
 - Selection of [primary submission](/awarding#bonus-for-best--selected-for-report) within duplicate sets ("findings")
 
 Submissions are also judged based on grammar, conciseness, and formatting.
 
 ## Estimating Risk
 
-See [Severity Categorization](/competitions/severity-categorization).
+See [Severity Categorization](/competitions/severity-categorization.md).
 
 ## Scope
 
