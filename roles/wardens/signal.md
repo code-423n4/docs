@@ -76,7 +76,7 @@ A. You can view the score on the [teams page](https://code4rena.com/account/team
 
 **Q. Who else can see my signal?** 
 
-A. [Judges](https://docs.code4rena.com/roles/judges) and [sponsors](https://docs.code4rena.com/roles/sponsors) can see the `signal` score of wardens and teams alongside their submissions. Your `signal` score is not visible to other wardens.
+A. Authenticated users can see the `signal` score of wardens and teams alongside their submissions, while logged in to [Code4rena.com](https://code4rena.com). 
 
 **Q. How often is the signal updated?** 
 
