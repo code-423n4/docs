@@ -1,16 +1,23 @@
+---
+icon: filters
+---
+
 # Validators
 
 ## Validators
 
 Validators triage submissions from wardens with accuracy rates below the qualifying threshold; they also de-dupe all submissions.
 
-* Each competition has a **qualifying threshold** that allows wardens to bypass validators. This threshold is based on your [signal score](signal.md), as well as being established as a quality contributor and as non-sybil.
+* Each competition has a [**qualifying threshold**](signal.md#validation-process) that allows wardens to bypass validators. This threshold is based on your [signal score](signal.md), as well as being established as a quality contributor and as non-sybil.
 * Qualified wardens’ submissions are shared with the sponsor team immediately after submissions close.
 * All other wardens’ submissions are routed through a Validator.
-* **Validators** review submissions immediately after submissions close.
-  * Satisfactory submissions are forwarded to the sponsor
-  * Unsatisfactory submissions (either `invalid` or `insufficient quality`) are not shown to the sponsor team.
-* The judge reviews all submissions except those the Validator marked as `spam`. (Note: this includes submissions that the Validator marked as `invalid` and/or `insufficient quality`.)
+
+**Validators** review submissions immediately after submissions close.
+
+* Satisfactory submissions are forwarded to the sponsor
+* Unsatisfactory submissions (either `invalid` or `insufficient quality`) are not shown to the sponsor team.
+
+The judge reviews all submissions except those the Validator marked as `spam`. (Note: this includes submissions that the Validator marked as `invalid` and/or `insufficient quality`.)
 
 ### Validator evaluations
 

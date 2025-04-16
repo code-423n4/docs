@@ -1,3 +1,7 @@
+---
+icon: gavel
+---
+
 # Judging criteria
 
 C4 strives to ensure a deliberate and transparent process for reviewing and judging submissions.

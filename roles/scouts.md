@@ -1,14 +1,20 @@
+---
+icon: telescope
+---
+
 # Scouts
 
 Code4rena Scouts specialize in scoping and pre-audit intel. They assess the following factors to help determine the optimal parameters for an audit:
-- Library dependencies
-- External calls
-- Timelocks
-- SLoC
+
+* Library dependencies
+* External calls
+* Timelocks
+* SLoC
 
 In evaluating the scope of an audit, Code4rena Scouts provide valuable, high-level information to all parties:
-- **For Wardens:** Ensuring that the audit repo is set up correctly ensures that those considering participating have a well-organized, consistently-formatted workspace.
-- **For Projects:** Providing feedback to the project team on the scoping accuracy and repo preparedness helps accelerate the audit launch while maintaining consistency.
+
+* **For Wardens:** Ensuring that the audit repo is set up correctly ensures that those considering participating have a well-organized, consistently-formatted workspace.
+* **For Projects:** Providing feedback to the project team on the scoping accuracy and repo preparedness helps accelerate the audit launch while maintaining consistency.
 
 ## How the Scouting process works
 
@@ -19,4 +25,4 @@ In evaluating the scope of an audit, Code4rena Scouts provide valuable, high-lev
 
 ## Scout selection process
 
-Due to the highly sensitive nature of the role, Scouts are hand-picked by the Code4rena team. 
+Due to the highly sensitive nature of the role, Scouts are hand-picked by the Code4rena team.

@@ -1,8 +1,9 @@
 ---
 description: Code4rena registration and account management
+icon: play
 ---
 
-# Account setup and management
+# Getting started
 
 To register, follow these steps:
 
@@ -34,9 +35,12 @@ Once a team is created, you have the ability to add/remove members and update yo
 
 All team registrations and updates will create pull requests that are flagged for the C4 team to review and approve. Please allow 24-48 business hours for processing.
 
-❗️**Important note: Team awards are sent as a single payment to _one_ wallet.** We strongly recommend using a multisig wallet, or a tool like [PaymentSplitter](https://docs.openzeppelin.com/contracts/4.x/api/finance#PaymentSplitter), to distribute awards among your team members. Note that C4 does not track which team member submitted each finding; your team is responsible for keeping track of that information, and distributing awards. The team structure at C4 is designed so that you submit as a team and get paid as a team.
+{% hint style="warning" %}
+**Important note: Team awards are sent as a single payment to&#x20;**_**one**_**&#x20;wallet.** We strongly recommend using a multisig wallet, or a tool like [PaymentSplitter](https://docs.openzeppelin.com/contracts/4.x/api/finance#PaymentSplitter), to distribute awards among your team members. Note that C4 does not track which team member submitted each finding; your team is responsible for keeping track of that information, and distributing awards. The team structure at C4 is designed so that you submit as a team and get paid as a team.
+{% endhint %}
 
-### Participating as a team 
+### Participating as a team
+
 Once individual team members are authenticated, and your team has been registered, each team member will be able to submit findings as either an individual participant, or on behalf of the team. These options are shown on the submission form.
 
 ***
@@ -61,7 +65,7 @@ If you can't see most channels in the Code4rena Discord server, your Discord ver
 
 ### Github verification (optional)
 
-Certified and SR wardens should verify their Github accounts in order to access private repos. SR wardens must verify their Github account to [earn the SR role](/roles/sr-wardens.md).
+Certified and SR wardens should verify their Github accounts in order to access private repos. SR wardens must verify their Github account to [earn the SR role](../roles/sr-wardens.md).
 
 **Note:** Ensure that you are logged in to the correct GitHub account before starting the verification process.
 
@@ -120,7 +124,7 @@ To edit your payment address:
 1. Audits typically pay rewards on the Polygon network.
 2. Your payment address can differ from your login authentication address.
 3. Go to [code4rena.com/account](https://code4rena.com/account) and find 'Payment Information'.
-4. Click 'Edit' and enter your desired payment address. 
+4. Click 'Edit' and enter your desired payment address.
 
 **Note:** for each audit, C4 distributes awards to the payment address on file _at the time of award calculation_.
 

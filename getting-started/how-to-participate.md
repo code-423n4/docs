@@ -2,7 +2,9 @@
 
 Code4rena audits let people of a wide range of skill levels get rewarded while showcasing their talent in order to make the DeFi ecosystem more secure.
 
-✨Stay up to date with new audits by [following C4 on Twitter](https://twitter.com/code4rena) and joining our [community Discord](https://discord.gg/EY5dvm3evD).
+{% hint style="success" %}
+Stay up to date with new audits by [following C4 on Twitter](https://twitter.com/code4rena) and joining our [community Discord](https://discord.gg/EY5dvm3evD).
+{% endhint %}
 
 ## Joining an audit
 
@@ -12,7 +14,9 @@ Once you've completed those verification steps, [visit the C4 website](https://c
 
 To view specific audit details and other relevant information, **click the "Join audit" button.** Once the audit launches, the audit page will typically include links to the code repo, and to the finding submission form.
 
-Please familiarize yourself with the [submission policy](../legal/submission-policy.md) and [judging criteria](../competitions/judging-criteria.md) prior to participating.
+{% hint style="info" %}
+Please familiarize yourself with the [submission policy](../legal/submission-policy.md), [submission guidelines](../competitions/submission-guidelines.md), and [judging criteria](../competitions/judging-criteria.md) prior to participating.
+{% endhint %}
 
 ## If you have questions during an audit
 
@@ -45,4 +49,7 @@ While the audit is still active, you can go to the `Your Findings` tab (located 
 * Bundle all of your low-risk and governance / centralization risk findings into a single QA report.
 * Be sure to [register your username and wallet address](https://code4rena.com/register/account) to participate.
 * Watch the C4 Discord for award announcements -- if your username is among the winners, [submit your tax information](https://code4rena.com/tax-info) within 30 days to receive your awards.
-* Publicly disclosing (e.g. publishing or discussing) any discovered bugs or vulnerabilities before the audit report has been published is grounds for disqualification from all C4 events.
+
+{% hint style="danger" %}
+Publicly disclosing (e.g. publishing or discussing) any discovered bugs or vulnerabilities before the audit report has been published is grounds for disqualification from all C4 events.
+{% endhint %}

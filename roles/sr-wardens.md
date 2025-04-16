@@ -1,3 +1,7 @@
+---
+icon: wolf-pack-battalion
+---
+
 # SR Wardens
 
 Wardens who meet certain performance criteria within C4 gain the Certified Security Researcher (SR) role, which provides access to:

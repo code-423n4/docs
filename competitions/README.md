@@ -1,3 +1,8 @@
+---
+description: How competitive audits work at Code4rena
+icon: trophy
+---
+
 # Competitions
 
 Code4rena invented the competitive audit to provide thorough security reviews for Web3 projects, fast. With a community of over 10,000 auditors and an average of 100+ security researchers participating in each audit, C4's competitive audits provide an unparalleled level of trust, depth, and breadth.

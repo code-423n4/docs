@@ -1,3 +1,8 @@
+---
+description: Code4rena's incentive model and awarding algorithm
+icon: sack-dollar
+---
+
 # Awarding
 
 To incentivize **wardens**, C4 uses a unique scoring system with two primary goals: reward participants for finding unique vulnerabilities and also to make the audit resistant to Sybil attack. A secondary goal of the scoring system is to encourage participants to form teams and collaborate.

@@ -1,5 +1,8 @@
 ---
-description: Judges decide the severity, validity, and quality of findings and rate the performance of wardens.
+description: >-
+  Judges decide the severity, validity, and quality of findings and rate the
+  performance of wardens.
+icon: gavel
 ---
 
 # Judges
@@ -22,7 +25,7 @@ In order to ensure the impartiality and depth of knowledge we aim for among judg
 
 * Compete in at least 3 Code4rena audits
 * Find at least 3 high severity vulnerabilities
-* Must be a [Certified C4 contributor](/roles/sr-wardens.md#certified-contributors) in good standing
+* Must be a [Certified C4 contributor](sr-wardens.md#certified-contributors) in good standing
 
 ### Non-technical criteria
 
@@ -55,4 +58,4 @@ Teams that include the judge/validator are also ineligible for awards in such ca
 
 ## Staff oversight of judges
 
-Judges' decisions and performance are reviewed and overseen by senior members of Code4rena staff. 
+Judges' decisions and performance are reviewed and overseen by senior members of Code4rena staff.

@@ -1,6 +1,13 @@
+---
+description: Best practices and recommendations for submitting to Code4rena competitions.
+icon: inbox-in
+---
+
 # Submission guidelines
 
-Best practices and recommendations for submitting to Code4rena competitions. Please also refer to the official [submission policy](../legal/submission-policy.md).
+{% hint style="info" %}
+Please also refer to the official [submission policy](../legal/submission-policy.md).
+{% endhint %}
 
 ## Submitting findings
 
