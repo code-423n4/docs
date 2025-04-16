@@ -29,8 +29,4 @@ We do not use, share, or disclose your personal information for any other purpos
 
 ### Your Rights and Choices
 
-If you have any questions about this privacy policy or wish to exercise your data protection rights, please contact us at \[insert contact information].
-
-***
-
-Last updated by [sock](https://app.gitbook.com/u/uM6A2lEtkSPTw8cU7oug4l58KQB3 "mention") on August 28, 2024
+If you have any questions about this privacy policy or wish to exercise your data protection rights, please contact us through the [help desk form](https://code4rena.com/help).

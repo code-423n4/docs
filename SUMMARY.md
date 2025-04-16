@@ -1,40 +1,27 @@
 # Table of contents
 
-* [Code4rena](README.md)
-
-## Roles
-
-* [Wardens](roles/wardens/README.md)
-  * [Submission guidelines](roles/wardens/submission-guidelines.md)
-  * [Submission policy](roles/wardens/submission-policy.md)
-  * [Signal metrics](roles/wardens/signal.md)
-* [Sponsors](roles/sponsors/README.md)
-  * [Audit process](roles/sponsors/contest-process.md)
-* [Judges](roles/judges/README.md)
-  * [How to judge an audit](roles/judges/how-to-judge-a-contest.md)
-* [Certified contributors](roles/certified-contributors/README.md)
-  * [Security Researcher role (formerly +backstage wardens)](roles/certified-contributors/sr-backstage-wardens.md)
-  * [Validators](roles/certified-contributors/validators.md)
-  * [Scouts](roles/certified-contributors/scouts.md)
-
-## Awarding
-
-* [Incentive model and awards](awarding/incentive-model-and-awards/README.md)
-  * [Awarding process](awarding/incentive-model-and-awards/awarding-process.md)
-  * [Ranked curve model](awarding/incentive-model-and-awards/curve-logic.md)
-  * [FAQ about QA and Gas Reports](awarding/incentive-model-and-awards/qa-gas-report-faq.md)
-  * [Historical context for Code4rena awards](awarding/incentive-model-and-awards/historical-info.md)
-* [Judging criteria](awarding/judging-criteria/README.md)
-  * [Severity Categorization](awarding/judging-criteria/severity-categorization.md)
-  * [Criteria for C4 bug bounties](awarding/judging-criteria/bounty-criteria.md)
-  * [Judging for C4 bug bounties](awarding/judging-criteria/bounty-judging.md)
-  * [Decisions from the inaugural Supreme Court session, Fall 2023](awarding/judging-criteria/supreme-court-decisions-fall-2023.md)
-* [Fairness and validity](awarding/fairness-and-validity/README.md)
-
-## Other Details
-
-* [Account setup and management](other-details/account-management.md)
-* [FAQ](structure/frequently-asked-questions.md)
-* [Privacy Policy](other-details/privacy-policy.md)
-* [Audit timeline](structure/our-process/README.md)
-* [Where can I find…?](structure/where-can-i-find....md) 
+* [Code4rena](/README.md)
+* [Getting started](/getting-started//README.md)
+  * [Registration and account management](/getting-started//README.md)
+  * [Joining competitions and bounties](/getting-started/how-to-participate.md)
+* [Competitions](/competitions/README.md)
+  * [Submission guidelines](/competitions/submission-guidelines.md)
+  * [Judging criteria](/competitions/judging-criteria.md)
+  * [Severity classifications](/competitions/severity-categorization.md)
+* [Bounties](/bounties/README.md)
+  * [Severity classifications](/bounties/bounty-criteria.md)
+* [Awarding](/awarding/README.md)
+  * [Awarding process](awarding/awarding-process.md)
+  * [Ranked curve model](awarding/curve-logic.md)
+  * [Historical info](awarding/historical-info.md)
+* [Advancement and roles](/roles/README.md)
+  * [Wardens](/roles/README.md)
+  * [SR Wardens](/roles/sr-wardens.md)
+  * [Validators](/roles/validators.md)
+  * [Judges](/roles/judges.md)
+  * [Scouts](/roles/scouts.md)
+  * [Signal metrics](/roles/signal.md)
+* [Sponsors](/sponsors.md)
+* Legal
+   * [Submission policy](/legal/submission-policy.md)
+   * [Privacy Policy](/legal/privacy-policy.md)

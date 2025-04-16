@@ -1,17 +1,12 @@
----
-description: >-
-  This is a high level overview of the C4 awarding process. 
----
-
 # Awarding process
 
-At the conclusion of an audit, sponsors review wardens’ findings and express their opinions with regard to severity of issues. Judges evaluate input from both and make the ultimate decision in terms of severity and validity of issues. (See [How to judge an audit](https://docs.code4rena.com/roles/judges/how-to-judge-a-contest.md) for more detail.)
+At the conclusion of an audit, sponsors review wardens’ findings and express their opinions with regard to severity of issues. Judges evaluate input from both and make the ultimate decision in terms of severity and validity of issues. (See [Judging criteria](/competitions/judging-criteria.md) for more detail.)
 
-In making their determination, judges add labels to Github issues, while the original submission data (including the warden's proposed severity rating) is preserved via a JSON data file. 
+In making their determination, judges evaluate submissions within the Code4rena app. 
 
-The judge's decisions are reviewed by the sponsoring project team and by [certified Security Researchers](https://docs.code4rena.com/roles/certified-contributors/sr-backstage-wardens) via a 48-hour QA process, to ensure fairness and quality. 
+The judge's decisions are reviewed by the sponsoring project team and by [certified Security Researchers](/roles/sr-wardens.md) via a 48-hour QA process, to ensure fairness and quality. 
 
-Judging data is used to generate the awards using Code4rena's award calculation script, which factors in:
+Judging data is used to generate the awards using Code4rena's [award calculation script](/awarding/), which factors in:
 
 - Risk level
 - Validity
@@ -28,7 +23,7 @@ Once awards are determined, we generate a CSV file enumerating funds to be sent.
 
 ## Award distribution requirements and schedule
 
-All participants in Code4rena audits must provide C4 with [tax reporting information](https://docs.code4rena.com/awarding/incentive-model-and-awards/awarding-process#tax-information-for-code4rena-contributors-wardens-judges-etc) in order to receive payment.
+All participants in Code4rena audits must provide C4 with [tax reporting information](#tax-information-for-code4rena-contributors-wardens-judges-etc) in order to receive payment.
 
 Awards are sent in two batches:
  1. Participants who have already submitted their tax info when awards are announced will receive awards with 1 week of the announcement. 
@@ -49,13 +44,13 @@ Registered users can [submit their tax information here](https://code4rena.com/t
 
 Code4rena has tax reporting responsibility as a US entity. As such, we have created a system and process for enabling tax reporting which also ensures confidentiality and privacy.
 
-Wardens and other contributors (e.g. judges, validators, scouts, etc.) who are eligible to receive awards from Code4rena must [complete a questionnaire](https://docs.code4rena.com/other-details/account-management#tax-reporting-information) to determine what, if any, U.S. reporting or withholding obligations exist.
+Wardens and other contributors (e.g. judges, validators, scouts, etc.) who are eligible to receive awards from Code4rena must [complete a questionnaire](/getting-started#tax-reporting-information) to determine what, if any, U.S. reporting or withholding obligations exist.
 
-[Warden teams](https://docs.code4rena.com/roles/wardens#registering-a-team) must ensure that all team members have submitted their tax information in order to receive awards. 
+[Warden teams](/getting-started#registering-a-team) must ensure that all team members have submitted their tax information in order to receive awards. 
 
 Based on our obligations to operate within tax regulation, completing that questionnaire is required by participants in order to receive awards.
 
-Detailed information about the process, background, and specific requirements by region can be found [here](https://github.com/code-423n4/org/discussions/146).
+Wardens are encouraged to review Code4rena's [Submission Policy](/legal/submission-policy.md), particularly the "Representations and Warranties" section.
 
 # Tax and legal questions
 
