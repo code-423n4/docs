@@ -8,11 +8,11 @@ Code4rena audits let people of a wide range of skill levels get rewarded while s
 
 Anyone can register to participate in an audit. [Register here](https://code4rena.com/register/account), confirm your email address, then join [our Discord](https://discord.gg/code4rena) so you can keep up with important announcements about C4 audits and bounties.
 
-Once you've completed those verification steps, [visit the C4 website](https://code4rena.com/audits/), where you'll find a list of open and upcoming audits, along with their pool size, start and end date. 
+Once you've completed those verification steps, [visit the C4 website](https://code4rena.com/audits/), where you'll find a list of open and upcoming audits, along with their pool size, start and end date.
 
 To view specific audit details and other relevant information, **click the "Join audit" button.** Once the audit launches, the audit page will typically include links to the code repo, and to the finding submission form.
 
-Please familiarize yourself with the [submission policy](/legal/submission-policy) and [judging criteria](/competitions/judging-criteria) prior to participating.
+Please familiarize yourself with the [submission policy](../legal/submission-policy.md) and [judging criteria](../competitions/judging-criteria.md) prior to participating.
 
 ## If you have questions during an audit
 
@@ -20,9 +20,9 @@ General questions about auditing or Code4rena processes should be asked in the `
 
 If you have questions about a specific audit:
 
-- Check the audit repo for links to documentation
-- Most audits also have Code4rena's Documentation Bot enabled; the bot allows wardens to query the bot for information embedded within the project docs. Instructions for using the bot are shared in the audit channel in the C4 Discord server. 
-- When a sponsor designates a team member who is available for questions, that person will be introduced in an audit-specific channel in [the C4 Discord server](https://discord.gg/code4rena). You may open a private thread with them if you have questions; however, please be sure to first review all documentation for the audit to ensure the answer hasn't already been provided.
+* Check the audit repo for links to documentation
+* Most audits also have Code4rena's Documentation Bot enabled; the bot allows wardens to query the bot for information embedded within the project docs. Instructions for using the bot are shared in the audit channel in the C4 Discord server.
+* When a sponsor designates a team member who is available for questions, that person will be introduced in an audit-specific channel in [the C4 Discord server](https://discord.gg/code4rena). You may open a private thread with them if you have questions; however, please be sure to first review all documentation for the audit to ensure the answer hasn't already been provided.
 
 We always encourage sponsors to share any available documentation, and make themselves available for questions, so they get the most out of their audit.
 

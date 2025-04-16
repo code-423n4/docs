@@ -1,6 +1,6 @@
 # Submission guidelines
 
-Best practices and recommendations for submitting to Code4rena competitions. Please also refer to the official [submission policy](/legal/submission-policy).
+Best practices and recommendations for submitting to Code4rena competitions. Please also refer to the official [submission policy](../legal/submission-policy.md).
 
 ## Submitting findings
 
@@ -8,56 +8,58 @@ C4 accepts vulnerability reports via the audit submission form.
 
 In order to help us triage and prioritize findings, please ensure that your submissions:
 
-- Are submitted before the submission deadline;
-- Use the correct submission form;
-- Follow the correct format (see next section);
-- Describe the location the vulnerability was discovered and the potential impact of exploitation;
-- Offer a detailed description of the steps needed to reproduce the vulnerability (coded Proof of Concept or screenshots are encouraged);
-- Have not been surfaced as "known issues" (see audit repo README for details); and
-- Are written in English.
+* Are submitted before the submission deadline;
+* Use the correct submission form;
+* Follow the correct format (see next section);
+* Describe the location the vulnerability was discovered and the potential impact of exploitation;
+* Offer a detailed description of the steps needed to reproduce the vulnerability (coded Proof of Concept or screenshots are encouraged);
+* Have not been surfaced as "known issues" (see audit repo README for details); and
+* Are written in English.
 
 ## Submission types
 
 ### High, Medium, and QA reports
 
-- Wardens should [review Code4rena's severity categorization](/competitions/severity-categorization) prior to submitting vulnerabilities, and select the appropriate risk when submitting.
-- Medium or High severity findings should be submitted individually.
+* Wardens should [review Code4rena's severity categorization](severity-categorization.md) prior to submitting vulnerabilities, and select the appropriate risk when submitting.
+* Medium or High severity findings should be submitted individually.
 
 ### QA reports (low/governance)
 
-Low-risk findings must be submitted as a single QA report per warden. 
+Low-risk findings must be submitted as a single QA report per warden.
 
 Your QA report should include:
-- all Low severity findings
-- all Governance / Centralization risk findings (including centralization risks, systemic risks, and admin privileged functions)
 
-**Non-critical findings are discouraged.** 
+* all Low severity findings
+* all Governance / Centralization risk findings (including centralization risks, systemic risks, and admin privileged functions)
+
+**Non-critical findings are discouraged.**
 
 Formatting:
-- Wardens are encouraged to use a standard format to label findings, e.g. `L-01`, `L-02`, etc. for low-risk findings, and `C-01`, `C-02`, etc. for centralization/governance findings. 
-- Non-standard labels such as `R-` (refactor), `I-` (informational), or `S-` (suggestion) will be considered non-critical and are therefore discouraged.
 
-Each QA report is assessed based on report quality and thoroughness as compared with other reports. 
+* Wardens are encouraged to use a standard format to label findings, e.g. `L-01`, `L-02`, etc. for low-risk findings, and `C-01`, `C-02`, etc. for centralization/governance findings.
+* Non-standard labels such as `R-` (refactor), `I-` (informational), or `S-` (suggestion) will be considered non-critical and are therefore discouraged.
 
-Wardens overstating the severity of QA issues (submitting low-risk issues as med/high in order to angle for higher payouts) will have their scores reduced by judges. 
+Each QA report is assessed based on report quality and thoroughness as compared with other reports.
 
-For more details on estimating risk for QA reports, please see [Judging Criteria](/competitions/judging-criteria#qa-reports-low-non-critical).
+Wardens overstating the severity of QA issues (submitting low-risk issues as med/high in order to angle for higher payouts) will have their scores reduced by judges.
+
+For more details on estimating risk for QA reports, please see [Judging Criteria](judging-criteria.md).
 
 ### Examples of high-quality submissions
 
-Wardens are encouraged to review recently published [Code4rena audit reports](https://code4rena.com/reports) to see examples of submissions that were judged as both valid and of sufficiently high quality to be included in a report. 
+Wardens are encouraged to review recently published [Code4rena audit reports](https://code4rena.com/reports) to see examples of submissions that were judged as both valid and of sufficiently high quality to be included in a report.
 
-Most audit reports include examples of High and Medium risk vulnerabilities, as well as the top-ranked QA report. 
+Most audit reports include examples of High and Medium risk vulnerabilities, as well as the top-ranked QA report.
 
 ## Good citizenship is a requirement for compensation
 
 In order to be eligible for awards, competitors must contribute more value than they take. This is measured by impact rather than intent.
 
-Contributing value to sponsors by helping secure their code must always be the central concern. Attempts that have the impact of gaming the system or circumventing rules will be interpreted as breaking the rules. (See [Satisfactory / unsatisfactory submissions](/awarding#satisfactory-unsatisfactory-submissions) for some examples.)
+Contributing value to sponsors by helping secure their code must always be the central concern. Attempts that have the impact of gaming the system or circumventing rules will be interpreted as breaking the rules. (See [Satisfactory / unsatisfactory submissions](../awarding/#satisfactory-unsatisfactory-submissions) for some examples.)
 
 Judges have the right to deem a warden ineligible for awards based on behavior and net quality/accuracy of submissions. This includes interactions with judges, staff, sponsors, and other wardens. Multiple violations or egregious abuses may also result in additional consequences, including account suspension or bans.
 
-Wardens who do not have the [SR role](/roles/sr-wardens) must not solicit SR wardens, validators, or judges to perform post-judging QA (PJQA) actions on their behalf; doing so is a violation of this policy. 
+Wardens who do not have the [SR role](../roles/sr-wardens.md) must not solicit SR wardens, validators, or judges to perform post-judging QA (PJQA) actions on their behalf; doing so is a violation of this policy.
 
 In order to ensure fairness and objectivity, a judge who makes the determination that a warden is deserving of consequences under the Good Citizen Rule will need “+1s” from two other judges. Staff will consider and validate each discipline recommendation based on the evidence presented by judges.
 
@@ -89,13 +91,13 @@ C4 cannot "transfer" your submission to another audit after the audit ends. If y
 If you discover a high- or critical-severity vulnerability affecting deployed contracts, please follow these steps:
 
 1. Confirm that the audit scope includes live/deployed code. Typically this info will be posted in the audit channel in C4's Discord server.
-1. Review [the "live criticals" exception](/awarding#the-live-criticals-exception) section of our docs for definitions and awarding rules.
-1. Using the audit submission form (audit page > `Submit finding`), submit a placeholder finding, with a non-specific title (e.g. "Potentially sensitive issue - disclosed privately")
-   - In the `Links to affected code` field, link to `#L1` of any file in scope. 
-   - In the `Vulnerability details` field, enter "Disclosed privately" and omit any other details.
-1. While logged in to the Code4rena website, [submit a Help Desk request](https://code4rena.com/help/), and select "Sensitive disclosure" for "What type of problem do you need help with?" Please include:
-    - Name of audit, and
-    - Link to a [secret Gist](https://gist.github.com/) containing the finding details. (You may use Markdown in your Gist -- just save with the filename extension `.md`.)
+2. Review [the "live criticals" exception](../awarding/#the-live-criticals-exception) section of our docs for definitions and awarding rules.
+3. Using the audit submission form (audit page > `Submit finding`), submit a placeholder finding, with a non-specific title (e.g. "Potentially sensitive issue - disclosed privately")
+   * In the `Links to affected code` field, link to `#L1` of any file in scope.
+   * In the `Vulnerability details` field, enter "Disclosed privately" and omit any other details.
+4. While logged in to the Code4rena website, [submit a Help Desk request](https://code4rena.com/help/), and select "Sensitive disclosure" for "What type of problem do you need help with?" Please include:
+   * Name of audit, and
+   * Link to a [secret Gist](https://gist.github.com/) containing the finding details. (You may use Markdown in your Gist -- just save with the filename extension `.md`.)
 
 **All Highs affecting live code should be reported as sensitive disclosures** (and therefore must include coded PoC). Submissions that meet the above criteria and are not reported via the proper procedure will not be eligible for awards.
 
@@ -106,11 +108,11 @@ Code4rena staff will review the issue immediately with the judge and sponsor, an
 If an issue is discovered during an audit that relates to the "parent" of a forked project, wardens should disclose the finding to the parent project first, and submit a placeholder finding to the C4 audit. Please follow these steps:
 
 1. Submit a placeholder finding using the audit submission form, with a non-specific title (e.g. "Potentially sensitive issue")
-    - **Do not** disclose the parent / third party name within the body of the finding issue.
-    - **Do** include a hash of the issue
+   * **Do not** disclose the parent / third party name within the body of the finding issue.
+   * **Do** include a hash of the issue
 2. While logged in to the Code4rena website, [submit a Help Desk request](https://code4rena.com/help/), and select "Sensitive disclosure" for "What type of problem do you need help with?" Please include:
-    - Name of audit, and
-    - Brief summary of the situation (e.g. "I've disclosed a finding to the parent project and am awaiting response. I've submitted a placeholder submission for the C4 audit in the meantime.")
+   * Name of audit, and
+   * Brief summary of the situation (e.g. "I've disclosed a finding to the parent project and am awaiting response. I've submitted a placeholder submission for the C4 audit in the meantime.")
 
 It is the warden's responsibility to follow up with Code4rena in a timely manner, based on what they hear back from the original project.
 

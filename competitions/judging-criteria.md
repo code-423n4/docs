@@ -10,21 +10,21 @@ C4's judging and awarding system has three primary goals:
 
 ## Submission review process
 
-See ["How competitive audits work"](/competitions#how-competitive-audits-work).
+See ["How competitive audits work"](./#how-competitive-audits-work).
 
 ## Understanding judge evaluations
 
-While input from Sponsors and the Validator is carefully considered, Judges have final say in determining validity and severity of issues, as well as whether/how issues are considered duplicates. 
+While input from Sponsors and the Validator is carefully considered, Judges have final say in determining validity and severity of issues, as well as whether/how issues are considered duplicates.
 
-During the judging phase, judges make the following assessments: 
+During the judging phase, judges make the following assessments:
 
-- [Validity](#validity)
-- [Quality](#quality) 
-- [Full/partial credit](#standards-for-fullpartial-credit-duplicates)
-- [Severity](#severity-risk)
-- Selection of [primary submission](/awarding#bonus-for-best-selected-for-report) within duplicate sets ("findings")
+* [Validity](judging-criteria.md#validity)
+* [Quality](judging-criteria.md#quality)
+* [Full/partial credit](judging-criteria.md#standards-for-fullpartial-credit-duplicates)
+* [Severity](judging-criteria.md#severity-risk)
+* Selection of [primary submission](../awarding/#bonus-for-best-selected-for-report) within duplicate sets ("findings")
 
-A submission must be judged as both valid *and* sufficient quality to be eligible for awards. 
+A submission must be judged as both valid _and_ sufficient quality to be eligible for awards.
 
 ## Validity
 
@@ -32,9 +32,9 @@ Judges assess each submissions' validity as `valid`, `invalid`, or `out of scope
 
 Validity is evaluated according to the following guidelines:
 
-- [Burden of proof](/competitions/submission-guidelines.md#burden-of-proof)
-- [Good citizenship](/competitions/submission-guidelines.md#good-citizenship-is-a-requirement-for-compensation)
-- Scope 
+* [Burden of proof](submission-guidelines.md#burden-of-proof)
+* [Good citizenship](submission-guidelines.md#good-citizenship-is-a-requirement-for-compensation)
+* Scope
 
 ### Scope
 
@@ -48,23 +48,23 @@ In the interest of everyone's time, **QA reports should not include findings rel
 
 ## Severity (Risk)
 
-See [Severity Categorization](/competitions/severity-categorization.md).
+See [Severity Categorization](severity-categorization.md).
 
 ## Quality
 
 Judges assess each submissions' validity as `sufficient`, `insufficient`, or `low quality/spam`.
 
-Any submissions deemed insufficient or low quality are ineligible for awards, and count against wardens' [signal](/roles/signal.md) scores.
+Any submissions deemed insufficient or low quality are ineligible for awards, and count against wardens' [signal](../roles/signal.md) scores.
 
 The bar for sufficient quality submissions is that they are roughly at a level that could be found in a draft report by a professional auditor: specifically on the merits of technical substance, with writing quality considered only where it interferes with comprehension of the technical message.
 
-It is possible for a submission to be *technically* valid and still insufficient. An insufficient quality submission may meet any of these criteria:
+It is possible for a submission to be _technically_ valid and still insufficient. An insufficient quality submission may meet any of these criteria:
 
-- incorrect
-- low/incomplete effort
-- clearly overinflated severity
-- proof of concept does not pass the burden of proof test
-- approach is disrespectful of sponsors’ and judges’ time in some way
+* incorrect
+* low/incomplete effort
+* clearly overinflated severity
+* proof of concept does not pass the burden of proof test
+* approach is disrespectful of sponsors’ and judges’ time in some way
 
 Any submissions that appear to be direct copies of other reports in the current audit will be collectively deemed insufficient.
 
@@ -82,7 +82,7 @@ In that light, judges are right to have high standards. It is also true that sta
 
 The correct assessment when this happens is not that a judge is being inconsistent, it is that they have objectively observed that the quality of competition has increased, and that observation shapes their view of the whole set of submissions; they are consistent in valuing submissions in the context of each other, which is a central way that performance in a competition is measured.
 
-It is within the judge’s discretion to invalidate all of a warden’s findings in a particular contest in the case of repeated low-quality submissions, or for any other breach of the ["Good citizenship" requirements](/competitions/submission-guidelines#good-citizenship-is-a-requirement-for-compensation).
+It is within the judge’s discretion to invalidate all of a warden’s findings in a particular contest in the case of repeated low-quality submissions, or for any other breach of the ["Good citizenship" requirements](submission-guidelines.md#good-citizenship-is-a-requirement-for-compensation).
 
 ## Duplicate submissions
 
@@ -99,8 +99,9 @@ Given the above, when similar exploits would demonstrate different impacts, the 
 ### Standards for full/partial credit duplicates
 
 The requisites of a full mark submission are:
-- Identification and demonstration of the root cause
-- Identification and demonstration of the maximum achievable impact of the root cause
+
+* Identification and demonstration of the root cause
+* Identification and demonstration of the maximum achievable impact of the root cause
 
 For a demonstration to be satisfactory, it can take the form of:
 
@@ -112,47 +113,49 @@ A lack of identification of the root cause is grounds for partial scoring, downg
 A lack of identification of maximal impact is grounds for partial scoring or downgrading of the issue.
 
 Additional factors that can be taken into account for partial scoring include:
-- Quality of the submission in the form of writing or presentation quality
-- Lack or incorrectness of the remediation steps
+
+* Quality of the submission in the form of writing or presentation quality
+* Lack or incorrectness of the remediation steps
 
 ## Findings published in prior audit reports
 
-Findings from previous audit reports listed in the audit repo `README` should generally be considered as known issues and therefore out of scope, especially if they were evaluated as acknowledged/wontfix by the sponsor. 
- 
-- If the finding was confirmed, and can be reasonably expected to have been mitigated prior to the sponsor's Code4rena audit, then the judge may assess it as a valid finding since the vulnerability has persisted. 
-- If the submission demonstrates a substantively distinct or higher-severity attack path, the judge may deem it to be valid.
+Findings from previous audit reports listed in the audit repo `README` should generally be considered as known issues and therefore out of scope, especially if they were evaluated as acknowledged/wontfix by the sponsor.
 
-Judges should use their discretion to assess whether the submission a) provides value to the customer, and/or b) would be irresponsible to exclude from the Code4rena audit report. 
+* If the finding was confirmed, and can be reasonably expected to have been mitigated prior to the sponsor's Code4rena audit, then the judge may assess it as a valid finding since the vulnerability has persisted.
+* If the submission demonstrates a substantively distinct or higher-severity attack path, the judge may deem it to be valid.
+
+Judges should use their discretion to assess whether the submission a) provides value to the customer, and/or b) would be irresponsible to exclude from the Code4rena audit report.
 
 ## QA reports (Low risk and Governance/Centralization risk)
 
-Low risk and Governance/Centralization risk findings must be submitted as a _single_ QA report per warden. 
+Low risk and Governance/Centralization risk findings must be submitted as a _single_ QA report per warden.
 
 QA reports should include:
 
 * all low severity findings; and
 * all governance/centralization risk findings.
 
-Each QA report is assessed based on report quality and thoroughness as compared with other reports, with awards distributed on a curve. 
+Each QA report is assessed based on report quality and thoroughness as compared with other reports, with awards distributed on a curve.
 
-Judges have discretion to assign a lower grade to wardens overstating the severity of QA issues (submitting low/non-critical issues as med/high in order to angle for higher payouts). 
+Judges have discretion to assign a lower grade to wardens overstating the severity of QA issues (submitting low/non-critical issues as med/high in order to angle for higher payouts).
 
 ## Post-judging QA (PJQA)
 
-After preliminary judging is complete, there is a 48-hour period during which the sponsor team and wardens with the [SR role](/roles/sr-wardens.md) can raise questions or concerns for the judge's review. 
+After preliminary judging is complete, there is a 48-hour period during which the sponsor team and wardens with the [SR role](../roles/sr-wardens.md) can raise questions or concerns for the judge's review.
 
 The post-judging QA process helps to:
-- identify overlooked duplicates
-- provide consistent implementation of Code4rena's judging guidelines; and
-- ensure that every C4 audit's submissions have been reviewed with a fine-toothed comb.
+
+* identify overlooked duplicates
+* provide consistent implementation of Code4rena's judging guidelines; and
+* ensure that every C4 audit's submissions have been reviewed with a fine-toothed comb.
 
 No new information should be introduced and considered in PJQA. Elaborations of the already introduced information can be considered (e.g. tweaking a POC), from either the Judge or the Warden, but they will only count towards the validity of the issue, not its quality score.
 
-Wardens who do not have the SR role must not solicit SR wardens, validators, or judges to perform post-judging QA (PJQA) actions on their behalf; doing so is a violation of C4's [Good citizenship policy](/competitions/submission-guidelines.md#good-citizenship-is-a-requirement-for-compensation) and may result in penalties, account suspensions, or bans.
+Wardens who do not have the SR role must not solicit SR wardens, validators, or judges to perform post-judging QA (PJQA) actions on their behalf; doing so is a violation of C4's [Good citizenship policy](submission-guidelines.md#good-citizenship-is-a-requirement-for-compensation) and may result in penalties, account suspensions, or bans.
 
 ## If you disagree with a judge's decision
 
-If you disagree with a decision, and you do not have [the SR role](/roles/sr-wardens.md), there's nothing further that can be done or changed; the judge's decisions are final. 
+If you disagree with a decision, and you do not have [the SR role](../roles/sr-wardens.md), there's nothing further that can be done or changed; the judge's decisions are final.
 
 However, if the concern regarding judging is focused on a matter of inconsistency or process or lack of clarity in the rules, you are encouraged to share your suggestions for future improvements to C4 processes in the [#suggestion-box channel in the Code4rena Discord server](https://discord.com/channels/810916927919620096/824698635815223316), as follows:
 
