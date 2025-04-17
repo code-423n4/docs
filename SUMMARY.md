@@ -21,6 +21,7 @@
   * [Judges](roles/judges.md)
   * [Scouts](roles/scouts.md)
   * [Signal metrics](roles/signal.md)
+  * [Wardens](roles/wardens.md)
 * [Sponsors](sponsors.md)
 * [Legal](legal/README.md)
   * [Submission policy](legal/submission-policy.md)
