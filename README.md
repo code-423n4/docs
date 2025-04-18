@@ -10,7 +10,7 @@ The players in the arena:
 
 * [**Wardens**](roles/) protect the DeFi ecosystem from threats by auditing code.
 * [**Sponsors**](sponsors.md) create prize pools to attract wardens to audit their project.
-* [**Judges**](roles/judges.md) decide the severity, validity, and quality of findings and rate the performance of wardens.
+* [**Judges**](roles/judges/) decide the severity, validity, and quality of findings and rate the performance of wardens.
 
 ## How Code4rena works
 

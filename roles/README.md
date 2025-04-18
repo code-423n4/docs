@@ -26,5 +26,5 @@ Wardens who meet certain performance criteria within C4 earn the Certified Secur
 These prestigious roles are assigned to the most skilled and fair-minded members of Code4rena's community:
 
 * [Validators](validators.md)
-* [Judges](judges.md)
+* [Judges](judges/)
 * [Scouts](scouts.md)
